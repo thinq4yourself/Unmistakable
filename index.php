@@ -14,31 +14,6 @@
 	
 	<?php include_once 'includes/header.html'; ?>
 
-	<div id="banner" class="homepage">
-			<div class="slideshow-pattern"></div>
-			<div class="slideshow-overlay"></div>
-	
-		<div class="homepage-text">
-		
-		    <div class="top-icon hide-for-small">
-		    	<img src="images/homepage-text-top-icon.png" alt="Homepage Top Icon">
-		    </div>	
-
-		    <div class="top-divider"></div>			
-		    <h1>We Build Ideas</h1>			
-		    <div class="bottom-divider"></div>			
-		    <h2>We help small businesses & their entrepreneurs turn ideas into successful products</h2>
-		    <h3>Want to know who we are and how we do it?</h3>
-		
-		    <a class="homepage-bottom" href="#services-section">
-		    <div class="bottom-icon">
-		    	<img src="images/homepage-text-bottom-icon.png" alt="Homepage Bottom Icon">
-		    </div>
-		    </a>
-		    
-		</div>
-	</div>
-
 	<!-- Main Content Starts HERE -->
 	<div class="content-container">
 		<!-- Our Process Page -->

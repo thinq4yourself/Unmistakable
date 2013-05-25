@@ -73,20 +73,6 @@ function displayTiles(c) {
     })
 }
 
-function sizebanner() {
-    windowHeight = $(window).height();
-    var $banner = $('#banner');
-    
-    if ($banner.hasClass('homepage')) {
-		$("#banner").css({height: windowHeight + "px"});    
-    } else {
-	    $("#banner").css({height: (windowHeight / 2) + "px", minHeight: "350px"});
-    }
-    
-}
-
-sizebanner();
-
 $(window).on("resize", function () {
     sizebanner();
 });
