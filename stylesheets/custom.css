@@ -29,53 +29,6 @@ img {
 }
 
 /* -----------------------------------------
-   Supersized Overrides
------------------------------------------ */
-
-#banner {
-	position: relative;
-	width: 100%;
-}
-
-#banner.homepage { 
-	background: #2d8798;
-}
-
-#banner.services {
-	background-image: url('/images/bg/services.jpg');
-	background-position: center 0;
-	margin: 0;
-}
-
-#banner.about {
-	background-image: url('/images/bg/about.jpg');
-	background-position: center 0;
-	margin: 0;
-}
-
-#banner.about img {
-	margin: 0;
-}
-
-#banner.contact {
-	background-image: url('/images/bg/contact.jpg');
-	background-position: center 0;
-	margin: 0;
-}
-
-#banner.jobs {
-	background-image: url('/images/bg/jobs.jpg');
-	background-position: center 0;
-	margin: 0;
-}
-
-#banner.store {
-	background-image: url('/images/bg/store.jpg');
-	background-position: center 0;
-	margin: 0;
-}
-
-/* -----------------------------------------
    Global
 ----------------------------------------- */
 
@@ -87,31 +40,19 @@ a:hover {
 	color: #9e2d3d;
 }
 
-.header-container {
-	width: auto !important;
-	background: none;
-	position: relative;
-	-moz-box-shadow: 0;
-	-webkit-box-shadow: 0;
-	box-shadow: 0;
-	z-index: 1;
-}
-
 .banner-wrap {
 	text-align: center;
-	background-color: #63bab0;
-	background-image: -webkit-linear-gradient(top, #63bab0, #59a79e); 
-	background-image:    -moz-linear-gradient(top, #63bab0, #59a79e);
+	background-color: #2d8798;
 	padding: 0 0 1em 0;
 	margin-bottom: 0;
 }
 
 .nav ul{
 	position:fixed;
-	color:#63bab0;
+	color:#2d8798;
 	text-align:center;
 	padding:0.5em 0 0.5em 0;
-	background-color:#0f1c1a;
+	background-color:#0a1e22;
 	width: 100%
 }
 
@@ -132,11 +73,11 @@ a:hover {
 }
 
 .nav a:hover, a:active {
-	background: #0f1c1a;
+	background: #0a1e22;
 	-webkit-transition: color .5s;
 	transition: color .5s;
 	border:none;
-	color: #63bab0;
+	color: #2d8798;
 }
 
 h1.logo {
@@ -145,7 +86,7 @@ h1.logo {
 	font-weight: normal;
 	font-size: 80px;
 	margin: 0;
-	padding-top: 1em;
+	padding-top: 0.8em;
 }
 
 h1.logo a, h1.logo a:hover, h1.logo a:focus {
