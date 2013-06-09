@@ -122,9 +122,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="references">
-				<p>This site was crafted using <a href="" target="_blank">designmodo</a>'s <a href="" target="_blank">Flat UI</a>, mocked up in <a href="" target="_blank">Photoshop CS6</a>, build in <a href="" target="_blank">Coda2</a>, using <a href="" target="_blank">HTML5</a>, <a href="" target="_blank">CS3</a> & <a href="" target="_blank">jQuery</a>. It's stashed using <a href="" target="_blank">git</a> and hosted on <a href="" target="_blank">Heroku</a>.</p>
+				<p>This site was crafted using the <a href="http://designmodo.com/flat-free/" target="_blank">Flat UI</a> framework, mocked up in <a href="http://www.adobe.com/products/photoshop.html" target="_blank">Photoshop</a> & <a href="http://www.adobe.com/products/illustrator.html" target="_blank">Illustrator</a> CS6, build in <a href="http://panic.com/coda/" target="_blank">Coda2</a>, using <a href="http://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a>, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3" target="_blank">CS3</a> & <a href="http://jquery.com/" target="_blank">jQuery</a>. It's stashed using <a href="https://devcenter.heroku.com/articles/git" target="_blank">git</a> and hosted on <a href="https://www.heroku.com/" target="_blank">Heroku</a>.</p>
 				<p>Thank you all for your community support and general badassness!</p>
-				<p>2013 The Face of Tyler Goelz, Inc.</p>	
+				<small>&copy; 2013 The Face of Tyler Goelz, Inc.</small>
 				</div>
 			</div>
 		</div>

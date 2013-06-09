@@ -380,7 +380,7 @@ li {
 footer {
 	padding: 4% 0 3%;
 	background-color: #2C3E50;
-	color: #34495e;
+	color: #5f7f9f;
 	text-align: center;
 }
 
@@ -390,11 +390,11 @@ footer .references {
 }
 
 footer a {
-	color: #34495e;
+	color: #5f7f9f;
 }
 
 footer a:hover {
-	color: #3a5169;
+	color: #7490ac;
 }
 
 footer p {
