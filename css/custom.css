@@ -1,0 +1,193 @@
+/*----------------------------
+	Global (Includes Overwrites)
+----------------------------*/
+
+body {
+	margin: 0px;
+	padding: 0;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 4.5em;
+	line-height: 1em;
+}
+
+h3 {
+	font-size: 1.6em;
+	line-height: 1.6em;
+	font-weight: bold;
+	color: rgb(38, 57, 80);
+	margin: 0 0 2px;
+	opacity: 0.85;	
+}
+
+p {
+	color: rgba(44, 62, 80,0.9);
+	font-size: 1.3em;
+	line-height: 25px;
+}
+
+.content-section {
+	padding: 6% 0 12%;
+}
+
+
+/*----------------------------
+	Headline Overwrites
+----------------------------*/
+
+.headline {
+	padding: 15% 0;
+	text-align: center;
+	background: #f4f4f4;
+}
+
+.headline h1 {
+	font-size: 90px;
+	font-weight: 900;
+	letter-spacing: -2px;
+	line-height: 100px;
+}
+
+.headline small {
+  color: rgba(52, 73, 94, 0.30000000000000004);
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding-top: 5px;
+}
+
+.headline button {
+	margin-top: 30px;
+}
+
+/*----------------------------
+	Approach
+----------------------------*/
+
+.approach {
+	background: #f6f8f8;	
+}
+
+.approach h1 {
+	display: block;
+	text-align: center;
+}
+
+.topic {
+	padding-top: 5%;
+}
+
+.topic-image {
+	float: left;
+	width: 148px;
+}
+
+.topic-image > img {
+	display: inline-block;
+	max-height: 100px;
+	max-width: 100px;
+	vertical-align: baseline;
+}
+
+/*----------------------------
+	Muse
+----------------------------*/
+
+.muse-section {
+	display:block;
+	-webkit-transition:0.25s ease-in-out;
+	-moz-transition:0.25s ease-in-out;
+	-ms-transition:0.25s ease-in-out;
+	-o-transition:0.25s ease-in-out;
+	transition:0.25s ease-in-out;
+	cursor:pointer;
+	color:rgba(52, 73, 94, 0.95);
+}
+
+.muse {
+	width:1104px;
+	margin:0 auto;
+	padding:126px 0 146px;
+	display:block;
+}
+
+.muse h2 {
+	font-size:58px;
+	line-height:66px;
+	margin:0 0 41px;
+}
+
+.muse .details {
+	width:100%;
+	overflow:hidden;
+	display:block;
+}
+
+.muse .frame {
+	float:left;
+	width:470px;
+	display:block;
+}
+
+.web {
+	float: right;
+	position: relative;
+	top:-217px;
+	-webkit-transition:0.25s ease-in-out;
+	-moz-transition:0.25s ease-in-out;
+	-ms-transition:0.25s ease-in-out;
+	-o-transition:0.25s ease-in-out;
+	transition:0.25s ease-in-out;
+	display:block;
+	text-align:center;
+}
+
+.muse-section:hover .web {
+	top:-223px;
+}
+
+.muse-section .web .icon {
+	top:180px;
+	left:230px;
+	opacity:0;
+	position:absolute;
+	-webkit-transition:0.25s ease-in-out;
+	-moz-transition:0.25s ease-in-out;
+	-ms-transition:0.25s ease-in-out;
+	-o-transition:0.25s ease-in-out;
+	transition:0.25s ease-in-out;
+}
+
+.muse-section:hover .web img.icon {
+	top:190px;
+	left:230px;
+	opacity:1;
+}
+
+.muse-section:hover .web img {
+	opacity:0.5;
+}
+
+.muse-section {
+	height: 500px;
+	overflow: hidden;
+}
+
+.muse-section:hover {
+	background:#1abc9c;
+	color:rgba(255,255,255,0.95);
+}
+
+/*----------------------------
+	About Me
+----------------------------*/
+
+.about-me {
+	background: #f6f8f8;	
+}
