@@ -68,7 +68,7 @@
 					    </span>
 					</span>
 					<span class="web">
-					    <img src="http://designmodo.com/wp-content/themes/designmodov2/flat-ui/images/all-elelemtns-thumb.png" alt="Basic Elements" width="552" height="408">
+					    <img src="/images/redwood_website.png" alt="Basic Elements" width="552" height="408">
 					    <img src="http://designmodo.com/wp-content/themes/designmodov2/flat-ui/images/eye-icon.png" class="icon">
 					</span>
 					<div class="buttonholder">
