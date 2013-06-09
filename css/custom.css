@@ -93,6 +93,11 @@ h3 {
 	vertical-align: baseline;
 }
 
+.topic .frame p {
+	font-size: .9em;
+	line-height: 1.4em;
+}
+
 /*----------------------------
 	Muse
 ----------------------------*/
@@ -207,6 +212,10 @@ h3 {
 }
 
 @media screen and (max-width: 1108px) { 
+	.topic {
+		width: 100%;	
+	}
+	
 	.details, .muse {
 		width:auto !important;
 		margin:0 50px !important;
