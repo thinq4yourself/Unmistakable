@@ -106,7 +106,6 @@ p {
 	-ms-transition:0.25s ease-in-out;
 	-o-transition:0.25s ease-in-out;
 	transition:0.25s ease-in-out;
-	cursor:pointer;
 	color:rgba(52, 73, 94, 0.95);
 }
 
@@ -150,6 +149,7 @@ p {
 
 .muse-section:hover .web {
 	top:-223px;
+	cursor: pointer;
 }
 
 .muse-section .web .icon {

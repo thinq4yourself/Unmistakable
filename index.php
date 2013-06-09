@@ -67,10 +67,10 @@
 					        <p>Redwood Agile is my life’s current Muse*. We help entrepreneurs start, design, grow, optimize, and scale their products and business models</p>
 					    </span>
 					</span>
-					<span class="web">
+					<a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web">
 					    <img src="/images/redwood_website.png" alt="Basic Elements" width="552" height="408">
 					    <img src="http://designmodo.com/wp-content/themes/designmodov2/flat-ui/images/eye-icon.png" class="icon">
-					</span>
+					</a>
 					<div class="buttonholder">
 					    <span class="fakeButton">View All Elements (2 Mb)</span>
 					</div>
