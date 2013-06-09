@@ -89,13 +89,13 @@
 		            <img src="http://designmodo.com/wp-content/themes/designmodov2/flat-ui/images/eye-icon.png" class="icon">
 		        </a>
 		        <div class="buttonholder">
-		            <a href="" class="btn btn-primary btn-large"><span class="fui-eye"></span> View Redwood Agile</a>
+		            <a href="http://www.redwoodagile.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span>&nbsp;View Redwood Agile</a>
 		        </div>
 		    </div>
 		</section>
-		<section id="about" class="about-me content-section">
+		<section id="about" class="about-me">
 			<div class="about">
-				<img id="icon-heart" src="/images/about/logo.png" width="462" alt="The Face of Tyler Goelz" style="position: relative; top: 0px; opacity: 1; -webkit-transform: scale(1);">
+				<img id="icon-heart" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
 				<span class="frame">
 		            <h2>About Me</h2>
 		            <p>I focus on helping companies put the user first by making user-centered design & business decision to enhance the user's experience. Yes, I did say "user" three times in that sentence.</p>
