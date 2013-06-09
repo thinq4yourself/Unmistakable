@@ -7,6 +7,10 @@ body {
 	padding: 0;
 }
 
+article {
+	font: 19px/31px 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
 a:hover {
 	cursor: pointer;
 }
@@ -23,12 +27,6 @@ h3 {
 	color: rgb(38, 57, 80);
 	margin: 0 0 2px;
 	opacity: 0.85;	
-}
-
-p {
-	color: rgba(44, 62, 80,0.9);
-	font-size: 1.3em;
-	line-height: 25px;
 }
 
 .content-section {
@@ -114,6 +112,7 @@ p {
 	margin:0 auto;
 	padding:126px 0 146px;
 	display:block;
+	position: relative;
 }
 
 .muse h2 {
@@ -179,13 +178,24 @@ p {
 	overflow: hidden;
 }
 
-.muse-section:hover {
-	background:#1abc9c;
-	color:rgba(255,255,255,0.95);
+.buttonholder {
+	display: none;
 }
 
-.buttonholder {
-	display: block;
+.definition {
+	position: absolute;
+	bottom: 0;
+	font-size: 70%;
+}
+
+.definition p {
+	margin: 0;
+	line-height: 1em;
+}
+
+.muse-section:hover {
+	background:#1abc9c;
+	color: rgba(255,255,255,0.95);
 }
 
 /*----------------------------
@@ -194,4 +204,119 @@ p {
 
 .about-me {
 	background: #f6f8f8;	
+}
+
+@media screen and (max-width: 1108px) { 
+	.details, .muse {
+		width:auto !important;
+		margin:0 50px !important;
+		padding:50px 0 !important;
+	}
+	
+	.muse .details{
+		padding:0 !important;
+		margin:0 !important;
+	}
+	
+	.muse .frame {
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.muse h2 {
+		margin: 0 0 30px;
+	}
+	
+	.muse-section {
+		height:	auto;
+	}
+	
+	.web {
+		float: none;
+		position: relative;
+		top: 80px;
+		height:240px;
+	}
+	
+	.muse-section:hover .web { 
+		top:75px;
+	}
+	
+	.muse-section .web .icon {
+		top:100px;
+		left: 50%;
+		margin-left: -48px; 
+	}
+	
+	.definition {
+		position: relative;
+	}
+	
+	.muse-section:hover .web img.icon {
+		top:110px;
+		left: 50%;
+		margin-left: -48px;
+	}
+}
+
+@media screen and (max-width: 768px) {	
+	.approach h1 {
+		font-size: 3.5em;
+	}
+	
+	.topic {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	
+	.muse {
+		margin: 0 !important;
+		padding:50px 40px !important;
+	}
+	
+	.muse h2 {
+		margin: 0 0 15px;
+		font-size: 2.2em;
+	}
+	
+	.web { 
+		display:none;
+		float:none;
+		margin:0 auto;
+		width:164px;
+	}
+	
+	.muse .buttonholder { 
+		display:block;
+	}
+	
+	.muse .buttonholder a { 
+		display: inline-block;
+		vertical-align: top;
+		width: 220px;
+		font-size: 17px;
+		line-height: 21px;
+		font-weight: bold;
+		border: 2px solid #1abc9c;
+		background-color: #fff;
+		border-radius: 5px;
+		padding: 12px 0;
+		font-weight: 500;
+		color:#1abc9c;
+		text-align:center;
+		margin-top:30px;
+		-webkit-transition:0.3s ease-in-out;
+		-moz-transition:0.3s ease-in-out;
+		-ms-transition:0.3s ease-in-out;
+		-o-transition:0.3s ease-in-out;
+		transition:0.3s ease-in-out;
+	}
+	
+	.muse:hover .buttonholder a { 
+		color:#fff;
+		background:#1abc9c;
+		border-color:#fff;
+	}
 }
