@@ -29,6 +29,10 @@ h3 {
 	opacity: 0.85;	
 }
 
+li {
+	list-style: none;
+}
+
 .content-section {
 	padding: 6% 0 12%;
 }
@@ -218,7 +222,7 @@ h3 {
 .about {
 	width:1104px;
 	overflow:hidden;
-	padding: 8% 0 12%;
+	padding: 8% 0 7%;
 	margin:0 auto;
 }
 
@@ -241,6 +245,162 @@ h3 {
 
 .about > img {
 	float:left;
+}
+
+/*----------------------------
+	Social
+----------------------------*/
+
+.social {
+	text-align: center;
+	padding: 4% 0 5%;
+	background: #fafafa;
+}
+
+.social h1 {
+	font-size: 3em;
+	color: #d5d8d8;
+}
+
+.share-list {
+	margin:0;
+	margin-top: 30px;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:top;
+	font-size:13px;
+	line-height:17px;
+}
+
+.share-list li {
+	float:left;
+	margin:0 0 0 20px;
+}
+
+.share-list li:first-child {
+	margin:0;
+}
+
+.share-list a {
+	position:relative;
+	float:left;
+	text-decoration: none;
+	border-radius:5px;
+	font-weight:bold;
+	padding:9px 16px 8px 46px;
+	color:#fff;
+}
+
+.share-list a:hover {
+	text-decoration:none;
+	opacity:0.8;
+}
+
+.share-list a span {
+	font-weight:normal;
+	margin:0 0 0 9px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.share-list .twitter {
+	background:#00bdef;
+} 
+
+.share-list .facebook {
+	background:#2f4b93;
+}
+
+.share-list .google {
+	background:#2d2d2d;
+}
+
+.share-list .pin {
+	background:#cb2028;
+}
+
+.share-list .linkedin {
+	background:#0072b5;
+}
+
+.share-list .twitter:before {
+	position:absolute;
+	content:'';
+	background:url(/images/sprite.png) no-repeat 0 -329px;
+	width:16px;
+	height:13px;
+	top:10px;
+	left:18px;
+}
+.share-list .facebook:before {
+	position:absolute;
+	content:'';
+	background:url(/images/sprite.png) no-repeat 0 -350px;
+	width:16px;
+	height:16px;
+	top:9px;
+	left:19px;
+}
+.share-list .google:before {
+	position:absolute;
+	content:'';
+	background:url(/images/sprite.png) no-repeat -27px -328px;
+	width:16px;
+	height:14px;
+	top:10px;
+	left:17px;
+}
+.share-list .pin:before {
+	position:absolute;
+	content:'';
+	background:url(/images/sprite.png) no-repeat -27px -350px;
+	width:16px;
+	height:16px;
+	top:9px;
+	left:18px;
+}
+.share-list .linkedin:before {
+	position:absolute;
+	content:'';
+	background:url(/images/sprite.png) no-repeat -53px -328px;
+	width:16px;
+	height:16px;
+	top:9px;
+	left:18px;
+}
+
+.share-list dt {
+	display:inline;
+}
+
+/*----------------------------
+	Footer
+----------------------------*/
+
+footer {
+	padding: 4% 0 3%;
+	background-color: #2C3E50;
+	color: #34495e;
+	text-align: center;
+}
+
+footer .references {
+	margin: 0 auto;
+	width: 60%;	
+}
+
+footer a {
+	color: #34495e;
+}
+
+footer a:hover {
+	color: #3a5169;
+}
+
+footer p {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1108px) { 
@@ -409,6 +569,20 @@ h3 {
 	}
 	
 	.about > img {
+		display: none;
+	}
+	
+	.share-list li {
+		margin: 0 0 10px 10px;
+		float: none;
+		display: inline-block;
+	}
+	
+	.share-list li:first-child {
+		margin: 0 0 10px 0;
+	}
+	
+	.share-list span {
 		display: none;
 	}
 }
