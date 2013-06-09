@@ -71,7 +71,7 @@
 		    </div>
 		</section>
 		<section id="muse" class="muse-section">
-		    <span class="muse">
+		    <div class="muse">
 		        <span class="details">
 		            <span class="frame">
 		            	<h2>Redwood Agile</h2>
@@ -91,14 +91,17 @@
 		        <div class="buttonholder">
 		            <a href="" class="btn btn-primary btn-large"><span class="fui-eye"></span> View Redwood Agile</a>
 		        </div>
-		    </span>
+		    </div>
 		</section>
 		<section id="about" class="about-me content-section">
-		    <div class="container">
-		    	<div class="row">
-		    		<h1>About Me</h1>
-		    	</div>
-		    </div>
+			<div class="about">
+				<img id="icon-heart" src="/images/about/logo.png" width="462" alt="The Face of Tyler Goelz" style="position: relative; top: 0px; opacity: 1; -webkit-transform: scale(1);">
+				<span class="frame">
+		            <h2>About Me</h2>
+		            <p>I focus on helping companies put the user first by making user-centered design & business decision to enhance the user's experience. Yes, I did say "user" three times in that sentence.</p>
+		            <p>I've also traveled the majority of the East Coast of the U.S. and will be taking a 3 week road trip from St. Pete, Florida to Seattle, Washington in September. W00t!</p>
+				</span>
+			</div>  	
 		</section>
 	</article>        
     <?php include_once('includes/scripts.html'); ?>

@@ -209,6 +209,36 @@ h3 {
 
 .about-me {
 	background: #f6f8f8;	
+	display:block;
+	color:rgba(52, 73, 94, 0.95);
+
+}
+
+.about {
+	width:1104px;
+	margin:0 auto;
+	display:block;
+	position: relative;
+}
+
+.about h2 {
+	font-size:58px;
+	line-height:66px;
+	margin:0 0 41px;
+}
+
+.about .frame {
+	float:right;
+	width:564px;
+	margin-top: 150px;
+}
+
+.about .frame p {
+	margin-bottom: 30px;
+}
+
+.about .frame > img {
+	margin: 17px 0 0;
 }
 
 @media screen and (max-width: 1108px) { 
