@@ -64,7 +64,7 @@
 		    			</div>
 		    			<div class="frame">
 			    			<h3>Lifestyle Design</h3>
-			    			<p>“Life doesn’t have to be so damn hard. It really doesn’t.” - <a href="http://www.fourhourworkweek.com/blog/?ref=thefaceoftylergoelz" target="_blank">Tim Ferriss</a></p>
+			    			<p>“Life doesn’t have to be so damn hard. It really doesn’t.” - <a href="http://www.fourhourworkweek.com/blog/?ref=tylergoelz" target="_blank">Tim Ferriss</a></p>
 		    			</div>		    			
 		    		</div>
 		    	</div>
@@ -103,20 +103,21 @@
 				</span>
 			</div>  	
 		</section>
-		<section id="social" class="social">
+		<section id="social" class="share-section">
 			<div class="container">
 		    	<div class="row">
 		    		<h1>Thank you for sharing!</h1>
 			    	<ul class="share-list">
-						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fdesignmodo.com%2Fflat%2F%2F&text=Flat%20UI%20Pro%20-%20Design%20Framework%20for%20Designers%20and%20Developers,%20based%20on%20Bootstrap.%20Sweety%20stuff!&tw_p=tweetbutton&url=http%3A%2F%2Fdesignmodo.com%2Fflat%2F&via=designmodo','',695,300)" class="twitter"><dt>Tweet</dt><span>2115</span></a></li>
-						<li><a href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdesignmodo.com%2Fflat%2F','',661,338)" class="facebook"><dt>Share</dt><span>1235</span></a></li>
-						<li><a href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Fdesignmodo.com%2Fflat%2F','',666,378)" class="google"><dt>Share</dt><span>242</span></a></li>
-						<li><a href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://designmodo.com/flat/&media=http://designmodo.com/wp-content/uploads/2011/01/flat-ui-pro1.png&description=Flat%20UI%20Pro%20-%20Design%20Framework%20for%20Designers%20and%20Developers,%20based%20on%20Bootstrap.%20Sweety%20stuff!','',630,360);" class="pin"><dt>Pin it</dt><span>176</span></a></li>
-						<li><a href="javascript:oiw('http://www.linkedin.com/shareArticle?mini=true&url=http://designmodo.com/flat&title=Flat%20UI%20Pro%20-%20Design%20Framework%20for%20Designers%20and%20Developers,%20based%20on%20Bootstrap&summary=Flat%20UI%20Pro%20is%20made%20on%20the%20basis%20of%20Twitter%20Bootstrap%20in%20a%20stunning%20flat-style,%20and%20the%20kit%20also%20includes%20a%20PSD%20version%20for%20designers.','',520,385)" class="linkedin"><dt>Share</dt><span>85</span></a></li>
+						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=yaboi&original_referer=http%3A%2F%2Flocalhost%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com&via=tylergoelz','',695,300)" class="twitter"><dt>Tweet</dt><span></span></a></li>
+						<li><a href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)" class="facebook"><dt>Share</dt><span></span></a></li>
+						<li><a href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Ftylergoelz.com','',666,378)" class="google"><dt>Share</dt><span></span></a></li>
+						<li><a href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://tylergoelz.com/&media=http://tylergoelz.com/images/about/logo.png&description=Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',630,360);" class="pin"><dt>Pin it</dt><span></span></a></li>
+						<li><a href="javascript:oiw('http://www.linkedin.com/shareArticle?mini=true&url=http://tylergoelz.com&title=Tyler%20Goelz&summary=Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',520,385)" class="linkedin"><dt>Share</dt><span></span></a></li>
 					</ul>
 				</div>
 			</div>			
 		</section>
+		<span class="share-section-cont"> </span>
 	</article>
 	<footer>
 		<div class="container">

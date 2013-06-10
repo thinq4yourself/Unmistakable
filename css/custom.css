@@ -248,16 +248,16 @@ li {
 }
 
 /*----------------------------
-	Social
+	Share Section
 ----------------------------*/
 
-.social {
+.share-section {
 	text-align: center;
 	padding: 4% 0 5%;
 	background: #fafafa;
 }
 
-.social h1 {
+.share-section h1 {
 	font-size: 3em;
 	color: #d5d8d8;
 }
