@@ -389,7 +389,7 @@ footer .references {
 	width: 60%;	
 }
 
-footer a {
+footer a, footer a:visited {
 	color: #5f7f9f;
 }
 
