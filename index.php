@@ -37,7 +37,7 @@
 		    			</div>
 		    			<div class="frame">
 			    			<h3>Product Design</h3>
-							<p>Deliver products through Lean UX - a combo of Lean Startup and User Experience.</p>
+							<p>Deliver products through Lean UX - a combo of <a href="http://en.wikipedia.org/wiki/Lean_Startup#Description?ref=tylergoelz" target="_blank">Lean Startup</a> and User Experience.</p>
 		    			</div>		    			
 		    		</div>
 		    		<div class="span6 topic">
