@@ -86,7 +86,7 @@
 		        </span>
 		        <a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web">
 		            <img src="/images/redwood_website.png" alt="Basic Elements" width="552" height="408">
-		            <img src="http://designmodo.com/wp-content/themes/designmodov2/flat-ui/images/eye-icon.png" class="icon">
+		            <img src="/images/eye-icon.png" class="icon">
 		        </a>
 		        <div class="buttonholder">
 		            <a href="http://www.redwoodagile.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span>&nbsp;View Redwood Agile</a>
