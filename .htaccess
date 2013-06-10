@@ -1,2 +1,5 @@
-RewriteEngine on
+RewriteEngine On
 Redirect 301 /resume /
+Redirect 301 /resume/files/tylergoelz_resume.pdf /
+Redirect 301 /content/contact /
+Redirect 301 /about /
