@@ -108,7 +108,7 @@
 		    	<div class="row">
 		    		<h1>Thank you for sharing!</h1>
 			    	<ul class="share-list">
-						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=yaboi&original_referer=http%3A%2F%2Flocalhost%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com&via=tylergoelz','',695,300)" class="twitter"><dt>Tweet</dt><span></span></a></li>
+						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=yaboi&original_referer=http%3A%2F%2Flocalhost%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com&via=tylergoelz','',695,300)" class="twitter"><dt>Follow</dt><span></span></a></li>
 						<li><a href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)" class="facebook"><dt>Share</dt><span></span></a></li>
 						<li><a href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Ftylergoelz.com','',666,378)" class="google"><dt>Share</dt><span></span></a></li>
 						<li><a href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://tylergoelz.com/&media=http://tylergoelz.com/images/about/logo.png&description=Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',630,360);" class="pin"><dt>Pin it</dt><span></span></a></li>
