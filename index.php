@@ -4,7 +4,7 @@
 <body>
 	<article>
 		<section class="headline">
-		    <h1>Tyler Goelz</h1>
+		    <h1>Tyler Goelz Staging</h1>
 		    <small>Applying a Holistic Approach to User Experience</small>
 		    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Learn More</button>
 		</section> <!-- /headline -->
