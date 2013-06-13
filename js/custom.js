@@ -134,7 +134,7 @@ function setupScrollFunctionality() {
 				var $webSpan = $($museSectionWebSpan[i]),
 					pos = $webSpan.css('left');
 				
-				$webSpan.css('left',"+=30").css('opacity',0).delay($webSpan.index()*50).animate({left:pos, opacity:1},{duration:500,easing:"easeOutCubic"});
+				$webSpan.css('left',"+=30").css('opacity',0).delay($webSpan.index()*50).animate({left:pos, opacity:1},{duration:700,easing:"easeOutCubic"});
 			}
 		}
 		showMuseRunning =1;

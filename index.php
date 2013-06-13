@@ -107,12 +107,13 @@
 						<span class="web-element1">
 						    <img src="/images/muse/redwood/page-element-1.png" alt="element">
 						</span>
-						<span class="web-element2">
-						    <img src="/images/muse/redwood/page-element-2.png" alt="element">
-						</span>
 						<span class="web-element3">
 						    <img src="/images/muse/redwood/page-element-3.png" alt="element">
 						</span>
+						<span class="web-element2">
+						    <img src="/images/muse/redwood/page-element-2.png" alt="element">
+						</span>
+						
 						<img src="/images/muse/eye-icon.png" class="icon">
 		        	</a>
 		        </div>
