@@ -266,11 +266,11 @@ li {
 	left:0;
 }
 .web-block span.web-element3 {
-	top: 292px;
+	top: 291px;
 	left:0;
 }
 
-.web-block span.web-element1 img, .web-block span.web-element2 img, .web-block span.web-element3 img {
+.web-block span img {
 	position: absolute;
 }
 

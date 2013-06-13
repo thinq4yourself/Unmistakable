@@ -104,6 +104,7 @@
 		        </span>
 				<div class="web">
 					<a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web-block">
+						<img src="/images/muse/eye-icon.png" class="icon">
 						<span class="web-element1">
 						    <img src="/images/muse/redwood/page-element-1.png" alt="element">
 						</span>
@@ -113,8 +114,6 @@
 						<span class="web-element2">
 						    <img src="/images/muse/redwood/page-element-2.png" alt="element">
 						</span>
-						
-						<img src="/images/muse/eye-icon.png" class="icon">
 		        	</a>
 		        </div>
 		        
@@ -137,7 +136,7 @@
 		<section id="social" class="share-section">
 			<div class="container">
 		    	<div class="row">
-		    		<h1>Thank you for sharing!</h1>
+		    		<h1>Sharing is Caring!</h1>
 			    	<ul class="share-list">
 						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=yaboi&original_referer=http%3A%2F%2Fwww.tylergoelz.com%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com','',695,300)" class="twitter"><dt>Tweet</dt><span></span></a></li>
 						<li><a href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)" class="facebook"><dt>Share</dt><span></span></a></li>

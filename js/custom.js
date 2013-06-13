@@ -77,7 +77,7 @@ function setupScrollFunctionality() {
 			showMuse();
 		}
 		
-		if (scrollPastSectionTop(aboutSection.top, 500)) {
+		if (scrollPastSectionTop(aboutSection.top, 350)) {
 			showAboutImage();	
 		}
 	}
