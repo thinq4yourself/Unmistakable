@@ -276,7 +276,7 @@ li {
 	height:60px;
 }
 
-.muse-section:hover .web-block img .icon {
+.muse-section:hover .web-block img.icon {
 	top:190px;
 	left:230px;
 	width: 90px;
