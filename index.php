@@ -23,7 +23,7 @@
 		    <div class="info">
 			    <h1>Tyler Goelz</h1>
 			    <small>Applying a Holistic Approach to User Experience</small>
-			    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Learn More</button>
+			    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Check Out How</button>
 		    </div>
 		</section>
 		
@@ -102,13 +102,25 @@
 			    		<p><small>A low-maintenance business that generates significant income.</small></p>
 		        	</span>
 		        </span>
-		        <a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web">
-		            <img src="/images/redwood_website.png" alt="Basic Elements" width="552" height="408">
-		            <img src="/images/eye-icon.png" class="icon">
-		        </a>
+				<div class="web">
+					<a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web-block">
+						<span class="web-element1">
+						    <img src="/images/muse/redwood/page-element-1.png" alt="element">
+						</span>
+						<span class="web-element2">
+						    <img src="/images/muse/redwood/page-element-2.png" alt="element">
+						</span>
+						<span class="web-element3">
+						    <img src="/images/muse/redwood/page-element-3.png" alt="element">
+						</span>
+						<img src="/images/muse/eye-icon.png" class="icon">
+		        	</a>
+		        </div>
+		        
 		        <div class="buttonholder">
 		            <a href="http://www.redwoodagile.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span>&nbsp;View Redwood Agile</a>
 		        </div>
+
 		    </div>
 		</section>
 		<section id="about" class="about-me-section">

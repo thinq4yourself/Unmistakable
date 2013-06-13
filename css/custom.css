@@ -215,16 +215,16 @@ li {
 }
 
 .web {
-	float: right;
-	position: relative;
+	position:relative;
+	float:right;
+	width:553px;
+	height:408px;
 	top:-217px;
 	-webkit-transition:0.25s ease-in-out;
 	-moz-transition:0.25s ease-in-out;
 	-ms-transition:0.25s ease-in-out;
 	-o-transition:0.25s ease-in-out;
 	transition:0.25s ease-in-out;
-	display:block;
-	text-align:center;
 }
 
 .muse-section:hover .web {
@@ -232,7 +232,35 @@ li {
 	cursor: pointer;
 }
 
-.muse-section .web .icon {
+.web .web-block {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.web .web-block > span {
+	position: absolute;
+	opacity: 0;
+}
+
+.web-block span.web-element1 {
+	top: 0;
+	left:0;
+}
+.web-block span.web-element2 {
+	top: 34px;
+	left:0;
+}
+.web-block span.web-element3 {
+	top: 292px;
+	left:0;
+}
+
+.web-block span.web-element1 img, .web-block span.web-element2 img, .web-block span.web-element3 img {
+	position: absolute;
+}
+
+.web-block img.icon {
 	top:180px;
 	left:230px;
 	opacity:0;
@@ -242,16 +270,22 @@ li {
 	-ms-transition:0.25s ease-in-out;
 	-o-transition:0.25s ease-in-out;
 	transition:0.25s ease-in-out;
+	z-index: 1;
+	position: relative;
+	width: 90px;
+	height:60px;
 }
 
-.muse-section:hover .web img.icon {
+.muse-section:hover .web-block img .icon {
 	top:190px;
 	left:230px;
-	opacity:1;
+	width: 90px;
+	height: 60px;
+	opacity: 1 !important;
 }
 
-.muse-section:hover .web img {
-	opacity:0.5;
+.muse-section:hover .web-block img {
+	opacity:0.5 !important;
 }
 
 .muse-section {
@@ -527,6 +561,7 @@ footer p {
 		position: relative;
 		top: 80px;
 		height:240px;
+		margin: 0 auto;
 	}
 	
 	.muse-section:hover .web { 

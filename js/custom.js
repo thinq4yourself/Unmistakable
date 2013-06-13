@@ -69,15 +69,20 @@ function setupScrollFunctionality() {
 		
 		if (window.mobile) paddingForMobile = 500;
 		
-		if ( $(document).scrollTop() >= approachSection.top - $(window).height()+300-paddingForMobile){
-			showTopics();
+		if (scrollPastSectionTop(approachSection.top, 300)) {
+			showTopics()
 		}
+		
+		if (scrollPastSectionTop(museSection.top, 300)){
+			showMuse();
+		}
+		
+
 		
 		/*
-			if ($(document).scrollTop() >= baseSection.top - $(window).height()+500-paddingForMobile){
+				if ($(document).scrollTop() >= baseSection.top - $(window).height()+500-paddingForMobile){
 			$('.base-section .holder').addClass("highlight");
 		}
-		
 		if ( $(document).scrollTop() >= responsiveSection.top - $(window).height()+300-paddingForMobile){
 			showResponsive();
 		}
@@ -97,9 +102,16 @@ function setupScrollFunctionality() {
 	}
 	init();
 	
+	function scrollPastSectionTop(top, offset) {
+		var offset = offset || 0,
+			hasScrolled = false;
+			
+		return ($(document).scrollTop() >= top - $(window).height()+offset-paddingForMobile) ? true : false;
+	}
+	
 	var showFeaturesRunning = 0; var i = 0;
 	function showTopics(){
-		if (showFeaturesRunning == 0) {
+		if (showFeaturesRunning === 0) {
 			var $topics = $('#approach .topic'),
 				topicLength = $topics.length;
 								
@@ -110,6 +122,22 @@ function setupScrollFunctionality() {
 			
 			showFeaturesRunning = 1;
 		}
+	}
+	
+	var showMuseRunning = 0;
+	function showMuse () {
+		if (showMuseRunning === 0) {
+			var $museSectionWebSpan = $('.web .web-block span'),
+				webSpanLength = $museSectionWebSpan.length;
+			
+			for (var i = 0; webSpanLength > i; i++) {
+				var $webSpan = $($museSectionWebSpan[i]),
+					pos = $webSpan.css('left');
+				
+				$webSpan.css('left',"+=30").css('opacity',0).delay($webSpan.index()*50).animate({left:pos, opacity:1},{duration:500,easing:"easeOutCubic"});
+			}
+		}
+		showMuseRunning =1;
 	}
 	
 	/*
@@ -129,6 +157,8 @@ var showResponsiveRunning = 0;
 		}
 	}
 	
+	
+	//USE THIS FOR ABOUT SECTION!!!!!
 	var showIconSectionRunning = 0;
 	function showIconSection(){
 		if (showIconSectionRunning == 0){
