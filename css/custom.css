@@ -365,6 +365,7 @@ li {
 
 .about > img {
 	float:left;
+	opacity: 0;
 }
 
 /*----------------------------

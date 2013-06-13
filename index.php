@@ -126,7 +126,7 @@
 		</section>
 		<section id="about" class="about-me-section">
 			<div class="about">
-				<img id="icon-heart" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
+				<img id="icon-face" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
 				<span class="frame">
 		            <h2>About Me</h2>
 		            <p>I focus on helping companies put the user first by making user-centered design & business decision to enhance the user's experience. Yes, I did say "user" three times in that sentence.</p>
