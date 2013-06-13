@@ -50,6 +50,7 @@ li {
 	font-weight: 900;
 	letter-spacing: -2px;
 	line-height: 100px;
+	margin-left: 30px;
 }
 
 .headline .info > small {
@@ -59,22 +60,35 @@ li {
   font-weight: 700;
   letter-spacing: -1px;
   padding-top: 5px;
+  margin-right: 30px;
 }
 
 .headline .info > button {
+	margin-left: 20px;
 	margin-top: 30px;
-	opacity: 0;
 }
 
 .headline .info > h1, .headline .info > small, .headline .info > button {
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
 	opacity: 0;
 }
 
-.headline .info > h1.loaded, .headline .info > small.loaded, .headline .info > button.loaded  {
+.headline .info > h1.loaded {
+	margin: 10px 0;
+}
+
+.headline .info > small.loaded {
+	margin: 0;
+}
+
+.headline .info > button.loaded {
+	margin-left: 0;
+}
+
+.headline .info > h1.loaded, .headline .info > small.loaded, .headline .info > button.loaded {
 	opacity: 1;
 }
 
@@ -636,6 +650,11 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {	
+	.headline .info h1 {
+		font-size: 4em;
+		line-height: 1.4em;	
+	}
+
 	h3 {
 		font-size: 1.3em;
 		line-height: 1.4em
@@ -744,8 +763,8 @@ footer p {
 	}
 }
 
-@media screen and (max-width: 480px) {	
-	.headline h1 {
+@media screen and (max-width: 480px) {
+	.headline .info h1 {
 		font-size: 3.3em;
 		line-height: 1.4em;	
 	}
@@ -761,5 +780,11 @@ footer p {
 	
 	.topic-image {
 		width: 115px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.headline .info h1 {
+		font-size: 2.4em;
 	}
 }
