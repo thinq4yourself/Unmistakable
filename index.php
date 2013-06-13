@@ -3,13 +3,31 @@
   <?php include_once('includes/head.html'); ?>
 <body>
 	<article>
-		<section class="headline">
-		    <h1>Tyler Goelz</h1>
-		    <small>Applying a Holistic Approach to User Experience</small>
-		    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Learn More</button>
-		</section> <!-- /headline -->
+		<?php if (false) { //Remove this once ready to do the header ?> 
+		<div class="headline-icons">
+		    <div class="moleskin">
+			    <img src="/images/headline/moleskin.png" alt="moleskin" />
+			</div>
+			<div class="coffee">
+			    <img src="/images/headline/coffee.png" alt="moleskin" />
+			</div>
+			<div class="sticky">
+			    <img src="/images/headline/sticky.png" alt="moleskin" />
+			</div>
+			<div class="s3">
+			    <img src="/images/headline/s3.png" alt="s3" />
+			</div>
+		</div>
+		<?php } ?>
+		<section id="headline" class="headline">
+		    <div class="info">
+			    <h1>Tyler Goelz</h1>
+			    <small>Applying a Holistic Approach to User Experience</small>
+			    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Learn More</button>
+		    </div>
+		</section>
 		
-		<section id="approach" class="approach content-section">
+		<section id="approach" class="approach-section">
 		    <div class="container">
 		    	<div class="row">
 		    		<h1>My Approach</h1>
@@ -93,7 +111,7 @@
 		        </div>
 		    </div>
 		</section>
-		<section id="about" class="about-me">
+		<section id="about" class="about-me-section">
 			<div class="about">
 				<img id="icon-heart" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
 				<span class="frame">

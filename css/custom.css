@@ -3,8 +3,9 @@
 ----------------------------*/
 
 body {
-	margin: 0px;
+	margin: 0;
 	padding: 0;
+	background: #f4f4f4;
 }
 
 article {
@@ -33,10 +34,6 @@ li {
 	list-style: none;
 }
 
-.content-section {
-	padding: 6% 0 12%;
-}
-
 
 /*----------------------------
 	Headline Overwrites
@@ -45,17 +42,17 @@ li {
 .headline {
 	padding: 15% 0;
 	text-align: center;
-	background: #f4f4f4;
+	background: transparent;
 }
 
-.headline h1 {
+.headline .info > h1 {
 	font-size: 5em;
 	font-weight: 900;
 	letter-spacing: -2px;
 	line-height: 100px;
 }
 
-.headline small {
+.headline .info > small {
   color: rgba(52, 73, 94, 0.30000000000000004);
   display: block;
   font-size: 22px;
@@ -64,25 +61,100 @@ li {
   padding-top: 5px;
 }
 
-.headline button {
+.headline .info > button {
 	margin-top: 30px;
+	opacity: 0;
+}
+
+.headline .info > h1, .headline .info > small, .headline .info > button {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0;
+}
+
+.headline .info > h1.loaded, .headline .info > small.loaded, .headline .info > button.loaded  {
+	opacity: 1;
+}
+
+.headline-icons {
+	width: auto;
+	height: auto;
+	position: absolute;
+	background-color: #f4f4f4;
+	z-index: -1;
+}
+
+.headline-icons > div {
+	-webkit-transition: margin 0.25s, -webkit-transform 0.25s;
+	-moz-transition: margin 0.25s, -moz-transform 0.25s;
+	-o-transition: margin 0.25s, -o-transform 0.25s;
+	transition: margin 0.25s, transform 0.25s;
+	position: absolute;
+}
+
+.headline-icons > div.moleskin {
+	width: 339px;
+	height: 528px;
+	top: -90px;
+	left: -10px;
+	transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+}
+
+.headline-icons > div.coffee {
+	width: 295px;
+	height: 251px;
+	top: -61px;
+	left: 630px;
+	transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+}
+
+.headline-icons > div.sticky {
+	width: 224px;
+	height: 230px;
+
+	transform: rotate(0);
+	-ms-transform: rotate(0);
+	-webkit-transform: rotate(0);
+}
+
+
+.headline-icons > div.s3 {
+	width: 178px;
+	height: 345px;
+	left: 180px;
+	top: 440px;
+	transform: rotate(-80deg);
+	-ms-transform: rotate(-80deg);
+	-webkit-transform: rotate(-80deg);
 }
 
 /*----------------------------
 	Approach
 ----------------------------*/
 
-.approach {
-	background: #f6f8f8;	
+.approach-section {
+	background: #f6f8f8;
+	padding: 6% 0 12%;	
 }
 
-.approach h1 {
+.approach-section h1 {
 	display: block;
 	text-align: center;
 }
 
 .topic {
 	padding-top: 5%;
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .topic-image {
@@ -211,7 +283,7 @@ li {
 	About Me
 ----------------------------*/
 
-.about-me {
+.about-me-section {
 	background: #f6f8f8;	
 	display:block;
 	color:rgba(52, 73, 94, 0.95);
@@ -404,6 +476,22 @@ footer p {
 }
 
 @media screen and (max-width: 1108px) { 
+	.headline-icons > div.moleskin {
+		width: 252px;
+		height: auto;
+	}
+	
+	.headline-icons > div.moleskin img {
+		width: 230px;
+		height: auto;
+	}
+	
+	.headline-icons > div.s3 {
+		width: 122px;
+		margin-top: 36%;
+		margin-left: 28%;
+	}
+	
 	.topic {
 		width: 100%;	
 	}
@@ -482,6 +570,23 @@ footer p {
 }
 
 @media screen and (max-width: 980px) {	
+	.headline-icons > div.moleskin {
+		width: 152px;
+		height: auto;
+	}
+	
+	.headline-icons > div.moleskin img {
+		width: 140px;
+		height: auto;
+	}
+	
+	.headline-icons > div.s3 {
+		width: 87px;
+		margin-left: 29%;
+		margin-top: 150px;
+		-webkit-transform: rotate(-60deg);
+	}
+	
 	.about > img {
 		width: 35%;
 		height: auto;
@@ -501,7 +606,11 @@ footer p {
 		line-height: 1.4em
 	}
 
-	.approach h1 {
+	.headline-icons, .headline-icons > div {
+		display: none;
+	}
+
+	.approach-section h1 {
 		font-size: 3.5em;
 	}
 	
@@ -606,7 +715,7 @@ footer p {
 		line-height: 1.4em;	
 	}
 	
-	.approach h1 {
+	.approach-section h1 {
 		font-size: 2.4em;
 		line-height: 1.4em;
 	}
