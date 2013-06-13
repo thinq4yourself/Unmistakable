@@ -63,10 +63,16 @@ function showHeadlineElements(isMobile) {
 
 function animateHeadlineElements($elements, count) {
 	for (var i = 0; count > i; i++) {
-	    var $element = $($elements[i])
-	    	pos = $element.css('margin-left');
-
-			$element.css('margin-left',"+=30").css('opacity',0).delay($element.index()*50).animate({marginLeft:pos, opacity:1},{duration:200,easing:"easeInCubic"});
+	    var $element = $($elements[i]),
+	    	isEven = i % 2 === 0,
+	    	margin = isEven ? 'margin-left' : 'margin-right',
+	    	pos = $element.css(margin);
+	    	
+	    	if (isEven) {
+				$element.css("margin-left","+=30").css('opacity',0).delay($element.index()*50).animate({marginLeft:pos,opacity:1},{duration:200,easing:"easeInCubic"});
+	    	} else {
+				$element.css("margin-right","+=30").css('opacity',0).delay($element.index()*50).animate({marginRight:pos,opacity:1},{duration:200,easing:"easeInCubic"});
+	    	}
 	}	
 }
 
