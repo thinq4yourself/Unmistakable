@@ -67,18 +67,18 @@ li {
 	transform:rotate(100deg);
 	-ms-transform:rotate(100deg); /* IE 9 */
 	-webkit-transform:rotate(100deg); /* Safari and Chrome */
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	-o-transition: all 0.7s;
-	transition: all 0.7s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
 }
 
 .headline-icons > .moleskin.loaded {
+	margin-left: -6%;
+	margin-top: -130px;
 	transform:rotate(0deg);
 	-ms-transform:rotate(0deg); /* IE 9 */
 	-webkit-transform:rotate(0deg); /* Safari and Chrome */
-	margin-left: -6%;
-	margin-top: -130px;
 }
 
 .headline-icons > .coffee {
@@ -96,8 +96,6 @@ li {
 }
 
 .headline-icons > .coffee.loaded {
-	width: 285px;
-	height: auto;
 	margin-left: 49%;
 	margin-top: -73px;
 	transform:rotate(0deg);
@@ -120,9 +118,6 @@ li {
 }
 
 .headline-icons > .sticky.loaded {
-	width: 239px;
-	height: auto;
-	margin-left: 77%;
 	margin-top: -7px;
 	transform:rotate(0deg);
 	-ms-transform:rotate(0deg); /* IE 9 */
@@ -132,8 +127,15 @@ li {
 .headline-icons > .s3 {
 	width: 352px;
 	height: auto;
-	margin-top: 40%;
-	margin-left: 8%;
+	margin-top: 51%;
+	margin-left: 25%;
+	transform:rotate(50deg);
+	-ms-transform:rotate(50deg); /* IE 9 */
+	-webkit-transform:rotate(50deg); /* Safari and Chrome */
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
 }
 
 .headline-icons > .s3.loaded {
@@ -149,8 +151,15 @@ li {
 .headline-icons > .keyboard {
 	width: 779px;
 	height: auto;
-	margin-top: 22%;
+	margin-top: 46%;
 	margin-left: 50%;
+	transform:rotate(30deg);
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	-webkit-transition: all 1.3s;
+	-moz-transition: all 1.3s;
+	-o-transition: all 1.3s;
+	transition: all 1.3s;
 }
 
 .headline-icons > .keyboard.loaded {
@@ -586,11 +595,23 @@ footer p {
 	
 	.headline-icons > .sticky {
 		width: 196px;		
+		margin-left: 82%;
+		margin-top: -200px;
+	}
+	
+	.headline-icons > .sticky.loaded {
+		width: 196px;		
 		margin-left: 79%;
 		margin-top: -8px;
 	}
-	
+
 	.headline-icons > .s3 {
+		width: 272px;
+		margin-left: 25%;
+		margin-top: 60%;
+	}
+	
+	.headline-icons > .s3.loaded {
 		width: 272px;
 		margin-left: 10%;
 	}
@@ -703,7 +724,13 @@ footer p {
 		margin-left: 49%;
 	}
 	
-	.headline-icons > .sticky {	
+	.headline-icons > .sticky {
+		width: 146px;
+		margin-left: 79%;
+		margin-top: -149px;
+	}
+	
+	.headline-icons > .sticky.loaded {	
 		width: 146px;
 		margin-left: 79%;
 		margin-top: 0px;
@@ -711,8 +738,17 @@ footer p {
 	
 	.headline-icons > .s3 {
 		width: 242px;
-		margin-top: 44%;
+		margin-top: 60%;
+		margin-left: 15%;
+	}
+	
+	.headline-icons > .s3.loaded {
+		width: 242px;
+		margin-top: 42%;
 		margin-left: 4%;
+		transform: rotate(10deg);
+		-ms-transform: rotate(10deg);
+		-webkit-transform: rotate(20deg);
 	}
 
 	.headline-icons > .keyboard {

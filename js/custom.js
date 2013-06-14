@@ -65,18 +65,8 @@ function showHeadlineElements(isMobile) {
 	var $headlineChildren = $('#headline .info').children(),
 		headlineChildrenLength = $headlineChildren.length;
 	
-	$headlineChildren.delay(750).animate({opacity:1},{duration:500,easing:"easeInCubic"})
-	
-	//isMobile ? $headlineChildren.css('opacity', 1) : animateHeadlineElements($headlineChildren, headlineChildrenLength);	
+	isMobile ? $headlineChildren.css('opacity', 1) : $headlineChildren.delay(750).animate({opacity:1},{duration:500,easing:"easeInCubic"});
 } 
-
-function animateHeadlineElements($elements, count) {
-	for (var i = 0; count > i; i++) {
-	    var $element = $($elements[i]);
-	    	
-	    $element.css('opacity',0).delay($element.index()*50).animate({opacity:1},{duration:500,easing:"easeInCubic"});
-	}	
-}
 
 function setupScrollFunctionality(isMobile) {
 	$(document).scroll(function(){ init(); });
