@@ -245,9 +245,10 @@ li {
 }
 
 .muse {
-	width:1104px;
+	width: 90%;
+	max-width:1104px;
 	margin:0 auto;
-	padding:126px 0 146px;
+	padding:126px 0 115px;
 	display:block;
 	position: relative;
 }
@@ -283,7 +284,7 @@ li {
 	transition:0.25s ease-in-out;
 }
 
-.muse-section:hover .web {
+.web:hover {
 	top:-223px;
 	cursor: pointer;
 }

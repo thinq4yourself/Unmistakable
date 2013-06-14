@@ -84,7 +84,7 @@
 		        <span class="details">
 		            <span class="frame">
 		            	<h2>Redwood Agile</h2>
-		                <p>Redwood Agile is my current Muse*. We help entrepreneurs start, design, grow, optimize, and scale their products and business models</p>
+		                <p>Redwood Agile is my current Muse*. We apply everything mentioned above to help entrepreneurs start, design, optimize and scale their products and business models.</p>
 		            </span>
 		        </span>
 			    <span class="definition">
