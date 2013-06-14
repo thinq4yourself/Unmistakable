@@ -63,35 +63,35 @@ li {
 
 .headline-icons > .moleskin {
 	width: 478px;
-	height: 605px;
+	height: auto;
 	margin-left: -6%;
 	margin-top: -130px;
 }
 
 .headline-icons > .coffee {
-	width: 350px;
-	height: 319px;
-	margin-left: 47%;
-	margin-top: -112px;
+	width: 285px;
+	height: auto;
+	margin-left: 49%;
+	margin-top: -73px;
 }
 
 .headline-icons > .sticky {
 	width: 239px;
-	height: 235px;
+	height: auto;
 	margin-left: 77%;
 	margin-top: -7px;
 }
 
 .headline-icons > .s3 {
 	width: 352px;
-	height: 195px;
-	margin-top: 38%;
+	height: auto;
+	margin-top: 40%;
 	margin-left: 8%;
 }
 
 .headline-icons > .keyboard {
 	width: 779px;
-	height: 543px;
+	height: auto;
 	margin-top: 22%;
 	margin-left: 50%;
 }
@@ -501,20 +501,31 @@ footer p {
 }
 
 @media screen and (max-width: 1108px) { 
-	.headline-icons > div.moleskin {
-		width: 252px;
-		height: auto;
+	.headline-icons > .moleskin {
+		width: 388px;
+	}
+
+	.headline-icons > .coffee {
+		width: 240px;
+		margin-left: 51%;
+		margin-top: -60px;
 	}
 	
-	.headline-icons > div.moleskin img {
-		width: 230px;
-		height: auto;
+	.headline-icons > .sticky {
+		width: 196px;		
+		margin-left: 79%;
+		margin-top: -8px;
 	}
 	
-	.headline-icons > div.s3 {
-		width: 122px;
-		margin-top: 36%;
-		margin-left: 28%;
+	.headline-icons > .s3 {
+		width: 272px;
+		margin-left: 10%;
+	}
+	
+	.headline-icons > .keyboard {
+		width: 589px;
+		margin-top: 27%;
+		margin-left: 49%;
 	}
 	
 	.topic {
@@ -596,23 +607,36 @@ footer p {
 }
 
 @media screen and (max-width: 980px) {	
-	.headline-icons > div.moleskin {
-		width: 152px;
-		height: auto;
+	.headline-icons > .moleskin {
+		width: 228px;
+		margin-top: -50px;
+		margin-left: -40px;
 	}
 	
-	.headline-icons > div.moleskin img {
-		width: 140px;
-		height: auto;
+	.headline-icons > .coffee {	
+		width: 180px;
+		margin-top: -42px;
+		margin-left: 49%;
 	}
 	
-	.headline-icons > div.s3 {
-		width: 87px;
-		margin-left: 29%;
-		margin-top: 150px;
-		-webkit-transform: rotate(-60deg);
+	.headline-icons > .sticky {	
+		width: 146px;
+		margin-left: 79%;
+		margin-top: 0px;
 	}
 	
+	.headline-icons > .s3 {
+		width: 242px;
+		margin-top: 44%;
+		margin-left: 4%;
+	}
+
+	.headline-icons > .keyboard {
+		width: 521px;
+		margin-top: 29%;
+		margin-left: 50%;
+	}
+
 	.about > img {
 		width: 35%;
 		height: auto;
@@ -631,13 +655,13 @@ footer p {
 		font-size: 4em;
 		line-height: 1.4em;	
 	}
-
+	
 	h3 {
 		font-size: 1.3em;
 		line-height: 1.4em
 	}
 
-	.headline-icons, .headline-icons > div {
+	.headline-icons {
 		display: none;
 	}
 
