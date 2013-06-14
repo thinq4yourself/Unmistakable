@@ -42,6 +42,8 @@ li {
 .headline {
 	text-align: center;
 	background: transparent;
+	position: relative;
+	overflow: hidden;
 }
 
 .headline-icons {
@@ -53,10 +55,6 @@ li {
 }
 
 .headline-icons > div {
-	-webkit-transition: margin 0.25s, -webkit-transform 0.25s;
-	-moz-transition: margin 0.25s, -moz-transform 0.25s;
-	-o-transition: margin 0.25s, -o-transform 0.25s;
-	transition: margin 0.25s, transform 0.25s;
 	position: absolute;
 	opacity: 0.6;
 }
@@ -64,6 +62,21 @@ li {
 .headline-icons > .moleskin {
 	width: 478px;
 	height: auto;
+	margin-left: -478px;
+	margin-top: -605px;
+	transform:rotate(100deg);
+	-ms-transform:rotate(100deg); /* IE 9 */
+	-webkit-transform:rotate(100deg); /* Safari and Chrome */
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-o-transition: all 0.7s;
+	transition: all 0.7s;
+}
+
+.headline-icons > .moleskin.loaded {
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
 	margin-left: -6%;
 	margin-top: -130px;
 }
@@ -71,15 +84,49 @@ li {
 .headline-icons > .coffee {
 	width: 285px;
 	height: auto;
+	margin-left: 55%;
+	margin-top: -285px;
+	transform:rotate(50deg);
+	-ms-transform:rotate(50deg); /* IE 9 */
+	-webkit-transform:rotate(50deg); /* Safari and Chrome */
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.headline-icons > .coffee.loaded {
+	width: 285px;
+	height: auto;
 	margin-left: 49%;
 	margin-top: -73px;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
 }
 
 .headline-icons > .sticky {
 	width: 239px;
 	height: auto;
 	margin-left: 77%;
+	margin-top: -300px;
+	transform:rotate(-30deg);
+	-ms-transform:rotate(-30deg); /* IE 9 */
+	-webkit-transform:rotate(-30deg); /* Safari and Chrome */
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.headline-icons > .sticky.loaded {
+	width: 239px;
+	height: auto;
+	margin-left: 77%;
 	margin-top: -7px;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
 }
 
 .headline-icons > .s3 {
@@ -89,11 +136,31 @@ li {
 	margin-left: 8%;
 }
 
+.headline-icons > .s3.loaded {
+	width: 352px;
+	height: auto;
+	margin-top: 40%;
+	margin-left: 8%;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+}
+
 .headline-icons > .keyboard {
 	width: 779px;
 	height: auto;
 	margin-top: 22%;
 	margin-left: 50%;
+}
+
+.headline-icons > .keyboard.loaded {
+	width: 779px;
+	height: auto;
+	margin-top: 22%;
+	margin-left: 50%;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
 }
 
 .headline .info {
@@ -501,14 +568,20 @@ footer p {
 }
 
 @media screen and (max-width: 1108px) { 
-	.headline-icons > .moleskin {
+	.headline-icons > .moleskin, .headline-icons > .moleskin.loaded {
 		width: 388px;
 	}
 
-	.headline-icons > .coffee {
+	.headline-icons > .coffee  {
 		width: 240px;
 		margin-left: 51%;
-		margin-top: -60px;
+		margin-top: -210px;
+	}
+	
+	.headline-icons > .coffee.loaded {
+		width: 240px;
+		margin-left: 51%;
+		margin-top: -60px;		
 	}
 	
 	.headline-icons > .sticky {
@@ -609,11 +682,22 @@ footer p {
 @media screen and (max-width: 980px) {	
 	.headline-icons > .moleskin {
 		width: 228px;
+		margin-top: -288px;
+		margin-left: -228px;
+	}
+	
+	.headline-icons > .moleskin.loaded {
+		width: 228px;
 		margin-top: -50px;
 		margin-left: -40px;
 	}
 	
-	.headline-icons > .coffee {	
+	.headline-icons > .coffee {
+		width: 180px;
+		margin-top: -157px;
+	}
+	
+	.headline-icons > .coffee.loaded {	
 		width: 180px;
 		margin-top: -42px;
 		margin-left: 49%;

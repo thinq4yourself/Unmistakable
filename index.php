@@ -4,7 +4,7 @@
 <body>
 	<article>
 		<section id="headline" class="headline">
-			<div class="headline-icons">
+			<div id="headline-icons" class="headline-icons">
 		    	<div class="moleskin"><img src="/images/headline/moleskin.png" alt="moleskin" /></div>
 				<div class="coffee"><img src="/images/headline/coffee.png" alt="coffee" /></div>
 				<div class="sticky"><img src="/images/headline/sticky.png" alt="sticky" /></div>
