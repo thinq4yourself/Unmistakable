@@ -3,23 +3,14 @@
   <?php include_once('includes/head.html'); ?>
 <body>
 	<article>
-		<?php if (false) { //Remove this once ready to do the header ?> 
-		<div class="headline-icons">
-		    <div class="moleskin">
-			    <img src="/images/headline/moleskin.png" alt="moleskin" />
-			</div>
-			<div class="coffee">
-			    <img src="/images/headline/coffee.png" alt="moleskin" />
-			</div>
-			<div class="sticky">
-			    <img src="/images/headline/sticky.png" alt="moleskin" />
-			</div>
-			<div class="s3">
-			    <img src="/images/headline/s3.png" alt="s3" />
-			</div>
-		</div>
-		<?php } ?>
 		<section id="headline" class="headline">
+			<div class="headline-icons">
+		    	<div class="moleskin"><img src="/images/headline/moleskin.png" alt="moleskin" /></div>
+				<div class="coffee"><img src="/images/headline/coffee.png" alt="coffee" /></div>
+				<div class="sticky"><img src="/images/headline/sticky.png" alt="sticky" /></div>
+				<div class="s3"><img src="/images/headline/s3.png" alt="s3" /></div>
+				<div class="keyboard"><img src="/images/headline/keyboard.png" alt="keyboard" /></div>
+			</div>
 		    <div class="info">
 			    <h1>Tyler Goelz</h1>
 			    <small>Applying a Holistic Approach to User Experience</small>
