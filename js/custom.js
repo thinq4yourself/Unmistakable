@@ -62,10 +62,9 @@ function animateHeadlineImages() {
 }
 
 function showHeadlineElements(isMobile) {
-	var $headlineChildren = $('#headline .info').children(),
-		headlineChildrenLength = $headlineChildren.length;
+	var $headline = $('#headline .info');
 	
-	isMobile ? $headlineChildren.css('opacity', 1) : $headlineChildren.delay(750).animate({opacity:1},{duration:500,easing:"easeInCubic"});
+	isMobile ? $headline.css('opacity', 1) : $headline.delay(800).animate({opacity:1},{duration:500,easing:"easeInCubic"});
 } 
 
 function setupScrollFunctionality(isMobile) {
