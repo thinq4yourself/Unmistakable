@@ -10,4 +10,8 @@
   <loc>http://www.tylergoelz.com/</loc>
   <changefreq>monthly</changefreq>
 </url>
+<url>
+  <loc>http://blog.tylergoelz.com/</loc>
+  <changefreq>monthly</changefreq>
+</url>
 </urlset>
