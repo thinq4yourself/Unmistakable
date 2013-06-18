@@ -3,6 +3,29 @@
   <?php include_once('includes/head.html'); ?>
 <body>
 	<article>
+		<section id="follow-me" class="follow-me">
+			<div class="btn-group select span2">
+				<i class="dropdown-arrow dropdown-arrow-inverse"></i>
+				<label class="btn btn-inverse">
+					<i class="fui-heart pull-left"></i>
+					<span class="follow pull-left">Follow Me</span>
+					<ul class="dropdown-menu dropdown-inverse">
+						<li rel="0">
+							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank"><span class="pull-left">Facebook</span></a>
+						</li>
+						<li rel="1">
+						    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank"><span class="pull-left">Twitter</span></a>
+						</li>
+						<li rel="2">
+						    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank"><span class="pull-left">Blog</span></a>
+						</li>
+						<li rel="3">
+						    <a tabindex="-1" href="http://feeds.feedburner.com/tfotg" target="_blank"><span class="pull-left">RSS</span></a>
+						</li>
+					</ul>
+				</label>
+			</div>
+		</section>
 		<section id="headline" class="headline">
 			<div id="headline-icons" class="headline-icons">
 		    	<div class="moleskin"><img src="/images/headline/moleskin.png" alt="moleskin" /></div>
@@ -11,8 +34,8 @@
 				<div class="s3"><img src="/images/headline/s3.png" alt="s3" /></div>
 				<div class="keyboard"><img src="/images/headline/keyboard.png" alt="keyboard" /></div>
 			</div>
-		    <div class="info">
-			    <h1>Tyler Goelz</h1>
+			<div class="info">
+		    	<h1>Tyler Goelz</h1>
 			    <small>Applying a Holistic Approach to User Experience</small>
 			    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Check Out How</button>
 		    </div>
