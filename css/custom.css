@@ -338,6 +338,7 @@ li {
 	-o-transition:0.25s ease-in-out;
 	transition:0.25s ease-in-out;
 	color:rgba(52, 73, 94, 0.95);
+	background: #f4f4f4;
 }
 
 .muse {
