@@ -4,26 +4,45 @@
 <body>
 	<article>
 		<section id="follow-me" class="follow-me">
-			<div class="btn-group select span2">
-				<i class="dropdown-arrow dropdown-arrow-inverse"></i>
-				<label class="btn btn-inverse">
-					<i class="fui-heart pull-left"></i>
-					<span class="follow pull-left">Follow Me</span>
-					<ul class="dropdown-menu dropdown-inverse">
+			<div class="row-fluid">
+				<div class="btn-group select hidden-phone large">
+					<label class="btn btn-inverse">
+						<span class="follow">Follow</span>
+						<ul class="dropdown-menu dropdown-inverse">
+							<li rel="0">
+								<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
+							</li>
+							<li rel="1">
+							    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
+							</li>
+							<li rel="2">
+							    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
+							</li>
+							<li rel="3">
+							    <a tabindex="-1" href="http://feeds.feedburner.com/tfotg" target="_blank">RSS</a>
+							</li>
+						</ul>
+					</label>
+				</div>
+				<div class="btn-group select visible-phone small">
+					<button class="btn dropdown-toggle clearfix btn-inverse" data-toggle="dropdown">
+						<i class="fui-heart"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-inverse" role="menu">
 						<li rel="0">
-							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank"><span class="pull-left">Facebook</span></a>
+							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
 						</li>
 						<li rel="1">
-						    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank"><span class="pull-left">Twitter</span></a>
+						    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
 						</li>
 						<li rel="2">
-						    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank"><span class="pull-left">Blog</span></a>
+						    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
 						</li>
 						<li rel="3">
-						    <a tabindex="-1" href="http://feeds.feedburner.com/tfotg" target="_blank"><span class="pull-left">RSS</span></a>
+						    <a tabindex="-1" href="http://feeds.feedburner.com/tfotg" target="_blank">RSS</a>
 						</li>
 					</ul>
-				</label>
+				</div>
 			</div>
 		</section>
 		<section id="headline" class="headline">
