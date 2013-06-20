@@ -9,11 +9,14 @@
 					<label class="btn btn-inverse">
 						<span class="follow">Follow</span>
 						<ul class="dropdown-menu dropdown-inverse">
+							<li rel="1">
+							    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
+							</li>
 							<li rel="0">
 								<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
 							</li>
 							<li rel="1">
-							    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
+							    <a tabindex="-1" href="https://plus.google.com/117206861866317813355/about" target="_blank">Google+</a>
 							</li>
 							<li rel="2">
 							    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
@@ -29,12 +32,15 @@
 						<i class="fui-heart"></i>
 					</button>
 					<ul class="dropdown-menu dropdown-inverse" role="menu">
+						<li rel="1">
+						    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
+						</li>
 						<li rel="0">
 							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
 						</li>
 						<li rel="1">
-						    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
-						</li>
+							    <a tabindex="-1" href="https://plus.google.com/117206861866317813355/about" target="_blank">Google+</a>
+							</li>
 						<li rel="2">
 						    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
 						</li>
