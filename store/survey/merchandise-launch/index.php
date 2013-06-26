@@ -29,83 +29,13 @@
 <body id="merchandise-launch" class="merchandise-launch">
 	<article>
 		<section id="headline" class="headline">
-			<div class="info less-padding">
+			<div class="info">
 				<small id="step-count">Step: 1 of 2</small>
 		    	<h2 id="step-question">Choose Your Gender</h2>
-			    <!--
-<small id="step-desc">This way I know which shirts to show you</small>
-				<button id="male" type="button" class="btn btn-large btn-primary gender">Female</button>
-			    <button id="female" type="button" class="btn btn-large btn-primary gender">Male</button>
--->
+			    <small id="step-desc">This way I know which shirts to show you</small>
+				<button id="female" type="button" class="btn btn-large btn-primary gender">Female</button>
+			    <button id="male" type="button" class="btn btn-large btn-primary gender">Male</button>
 		    </div>
-		</section>
-		<section id="merchandise-options" class="merchandise-options">
-			<div class="container">
-				<div class="row-fluid merch-row">
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-				</div>
-				<div class="row-fluid merch-row">
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>										
-				</div>
-				<div class="row-fluid merch-row">
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>															
-				</div>
-				<div class="row-fluid merch-row">
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-					<div class="span3">
-						<img src="/images/store/survey/merchandise-launch/i_love_front-end_design.png" alt="I Love Front-End Design (white)" />
-						<p>I <span class="fui-heart"></span> Front-End Design (white)</p>
-					</div>
-				</div>
-			</div>
 		</section>
 	</article>
 
@@ -114,7 +44,6 @@
 <script type="text/javascript">
 	$(document).ready(function () {
 		$('.gender').on('click', function () {
-			e.preventDefault();
 			loadNextStep(this.id);
 		});
 	});
@@ -146,11 +75,9 @@
 	}
 	
 	function lazyLoadMerchandiseSection(pageId) {
-/*
 		$.get(pageId + ".php", function(data){
-    		console.log(data);
+    		$('#merchandise-launch').children().append(data);
 		});
-*/
 	}
 
 </script>
