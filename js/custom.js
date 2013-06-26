@@ -15,10 +15,14 @@ $(document).ready(function() {
 		window.mobile = true;
 	}
 	
-	animateHeadlineImages();
+	window.isHomepage = $('body').hasClass('homepage');
+
 	showHeadlineElements(window.mobile);
-	setupScrollFunctionality(window.mobile);	
-	loadSharrre();
+	if (window.isHomepage) {
+		animateHeadlineImages();	
+		setupScrollFunctionality(window.mobile);	
+		loadSharrre();
+	}
 });
 
 function animateHeadlineImages() {

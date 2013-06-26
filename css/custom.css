@@ -34,6 +34,14 @@ li {
 	list-style: none;
 }
 
+.hidden {
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
 /*----------------------------
 	Follow Section
 ----------------------------*/
@@ -273,6 +281,14 @@ li {
 	line-height: 100px;
 }
 
+.headline .info > h2 {
+	font-size: 3.5em;
+	font-weight: 900;
+	letter-spacing: -2px;
+	line-height: 100px;
+}
+
+
 .headline .info > small {
   	color: rgba(52, 73, 94, 0.30000000000000004);
   	display: block;
@@ -286,7 +302,7 @@ li {
 	margin-top: 30px;
 }
 
-#homepage .headline .info.loaded {
+.homepage .headline .info.loaded {
 	opacity: 1;
 	-webkit-transition: opacity 1.3s .8s;
 	-moz-transition: opacity 1.3s .8s;
@@ -680,7 +696,7 @@ footer p {
 	Survey Questions
 ----------------------------*/
 
-#merchandise-launch .headline .info.loaded {
+.merchandise-launch .headline .info.loaded {
 	opacity: 1;
 	-webkit-transition: opacity 1.3s;
 	-moz-transition: opacity 1.3s;
@@ -688,7 +704,17 @@ footer p {
 	transition: opacity 1.3s;
 }
 
+.merchandise-launch .headline .info.loaded.top {
+	padding-top: 2%;
+	-webkit-transition: padding-top .5s;
+	-moz-transition: padding-top .5s;
+	-o-transition: padding-top .5s;
+	transition: padding-top .5s;
+}
 
+.merchandise-launch .headline .info .btn {
+	width: 150px;
+}
 
 @media screen and (max-width: 1108px) { 
 	.headline-icons > .moleskin, .headline-icons > .moleskin.loaded {
