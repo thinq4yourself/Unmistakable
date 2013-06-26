@@ -286,6 +286,14 @@ li {
 	margin-top: 30px;
 }
 
+#homepage .headline .info.loaded {
+	opacity: 1;
+	-webkit-transition: opacity 1.3s;
+	-moz-transition: opacity 1.3s;
+	-o-transition: opacity 1.3s;
+	transition: opacity 1.3s;
+}
+
 /*----------------------------
 	Approach
 ----------------------------*/
@@ -667,6 +675,19 @@ footer p {
 	line-height: 1.3em;
 	padding-bottom: 10px;
 }
+
+/*----------------------------
+	Survey Questions
+----------------------------*/
+
+.first-question { 
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
 
 @media screen and (max-width: 1108px) { 
 	.headline-icons > .moleskin, .headline-icons > .moleskin.loaded {

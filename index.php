@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include_once('includes/head.html'); ?>
-<body>
+<body id="homepage">
 	<article>
 		<section id="follow-me" class="follow-me">
 			<div class="row-fluid">

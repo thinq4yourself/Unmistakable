@@ -1,4 +1,6 @@
-	<meta charset="utf-8" />
+<!DOCTYPE html>
+<html lang="en">
+  	<meta charset="utf-8" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -62,3 +64,43 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
+<body>
+	<article>
+		<section id="headline" class="headline">
+			<div class="info">
+		    	<h1>Choose Your Gender</h1>
+			    <small>This way I know which shirts to show you</small>
+			    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Male</button>
+			    <button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Female</button>
+		    </div>
+		</section>
+	</article>
+	
+<!-- Load JS here for greater good =============================-->
+<script src="/js/jquery-1.8.3.min.js"></script>
+<script src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap-select.js"></script>
+<script src="/js/bootstrap-switch.js"></script>
+<script src="/js/flatui-checkbox.js"></script>
+<script src="/js/flatui-radio.js"></script>
+<script src="/js/jquery.tagsinput.js"></script>
+<script src="/js/jquery.placeholder.js"></script>
+<script src="/js/jquery.stacktable.js"></script>
+<script src="http://vjs.zencdn.net/c/video.js"></script>
+<script src="/js/application.js"></script>
+<script src="/js/custom.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41587379-1', 'tylergoelz.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
