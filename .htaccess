@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteRule ^([a-z]{2,2})/([a-zA-Z0-9_-]+)$ index.php? [QSA]
 Redirect 301 /resume /
 Redirect 301 /resume/files/tylergoelz_resume.pdf /
 Redirect 301 /content/contact /
@@ -10,3 +11,6 @@ RedirectMatch 403 ^.*/fonts/$
 RedirectMatch 403 ^.*/images/$
 RedirectMatch 403 ^.*/includes/$
 RedirectMatch 403 ^.*/js/$
+RewriteCond %{REQUEST_URI} ^/store[/]?
+RewriteCond %{REQUEST_URI} !^/store/survey/merchandise-launch/+[/]?
+RewriteRule (.*) /store/survey/merchandise-launch/ [R=301,L]
