@@ -64,7 +64,7 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
-<body>
+<body id="merchandise-launch">
 	<article>
 		<section id="headline" class="headline">
 			<div class="info">
