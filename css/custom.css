@@ -704,16 +704,29 @@ footer p {
 	transition: opacity 1.3s;
 }
 
-.merchandise-launch .headline .info.loaded.top {
-	padding-top: 2%;
-	-webkit-transition: padding-top .5s;
-	-moz-transition: padding-top .5s;
-	-o-transition: padding-top .5s;
-	transition: padding-top .5s;
+.merchandise-launch .headline .info.loaded.less-padding {
+	padding: 2% 0;
+	-webkit-transition: padding .5s;
+	-moz-transition: padding .5s;
+	-o-transition: padding .5s;
+	transition: padding .5s;
 }
 
 .merchandise-launch .headline .info .btn {
 	width: 150px;
+}
+
+#merchandise-options {
+	background: #f6f8f8;
+	padding: 6% 0 12%;	
+}
+
+#merchandise-options .row-fluid img {
+	width: 100%;
+}
+
+#merchandise-options .row-fluid.merch-row {
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1108px) { 
