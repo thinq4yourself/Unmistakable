@@ -40,12 +40,12 @@
 	</section>
 	<section id="questions" class="questions">
 		<div class="container">
-			<div class="row">
-				<div class="login-icon">
-					<img src="images/login/icon.png" alt="Welcome to Mail App">
+			<div class="row-fluid">
+				<div class="questions-icon span5 hidden-phone">
+					<img src="/images/survey/survey.png" alt="Welcome to Mail App">
 					<h4>Welcome to <small>Mail App</small></h4>
 				</div>
-				<div class="login-form">
+				<div class="login-form span7">
             		<form name="frmS" method="post" action="http://www.surveymonkey.com/s.aspx?sm=KHh7AyJLX3BLXkiqmxhhCQ%3d%3d" id="frmS">
 					    <div>
 					    	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDgL+raDpAgKq7M2aCgLL+IOiBwKg6PF5AqnO0tsHAveko7kIAvm3qN4FAouckuUIArDpqqQBAo3HvMQNAtCN/L0JApzRpLAOAsP2pbEKAtSemZcEs5lKc1Rb2DhjpuYC6hUvzCiqct8=">
