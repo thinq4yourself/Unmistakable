@@ -696,7 +696,7 @@ footer p {
 	Survey Questions
 ----------------------------*/
 
-.merchandise-launch .headline .info.loaded {
+.survey .headline .info.loaded {
 	opacity: 1;
 	-webkit-transition: opacity 1.3s;
 	-moz-transition: opacity 1.3s;
@@ -704,41 +704,23 @@ footer p {
 	transition: opacity 1.3s;
 }
 
-.merchandise-launch .headline .info.loaded.less-padding {
-	padding: 2% 0;
+.survey .headline .info.loaded.less-padding {
+	padding: 2% 0 4% 0;
 	-webkit-transition: padding .5s;
 	-moz-transition: padding .5s;
 	-o-transition: padding .5s;
 	transition: padding .5s;
 }
 
-.merchandise-launch .headline .info .btn {
-	width: 150px;
+
+#questions {
+	background: #1abc9c;
+	padding: 6% 0;
+	position: relative;
 }
 
-#merchandise-options {
-	background: #f6f8f8;
-	padding: 6% 0 12%;	
-}
-
-#merchandise-options .row-fluid p {
-	text-align: center;
-	margin-top: 5px;
-}
-
-#merchandise-options .row-fluid img {
-	width: 100%;
-	border: 1px solid #2C3E50;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-#merchandise-options .row-fluid.merch-row {
-	margin-bottom: 45px;
+#questions .login-icon {
+	color: #fff;
 }
 
 @media screen and (max-width: 1108px) { 

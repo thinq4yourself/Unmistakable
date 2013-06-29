@@ -15,10 +15,10 @@ $(document).ready(function() {
 		window.mobile = true;
 	}
 	
-	window.isHomepage = $('body').hasClass('homepage');
+	window.homepage = $('body').hasClass('homepage');
 
-	showHeadlineElements(window.mobile);
-	if (window.isHomepage) {
+	showHeadlineElements(window);
+	if (window.homepage) {
 		animateHeadlineImages();	
 		setupScrollFunctionality(window.mobile);	
 		loadSharrre();
@@ -35,10 +35,11 @@ function animateHeadlineImages() {
 	}
 }
 
-function showHeadlineElements(isMobile) {
+function showHeadlineElements(window) {
 	var $headline = $('#headline .info');
 	
-	isMobile ? $headline.css('opacity', 1) : $headline.addClass('loaded');
+	window.mobile ? $headline.css('opacity', 1) : $headline.addClass('loaded');
+	!window.homepage ? $headline.delay(600).addClass('less-padding') : '';
 } 
 
 function setupScrollFunctionality(isMobile) {

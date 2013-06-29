@@ -28,6 +28,14 @@
 </head>
 <body id="homepage" class="homepage">
 	<article>
+<!--
+		<div class="header-banner">
+            <p>
+                <a href="http://designmodo.com/flat/" class="banner-flat-text">Flat UI Pro</a>
+                <a href="#" class="banner-close">Close</a>
+            </p>
+        </div>
+-->
 		<section id="follow-me" class="follow-me">
 			<div class="row-fluid">
 				<div class="btn-group select hidden-phone large">
