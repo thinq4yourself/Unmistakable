@@ -56,26 +56,26 @@
 					    	<div>
 					    		<div id="q1">
 									<p>I Like...</p>
-									<textarea id="text_539451027_0" name="text_539451027_0" class="login-field" ></textarea>
+									<textarea id="text_539451027_0" name="text_539451027_0" class="login-field span12"></textarea>
 					    		</div>
 					    		<div id="q2">
 					    			<p>I Wish...</p>
-									<textarea id="text_540687523_0" name="text_540687523_0" class="login-field"  ></textarea>
+									<textarea id="text_540687523_0" name="text_540687523_0" class="login-field span12"  ></textarea>
 					    		</div>
 					    		<div id="q3" >
 									<p>What if...</p>
-									<textarea id="text_540687553_0" name="text_540687553_0" class="login-field"  ></textarea>
+									<textarea id="text_540687553_0" name="text_540687553_0" class="login-field span12"  ></textarea>
 					    		</div>
 					    		<div id="q4" >
 									<p>Name <small>(Totally Optional)</small></p>
-										<input id="text_540687632_6288986057" name="text_540687632_6288986057" class="login-field" type="text"  value="">
-					    				<small for="text_540687632_6288986057">First</small>
-										<input id="text_540687632_6288986058" name="text_540687632_6288986058" class="login-field" type="text"  value="">
+										<input id="text_540687632_6288986057" name="text_540687632_6288986057" class="login-field span12" type="text"  value="">
+										<small for="text_540687632_6288986057">First</small>
+										<input id="text_540687632_6288986058" name="text_540687632_6288986058" class="login-field span12" type="text"  value="">
 										<small for="text_540687632_6288986058">Last</small>
 					    		</div>
 					    		<div id="q5" >
 									<p>Email <small>(If you want a reply)</small></p>
-									<input id="text_540687645_0" name="text_540687645_0" class="login-field" type="text"  value="">
+									<input id="text_540687645_0" name="text_540687645_0" class="login-field span12" type="text"  value="">
 					    		</div>
 					    	</div>
 					    </div>
