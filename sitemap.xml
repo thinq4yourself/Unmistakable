@@ -12,6 +12,14 @@
 </url>
 <url>
   <loc>http://blog.tylergoelz.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://store.tylergoelz.com/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.tylergoelz.com/survey</loc>
   <changefreq>monthly</changefreq>
 </url>
 </urlset>
