@@ -108,8 +108,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="references">
-					<p>Powered by <a href="http://www.surveymonkey.com/"><span>SurveyMonkey</span></a></p>
-		    		<p>Check out our <a title="Go to SurveyMonkey.com to create free online surveys" href="http://www.surveymonkey.com/mp/survey-templates/" target="_blank">sample surveys</a> and create your own now!</p>
+					<p>Powered by <a href="http://www.surveymonkey.com/" target="_blank>"<span>SurveyMonkey</span></a></p>
+		    		<p>Check out their <a title="Go to SurveyMonkey.com to create free online surveys" target="_blank" href="http://www.surveymonkey.com/mp/survey-templates/" target="_blank">sample surveys</a> and create your own now!</p>
 		
 					<div class="pbf">
 		    			<a id="pbhli" href="http://www.surveymonkey.com/?ut_source=survey_poweredby&amp;utm_medium=AvL3PdLureuTOeLUcDAWf%2fcVY5wiTkX47OY1MoZjjZY%3d&amp;utm_term=SurveyBasic&amp;utm_campaign=ysrUvWawcIvdCXFlpN%2f2zw%3d%3d&amp;utm_content=1" target="_blank"></a>
