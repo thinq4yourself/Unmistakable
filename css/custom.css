@@ -733,6 +733,10 @@ footer p {
 	margin: 0;
 }
 
+.login-form .login-field {
+	margin-bottom: 20px !important;	
+}
+
 .login-form .login-field:focus {
 	border-color: #1abc9c;
 	-webkit-box-shadow: none;
