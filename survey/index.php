@@ -57,32 +57,33 @@
 					    	<div>
 					    		<div id="q1">
 									<h4>I Like...</h4>
-									<textarea id="text_539451027_0" name="text_539451027_0" class="login-field span12"></textarea>
+									<textarea id="text_539451027_0" name="text_539451027_0" class="login-field span12" tabindex="1" autofocus="true"></textarea>
 					    		</div>
 					    		<div id="q2">
 					    			<h4>I Wish...</h4>
-									<textarea id="text_540687523_0" name="text_540687523_0" class="login-field span12"  ></textarea>
+									<textarea id="text_540687523_0" name="text_540687523_0" class="login-field span12" tabindex="2" ></textarea>
 					    		</div>
 					    		<div id="q3" >
 									<h4>What if...</h4>
-									<textarea id="text_540687553_0" name="text_540687553_0" class="login-field span12"  ></textarea>
+									<textarea id="text_540687553_0" name="text_540687553_0" class="login-field span12" tabindex="3" ></textarea>
 					    		</div>
+					    		<div class="divider"></div>
 					    		<div id="q4" >
 									<h4>Name <small>(Totally Optional)</small></h4>
-										<input id="text_540687632_6288986057" name="text_540687632_6288986057" class="login-field span12" type="text"  value="">
 										<small for="text_540687632_6288986057">First</small>
-										<input id="text_540687632_6288986058" name="text_540687632_6288986058" class="login-field span12" type="text"  value="">
-										<small for="text_540687632_6288986058">Last</small>
+										<input id="text_540687632_6288986057" name="text_540687632_6288986057" class="login-field span12" type="text" value="" tabindex="4">
+										<small for="text_540687632_6288986058">Last</small>										
+										<input id="text_540687632_6288986058" name="text_540687632_6288986058" class="login-field span12" type="text" value="" tabindex="5">
 					    		</div>
-					    		<div id="q5" >
+					    		<div id="q5">
 									<h4>Email <small>(If you want a reply)</small></h4>
-									<input id="text_540687645_0" name="text_540687645_0" class="login-field span12" type="text"  value="">
+									<input id="text_540687645_0" name="text_540687645_0" class="login-field span12" type="text" value=""  tabindex="6">
 					    		</div>
 					    	</div>
 					    </div>
 					    <!--end content area-->
 					    <div id="panButtonBar">
-							<input type="submit" name="NextButton" value="Done" onclick="onesubmit(this);" id="NextButton" class="btn btn-primary btn-large btn-block">
+							<input type="submit" name="NextButton" value="Submit Answers" onclick="onesubmit(this);" id="NextButton" class="btn btn-primary btn-large btn-block"  tabindex="7">
 					    </div>
 					    <input type="hidden" name="hid_smC0l1d" id="hid_smC0l1d" value="pgI3hDfUOYXkyQHyYjOwpg_3d_3d">
 					    <input type="hidden" name="hid_smRsL1d" id="hid_smRsL1d">
