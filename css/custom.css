@@ -1076,6 +1076,15 @@ footer p {
 	footer .references {
 		width: 80%;
 	}
+	
+	.login-form {
+		margin-left: 2% !important;
+		width: 96% !important;	
+	}
+	
+	.login-form:before {
+		content: none;
+	}
 }
 
 @media screen and (max-width: 480px) {
