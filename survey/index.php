@@ -41,11 +41,12 @@
 	<section id="questions" class="questions">
 		<div class="container">
 			<div class="row-fluid">
-				<div class="questions-icon span5 hidden-phone">
-					<img src="/images/survey/survey.png" alt="Welcome to Mail App">
-					<h4>Welcome to <small>Mail App</small></h4>
+				<div class="questions-icon span4 hidden-phone">
+					<img src="/images/survey/pencil.png" alt="Welcome to Mail App">
+					<h2><strong>Your Feedback</strong></h2>
+					<h2>Is Appreciated</h2>
 				</div>
-				<div class="login-form span7">
+				<div class="login-form span8">
             		<form name="frmS" method="post" action="http://www.surveymonkey.com/s.aspx?sm=KHh7AyJLX3BLXkiqmxhhCQ%3d%3d" id="frmS">
 					    <div>
 					    	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDgL+raDpAgKq7M2aCgLL+IOiBwKg6PF5AqnO0tsHAveko7kIAvm3qN4FAouckuUIArDpqqQBAo3HvMQNAtCN/L0JApzRpLAOAsP2pbEKAtSemZcEs5lKc1Rb2DhjpuYC6hUvzCiqct8=">
@@ -55,26 +56,26 @@
 					    <div id="PageContentDiv">
 					    	<div>
 					    		<div id="q1">
-									<p>I Like...</p>
+									<h4>I Like...</h4>
 									<textarea id="text_539451027_0" name="text_539451027_0" class="login-field span12"></textarea>
 					    		</div>
 					    		<div id="q2">
-					    			<p>I Wish...</p>
+					    			<h4>I Wish...</h4>
 									<textarea id="text_540687523_0" name="text_540687523_0" class="login-field span12"  ></textarea>
 					    		</div>
 					    		<div id="q3" >
-									<p>What if...</p>
+									<h4>What if...</h4>
 									<textarea id="text_540687553_0" name="text_540687553_0" class="login-field span12"  ></textarea>
 					    		</div>
 					    		<div id="q4" >
-									<p>Name <small>(Totally Optional)</small></p>
+									<h4>Name <small>(Totally Optional)</small></h4>
 										<input id="text_540687632_6288986057" name="text_540687632_6288986057" class="login-field span12" type="text"  value="">
 										<small for="text_540687632_6288986057">First</small>
 										<input id="text_540687632_6288986058" name="text_540687632_6288986058" class="login-field span12" type="text"  value="">
 										<small for="text_540687632_6288986058">Last</small>
 					    		</div>
 					    		<div id="q5" >
-									<p>Email <small>(If you want a reply)</small></p>
+									<h4>Email <small>(If you want a reply)</small></h4>
 									<input id="text_540687645_0" name="text_540687645_0" class="login-field span12" type="text"  value="">
 					    		</div>
 					    	</div>

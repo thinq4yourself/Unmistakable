@@ -721,6 +721,16 @@ footer p {
 
 #questions .questions-icon {
 	color: #fff;
+	text-align: center;
+}
+
+#questions .questions-icon img {
+	padding-bottom: 20px;
+}
+
+#questions .questions-icon h2 {
+	font-weight: 100;
+	margin: 0;
 }
 
 #questions .login-form {
