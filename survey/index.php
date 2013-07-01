@@ -1,12 +1,10 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<!-- if page is content page -->
     <meta property="og:url" content="http://www.tylergoelz.com/survey">
-    <meta property="og:title" content="Tyler Goelz - Applying a Holistic Approach to User Experience">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Tyler Goelz - A 3 Question Survey">
+    <meta property="og:description" content="Take this survey and help imporve your experience with #TFoTG">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="http://www.tylergoelz.com/images/logo_social.png">
 
@@ -15,16 +13,16 @@
     <!-- twitter cards -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@tylergoelz">
-	<meta name="twitter:title" content="Tyler Goelz - Applying a Holistic Approach to User Experience">
-	<meta name="twitter:description" content="Focusing on helping companies put their user's first by making user-centered design & business decisions to enhace the user's experience. Yes, sentence does say &quot;user&quot; three times.">
+	<meta name="twitter:title" content="Tyler Goelz - A 3 Question Survey">
+	<meta name="twitter:description" content="Take this survey and help imporve your experience with #TFoTG">
 	<meta name="twitter:creator" content="@tylergoelz">
 	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/logo_social.png">
-	<meta name="twitter:domain" content="http://www.tylergoelz.com">
+	<meta name="twitter:domain" content="http://www.tylergoelz.com/survey">
 
-	<meta name="description" content="Focusing on helping companies put their users first by making user-centered design & business decisions to enhace the user's experience. Yes, that sentence does say &quot;user&quot; three times."/>
-	<link rel="canonical" href="http://www.tylergoelz.com" />
+	<meta name="description" content="Take this survey and help imporve your experience with #TFoTG"/>
+	<link rel="canonical" href="http://www.tylergoelz.com/survey" />
 
-	<title>Tyler Goelz - Applying a Holistic Approach to User Experience</title>
+	<title>Tyler Goelz - A 3 Question Survey</title>
 
   <?php include_once('../includes/head.html'); ?>
 </head>
