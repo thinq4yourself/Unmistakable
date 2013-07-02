@@ -240,7 +240,9 @@
     <?php include_once('includes/scripts.html'); ?>
     <script type="text/javascript" src="//www.hellobar.com/hellobar.js"></script>
 	<script type="text/javascript">
-    	new HelloBar(70406,105099);
+		if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+    		new HelloBar(70406,105099);
+		}
 	</script>
 
   </body>

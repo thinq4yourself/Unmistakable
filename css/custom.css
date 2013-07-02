@@ -1085,6 +1085,7 @@ footer p {
 	.login-form:before {
 		content: none;
 	}
+	#hellobar-pusher, #hellobar-wrapper, #hellobar-container { display: none; !important}
 }
 
 @media screen and (max-width: 480px) {
