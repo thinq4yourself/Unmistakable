@@ -18,6 +18,7 @@
 	<meta name="twitter:creator" content="@tylergoelz">
 	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/logo_social.png">
 	<meta name="twitter:domain" content="http://www.tylergoelz.com">
+	<meta property="twitter:account_id" content="15271634" />
 
 	<meta name="description" content="Focusing on helping companies put their users first by making user-centered design & business decisions to enhace the user's experience. Yes, that sentence does say &quot;user&quot; three times."/>
 	<link rel="canonical" href="http://www.tylergoelz.com" />

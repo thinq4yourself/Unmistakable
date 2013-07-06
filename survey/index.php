@@ -18,6 +18,7 @@
 	<meta name="twitter:creator" content="@tylergoelz">
 	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/logo_social.png">
 	<meta name="twitter:domain" content="http://www.tylergoelz.com/survey">
+	<meta property="twitter:account_id" content="15271634" />
 
 	<meta name="description" content="Take this survey and help imporve your experience with #TFoTG"/>
 	<link rel="canonical" href="http://www.tylergoelz.com/survey" />
