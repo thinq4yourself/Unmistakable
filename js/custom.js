@@ -30,7 +30,6 @@ function animateHeadlineImages() {
 		iconCount = $homepageIcons.length;
 		
 	for (var i = 0; iconCount > i; i++) {
-		console.log($homepageIcons[i]);
 		$($homepageIcons[i]).addClass('loaded');	
 	}
 }
