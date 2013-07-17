@@ -29,14 +29,6 @@
 </head>
 <body id="homepage" class="homepage">
 	<article>
-<!--
-		<div class="header-banner">
-            <p>
-                <a href="http://designmodo.com/flat/" class="banner-flat-text">Flat UI Pro</a>
-                <a href="#" class="banner-close">Close</a>
-            </p>
-        </div>
--->
 		<section id="follow-me" class="follow-me">
 			<div class="row-fluid">
 				<div class="btn-group select hidden-phone large">
@@ -44,19 +36,19 @@
 						<span class="follow">Follow</span>
 						<ul class="dropdown-menu dropdown-inverse">
 							<li rel="0">
-							    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
-							</li>
-							<li rel="1">
-								<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
-							</li>
-							<li rel="2">
-							    <a tabindex="-1" href="https://plus.google.com/117206861866317813355/about" target="_blank">Google+</a>
-							</li>
-							<li rel="3">
 							    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
 							</li>
+							<li rel="1">
+							    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
+							</li>
+							<li rel="2">
+								<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
+							</li>
+							<li rel="3">
+							    <a tabindex="-1" href="https://plus.google.com/117206861866317813355/about" target="_blank">Google+</a>
+							</li>
 							<li rel="4">
-							    <a tabindex="-1" href="http://feeds.feedburner.com/tfotg" target="_blank">RSS</a>
+							    <a tabindex="-1" href="http://store.tylergoelz.com" target="_blank">Store</a>
 							</li>
 						</ul>
 					</label>
@@ -67,19 +59,19 @@
 					</button>
 					<ul class="dropdown-menu dropdown-inverse" role="menu">
 						<li rel="0">
-						    <a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
+							<a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
 						</li>
 						<li rel="1">
-							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
+							<a tabindex="-1" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
 						</li>
 						<li rel="2">
-							    <a tabindex="-1" href="https://plus.google.com/117206861866317813355/about" target="_blank">Google+</a>
-							</li>
+							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
+						</li>
 						<li rel="3">
-						    <a tabindex="-1" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
+							<a tabindex="-1" href="https://plus.google.com/117206861866317813355/about" target="_blank">Google+</a>
 						</li>
 						<li rel="4">
-						    <a tabindex="-1" href="http://feeds.feedburner.com/tfotg" target="_blank">RSS</a>
+							<a tabindex="-1" href="http://store.tylergoelz.com" target="_blank">Store</a>
 						</li>
 					</ul>
 				</div>
@@ -239,12 +231,5 @@
 		</div>
 	</footer>   
     <?php include_once('includes/scripts.html'); ?>
-    <script type="text/javascript" src="//www.hellobar.com/hellobar.js"></script>
-	<script type="text/javascript">
-		if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
-    		new HelloBar(70406,105099);
-		}
-	</script>
-
   </body>
 </html>
