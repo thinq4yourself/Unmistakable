@@ -196,10 +196,10 @@
 		            <p>I focus on helping companies put the user first by making user-centered design & business decision to enhance the user's experience. Yes, I did say "user" three times in that sentence.</p>
 		            <p>I've also traveled the majority of the East Coast of the U.S. and will be taking a 3 week road trip from St. Pete, Florida to Seattle, Washington in September. W00t!</p>
 		            <p>Follow me:
-		            	<a class="follow-link" href="http://www.facebook.com/ILikeTylerGoelz" target="_blank">Facebook</a>
-		            	<a class="follow-link" href="http://www.twitter.com/tylergoelz" target="_blank">Twitter</a>
-		            	<a class="follow-link" href="http://blog.tylergoelz.com" target="_blank">Blog</a>
-		            	<a class="follow-link" href="http://feeds.feedburner.com/tfotg" target="_blank">RSS</a></p>
+						<a class="follow-link" href="http://blog.tylergoelz.com">Blog</a>
+						<a class="follow-link" href="http://www.twitter.com/tylergoelz">Twitter</a>
+		            	<a class="follow-link" href="http://www.facebook.com/ILikeTylerGoelz">Facebook</a>
+		            	<a class="follow-link" href="https://plus.google.com/117206861866317813355/about">Google+</a>
 				</span>
 			</div>  	
 		</section>
