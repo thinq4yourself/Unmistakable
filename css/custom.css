@@ -1,7 +1,4 @@
-/*----------------------------
-	Global (Includes Overwrites)
-----------------------------*/
-
+/*----------------------------	Global (Includes Overwrites) ----------------------------*/
 body {
 	margin: 0;
 	padding: 0;
@@ -42,10 +39,7 @@ li {
 	transition: all .5s;
 }
 
-/*----------------------------
-	Follow Section
-----------------------------*/
-
+/*---------------------------- Follow Section ----------------------------*/
 .follow-me {
 	position: fixed;
 	z-index: 2;
@@ -54,24 +48,24 @@ li {
 .follow-me label .dropdown-menu {
 	margin-top: -9px;
 	-webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-border-bottom-right-radius: 6px;
-    -moz-border-bottom-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    -webkit-border-bottom-left-radius: 6px;
-    -moz-border-bottom-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
 
 .follow-me label:hover {
 	-webkit-border-bottom-right-radius: 0 !important;
-    -moz-border-bottom-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    -webkit-border-bottom-left-radius: 0 !important;
-    -moz-border-bottom-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
-    cursor: default;
+	-moz-border-bottom-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	-webkit-border-bottom-left-radius: 0 !important;
+	-moz-border-bottom-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	cursor: default;
 }
 
 .follow-me label:hover .dropdown-menu {
@@ -92,11 +86,11 @@ li {
 
 .btn.btn-inverse:active, .btn-group.open .btn.btn-inverse.dropdown-toggle, .btn.btn-inverse.active {
 	-webkit-border-bottom-right-radius: 0 !important;
-    -moz-border-bottom-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    -webkit-border-bottom-left-radius: 0 !important;
-    -moz-border-bottom-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
+	-moz-border-bottom-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	-webkit-border-bottom-left-radius: 0 !important;
+	-moz-border-bottom-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
 }
 
 .dropdown-menu {
@@ -106,14 +100,14 @@ li {
 .open > .dropdown-menu {
 	margin-top: 0;
 	-webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-border-bottom-right-radius: 6px;
-    -moz-border-bottom-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    -webkit-border-bottom-left-radius: 6px;
-    -moz-border-bottom-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
 
 .follow-me .btn-group {
@@ -139,10 +133,7 @@ li {
 	width: 120px
 }
 
-/*----------------------------
-	Headline Overwrites
-----------------------------*/
-
+/*---------------------------- Headline Overwrites ----------------------------*/
 .headline {
 	text-align: center;
 	background: transparent;
@@ -290,12 +281,12 @@ li {
 
 
 .headline .info > small {
-  	color: rgba(52, 73, 94, 0.30000000000000004);
-  	display: block;
-  	font-size: 22px;
-  	font-weight: 700;
-  	letter-spacing: -1px;
-  	padding-top: 5px;
+	color: rgba(52, 73, 94, 0.30000000000000004);
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: -1px;
+	padding-top: 5px;
 }
 
 .headline .info > button {
@@ -310,10 +301,7 @@ li {
 	transition: opacity 1.3s .8s;
 }
 
-/*----------------------------
-	Approach
-----------------------------*/
-
+/*---------------------------- Approach	----------------------------*/
 .approach-section {
 	background: #f6f8f8;
 	padding: 6% 0 12%;	
@@ -350,10 +338,7 @@ li {
 	line-height: 1.4em;
 }
 
-/*----------------------------
-	Muse
-----------------------------*/
-
+/*---------------------------- Muse ----------------------------*/
 .muse-section {
 	display:block;
 	-webkit-transition:0.25s ease-in-out;
@@ -491,10 +476,7 @@ li {
 	color: rgba(255,255,255,0.95);
 }
 
-/*----------------------------
-	About Me
-----------------------------*/
-
+/*---------------------------- About Me ----------------------------*/
 .about-me-section {
 	background: #f6f8f8;	
 	display:block;
@@ -536,10 +518,7 @@ li {
 	margin: 0 5px;
 }
 
-/*----------------------------
-	Share Section
-----------------------------*/
-
+/*---------------------------- Share Section ----------------------------*/
 .share-section {
 	text-align: center;
 	padding: 4% 0 5%;
@@ -662,10 +641,7 @@ li {
 	display:inline;
 }
 
-/*----------------------------
-	Footer
-----------------------------*/
-
+/*---------------------------- Footer ----------------------------*/
 footer {
 	padding: 4% 0 3%;
 	background-color: #2C3E50;
@@ -692,11 +668,7 @@ footer p {
 	padding-bottom: 10px;
 }
 
-/*----------------------------
-	Survey Questions
-----------------------------*/
-
-.survey .headline .info.loaded {
+.headline .info.loaded {
 	opacity: 1;
 	-webkit-transition: opacity 1.3s;
 	-moz-transition: opacity 1.3s;
@@ -704,7 +676,7 @@ footer p {
 	transition: opacity 1.3s;
 }
 
-.survey .headline .info.loaded.less-padding {
+.headline .info.loaded.less-padding {
 	padding: 2% 0 4% 0;
 	-webkit-transition: padding .5s;
 	-moz-transition: padding .5s;
@@ -712,7 +684,7 @@ footer p {
 	transition: padding .5s;
 }
 
-
+/*---------------------------- Survey Questions ----------------------------*/
 #questions {
 	background: #1abc9c;
 	padding: 6% 0;
@@ -754,6 +726,15 @@ footer p {
 	margin-top: 20px;
 }
 
+/*---------------------------- 2013 America Road Trip ----------------------------*/
+.map_container {
+	margin-bottom: 75px;
+}
+
+.map {
+	height: 500px;
+}
+
 @media screen and (max-width: 1108px) { 
 	.headline-icons > .moleskin, .headline-icons > .moleskin.loaded {
 		width: 388px;
@@ -764,19 +745,19 @@ footer p {
 		margin-left: 51%;
 		margin-top: -210px;
 	}
-	
+
 	.headline-icons > .coffee.loaded {
 		width: 240px;
 		margin-left: 51%;
 		margin-top: -60px;		
 	}
-	
+
 	.headline-icons > .sticky {
 		width: 196px;		
 		margin-left: 82%;
 		margin-top: -200px;
 	}
-	
+
 	.headline-icons > .sticky.loaded {
 		width: 196px;		
 		margin-left: 79%;
@@ -788,54 +769,54 @@ footer p {
 		margin-left: 25%;
 		margin-top: 60%;
 	}
-	
+
 	.headline-icons > .s3.loaded {
 		width: 272px;
 		margin-left: 10%;
 	}
-	
+
 	.headline-icons > .keyboard {
 		width: 589px;
 		margin-top: 51%;
 		margin-left: 58%;
 	}
-	
+
 	.headline-icons > .keyboard.loaded {
 		width: 589px;
 		margin-top: 27%;
 		margin-left: 49%;
 	}
-	
+
 	.topic {
 		width: 100%;	
 	}
-	
+
 	.details, .muse, .about {
 		width:auto !important;
 		margin:0 50px !important;
 		padding:50px 0 !important;
 	}
-	
+
 	.muse .details{
 		padding:0 !important;
 		margin:0 !important;
 	}
-	
+
 	.muse .frame {
 		float: none;
 		width: auto;
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	.muse h2 {
 		margin: 0 0 30px;
 	}
-	
+
 	.muse-section {
 		height:	auto;
 	}
-	
+
 	.web {
 		float: none;
 		position: relative;
@@ -843,32 +824,32 @@ footer p {
 		height:240px;
 		margin: 0 auto;
 	}
-	
+
 	.muse-section:hover .web { 
 		top:75px;
 	}
-	
+
 	.muse-section .web .icon {
 		top:100px;
 		left: 50%;
 		margin-left: -48px; 
 	}
-	
+
 	.definition {
 		position: relative;
 	}
-	
+
 	.muse-section:hover .web img.icon {
 		top:110px;
 		left: 50%;
 		margin-left: -48px;
 	}
-	
+
 	.about h2 {
 		margin: 0 0 30px;
 	}
 
-	
+
 	.about .frame {
 		float: left;
 		width: 50%;
@@ -889,9 +870,9 @@ footer p {
 		width: 228px;
 		margin-top: -288px;
 		margin-left: -228px;
-		
+
 	}
-	
+
 	.headline-icons > .moleskin.loaded {
 		width: 228px;
 		margin-top: -50px;
@@ -900,36 +881,36 @@ footer p {
 		-ms-transform:rotate(5deg); /* IE 9 */
 		-webkit-transform:rotate(5deg); /* Safari and Chrome */
 	}
-	
+
 	.headline-icons > .coffee {
 		width: 180px;
 		margin-top: -157px;
 	}
-	
+
 	.headline-icons > .coffee.loaded {	
 		width: 180px;
 		margin-top: -42px;
 		margin-left: 49%;
 	}
-	
+
 	.headline-icons > .sticky {
 		width: 146px;
 		margin-left: 79%;
 		margin-top: -149px;
 	}
-	
+
 	.headline-icons > .sticky.loaded {	
 		width: 146px;
 		margin-left: 79%;
 		margin-top: 0px;
 	}
-	
+
 	.headline-icons > .s3 {
 		width: 242px;
 		margin-top: 60%;
 		margin-left: 15%;
 	}
-	
+
 	.headline-icons > .s3.loaded {
 		width: 242px;
 		margin-top: 42%;
@@ -944,7 +925,7 @@ footer p {
 		margin-top: 55%;
 		margin-left: 60%;
 	}
-	
+
 	.headline-icons > .keyboard.loaded {
 		width: 521px;
 		margin-top: 29%;
@@ -957,7 +938,7 @@ footer p {
 		margin: 0 6% 0 0;
 		float: left;
 	}
-	
+
 	.about .frame {
 		margin-top: 0;
 		width: 55%;
@@ -969,7 +950,7 @@ footer p {
 		font-size: 4em;
 		line-height: 1.4em;	
 	}
-	
+
 	h3 {
 		font-size: 1.3em;
 		line-height: 1.4em
@@ -982,33 +963,33 @@ footer p {
 	.approach-section h1 {
 		font-size: 3.5em;
 	}
-	
+
 	.topic {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
-	
+
 	.muse {
 		margin: 0 !important;
 		padding:50px 40px !important;
 	}
-	
+
 	.muse h2 {
 		margin: 0 0 15px;
 		font-size: 2.2em;
 	}
-	
+
 	.web { 
 		display:none;
 		float:none;
 		margin:0 auto;
 		width:164px;
 	}
-	
+
 	.muse .buttonholder { 
 		display:block;
 	}
-	
+
 	.muse .buttonholder a { 
 		display: inline-block;
 		vertical-align: top;
@@ -1030,18 +1011,18 @@ footer p {
 		-o-transition:0.3s ease-in-out;
 		transition:0.3s ease-in-out;
 	}
-	
+
 	.muse:hover .buttonholder a { 
 		color:#fff;
 		background:#1abc9c;
 		border-color:#fff;
 	}
-	
+
 	.about {
 		margin: 0 !important;
 		padding: 50px 40px !important;
 	}
-	
+
 	.about h2 {
 		margin: 0 0 15px;
 		font-size: 2.2em;
@@ -1050,25 +1031,25 @@ footer p {
 	.about .frame {
 		width: auto;
 	}
-	
+
 	.about > img {
 		display: none;
 	}
-	
+
 	.share-list {
 		padding: 0 20px;
 	}
-	
+
 	.share-list li {
 		margin: 0 0 10px 10px;
 		float: none;
 		display: inline-block;
 	}
-	
+
 	.share-list li:first-child {
 		margin: 0 0 10px 0;
 	}
-	
+
 	.share-list span {
 		display: none;
 	}
@@ -1076,12 +1057,12 @@ footer p {
 	footer .references {
 		width: 80%;
 	}
-	
+
 	.login-form {
 		margin-left: 2% !important;
 		width: 96% !important;	
 	}
-	
+
 	.login-form:before {
 		content: none;
 	}
@@ -1093,16 +1074,16 @@ footer p {
 		font-size: 3.3em;
 		line-height: 1.4em;	
 	}
-	
+
 	.approach-section h1 {
 		font-size: 2.4em;
 		line-height: 1.4em;
 	}
-	
+
 	.muse h2 {
 		font-size: 1.8em;	
 	}
-	
+
 	.topic-image {
 		width: 115px;
 	}

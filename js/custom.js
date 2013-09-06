@@ -6,7 +6,7 @@ $(function() {
 		$('html, body').stop().animate({
 			scrollTop: $page_location_top
 		}, 1500,'easeInOutQuart');
-	});     
+	});
 });
 
 $(document).ready(function() {
@@ -27,8 +27,8 @@ $(document).ready(function() {
 
 function animateHeadlineImages() {
 	var $homepageIcons = $('#headline-icons div'),
-		iconCount = $homepageIcons.length;
-		
+	iconCount = $homepageIcons.length;
+
 	for (var i = 0; iconCount > i; i++) {
 		$($homepageIcons[i]).addClass('loaded');	
 	}
@@ -69,10 +69,10 @@ function setupScrollFunctionality(isMobile) {
 	
 	function scrollPastSectionTop(top, offset) {
 		var offset = offset || 0,
-			hasScrolled = false;
-			
+		hasScrolled = false;
+
 		if (isMobile) paddingForMobile = 500;
-			
+
 		return ($(document).scrollTop() >= top - $(window).height()+offset-paddingForMobile) ? true : false;
 	}
 	
@@ -80,8 +80,8 @@ function setupScrollFunctionality(isMobile) {
 	function showTopics(){
 		if (showFeaturesRunning === 0) {
 			var $topics = $('#approach .topic'),
-				topicLength = $topics.length;
-								
+			topicLength = $topics.length;
+
 			for (var i = 0; topicLength > i; i++) {
 				var $topic = $($topics[i]);
 				$topic.delay($topic.index()*50).animate({opacity:1},0);
@@ -95,11 +95,11 @@ function setupScrollFunctionality(isMobile) {
 	function showMuse () {
 		if (showMuseRunning === 0) {
 			var $museSectionWebSpan = $('.web .web-block span'),
-				webSpanLength = $museSectionWebSpan.length;
+			webSpanLength = $museSectionWebSpan.length;
 			
 			for (var i = 0; webSpanLength > i; i++) {
 				var $webSpan = $($museSectionWebSpan[i]),
-					pos = $webSpan.css('left');
+				pos = $webSpan.css('left');
 				
 				$webSpan.css('left',"+=30").css('opacity',0).delay($webSpan.index()*50).animate({left:pos, opacity:1},{duration:700,easing:"easeOutCubic"});
 			}
@@ -131,26 +131,26 @@ function loadSharrre() {
 	//Sharrre
 	window.newNumber = 0;
 	$('.share-section-cont').sharrre({
-	  share: {
-	  	googlePlus: true,
-	  	facebook: true,
-	  	twitter: true,
-	  	pinterest: true,
-	  	linkedin: true
-	  },
-	  template: " ",
-	  url:"http://www.tylergoelz.com",
-	  urlCurl: 'http://dribbbleboard.com/js/sharrre.php',
-	  enableHover: false,
-	  className: '',
-	  render: function(api, options){
-	  	$('.share-section .google span').text(options.count.googlePlus); 
-	  	$('.share-section .twitter span').text(options.count.twitter);
-		$('.share-section .facebook span').text(options.count.facebook);
-	  	$('.share-section .linkedin span').text(options.count.linkedin);
-		$('.share-section .pin span').text(options.count.pinterest);
-		window.newNumber = options.count.googlePlus + options.count.twitter + options.count.facebook + options.count.linkedin + options.count.pinterest;
-	  }
+		share: {
+			googlePlus: true,
+			facebook: true,
+			twitter: true,
+			pinterest: true,
+			linkedin: true
+		},
+		template: " ",
+		url:"http://www.tylergoelz.com",
+		urlCurl: 'http://dribbbleboard.com/js/sharrre.php',
+		enableHover: false,
+		className: '',
+		render: function(api, options){
+			$('.share-section .google span').text(options.count.googlePlus); 
+			$('.share-section .twitter span').text(options.count.twitter);
+			$('.share-section .facebook span').text(options.count.facebook);
+			$('.share-section .linkedin span').text(options.count.linkedin);
+			$('.share-section .pin span').text(options.count.pinterest);
+			window.newNumber = options.count.googlePlus + options.count.twitter + options.count.facebook + options.count.linkedin + options.count.pinterest;
+		}
 	});
 }
 
