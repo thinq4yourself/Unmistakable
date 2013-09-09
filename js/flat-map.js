@@ -76,6 +76,7 @@ jQuery(document).ready(function () {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true
     };
+
     map = new google.maps.Map($('#map')[0], options);
     map.setOptions({
         styles: style
@@ -85,7 +86,25 @@ jQuery(document).ready(function () {
     new google.maps.LatLng(27.773056, -82.640000),
     new google.maps.LatLng(30.438256, -84.280733),
     new google.maps.LatLng(29.951066, -90.071532),
-    new google.maps.LatLng(30.267153, -97.743061)
+    new google.maps.LatLng(29.760193, -95.369390),
+    new google.maps.LatLng(30.267153, -97.743061),
+    new google.maps.LatLng(32.725409, -97.320850),
+    new google.maps.LatLng(35.467560 , -97.516428),
+    new google.maps.LatLng(32.780140 , -96.800451),
+    new google.maps.LatLng(37.688889 , -97.336111),
+    new google.maps.LatLng(39.737567 , -104.984718),
+    new google.maps.LatLng(38.772467 , -112.084094),
+    new google.maps.LatLng(36.114646 , -115.172816),
+    new google.maps.LatLng(38.427431 , -122.39433),
+    new google.maps.LatLng(37.774929 , -122.419416),
+    new google.maps.LatLng(38.581572 , -121.4944),
+    new google.maps.LatLng(37.774929 , -122.419416),
+    new google.maps.LatLng(41.755948 , -124.201747),
+    new google.maps.LatLng(44.052069 , -123.086754),
+    new google.maps.LatLng(45.523452 , -122.676207),
+    new google.maps.LatLng(47.252877 , -122.444291),
+    new google.maps.LatLng(47.606209 , -122.332071),
+    new google.maps.LatLng(47.252877 , -122.444291)
     ];
 
     var markers = [];
@@ -96,17 +115,12 @@ jQuery(document).ready(function () {
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(12, 59)
     };
-    var shadow = {
-        url: 'https://dl.dropboxusercontent.com/u/814783/fiddle/shadow.png',
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(-2, 36)
-    };
     
     function drop() {
         for (var i = 0; i < destinations.length; i++) {
             setTimeout(function() {
                 addMarker();
-            }, i * 200);
+            }, i * 100);
         }
     }
 
@@ -121,4 +135,6 @@ jQuery(document).ready(function () {
     }
 
     drop();
+
+
 });
