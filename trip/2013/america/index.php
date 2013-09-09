@@ -23,7 +23,7 @@
 	<meta name="description" content="I'm embarking on a 4 week road trip from St. Petersburg, Florida to Seattle, Washington. Along the way, I'll be couchsurfing, hanging out with locals, eating great food and drinking awesome beers."/>
 	<link rel="canonical" href="http://www.tylergoelz.com/trip/2013/america/" />
 
-	<title>Tyler Goelz - Applying a Holistic Approach to User Experience</title>
+	<title>Tyler Goelz - A Beard Across America</title>
 
 	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/head.html'); ?>
 </head>
