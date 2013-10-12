@@ -300,44 +300,6 @@ li {
 	transition: opacity 1.3s .8s;
 }
 
-/*---------------------------- 2013 American Road Trip ----------------------------*/
-.roadtrip .headline .info.loaded.less-padding {
-	padding: 2% 0 2% 0;
-	-webkit-transition: padding .5s;
-	-moz-transition: padding .5s;
-	-o-transition: padding .5s;
-	transition: padding .5s;
-}
-
-.roadtrip .overview {
-	text-align: center;
-	background: transparent;
-	position: relative;
-	overflow: hidden;
-	padding-bottom: 15px;	
-}
-
-.roadtrip .info .stats {
-	padding: 10px 0 0;
-}
-
-.roadtrip .info .stat {
-	color: #9fa6ac;
-}
-
-.roadtrip .info .stat > h2, .roadtrip .info .stat > small {
-	
-	font-weight: 300;
-}
-
-.roadtrip .info .stat > h2 {
-	font-size: 58px;
-}
-
-.city {
-	display: block;
-	padding: 15px 0;
-}
 
 /*---------------------------- Approach	----------------------------*/
 .approach-section {
@@ -765,12 +727,50 @@ footer p {
 }
 
 /*---------------------------- 2013 America Road Trip ----------------------------*/
+.roadtrip .headline .info.loaded.less-padding {
+	padding: 2% 0 2% 0;
+	-webkit-transition: padding .5s;
+	-moz-transition: padding .5s;
+	-o-transition: padding .5s;
+	transition: padding .5s;
+}
+
+.roadtrip .overview {
+	text-align: center;
+	background: transparent;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 15px;	
+}
+
+.roadtrip .info .stats {
+	padding: 10px 0 0;
+}
+
+.roadtrip .info .stat {
+	color: #9fa6ac;
+}
+
+.roadtrip .info .stat > h2, .roadtrip .info .stat > small {
+	
+	font-weight: 300;
+}
+
+.roadtrip .info .stat > h2 {
+	font-size: 58px;
+}
+
 .map_container {
-	margin-bottom: 75px;
+	margin-bottom: 60px;
 }
 
 .map {
 	height: 500px;
+}
+
+.city {
+	display: block;
+	padding: 15px 0;
 }
 
 @media screen and (max-width: 1108px) { 

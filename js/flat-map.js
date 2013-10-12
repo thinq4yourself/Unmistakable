@@ -75,7 +75,9 @@ jQuery(document).ready(function () {
         center: centerPosition,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true,
-        scrollwheel: false
+        scrollwheel: false,
+        draggable: false,
+        disableDoubleClickZoom: true
     };
 
     map = new google.maps.Map($('#map')[0], options);
@@ -83,29 +85,48 @@ jQuery(document).ready(function () {
         styles: style
     });
 
+    var st_pete = new google.maps.LatLng(27.773056, -82.640000),
+        tallahassee = new google.maps.LatLng(30.438256, -84.280733),
+        new_orleans = new google.maps.LatLng(29.951066, -90.071532),
+        houston = new google.maps.LatLng(29.760193, -95.369390),
+        austin = new google.maps.LatLng(30.267153, -97.743061),
+        fort_worth = new google.maps.LatLng(32.725409, -97.320850),
+        oklahoma_city = new google.maps.LatLng(35.467560, -97.516428),
+        wichita = new google.maps.LatLng(37.688889, -97.336111),
+        denver = new google.maps.LatLng(39.737567, -104.984718),
+        las_vegas = new google.maps.LatLng(36.114646, -115.172816),
+        paso_robles = new google.maps.LatLng(35.632279, -120.664187),
+        napa = new google.maps.LatLng(38.297538, -122.286865),
+        san_francisco = new google.maps.LatLng(37.774929, -122.419416),
+        sacramento = new google.maps.LatLng(38.581572, -121.494400),
+        gasquet = new google.maps.LatLng(41.845483, -123.969508),
+        eugene = new google.maps.LatLng(44.052069, -123.086754),
+        portland = new google.maps.LatLng(45.523452, -122.676207),
+        tacoma = new google.maps.LatLng(47.252877, -122.444291),
+        seattle = new google.maps.LatLng(47.606209, -122.332071);
+
     var destinations = [
-    new google.maps.LatLng(27.773056, -82.640000),
-    new google.maps.LatLng(30.438256, -84.280733),
-    new google.maps.LatLng(29.951066, -90.071532),
-    new google.maps.LatLng(29.760193, -95.369390),
-    new google.maps.LatLng(30.267153, -97.743061),
-    new google.maps.LatLng(32.725409, -97.320850),
-    new google.maps.LatLng(35.467560 , -97.516428),
-    new google.maps.LatLng(32.780140 , -96.800451),
-    new google.maps.LatLng(37.688889 , -97.336111),
-    new google.maps.LatLng(39.737567 , -104.984718),
-    new google.maps.LatLng(38.772467 , -112.084094),
-    new google.maps.LatLng(36.114646 , -115.172816),
-    new google.maps.LatLng(38.427431 , -122.39433),
-    new google.maps.LatLng(37.774929 , -122.419416),
-    new google.maps.LatLng(38.581572 , -121.4944),
-    new google.maps.LatLng(37.774929 , -122.419416),
-    new google.maps.LatLng(41.755948 , -124.201747),
-    new google.maps.LatLng(44.052069 , -123.086754),
-    new google.maps.LatLng(45.523452 , -122.676207),
-    new google.maps.LatLng(47.252877 , -122.444291),
-    new google.maps.LatLng(47.606209 , -122.332071),
-    new google.maps.LatLng(47.252877 , -122.444291)
+        st_pete,
+        tallahassee,
+        new_orleans,
+        houston,
+        austin,
+        fort_worth,
+        oklahoma_city,
+        wichita,
+        denver,
+        las_vegas,
+        paso_robles,
+        napa,
+        san_francisco,
+        sacramento,
+        san_francisco,
+        gasquet,
+        eugene,
+        portland,
+        tacoma,
+        seattle,
+        tacoma
     ];
 
     var markers = [];
@@ -132,10 +153,11 @@ jQuery(document).ready(function () {
             icon: image,
             animation: google.maps.Animation.DROP
         }));
+        google.maps.event.addListener(destinations[iterator], 'click', function() {
+            tooltip.open(map, destinations[iterator]);
+        });
         iterator++;
     }
 
     drop();
-
-
 });
