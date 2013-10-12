@@ -29,22 +29,22 @@
 </head>
 <body>
 	<article>
-		<div class="container">
+		<div class="container roadtrip">
 			<section id="headline" class="headline">
 				<div class="info">
 					<h1>A Beard Across America</h1>
-					<div class="row">
-						<div class="span3"><h2>4.9k</h2><small>Miles</small></div>
-						<div class="span3"><h2>4</h2><small>Weeks</small></div>
-						<div class="span3"><h2>18</h2><small>Cities</small></div>
-						<div class="span3"><h2>195</h2><small>Beers</small></div>
+					<div class="row stats">
+						<div class="span3 stat"><h2>4.9k</h2><small>Miles</small></div>
+						<div class="span3 stat"><h2>4</h2><small>Weeks</small></div>
+						<div class="span3 stat"><h2>18</h2><small>Cities</small></div>
+						<div class="span3 stat"><h2>195</h2><small>Beers</small></div>
 					</ul>
 				</div>
 			</section>
 			<section class="map_container">
 				<div class="container">
 					<div class="row">
-						<div id="map" class="map"></div>
+						<div id="map" class="map span12"></div>
 					</div>
 				</div>
 			</section>

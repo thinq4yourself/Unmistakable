@@ -301,12 +301,37 @@ li {
 }
 
 /*---------------------------- 2013 American Road Trip ----------------------------*/
-.overview {
+.roadtrip .headline .info.loaded.less-padding {
+	padding: 2% 0 2% 0;
+	-webkit-transition: padding .5s;
+	-moz-transition: padding .5s;
+	-o-transition: padding .5s;
+	transition: padding .5s;
+}
+
+.roadtrip .overview {
 	text-align: center;
 	background: transparent;
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 15px;	
+}
+
+.roadtrip .info .stats {
+	padding: 10px 0 0;
+}
+
+.roadtrip .info .stat {
+	color: #9fa6ac;
+}
+
+.roadtrip .info .stat > h2, .roadtrip .info .stat > small {
+	
+	font-weight: 300;
+}
+
+.roadtrip .info .stat > h2 {
+	font-size: 58px;
 }
 
 .city {
