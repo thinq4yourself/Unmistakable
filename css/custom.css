@@ -261,8 +261,8 @@ li {
 }
 
 .headline .info {
-	padding: 15% 0;
 	opacity: 0;
+	padding: 15% 0;
 }
 
 .headline .info > h1 {
@@ -278,7 +278,6 @@ li {
 	letter-spacing: -2px;
 	line-height: 100px;
 }
-
 
 .headline .info > small {
 	color: rgba(52, 73, 94, 0.30000000000000004);
@@ -299,6 +298,20 @@ li {
 	-moz-transition: opacity 1.3s .8s;
 	-o-transition: opacity 1.3s .8s;
 	transition: opacity 1.3s .8s;
+}
+
+/*---------------------------- Trip Overview ----------------------------*/
+.overview {
+	text-align: center;
+	background: transparent;
+	position: relative;
+	overflow: hidden;	
+}
+
+.road_trip p {
+	color: rgba(44, 62, 80, 0.8);
+	letter-spacing: -1px;
+	padding-top: 5px;
 }
 
 /*---------------------------- Approach	----------------------------*/

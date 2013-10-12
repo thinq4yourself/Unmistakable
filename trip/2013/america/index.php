@@ -29,22 +29,34 @@
 </head>
 <body>
 	<article>
-		<section id="headline" class="headline">
-			<div class="info">
-				<h1>A Beard Across America</h1>
-				<small>I'm embarking on a 4 week road trip from St. Petersburg, Florida to Seattle, Washington.
-					<br class="hidden-phone" /> Along the way, I'll be <a href="http://www.couchsurfing.org">couchsurfing</a>, hanging out with locals, eating great food and drinking awesome beers. 
-					<br /> Below is a map of my trip.
-				</small>
-			</div>
-		</section>
-		<section class="map_container">
-			<div class="container">
-				<div class="row">
-					<div id="map" class="map"></div>
+		<div class="container">
+			<section id="headline" class="headline">
+				<div class="info">
+					<h1>A Beard Across America</h1>
+					<div class="row">
+						<div class="span3"><h2>4.9k</h2><small>Miles</small></div>
+						<div class="span3"><h2>4</h2><small>Weeks</small></div>
+						<div class="span3"><h2>18</h2><small>Cities</small></div>
+						<div class="span3"><h2>195</h2><small>Beers</small></div>
+					</ul>
 				</div>
-			</div>
-		</section>
+			</section>
+			<section class="map_container">
+				<div class="container">
+					<div class="row">
+						<div id="map" class="map"></div>
+					</div>
+				</div>
+			</section>
+			<section id="overview" class="overview">
+				<h2>My First Successful Dreamline</h2>
+				<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-bear-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
+			</section>
+			<section class="city">
+				<h2>Tallahassee, Florida</h2>
+				<p>Coming Soon</p>
+			</section>
+		</div>
 	</article>
 	<footer>
 		<div class="container">
