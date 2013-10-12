@@ -74,7 +74,8 @@ jQuery(document).ready(function () {
         zoom: 4,
         center: centerPosition,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        disableDefaultUI: true
+        disableDefaultUI: true,
+        scrollwheel: false
     };
 
     map = new google.maps.Map($('#map')[0], options);

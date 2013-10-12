@@ -54,7 +54,83 @@
 			</section>
 			<section class="city">
 				<h2>Tallahassee, Florida</h2>
-				<p>Coming Soon</p>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>New Orleans, Louisiana</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Houston, Texas</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Austin, Texas</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Fort Worth, Texas</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Oklahoma City, Oklahoma</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Wichita, Kansas</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Denver, Colorado</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Las Vegas, Nevada</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Paso Robles, California</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Napa, California</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>San Francisco, California</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Sacramento, California</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>San Francisco, California (Round Duex)</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Gasquet, California</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Eugene, Oregon</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Portland, Oregon</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Tacoma, Washington</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Seattle, Washington</h2>
+				<p class="muted">Coming Soon</p>
+			</section>
+			<section class="city">
+				<h2>Tacoma, Washington</h2>
+				<p class="muted">Coming Soon</p>
 			</section>
 		</div>
 	</article>

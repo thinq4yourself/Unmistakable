@@ -300,18 +300,18 @@ li {
 	transition: opacity 1.3s .8s;
 }
 
-/*---------------------------- Trip Overview ----------------------------*/
+/*---------------------------- 2013 American Road Trip ----------------------------*/
 .overview {
 	text-align: center;
 	background: transparent;
 	position: relative;
-	overflow: hidden;	
+	overflow: hidden;
+	padding-bottom: 15px;	
 }
 
-.road_trip p {
-	color: rgba(44, 62, 80, 0.8);
-	letter-spacing: -1px;
-	padding-top: 5px;
+.city {
+	display: block;
+	padding: 15px 0;
 }
 
 /*---------------------------- Approach	----------------------------*/
