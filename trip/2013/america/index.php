@@ -6,7 +6,7 @@
 	<meta property="og:title" content="Tyler Goelz - A Beard Across America: My First Successful Dreamline">
 	<meta property="og:description" content="Join me as I share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states.">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://www.tylergoelz.com/images/logo_social.png">
+	<meta property="og:image" content="http://www.tylergoelz.com/images/trip/2013/america/map.png">
 
 	<!-- if page is others -->
 
