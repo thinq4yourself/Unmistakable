@@ -3,21 +3,18 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 	window.mobile = true;
 }
 
-$(document).ready(function() { init(); });
+var destinations = new Array(),
+$cities = $('.city .location');
 
 $(document).scroll(function(){ init(); });
 
 $(document).resize(function(){ init(); });
 
 function init(){
-	var destinations =  {
-		"tally": $('#tallahassee'),
-		"nola": $('#new-orleans'),
-		"houston": $('#houston')
+	for (i = 0; $cities.length > i; i++) {
+		var city_element = $cities[i];	
+		scrollPastSectionTop($(city_element).offset().top, 250) ? showCity($(city_element)) : null;
 	}
-
-	scrollPastSectionTop(destinations.tally.offset().top, 250) ? showCity(destinations.tally) : null;
-	scrollPastSectionTop(destinations.nola.offset().top, 250) ? showCity(destinations.nola) : null;
 }
 
 function scrollPastSectionTop(top, offset) {

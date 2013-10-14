@@ -80,7 +80,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div id="new-orleans" class="location pull-right">
+							<div id="nola" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>

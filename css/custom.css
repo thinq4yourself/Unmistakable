@@ -852,17 +852,17 @@ footer p {
 	background-image: url('../images/trip/2013/america/florida.png');
 }
 
-#new-orleans.location .pointer {
+#nola.location .pointer {
 	top: 100px;
 	left: 322px;
 }
 
-#new-orleans.location.loaded .pointer {
+#nola.location.loaded .pointer {
 	opacity: 1;
 	top: 235px;
 }
 
-#new-orleans.location .state {
+#nola.location .state {
 	background-image: url('../images/trip/2013/america/louisiana.png');
 }
 
