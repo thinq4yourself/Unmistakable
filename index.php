@@ -194,7 +194,7 @@
 				<span class="frame">
 					<h2>About Me</h2>
 					<p>I focus on helping companies put the user first by making user-centered design & business decision to enhance the user's experience. Yes, I did say "user" three times in that sentence.</p>
-					<p>I've also traveled the majority of the East Coast of the U.S. and will be taking a 3 week road trip from St. Pete, Florida to Seattle, Washington in September. W00t!</p>
+					<p>Recently, I traveled 4900 miles over a 4 week span on a cross country road trip. To read about my adventures, click <a href="/trip/2013/america">here</a></p>
 					<p>Follow me:
 						<a class="follow-link" href="http://blog.tylergoelz.com">Blog</a>
 						<a class="follow-link" href="http://www.twitter.com/tylergoelz">Twitter</a>
