@@ -744,7 +744,9 @@ footer p {
 	background: transparent;
 	position: relative;
 	overflow: hidden;
-	padding-bottom: 65px;	
+	padding-bottom: 65px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .roadtrip .info .stats {
@@ -954,6 +956,10 @@ footer p {
 @media screen and (max-width: 1200px) {
 	.city .frame {
 		width: auto;
+	}
+	
+	.city .frame {
+
 	}
 }
 
