@@ -57,6 +57,7 @@
 					<div class="row">
 						<div class="span12">
 							<h2>My First Successful Dreamline</h2>
+							<small class="muted">10/11/2013</small>
 							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a four-week span, visiting 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
 						</div>
 					</div>
