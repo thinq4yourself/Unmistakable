@@ -829,6 +829,10 @@ footer p {
 	transition: top 1s ease-in-out;
 }
 
+.location.loaded .pointer {
+	opacity: 1;
+}
+
 .location .state {
 	height: 379px;
 	width: 450px;
@@ -845,7 +849,6 @@ footer p {
 
 #tallahassee.location.loaded .pointer {
 	top: -15px;
-	opacity: 1;
 }
 
 #tallahassee.location .state {
@@ -858,7 +861,6 @@ footer p {
 }
 
 #nola.location.loaded .pointer {
-	opacity: 1;
 	top: 235px;
 }
 
@@ -867,18 +869,30 @@ footer p {
 }
 
 #houston.location .pointer {
-	top: 185px;
+	top: 130px;
 	left: 360px;
 }
 
+#houston.location.loaded .pointer {
+	top: 185px;
+}
+
 #austin.location .pointer {
-	top: 160px;
+	top: 90px;
 	left: 280px;
 }
 
+#austin.location.loaded .pointer {
+	top: 140px;
+}
+
 #fort-worth.location .pointer {
-	top: 90px;
+	top: 30px;
 	left: 295px;
+}
+
+#fort-worth.location.loaded .pointer {
+	top: 90px;
 }
 
 #houston.location .state, #austin.location .state, #fort-worth.location .state {
@@ -886,8 +900,12 @@ footer p {
 }
 
 #oklahoma.location .pointer {
-	top: 120px;
+	top: 60px;
 	left: 295px;
+}
+
+#oklahoma.location.loaded .pointer {
+	top: 120px;
 }
 
 #oklahoma.location .state {
@@ -895,8 +913,12 @@ footer p {
 }
 
 #kansas.location .pointer {
-	top: 190px;
+	top: 100px;
 	left: 255px;
+}
+
+#kansas.location.loaded .pointer {
+	top: 190px;
 }
 
 #kansas.location .state {
@@ -904,8 +926,12 @@ footer p {
 }
 
 #denver.location .pointer {
-	top: 70px;
+	top: -5px;
 	left: 255px;
+}
+
+#denver.location.loaded .pointer {
+	top: 70px;
 }
 
 #denver.location .state {
@@ -913,8 +939,12 @@ footer p {
 }
 
 #nevada.location .pointer {
-	top: 274px;
+	top: 180px;
 	left: 237px;
+}
+
+#nevada.location.loaded .pointer {
+	top: 274px;
 }
 
 #nevada.location .state {
@@ -922,28 +952,48 @@ footer p {
 }
 
 #paso-robles.location .pointer {
-	top: 185px;
+	top: 90px;
 	left: 150px;
 }
 
+#paso-robles.location.loaded .pointer {
+	top: 185px;
+}
+
 #napa.location .pointer {
-	top: 92px;
+	top: 5px;
 	left: 106px;
 }
 
+#napa.location.loaded .pointer {
+	top: 92px;
+}
+
 #san-francisco-1.location .pointer, #san-francisco-2.location .pointer {
-	top: 113px;
+	top: 20px;
 	left: 103px;
 }
 
+#san-francisco-1.location.loaded .pointer, #san-francisco-2.location.loaded .pointer {
+	top: 113px;
+}
+
 #sacramento.location .pointer {
-	top: 86px;
+	top: 0px;
 	left: 121px;
 }
 
+#sacramento.location.loaded .pointer {
+	top: 86px;
+}
+
 #gasquet.location .pointer {
-	top: -42px;
+	top: -80px;
 	left: 75px;
+}
+
+#gasquet.location.loaded .pointer {
+	top: -42px;
 }
 
 #paso-robles.location .state, #napa.location .state, #san-francisco-1.location .state, #san-francisco-2.location .state, #sacramento.location .state, #gasquet.location .state {
@@ -951,13 +1001,21 @@ footer p {
 }
 
 #eugene.location .pointer {
-	top: 104px;
+	top: 30px;
 	left: 90px;
 }
 
+#eugene.location.loaded .pointer {
+	top: 104px;
+}
+
 #portland.location .pointer {
-	top: 29px;
+	top: -20px;
 	left: 105px;
+}
+
+#portland.location.loaded .pointer {
+	top: 29px;
 }
 
 #eugene.location .state, #portland.location .state {
@@ -965,13 +1023,21 @@ footer p {
 }
 
 #tacoma-1.location .pointer, #tacoma-2.location .pointer {
-	top: 125px;
+	top: 40px;
 	left: 120px;
 }
 
+#tacoma-1.location.loaded .pointer, #tacoma-2.location.loaded .pointer {
+	top: 125px;
+}
+
 #seattle.location .pointer {
-	top: 95px;
+	top: 10px;
 	left: 124px;
+}
+
+#seattle.location.loaded .pointer {
+	top: 95px;
 }
 
 #tacoma-1.location .state, #tacoma-2.location .state, #seattle.location .state {
