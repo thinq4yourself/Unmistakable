@@ -66,7 +66,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location florida">
+							<div class="location tallahassee">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -80,7 +80,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location louisiana pull-right">
+							<div class="location new-orleans pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -94,6 +94,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location houston">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Houston, Texas</h2>
 								<p class="muted">Coming Soon</p>
@@ -104,6 +108,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location austin pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Austin, Texas</h2>
 								<p class="muted">Coming Soon</p>
@@ -114,6 +122,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location fort-worth">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Fort Worth, Texas</h2>
 								<p class="muted">Coming Soon</p>
@@ -124,6 +136,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location oklahoma pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Oklahoma City, Oklahoma</h2>
 								<p class="muted">Coming Soon</p>
@@ -133,6 +149,10 @@
 				</div>
 				<div class="row">
 					<div class="span12">
+						<div class="location kansas">
+							<span class="pointer"></span>
+							<div class="state"></div>
+						</div>
 						<span class="frame pull-right">
 							<h2>Wichita, Kansas</h2>
 							<p class="muted">Coming Soon</p>
@@ -142,6 +162,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location denver pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Denver, Colorado</h2>
 								<p class="muted">Coming Soon</p>
@@ -151,6 +175,10 @@
 				</div>
 				<div class="row">
 					<div class="span12">
+						<div class="location nevada">
+							<span class="pointer"></span>
+							<div class="state"></div>
+						</div>
 						<span class="frame pull-right">
 							<h2>Las Vegas, Nevada</h2>
 							<p class="muted">Coming Soon</p>
@@ -160,6 +188,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location paso-robles pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Paso Robles, California</h2>
 								<p class="muted">Coming Soon</p>
@@ -170,6 +202,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location napa">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Napa, California</h2>
 								<p class="muted">Coming Soon</p>
@@ -180,6 +216,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location san-francisco pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>San Francisco, California</h2>
 								<p class="muted">Coming Soon</p>
@@ -190,6 +230,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location sacramento">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Sacramento, California</h2>
 								<p class="muted">Coming Soon</p>
@@ -200,6 +244,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location san-francisco pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>San Francisco, California (Round Duex)</h2>
 								<p class="muted">Coming Soon</p>
@@ -210,6 +258,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location gasquet">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Gasquet, California</h2>
 								<p class="muted">Coming Soon</p>
@@ -220,6 +272,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location eugene pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Eugene, Oregon</h2>
 								<p class="muted">Coming Soon</p>
@@ -230,6 +286,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location portland">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Portland, Oregon</h2>
 								<p class="muted">Coming Soon</p>
@@ -240,6 +300,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location tacoma pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Tacoma, Washington</h2>
 								<p class="muted">Coming Soon</p>
@@ -250,6 +314,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location seattle">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame pull-right">
 								<h2>Seattle, Washington</h2>
 								<p class="muted">Coming Soon</p>
@@ -260,6 +328,10 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
+							<div class="location tacoma pull-right">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
 							<span class="frame">
 								<h2>Tacoma, Washington</h2>
 								<p class="muted">Coming Soon</p>

@@ -821,22 +821,134 @@ footer p {
 	width: 450px;
 }
 
-.location.florida .pointer {
-	top: -5px;
-	left: 182px;
+.location.tallahassee .pointer {
+	top: -15px;
+	left: 215px;
 }
 
-.location.florida .state {
+.location.tallahassee .state {
 	background-image: url('../images/trip/2013/america/florida.png');
 }
 
-.location.louisiana .pointer {
+.location.new-orleans .pointer {
 	top: 235px;
 	left: 322px;
 }
 
-.location.louisiana .state {
+.location.new-orleans .state {
 	background-image: url('../images/trip/2013/america/louisiana.png');
+}
+
+.location.houston .pointer {
+	top: 185px;
+	left: 360px;
+}
+
+.location.austin .pointer {
+	top: 160px;
+	left: 280px;
+}
+
+.location.fort-worth .pointer {
+	top: 90px;
+	left: 295px;
+}
+
+.location.houston .state, .location.austin .state, .location.fort-worth .state {
+	background-image: url('../images/trip/2013/america/texas.png');
+}
+
+.location.oklahoma .pointer {
+	top: 120px;
+	left: 295px;
+}
+
+.location.oklahoma .state {
+	background-image: url('../images/trip/2013/america/oklahoma.png');
+}
+
+.location.kansas .pointer {
+	top: 190px;
+	left: 255px;
+}
+
+.location.kansas .state {
+	background-image: url('../images/trip/2013/america/kansas.png');
+}
+
+.location.denver .pointer {
+	top: 70px;
+	left: 255px;
+}
+
+.location.denver .state {
+	background-image: url('../images/trip/2013/america/colorado.png');
+}
+
+.location.nevada .pointer {
+	top: 274px;
+	left: 237px;
+}
+
+.location.nevada .state {
+	background-image: url('../images/trip/2013/america/nevada.png');
+}
+
+.location.paso-robles .pointer {
+	top: 185px;
+	left: 150px;
+}
+
+.location.napa .pointer {
+	top: 92px;
+	left: 106px;
+}
+
+.location.san-francisco .pointer {
+	top: 113px;
+	left: 103px;
+}
+
+.location.sacramento .pointer {
+	top: 86px;
+	left: 121px;
+}
+
+.location.gasquet .pointer {
+	top: -42px;
+	left: 75px;
+}
+
+.location.paso-robles .state, .location.napa .state, .location.san-francisco .state, .location.sacramento .state, .location.gasquet .state {
+	background-image: url('../images/trip/2013/america/california.png');
+}
+
+.location.eugene .pointer {
+	top: 104px;
+	left: 90px;
+}
+
+.location.portland .pointer {
+	top: 29px;
+	left: 105px;
+}
+
+.location.eugene .state, .location.portland .state {
+	background-image: url('../images/trip/2013/america/oregon.png');
+}
+
+.location.tacoma .pointer {
+	top: 125px;
+	left: 120px;
+}
+
+.location.seattle .pointer {
+	top: 95px;
+	left: 124px;
+}
+
+.location.tacoma .state, .location.seattle .state {
+	background-image: url('../images/trip/2013/america/washington.png');
 }
 
 @media screen and (max-width: 1200px) {
