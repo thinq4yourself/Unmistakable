@@ -4,7 +4,7 @@
 	<!-- if page is content page -->
 	<meta property="og:url" content="http://www.tylergoelz.com/trip/2013/america/">
 	<meta property="og:title" content="Tyler Goelz - A Beard Across America: My First Successful Dreamline">
-	<meta property="og:description" content="Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states.">
+	<meta property="og:description" content="Join me as I share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states.">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="http://www.tylergoelz.com/images/logo_social.png">
 
@@ -14,13 +14,13 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@tylergoelz">
 	<meta name="twitter:title" content="Tyler Goelz - A Beard Across America: My First Successful Dreamline">
-	<meta name="twitter:description" content="Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states.">
+	<meta name="twitter:description" content="Join me as I share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states.">
 	<meta name="twitter:creator" content="@tylergoelz">
 	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/logo_social.png">
 	<meta name="twitter:domain" content="http://www.tylergoelz.com/trip/2013/america/">
 	<meta property="twitter:account_id" content="15271634" />
 
-	<meta name="description" content="Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states."/>
+	<meta name="description" content="Join me as I share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states."/>
 	<link rel="canonical" href="http://www.tylergoelz.com/trip/2013/america/" />
 
 	<title>Tyler Goelz - A Beard Across America</title>
