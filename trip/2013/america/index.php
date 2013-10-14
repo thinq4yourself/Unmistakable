@@ -13,10 +13,10 @@
 	<!-- twitter cards -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@tylergoelz">
-	<meta name="twitter:title" content="Tyler Goelz - A Beard Across America: My First Successful Dreamline">
+	<meta name="twitter:title" content="A Beard Across America">
 	<meta name="twitter:description" content="Join me as I share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states.">
 	<meta name="twitter:creator" content="@tylergoelz">
-	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/logo_social.png">
+	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/trip/2013/america/map.png">
 	<meta name="twitter:domain" content="http://www.tylergoelz.com/trip/2013/america/">
 	<meta property="twitter:account_id" content="15271634" />
 
