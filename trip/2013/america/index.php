@@ -29,16 +29,20 @@
 </head>
 <body>
 	<article>
-		<div class="container roadtrip">
+		<div class="roadtrip">
 			<section id="headline" class="headline">
-				<div class="info">
-					<h1>A Beard Across America</h1>
-					<div class="row stats">
-						<div class="span3 stat muted"><h2>4.9k</h2><small>Miles</small></div>
-						<div class="span3 stat muted"><h2>4</h2><small>Weeks</small></div>
-						<div class="span3 stat muted"><h2>18</h2><small>Cities</small></div>
-						<div class="span3 stat muted"><h2>195</h2><small>Beers</small></div>
-					</ul>
+				<div class="info container">
+					<div class="row">
+						<div class="span12">
+							<h1>A Beard Across America</h1>
+							<div class="row stats">
+								<div class="span3 stat muted"><h2>4.9k</h2><small>Miles</small></div>
+								<div class="span3 stat muted"><h2>4</h2><small>Weeks</small></div>
+								<div class="span3 stat muted"><h2>18</h2><small>Cities</small></div>
+								<div class="span3 stat muted"><h2>195</h2><small>Beers</small></div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section class="map_container">
@@ -49,88 +53,180 @@
 				</div>
 			</section>
 			<section id="overview" class="overview">
-				<h2>My First Successful Dreamline</h2>
-				<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-bear-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<h2>My First Successful Dreamline</h2>
+							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section class="city">
-				<h2>Tallahassee, Florida</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>New Orleans, Louisiana</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Houston, Texas</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Austin, Texas</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Fort Worth, Texas</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Oklahoma City, Oklahoma</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Wichita, Kansas</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Denver, Colorado</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Las Vegas, Nevada</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Paso Robles, California</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Napa, California</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>San Francisco, California</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Sacramento, California</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>San Francisco, California (Round Duex)</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Gasquet, California</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Eugene, Oregon</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Portland, Oregon</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Tacoma, Washington</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Seattle, Washington</h2>
-				<p class="muted">Coming Soon</p>
-			</section>
-			<section class="city">
-				<h2>Tacoma, Washington</h2>
-				<p class="muted">Coming Soon</p>
+				<div class="row">
+					<div class="span12">
+						<div class="location">
+							<span class="pointer florida"></span>
+							<div class="state florida"></div>
+						</div>
+						<span class="frame pull-right">
+							<h2>Tallahassee, Florida</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>New Orleans, Louisiana</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Houston, Texas</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Austin, Texas</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Fort Worth, Texas</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Oklahoma City, Oklahoma</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Wichita, Kansas</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Denver, Colorado</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Las Vegas, Nevada</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Paso Robles, California</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Napa, California</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>San Francisco, California</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Sacramento, California</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>San Francisco, California (Round Duex)</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Gasquet, California</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Eugene, Oregon</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Portland, Oregon</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Tacoma, Washington</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame pull-right">
+							<h2>Seattle, Washington</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<span class="frame">
+							<h2>Tacoma, Washington</h2>
+							<p class="muted">Coming Soon</p>
+						</span>
+					</div>
+				</div>
 			</section>
 		</div>
 	</article>

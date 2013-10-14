@@ -727,6 +727,10 @@ footer p {
 }
 
 /*---------------------------- 2013 America Road Trip ----------------------------*/
+.roadtrip {
+	background: #f6f8f8;
+}
+
 .roadtrip .headline .info.loaded.less-padding {
 	padding: 2% 0 2% 0;
 	-webkit-transition: padding .5s;
@@ -740,7 +744,7 @@ footer p {
 	background: transparent;
 	position: relative;
 	overflow: hidden;
-	padding-bottom: 15px;	
+	padding-bottom: 65px;	
 }
 
 .roadtrip .info .stats {
@@ -764,9 +768,67 @@ footer p {
 	height: 500px;
 }
 
-.city {
+/*---------------------------- City Section(s) ----------------------------*/
+.city .row {
+	background: #f4f4f4;
 	display: block;
-	padding: 15px 0;
+	width:100%;
+	padding: 8% 0 7%;
+	margin-left: 0;
+}
+
+.city .row:nth-child(2n+2) {
+	background: #f6f8f8;
+}
+
+.city .frame {
+	width: 574px;
+	margin-top: 50px;
+	display: block;
+}
+
+.city .frame > h2 {
+	font-size:48px;
+	line-height:70px;
+	color:#34495e;
+	margin:0 0 40px;
+}
+
+.city .frame > p {
+	margin: 0 0 30px;
+}
+
+.location {
+	position: relative;
+}
+
+.location .pointer, .location .state {
+	overflow: hidden;
+	position: absolute;
+}
+
+.location .pointer {
+	background-image: url('https://dl.dropboxusercontent.com/u/814783/fiddle/marker.png');
+	height: 60px;
+	width: 33px;
+	z-index: 1;
+}
+
+.location .pointer.florida {
+	top: -5px;
+	left: 182px;
+}
+
+.location .state.florida {
+	background-image: url('../images/trip/2013/america/florida.png');
+	height: 379px;
+	width: 450px;
+}
+
+@media screen and (max-width: 1200px) {
+	.city .frame {
+		width: auto;
+	}
 }
 
 @media screen and (max-width: 1108px) { 
@@ -831,7 +893,7 @@ footer p {
 		padding:50px 0 !important;
 	}
 
-	.muse .details{
+	.muse .details {
 		padding:0 !important;
 		margin:0 !important;
 	}
@@ -883,7 +945,6 @@ footer p {
 		margin: 0 0 30px;
 	}
 
-
 	.about .frame {
 		float: left;
 		width: 50%;
@@ -896,6 +957,10 @@ footer p {
 		height: auto;
 		margin: 0 5%;
 		float: left;
+	}
+
+	.city .frame {
+		width: auto;
 	}
 }
 
@@ -976,6 +1041,16 @@ footer p {
 	.about .frame {
 		margin-top: 0;
 		width: 55%;
+	}
+
+	.location {
+		display: none;
+	}
+
+	.city .frame {
+		margin: 0;
+		padding: 50px 40px;
+		float: none;
 	}
 }
 
@@ -1062,10 +1137,6 @@ footer p {
 		font-size: 2.2em;
 	}
 
-	.about .frame {
-		width: auto;
-	}
-
 	.about > img {
 		display: none;
 	}
@@ -1100,7 +1171,7 @@ footer p {
 	.login-form:before {
 		content: none;
 	}
-	#hellobar-pusher, #hellobar-wrapper, #hellobar-container { display: none; !important}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1121,9 +1192,6 @@ footer p {
 	.topic-image {
 		width: 115px;
 	}
-}
-
-@media screen and (max-width: 480px) {
 	.headline .info h1 {
 		font-size: 2.4em;
 	}
