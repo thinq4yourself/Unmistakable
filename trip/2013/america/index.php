@@ -57,7 +57,7 @@
 					<div class="row">
 						<div class="span12">
 							<h2>My First Successful Dreamline</h2>
-							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
+							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a four-week span, visiting 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
 						</div>
 					</div>
 				</div>
@@ -350,7 +350,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="references">
-					<p>This site was crafted using the <a href="http://designmodo.com/flat-free/?ref=tylergoelz" target="_blank">Flat UI</a> framework, mocked up in <a href="http://www.adobe.com/products/photoshop.html?ref=tylergoelz" target="_blank">Photoshop</a> & <a href="http://www.adobe.com/products/illustrator.html?ref=tylergoelz" target="_blank">Illustrator</a> CS6, build in <a href="http://panic.com/coda/?ref=tylergoelz" target="_blank">Coda2</a>, using <a href="http://en.wikipedia.org/wiki/HTML5?ref=tylergoelz" target="_blank">HTML5</a>, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3?ref=tylergoelz" target="_blank">CS3</a> & <a href="http://jquery.com/?ref=tylergoelz" target="_blank">jQuery</a>. It's stashed using <a href="https://devcenter.heroku.com/articles/git/?ref=tylergoelz" target="_blank">git</a> and hosted on <a href="https://www.heroku.com/?ref=tylergoelz" target="_blank">Heroku</a>.</p>
+					<p>This site was crafted using the <a href="http://designmodo.com/flat-free/?ref=tylergoelz" target="_blank">Flat UI</a> framework, mocked up in <a href="http://www.adobe.com/products/photoshop.html?ref=tylergoelz" target="_blank">Photoshop</a> & <a href="http://www.adobe.com/products/illustrator.html?ref=tylergoelz" target="_blank">Illustrator</a> CS6, build in <a href="http://www.sublimetext.com/2?ref=tylergoelz" target="_blank">Submlime Text 2</a>, using <a href="http://en.wikipedia.org/wiki/HTML5?ref=tylergoelz" target="_blank">HTML5</a>, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3?ref=tylergoelz" target="_blank">CS3</a> & <a href="http://jquery.com/?ref=tylergoelz" target="_blank">jQuery</a>. It's stashed using <a href="https://devcenter.heroku.com/articles/git/?ref=tylergoelz" target="_blank">git</a> and hosted on <a href="https://www.heroku.com/?ref=tylergoelz" target="_blank">Heroku</a>.</p>
 					<p>Thank you all for your community support and general badassness!</p>
 					<small>&copy; 2013 The Face of Tyler Goelz, Inc.</small>
 				</div>
