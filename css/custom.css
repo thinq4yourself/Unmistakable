@@ -775,6 +775,7 @@ footer p {
 	width:100%;
 	padding: 8% 0 7%;
 	margin-left: 0;
+	min-height: 380px;
 }
 
 .city .row:nth-child(2n+2) {
@@ -784,7 +785,7 @@ footer p {
 .city .frame {
 	width: 574px;
 	margin-top: 50px;
-	display: block;
+	display: inline-block;
 }
 
 .city .frame > h2 {
@@ -800,6 +801,7 @@ footer p {
 
 .location {
 	position: relative;
+	width: 450px;
 }
 
 .location .pointer, .location .state {
@@ -814,15 +816,27 @@ footer p {
 	z-index: 1;
 }
 
-.location .pointer.florida {
+.location .state {
+	height: 379px;
+	width: 450px;
+}
+
+.location.florida .pointer {
 	top: -5px;
 	left: 182px;
 }
 
-.location .state.florida {
+.location.florida .state {
 	background-image: url('../images/trip/2013/america/florida.png');
-	height: 379px;
-	width: 450px;
+}
+
+.location.louisiana .pointer {
+	top: 235px;
+	left: 322px;
+}
+
+.location.louisiana .state {
+	background-image: url('../images/trip/2013/america/louisiana.png');
 }
 
 @media screen and (max-width: 1200px) {
