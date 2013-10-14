@@ -24,8 +24,8 @@
 	<link rel="canonical" href="http://www.tylergoelz.com/trip/2013/america/" />
 
 	<title>Tyler Goelz - A Beard Across America</title>
-
 	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/head.html'); ?>
+
 </head>
 <body>
 	<article>
@@ -66,7 +66,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location tallahassee">
+							<div id="tallahassee" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -80,7 +80,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location new-orleans pull-right">
+							<div id="new-orleans" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -94,7 +94,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location houston">
+							<div id="houston" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -108,7 +108,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location austin pull-right">
+							<div id="austin" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -122,7 +122,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location fort-worth">
+							<div id="fort-worth" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -136,7 +136,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location oklahoma pull-right">
+							<div id="oklahoma" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -149,7 +149,7 @@
 				</div>
 				<div class="row">
 					<div class="span12">
-						<div class="location kansas">
+						<div id="kansas" class="location">
 							<span class="pointer"></span>
 							<div class="state"></div>
 						</div>
@@ -162,7 +162,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location denver pull-right">
+							<div id="denver" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -175,7 +175,7 @@
 				</div>
 				<div class="row">
 					<div class="span12">
-						<div class="location nevada">
+						<div id="nevada" class="location">
 							<span class="pointer"></span>
 							<div class="state"></div>
 						</div>
@@ -188,7 +188,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location paso-robles pull-right">
+							<div id="paso-robles" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -202,7 +202,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location napa">
+							<div id="napa" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -216,7 +216,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location san-francisco pull-right">
+							<div id="san-francisco-1" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -230,7 +230,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location sacramento">
+							<div id="sacramento" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -244,7 +244,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location san-francisco pull-right">
+							<div id="san-francisco-2" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -258,7 +258,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location gasquet">
+							<div id="gasquet" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -272,7 +272,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location eugene pull-right">
+							<div id="eugene" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -286,7 +286,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location portland">
+							<div id="portland" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -300,7 +300,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location tacoma pull-right">
+							<div id="tacoma-1" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -314,7 +314,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location seattle">
+							<div id="seattle" class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -328,7 +328,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="span12">
-							<div class="location tacoma pull-right">
+							<div id="tacoma-2" class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -354,6 +354,7 @@
 		</div>
 	</footer>   
 	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/scripts.html'); ?>
+	<script src="/js/custom-trip.js" type="text/javascript"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js" type="text/javascript"></script>
 	<script src="<?php $_SERVER["DOCUMENT_ROOT"] ?>/js/flat-map.js" type="text/javascript"></script>
 </body>
