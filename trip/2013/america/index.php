@@ -148,15 +148,17 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="span12">
-						<div id="kansas" class="location">
-							<span class="pointer"></span>
-							<div class="state"></div>
+					<div class="container">
+						<div class="span12">
+							<div id="kansas" class="location">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
+							<span class="frame pull-right">
+								<h2>Wichita, Kansas</h2>
+								<p class="muted">Coming Soon</p>
+							</span>
 						</div>
-						<span class="frame pull-right">
-							<h2>Wichita, Kansas</h2>
-							<p class="muted">Coming Soon</p>
-						</span>
 					</div>
 				</div>
 				<div class="row">
@@ -174,15 +176,17 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="span12">
-						<div id="nevada" class="location">
-							<span class="pointer"></span>
-							<div class="state"></div>
+					<div class="container">
+						<div class="span12">
+							<div id="nevada" class="location">
+								<span class="pointer"></span>
+								<div class="state"></div>
+							</div>
+							<span class="frame pull-right">
+								<h2>Las Vegas, Nevada</h2>
+								<p class="muted">Coming Soon</p>
+							</span>
 						</div>
-						<span class="frame pull-right">
-							<h2>Las Vegas, Nevada</h2>
-							<p class="muted">Coming Soon</p>
-						</span>
 					</div>
 				</div>
 				<div class="row">
