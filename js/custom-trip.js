@@ -1,13 +1,21 @@
 $(window).load(function() {
 	var city = getParameterByName('city');
-	scrollToSection("#{0}".format(city));
+	scrollToSection("#{0}".format(city), 1500);
 })
 
 function getParameterByName(name) {
-    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	results = regex.exec(location.search);
+	return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function scrollToSection($page_location, duration) {
+	$page_location_top = $page_location ? $($page_location).offset().top + 2 : 0;
+
+	$('html, body').stop().animate({
+		scrollTop: $page_location_top
+	}, duration,'easeInOutQuart');
 }
 
 window.mobile = false;
