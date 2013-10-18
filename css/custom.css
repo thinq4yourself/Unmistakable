@@ -792,7 +792,6 @@ footer p {
 
 .city .frame {
 	width: 574px;
-	margin-top: 50px;
 	display: inline-block;
 }
 
@@ -800,11 +799,12 @@ footer p {
 	font-size:48px;
 	line-height:70px;
 	color:#34495e;
-	margin:0 0 40px;
+	margin:0 0 10px;
 }
 
-.city .frame > p {
-	margin: 0 0 30px;
+.city .frame > small {
+	margin: 0 0 15px;
+	display: block;
 }
 
 .location {
@@ -846,205 +846,205 @@ footer p {
 	transition: top .3s;
 }
 
-#tallahassee.location .pointer {
+#tallahassee .location .pointer {
 	top: -50px;
 	left: 215px;
 }
 
-#tallahassee.location.loaded .pointer {
+#tallahassee .location.loaded .pointer {
 	top: -15px;
 }
 
-#tallahassee.location .state {
+#tallahassee .location .state {
 	background-image: url('../images/trip/2013/america/florida.png');
 }
 
-#nola.location .pointer {
+#nola .location .pointer {
 	top: 100px;
 	left: 322px;
 }
 
-#nola.location.loaded .pointer {
+#nola .location.loaded .pointer {
 	top: 235px;
 }
 
-#nola.location .state {
+#nola .location .state {
 	background-image: url('../images/trip/2013/america/louisiana.png');
 }
 
-#houston.location .pointer {
+#houston .location .pointer {
 	top: 130px;
 	left: 360px;
 }
 
-#houston.location.loaded .pointer {
+#houston .location.loaded .pointer {
 	top: 185px;
 }
 
-#austin.location .pointer {
+#austin .location .pointer {
 	top: 90px;
 	left: 280px;
 }
 
-#austin.location.loaded .pointer {
+#austin .location.loaded .pointer {
 	top: 140px;
 }
 
-#fort-worth.location .pointer {
+#fort-worth .location .pointer {
 	top: 30px;
 	left: 295px;
 }
 
-#fort-worth.location.loaded .pointer {
+#fort-worth .location.loaded .pointer {
 	top: 90px;
 }
 
-#houston.location .state, #austin.location .state, #fort-worth.location .state {
+#houston .location .state, #austin .location .state, #fort-worth .location .state {
 	background-image: url('../images/trip/2013/america/texas.png');
 }
 
-#oklahoma.location .pointer {
+#oklahoma .location .pointer {
 	top: 60px;
 	left: 295px;
 }
 
-#oklahoma.location.loaded .pointer {
+#oklahoma .location.loaded .pointer {
 	top: 120px;
 }
 
-#oklahoma.location .state {
+#oklahoma .location .state {
 	background-image: url('../images/trip/2013/america/oklahoma.png');
 }
 
-#kansas.location .pointer {
+#kansas .location .pointer {
 	top: 100px;
 	left: 255px;
 }
 
-#kansas.location.loaded .pointer {
+#kansas .location.loaded .pointer {
 	top: 190px;
 }
 
-#kansas.location .state {
+#kansas .location .state {
 	background-image: url('../images/trip/2013/america/kansas.png');
 }
 
-#denver.location .pointer {
+#denver .location .pointer {
 	top: -5px;
 	left: 255px;
 }
 
-#denver.location.loaded .pointer {
+#denver .location.loaded .pointer {
 	top: 70px;
 }
 
-#denver.location .state {
+#denver .location .state {
 	background-image: url('../images/trip/2013/america/colorado.png');
 }
 
-#nevada.location .pointer {
+#nevada .location .pointer {
 	top: 180px;
 	left: 237px;
 }
 
-#nevada.location.loaded .pointer {
+#nevada .location.loaded .pointer {
 	top: 274px;
 }
 
-#nevada.location .state {
+#nevada .location .state {
 	background-image: url('../images/trip/2013/america/nevada.png');
 }
 
-#paso-robles.location .pointer {
+#paso-robles .location .pointer {
 	top: 90px;
 	left: 150px;
 }
 
-#paso-robles.location.loaded .pointer {
+#paso-robles .location.loaded .pointer {
 	top: 185px;
 }
 
-#napa.location .pointer {
+#napa .location .pointer {
 	top: 5px;
 	left: 106px;
 }
 
-#napa.location.loaded .pointer {
+#napa .location.loaded .pointer {
 	top: 92px;
 }
 
-#san-francisco-1.location .pointer, #san-francisco-2.location .pointer {
+#san-francisco-1 .location .pointer, #san-francisco-2 .location .pointer {
 	top: 20px;
 	left: 103px;
 }
 
-#san-francisco-1.location.loaded .pointer, #san-francisco-2.location.loaded .pointer {
+#san-francisco-1 .location.loaded .pointer, #san-francisco-2 .location.loaded .pointer {
 	top: 113px;
 }
 
-#sacramento.location .pointer {
+#sacramento .location .pointer {
 	top: 0px;
 	left: 121px;
 }
 
-#sacramento.location.loaded .pointer {
+#sacramento .location.loaded .pointer {
 	top: 86px;
 }
 
-#gasquet.location .pointer {
+#gasquet .location .pointer {
 	top: -80px;
 	left: 75px;
 }
 
-#gasquet.location.loaded .pointer {
+#gasquet .location.loaded .pointer {
 	top: -42px;
 }
 
-#paso-robles.location .state, #napa.location .state, #san-francisco-1.location .state, #san-francisco-2.location .state, #sacramento.location .state, #gasquet.location .state {
+#paso-robles .location .state, #napa .location .state, #san-francisco-1 .location .state, #san-francisco-2 .location .state, #sacramento .location .state, #gasquet .location .state {
 	background-image: url('../images/trip/2013/america/california.png');
 }
 
-#eugene.location .pointer {
+#eugene .location .pointer {
 	top: 30px;
 	left: 90px;
 }
 
-#eugene.location.loaded .pointer {
+#eugene .location.loaded .pointer {
 	top: 104px;
 }
 
-#portland.location .pointer {
+#portland .location .pointer {
 	top: -20px;
 	left: 105px;
 }
 
-#portland.location.loaded .pointer {
+#portland .location.loaded .pointer {
 	top: 29px;
 }
 
-#eugene.location .state, #portland.location .state {
+#eugene .location .state, #portland.location .state {
 	background-image: url('../images/trip/2013/america/oregon.png');
 }
 
-#tacoma-1.location .pointer, #tacoma-2.location .pointer {
+#tacoma-1 .location .pointer, #tacoma-2 .location .pointer {
 	top: 40px;
 	left: 120px;
 }
 
-#tacoma-1.location.loaded .pointer, #tacoma-2.location.loaded .pointer {
+#tacoma-1 .location.loaded .pointer, #tacoma-2 .location.loaded .pointer {
 	top: 125px;
 }
 
-#seattle.location .pointer {
+#seattle .location .pointer {
 	top: 10px;
 	left: 124px;
 }
 
-#seattle.location.loaded .pointer {
+#seattle .location.loaded .pointer {
 	top: 95px;
 }
 
-#tacoma-1.location .state, #tacoma-2.location .state, #seattle.location .state {
+#tacoma-1 .location .state, #tacoma-2 .location .state, #seattle .location .state {
 	background-image: url('../images/trip/2013/america/washington.png');
 }
 

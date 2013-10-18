@@ -107,32 +107,35 @@
 							<h2>My First Successful Dreamline</h2>
 							<small class="muted">Posted: 10/11/2013</small>
 							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a four-week span, visiting 18 cities in 10 different states.</p>
-							<p>About 8 months ago, I read a book called The 4-Hour Work Week (4HWW) by Tim Ferris. The book focuses on lifestyle design and uses a formula to be able to live the life that you want. The formula can be summed up in the following acronym: DEAL. Definition, Elimination, Automation and Liberation. Here’s how I used Definition, Elimination and Liberation to make this road trip happen and how I discovered an idea for a muse (Automation) along the way.</p>
-							<button type="button" data-scroll="#city" class="btn btn-large btn-primary">Read More About My Trip</button>
-							<a class="btn" href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Continue Reading This Article &#8594;</a>
+							<p>About 8 months ago, I read a book called <a href="http://www.fourhourworkweek.com/" title="The 4-Hour Work Week">The 4-Hour Work Week</a> (4HWW) by <a href="http://www.fourhourworkweek.com/blog" title="Tim Ferris">Tim Ferris</a>. The book focuses on lifestyle design and uses a formula to be able to live the life that you want. The formula can be summed up in the following acronym: DEAL. Definition, Elimination, Automation and Liberation. Here’s how I used Definition, Elimination and Liberation to make this road trip happen and how I discovered an idea for a muse (Automation) along the way.</p>
+							<button type="button" data-scroll="#tallahassee" class="btn btn-large btn-primary">Read More About My Trip</button>
+							<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Continue Reading This Article &#8594;</a>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="city" id="city">
-				<div class="row">
+			<section class="city">
+				<div class="row" id="tallahassee">
 					<div class="container">
 						<div class="span12">
-							<div id="tallahassee" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
 							<span class="frame pull-right">
 								<h2>Tallahassee, Florida</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Posted: 10/16/2013</small>
+								<small>I was excited to reach Tallahassee since this would be the first time I had ever <a href="http://www.couchsurfing.org" title="CouchSurfing">CouchSurf</a>’d. I was staying with <a href="https://www.couchsurfing.org/people/strangepowers/" title="Chris and Meagan (StrangePowers)">Chris & Meagan</a> and wasn’t quite sure what to expect. Most likely a cool couple offering a coach for me to rest my head on and an hour or two of good conversation. My only concern was that they’d be unhappy with the fact that my arrival time was a few hours later than I expected, but with open communication between Chris and I along the way, things worked out just fine.</small>
+								<button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button>
+								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/64410518374/tallahassee-florida-big-ass-pizza-and-freedom-salute-ame">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="nola">
 					<div class="container">
 						<div class="span12">
-							<div id="nola" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -143,10 +146,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="houston">
 					<div class="container">
 						<div class="span12">
-							<div id="houston" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -157,10 +160,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="austin">
 					<div class="container">
 						<div class="span12">
-							<div id="austin" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -171,10 +174,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="fort-worth">
 					<div class="container">
 						<div class="span12">
-							<div id="fort-worth" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -185,10 +188,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="oklahoma">
 					<div class="container">
 						<div class="span12">
-							<div id="oklahoma" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -199,10 +202,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="kansas">
 					<div class="container">
 						<div class="span12">
-							<div id="kansas" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -213,10 +216,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="denver">
 					<div class="container">
 						<div class="span12">
-							<div id="denver" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -227,10 +230,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="nevada">
 					<div class="container">
 						<div class="span12">
-							<div id="nevada" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -241,10 +244,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="paso-robles">
 					<div class="container">
 						<div class="span12">
-							<div id="paso-robles" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -255,10 +258,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="napa">
 					<div class="container">
 						<div class="span12">
-							<div id="napa" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -269,10 +272,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="san-francisco-1">
 					<div class="container">
 						<div class="span12">
-							<div id="san-francisco-1" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -283,10 +286,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="sacramento">
 					<div class="container">
 						<div class="span12">
-							<div id="sacramento" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -297,10 +300,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="san-francisco-2">
 					<div class="container">
 						<div class="span12">
-							<div id="san-francisco-2" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -311,10 +314,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="gasquet">
 					<div class="container">
 						<div class="span12">
-							<div id="gasquet" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -325,10 +328,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="eugene">
 					<div class="container">
 						<div class="span12">
-							<div id="eugene" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -339,10 +342,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="portland">
 					<div class="container">
 						<div class="span12">
-							<div id="portland" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -353,10 +356,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="tacoma-1">
 					<div class="container">
 						<div class="span12">
-							<div id="tacoma-1" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -367,10 +370,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="seattle">
 					<div class="container">
 						<div class="span12">
-							<div id="seattle" class="location">
+							<div class="location">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
@@ -381,10 +384,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="tacoma-2">
 					<div class="container">
 						<div class="span12">
-							<div id="tacoma-2" class="location pull-right">
+							<div class="location pull-right">
 								<span class="pointer"></span>
 								<div class="state"></div>
 							</div>
