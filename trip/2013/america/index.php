@@ -18,7 +18,7 @@
 	<meta name="twitter:creator" content="@tylergoelz">
 	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/trip/2013/america/map.png">
 	<meta name="twitter:domain" content="http://www.tylergoelz.com/trip/2013/america/">
-	<meta property="twitter:account_id" content="15271634" />
+	<meta name="twitter:account_id" content="15271634" />
 
 	<meta name="description" content="Join me as I share with you how I was able to travel 4900 miles over a 4 week span and visit 18 cities in 10 different states."/>
 	<link rel="canonical" href="http://www.tylergoelz.com/trip/2013/america/" />
@@ -29,6 +29,54 @@
 </head>
 <body>
 	<article>
+		<section id="follow-me" class="follow-me">
+			<div class="row-fluid">
+				<div class="btn-group select hidden-phone large">
+					<label class="btn btn-inverse">
+						<span class="follow">Follow</span>
+						<ul class="dropdown-menu dropdown-inverse">
+							<li rel="0">
+								<a tabindex="-1" href="http://blog.tylergoelz.com">Blog</a>
+							</li>
+							<li rel="1">
+								<a tabindex="-1" href="http://www.twitter.com/tylergoelz">Twitter</a>
+							</li>
+							<li rel="2">
+								<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz">Facebook</a>
+							</li>
+							<li rel="3">
+								<a tabindex="-1" href="https://plus.google.com/117206861866317813355/about">Google+</a>
+							</li>
+							<li rel="4">
+								<a tabindex="-1" href="<?php $_SERVER["DOCUMENT_ROOT"] ?>/survey">Give Feedback</a>
+							</li>
+						</ul>
+					</label>
+				</div>
+				<div class="btn-group select visible-phone small">
+					<button class="btn dropdown-toggle clearfix btn-inverse" data-toggle="dropdown">
+						<i class="fui-heart"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-inverse" role="menu">
+						<li rel="0">
+							<a tabindex="-1" href="http://blog.tylergoelz.com">Blog</a>
+						</li>
+						<li rel="1">
+							<a tabindex="-1" href="http://www.twitter.com/tylergoelz">Twitter</a>
+						</li>
+						<li rel="2">
+							<a tabindex="-1" href="http://www.facebook.com/ILikeTylerGoelz">Facebook</a>
+						</li>
+						<li rel="3">
+							<a tabindex="-1" href="https://plus.google.com/117206861866317813355/about">Google+</a>
+						</li>
+						<li rel="4">
+							<a tabindex="-1" href="<?php $_SERVER["DOCUMENT_ROOT"] ?>/survey">Give Feedback</a>	
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
 		<div class="roadtrip">
 			<section id="headline" class="headline">
 				<div class="info container">
@@ -57,13 +105,16 @@
 					<div class="row">
 						<div class="span12">
 							<h2>My First Successful Dreamline</h2>
-							<small class="muted">10/11/2013</small>
-							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a four-week span, visiting 18 cities in 10 different states. <a href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Read More &#8594;</a></p>
+							<small class="muted">Posted: 10/11/2013</small>
+							<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true. I’m going to share with you how I was able to travel 4900 miles over a four-week span, visiting 18 cities in 10 different states.</p>
+							<p>About 8 months ago, I read a book called The 4-Hour Work Week (4HWW) by Tim Ferris. The book focuses on lifestyle design and uses a formula to be able to live the life that you want. The formula can be summed up in the following acronym: DEAL. Definition, Elimination, Automation and Liberation. Here’s how I used Definition, Elimination and Liberation to make this road trip happen and how I discovered an idea for a muse (Automation) along the way.</p>
+							<button type="button" data-scroll="#city" class="btn btn-large btn-primary">Read More About My Trip</button>
+							<a class="btn" href="http://blog.tylergoelz.com/post/63787007406/a-beard-across-america-my-first-successfull-dreamline">Continue Reading This Article &#8594;</a>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="city">
+			<section class="city" id="city">
 				<div class="row">
 					<div class="container">
 						<div class="span12">
