@@ -126,7 +126,7 @@
 								<h2>Tallahassee, Florida</h2>
 								<small class="muted">Posted: 10/16/2013</small>
 								<small>I was excited to reach Tallahassee since this would be the first time I had ever <a href="http://www.couchsurfing.org" title="CouchSurfing">CouchSurf</a>’d. I was staying with <a href="https://www.couchsurfing.org/people/strangepowers/" title="Chris and Meagan (StrangePowers)">Chris & Meagan</a> and wasn’t quite sure what to expect. Most likely a cool couple offering a coach for me to rest my head on and an hour or two of good conversation. My only concern was that they’d be unhappy with the fact that my arrival time was a few hours later than I expected, but with open communication between Chris and I along the way, things worked out just fine.</small>
-								<button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button>
+								<!-- <button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button> -->
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/64410518374/tallahassee-florida-big-ass-pizza-and-freedom-salute-ame">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
