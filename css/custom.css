@@ -803,8 +803,12 @@ footer p {
 }
 
 .city .frame > small {
-	margin: 0 0 15px;
+	margin: 15px 0;
 	display: block;
+}
+
+.city .frame > small.muted {
+	margin: 0;
 }
 
 .location {
@@ -857,6 +861,10 @@ footer p {
 
 #tallahassee .location .state {
 	background-image: url('../images/trip/2013/america/florida.png');
+}
+
+#nola .location {
+	margin-top: 50px;
 }
 
 #nola .location .pointer {
@@ -1049,12 +1057,12 @@ footer p {
 }
 
 @media screen and (max-width: 1200px) {
+	.location {
+		display: none;
+	}
+
 	.city .frame {
 		width: auto;
-	}
-	
-	.city .frame {
-
 	}
 }
 
@@ -1186,9 +1194,6 @@ footer p {
 		float: left;
 	}
 
-	.city .frame {
-		width: auto;
-	}
 }
 
 @media screen and (max-width: 980px) {	
@@ -1268,10 +1273,6 @@ footer p {
 	.about .frame {
 		margin-top: 0;
 		width: 55%;
-	}
-
-	.location {
-		display: none;
 	}
 
 	.city .frame {
