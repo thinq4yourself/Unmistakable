@@ -87,7 +87,7 @@
 								<div class="span3 stat muted"><h2>4.9k</h2><small>Miles</small></div>
 								<div class="span3 stat muted"><h2>4</h2><small>Weeks</small></div>
 								<div class="span3 stat muted"><h2>18</h2><small>Cities</small></div>
-								<div class="span3 stat muted"><h2>195</h2><small>Beers</small></div>
+								<div class="span3 stat muted"><h2>210</h2><small>Beers</small></div>
 							</div>
 						</div>
 					</div>
@@ -124,8 +124,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Tallahassee, Florida</h2>
+								<small class="muted">Visited: 9/9/2013 (1 night)</small>
 								<small class="muted">Posted: 10/18/2013</small>
-								<small class="muted">Duration of stay: 1 night</small>
 								<small>I was excited to reach Tallahassee since this would be the first time I had ever <a href="http://www.couchsurfing.org" title="CouchSurfing">CouchSurf</a>’d. I was staying with <a href="https://www.couchsurfing.org/people/strangepowers/" title="Chris and Meagan (StrangePowers)">Chris & Meagan</a> and wasn’t quite sure what to expect. Most likely a cool couple offering a coach for me to rest my head on and an hour or two of good conversation. My only concern was that they’d be unhappy with the fact that my arrival time was a few hours later than I expected, but with open communication between Chris and I along the way, things worked out just fine.</small>
 								<button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/64410518374/tallahassee-florida-big-ass-pizza-and-freedom-salute-ame">Continue Reading This Article &#8594;</a>
@@ -142,11 +142,11 @@
 							</div>
 							<span class="frame">
 								<h2>New Orleans, Louisiana</h2>
+								<small class="muted">Visited: 9/10/2013 (2 nights)</small>
 								<small class="muted">Posted: 10/21/2013</small>
-								<small class="muted">Duration of stay: 2 night</small>
 								<small>I was excited to reach New Orleans for multiple reasons; It's New Orleans, it was my first time in a hostel and I had a list of recommended places to visit from my father and people that I've encountered that are from Nola.</small>
 								<small>As I pulled into town, my first stop was to check into the <a href="http://www.indiahousehostel.com/" title="India House Hostel">India House Hostel</a> which is located on Canal and South Lopez Street. It was a series of houses that were purchased shortly after Katrina and converted into a hostel. The atmosphere was fantastically eclectic and welcoming.</small>
-								<!-- <button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<button type="button" data-scroll="#houston" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/64712353667/new-orleans-louisiana-india-house-hostel-and-frenchmen-s">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -161,7 +161,11 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Houston, Texas</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/12/2013</small>
+								<small class="muted">Posted: 10/23/2013</small>
+								<small>As I departed <a href="http://blog.tylergoelz.com/post/64712353667/new-orleans-louisiana-india-house-hostel-and-frenchmen-s" title="New Orleans">New Orleans</a>, I had absolutely no idea of what to expect from Texas. It would be the furthest I had ever traveled west and in all honesty, I wasn&rsquo;t even sure of the geographical order of the cities I would be visiting in Texas. For example, I had told my father as I was leaving Nola that I&rsquo;d be in Austin that night. That was not the case. After looking at my itinerary, I was going to <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurf</a> with a guy named <a href="http://www.couchsurfing.org/people/abhijit.mohod/" title="Abhijit">Abhijit</a>.</small>
+								<!-- <button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/64810203129/houston-texas-hidden-underground-tunnels-and-the-beginni">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
@@ -175,7 +179,8 @@
 							</div>
 							<span class="frame">
 								<h2>Austin, Texas</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/13/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -189,7 +194,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Fort Worth, Texas</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/14/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -203,7 +209,8 @@
 							</div>
 							<span class="frame">
 								<h2>Oklahoma City, Oklahoma</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/15/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -217,7 +224,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Wichita, Kansas</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/16/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -231,7 +239,8 @@
 							</div>
 							<span class="frame">
 								<h2>Denver, Colorado</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/17/2013 (2 nights)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -245,7 +254,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Las Vegas, Nevada</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/19/2013 (3 nights)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -259,7 +269,8 @@
 							</div>
 							<span class="frame">
 								<h2>Paso Robles, California</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/22/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -273,7 +284,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Napa, California</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/23/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -287,7 +299,8 @@
 							</div>
 							<span class="frame">
 								<h2>San Francisco, California</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/24/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -301,7 +314,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Sacramento, California</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/25/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -315,7 +329,8 @@
 							</div>
 							<span class="frame">
 								<h2>San Francisco, California (Round Duex)</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/26/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -329,7 +344,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Gasquet, California</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/27/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -343,7 +359,8 @@
 							</div>
 							<span class="frame">
 								<h2>Eugene, Oregon</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/28/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -357,7 +374,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Portland, Oregon</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 9/29/2013 (2 nights)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -371,7 +389,8 @@
 							</div>
 							<span class="frame">
 								<h2>Tacoma, Washington</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 10/1/2013 (2 nights)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -385,7 +404,8 @@
 							</div>
 							<span class="frame pull-right">
 								<h2>Seattle, Washington</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 10/3/2013 (1 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
@@ -399,7 +419,8 @@
 							</div>
 							<span class="frame">
 								<h2>Tacoma, Washington</h2>
-								<p class="muted">Coming Soon</p>
+								<small class="muted">Visited: 10/4/2013 (3 night)</small>
+								<small class="muted">Post Coming Soon</small>
 							</span>
 						</div>
 					</div>
