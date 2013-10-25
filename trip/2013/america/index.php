@@ -164,7 +164,7 @@
 								<small class="muted">Visited: 9/12/2013</small>
 								<small class="muted">Posted: 10/23/2013</small>
 								<small>As I departed <a href="http://blog.tylergoelz.com/post/64712353667/new-orleans-louisiana-india-house-hostel-and-frenchmen-s" title="New Orleans">New Orleans</a>, I had absolutely no idea of what to expect from Texas. It would be the furthest I had ever traveled west and in all honesty, I wasn&rsquo;t even sure of the geographical order of the cities I would be visiting in Texas. For example, I had told my father as I was leaving Nola that I&rsquo;d be in Austin that night. That was not the case. After looking at my itinerary, I was going to <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurf</a> with a guy named <a href="http://www.couchsurfing.org/people/abhijit.mohod/" title="Abhijit">Abhijit</a>.</small>
-								<!-- <button type="button" data-scroll="#nola" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<button type="button" data-scroll="#austin" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/64810203129/houston-texas-hidden-underground-tunnels-and-the-beginni">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -180,7 +180,10 @@
 							<span class="frame">
 								<h2>Austin, Texas</h2>
 								<small class="muted">Visited: 9/13/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 10/25/2013</small>
+								<small>I needed to find an alternative to <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> for lodging in Austin. My search for a host had left me without a place to stay. I was searching for hostels until <a href="http://www.couchsurfing.org/people/abhijit.mohod/">Abhi</a>, my CouchSurfing host in <a href="http://blog.tylergoelz.com/post/64810203129/houston-texas-hidden-underground-tunnels-and-the-beginni">Houston</a>, mentioned a website called <a href="https://www.airbnb.com/">AirBnB</a>. I had never heard of the website before, but was up for the new experience. AirBnB is basically the same concept of CouchSurfing, but with cost associated with your stay. I found a place to stay that was only a few blocks from <a href="http://en.wikipedia.org/wiki/Sixth_Street_(Austin,_Texas)">East 6th Street</a> with a guy named <a href="https://www.airbnb.com/rooms/70342">Nick</a> and his roommates.</small>
+								<!-- <button type="button" data-scroll="#fort-worth" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<a type="button" class="btn btn-large" href="">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
