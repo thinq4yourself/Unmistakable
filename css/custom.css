@@ -816,7 +816,7 @@ footer p {
 	width: 450px;
 }
 
-.location .pointer, .location .state {
+.location .pointer, .location .state, .location .fui-radio-checked  {
 	overflow: hidden;
 	position: absolute;
 	-webkit-transition: opacity .2s;

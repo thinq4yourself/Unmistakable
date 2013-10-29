@@ -200,7 +200,7 @@
 								<small class="muted">Visited: 9/14/2013 (1 night)</small>
 								<small class="muted">Posted: 10/28/2013</small>
 								<small>I originally planned to stay in Dallas for my last night in Texas, since I wanted to visit "The Big 3" cities I had heard of. I kept hearing the same things about Dallas from the Texans I stayed with, "It's pretentious", "It's like the L.A. of Texas", "There are a lot of $30k millionaire douche bags". Fortunately, I received a message on <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> from <a href="https://www.couchsurfing.org/people/bradwilsonem/" title="Brad">Brad</a> who was offering an extra room in his apartment. He mentioned it would be a great weekend to visit since him and his wife, <a href="https://www.couchsurfing.org/people/marybethwilson/" title="Marybeth">Marybeth</a> would be brewing beer. I was sold.</small>
-								<!-- <button type="button" data-scroll="#oklahoma" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<button type="button" data-scroll="#oklahoma" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/65362469181/fort-worth-texas-breakfast-beer-hemphill-brew-pub-pizza">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -216,7 +216,10 @@
 							<span class="frame">
 								<h2>Oklahoma City, Oklahoma</h2>
 								<small class="muted">Visited: 9/15/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 10/30/2013</small>
+								<small>By this point, I was quite comfortable with the way <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> works. You connect with a local from a city you will be visiting, meet them when you arrive, grab dinner & a few drink and enjoy the city like the locals do. This was not the case in Oklahoma City.</small>
+								<!-- <button type="button" data-scroll="#kansas" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<a type="button" class="btn btn-large" href="">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
