@@ -219,7 +219,7 @@
 								<small class="muted">Posted: 10/30/2013</small>
 								<small>By this point, I was quite comfortable with the way <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> works. You connect with a local from a city you will be visiting, meet them when you arrive, grab dinner & a few drink and enjoy the city like the locals do. This was not the case in Oklahoma City.</small>
 								<!-- <button type="button" data-scroll="#kansas" class="btn btn-large btn-primary">Read More About My Trip</button> -->
-								<a type="button" class="btn btn-large" href="">Continue Reading This Article &#8594;</a>
+								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/65529531234/oklahoma-city-oklahoma-is-anybody-home">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
