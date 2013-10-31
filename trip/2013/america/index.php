@@ -218,7 +218,7 @@
 								<small class="muted">Visited: 9/15/2013 (1 night)</small>
 								<small class="muted">Posted: 10/30/2013</small>
 								<small>By this point, I was quite comfortable with the way <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> works. You connect with a local from a city you will be visiting, meet them when you arrive, grab dinner & a few drink and enjoy the city like the locals do. This was not the case in Oklahoma City.</small>
-								<!-- <button type="button" data-scroll="#kansas" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<button type="button" data-scroll="#kansas" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/65529531234/oklahoma-city-oklahoma-is-anybody-home">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -234,7 +234,10 @@
 							<span class="frame pull-right">
 								<h2>Wichita, Kansas</h2>
 								<small class="muted">Visited: 9/16/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/01/2013</small>
+								<small>Up until this point, I had only stayed with one couple and besides that, mostly bachelor men and transient travelers. Wichita was different since I would be <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> with <a href="https://www.couchsurfing.org/people/edbrot/" title="Eddy">Eddy</a>, his wife Rema and his daughter Norah whose fourth birthday landed on the same day I would be in Wichita. I received an eager message from Eddy about a week before my stay talking about his passion for technology, good food and a decent beer selection; all things good. I was instantly excited to meet him and his family.</small>
+								<!-- <button type="button" data-scroll="#denver" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<a type="button" class="btn btn-large" href="">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
