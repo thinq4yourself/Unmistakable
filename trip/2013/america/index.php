@@ -237,7 +237,7 @@
 								<small class="muted">Posted: 11/01/2013</small>
 								<small>Up until this point, I had only stayed with one couple and besides that, mostly bachelor men and transient travelers. Wichita was different since I would be <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> with <a href="https://www.couchsurfing.org/people/edbrot/" title="Eddy">Eddy</a>, his wife Rema and his daughter Norah whose fourth birthday landed on the same day I would be in Wichita. I received an eager message from Eddy about a week before my stay talking about his passion for technology, good food and a decent beer selection; all things good. I was instantly excited to meet him and his family.</small>
 								<!-- <button type="button" data-scroll="#denver" class="btn btn-large btn-primary">Read More About My Trip</button> -->
-								<a type="button" class="btn btn-large" href="">Continue Reading This Article &#8594;</a>
+								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/65691982794/wichita-kansas-family-friends-homemade-pizza-and">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
