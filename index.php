@@ -193,8 +193,8 @@
 				<img id="icon-face" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
 				<span class="frame">
 					<h2>About Me</h2>
-					<p>I focus on helping companies put the user first by making user-centered design & business decision to enhance the user's experience. Yes, I did say "user" three times in that sentence.</p>
-					<p>Recently, I traveled 4900 miles over a 4 week span on a cross country road trip. To read about my adventures, click <a href="/trip/2013/america">here</a></p>
+					<p>In September, I traveled 4900 miles over a 4 week span on a cross country road trip. I planned the trip for 6 months and made a dream a reality. It was <a href="/trip/2013/america/?city=overview" title="My First Successful Dreamline">my first successful dreamline</a>, but not my last.</p>
+					<p>Along with writing, traveling and creating muses, I focus on helping companies succeed by putting their users first. I help them do that by making user-centered design & business decision to enhance the user's experience.</p>
 					<p>Follow me:
 						<a class="follow-link" href="http://blog.tylergoelz.com">Blog</a>
 						<a class="follow-link" href="http://www.twitter.com/tylergoelz">Twitter</a>
