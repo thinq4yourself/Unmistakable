@@ -236,7 +236,7 @@
 								<small class="muted">Visited: 9/16/2013 (1 night)</small>
 								<small class="muted">Posted: 11/01/2013</small>
 								<small>Up until this point, I had only stayed with one couple and besides that, mostly bachelor men and transient travelers. Wichita was different since I would be <a href="https://www.couchsurfing.org/" title="CouchSurfing">CouchSurfing</a> with <a href="https://www.couchsurfing.org/people/edbrot/" title="Eddy">Eddy</a>, his wife Rema and his daughter Norah whose fourth birthday landed on the same day I would be in Wichita. I received an eager message from Eddy about a week before my stay talking about his passion for technology, good food and a decent beer selection; all things good. I was instantly excited to meet him and his family.</small>
-								<!-- <button type="button" data-scroll="#denver" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<button type="button" data-scroll="#denver" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/65691982794/wichita-kansas-family-friends-homemade-pizza-and">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -252,7 +252,10 @@
 							<span class="frame">
 								<h2>Denver, Colorado</h2>
 								<small class="muted">Visited: 9/17/2013 (2 nights)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/04/2013</small>
+								<small>I was so excited to go to Denver, since my girlfriend, Kimmi, met me there and joined me for nine days of the trip, visiting her mother & sister in Denver and driving with me through Las Vegas, Napa Valley and San Francisco. I woke up and left <a href="http://blog.tylergoelz.com/post/65691982794/wichita-kansas-family-friends-homemade-pizza-and" title="Wichita, Kansas">Wichita, Kansas</a> extra early in preparation for the long drive ahead of me.</small>
+								<!-- <button type="button" data-scroll="#nevada" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/66043300759/denver-colorado-the-girl-the-pioneer-and-red-rocks-amphi">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
