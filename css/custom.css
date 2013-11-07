@@ -956,10 +956,11 @@ footer p {
 }
 
 #nevada .location.loaded .pointer {
-	top: 274px;
+	top: 314px;
 }
 
 #nevada .location .state {
+	top: 40px;
 	background-image: url('../images/trip/2013/america/nevada.png');
 }
 
