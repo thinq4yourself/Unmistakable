@@ -254,7 +254,7 @@
 								<small class="muted">Visited: 9/17/2013 (2 nights)</small>
 								<small class="muted">Posted: 11/04/2013</small>
 								<small>I was so excited to go to Denver, since my girlfriend, Kimmi, met me there and joined me for nine days of the trip, visiting her mother & sister in Denver and driving with me through Las Vegas, Napa Valley and San Francisco. I woke up and left <a href="http://blog.tylergoelz.com/post/65691982794/wichita-kansas-family-friends-homemade-pizza-and" title="Wichita, Kansas">Wichita, Kansas</a> extra early in preparation for the long drive ahead of me.</small>
-								<!-- <button type="button" data-scroll="#nevada" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<button type="button" data-scroll="#nevada" class="btn btn-large btn-primary">Read More About My Trip</button>
 								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/66043300759/denver-colorado-the-girl-the-pioneer-and-red-rocks-amphi">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -270,7 +270,10 @@
 							<span class="frame pull-right">
 								<h2>Las Vegas, Nevada</h2>
 								<small class="muted">Visited: 9/19/2013 (3 nights)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/06/2013</small>
+								<small>Ever since Kimmi, my girlfriend, went to Vegas when she was 21, she had always told me she would love to go back. Who wouldn’t love to go to Vegas?! I know I was super excited about it, especially since it was my first time in Sin City. To give you an idea of how stoked we were, we drove straight from Denver to Las Vegas totally skipping our layover town in Utah. For any of you that haven’t driven from Denver to Vegas, it takes about eleven hours IF you don’t stop, but it was decided, the adrenaline had taken over and we weren’t stopping until we saw Vegas, baby!</small>
+								<!-- <button type="button" data-scroll="#paso-robles" class="btn btn-large btn-primary">Read More About My Trip</button> -->
+								<a type="button" class="btn btn-large" href="http://blog.tylergoelz.com/post/66243902496/las-vegas-nevada-part-1-raphael-rivera-canadians-new-yor">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
