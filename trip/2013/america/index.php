@@ -309,7 +309,7 @@
 								<small class="muted">Visited: 9/23/2013 (1 night)</small>
 								<small class="muted">Posted: 11/14/2013</small>
 								<small>Our next stop was thought to be San Francisco for the night, but when we arrived in the city we found every hotel to be booked for an Oracle conference that pretty much runs the downtown area for the weekend it&rsquo;s in town. So, we decided to try our luck in Napa Valley. We booked a room at the <a href="http://www.napavalleyhotelandsuites.com/index.html" title="Napa Valley Hotel &amp; Suites">Napa Valley Hotel &amp; Suites</a> and were on our way. Kimmi and I anticipated Napa to be a quite town, full of wino&rsquo;s but to our surprise there was quite a night life.</small>
-								<!-- <button type="button" data-scroll="#san-francisco-1" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#san-francisco-1" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://blog.tylergoelz.com/post/66990957021/napa-valley-california-bounty-hunter-downtown-joes-and-h">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -325,7 +325,10 @@
 							<span class="frame">
 								<h2>San Francisco, California</h2>
 								<small class="muted">Visited: 9/24/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/18/2013</small>
+								<small>Kimmi and I had a couple reasons to be excited to visit San Francisco; The forward-thinking mindset of the city was intriguing and we were staying in the famous Castro district known for it’s gay population with Kimmi’s co-worker Jack and his partner Joe. Jack and Joe visit San Francisco annually and the timing of the trip was primarily based around when they would be in the city. Everything from the date I left St. Pete to how many nights I spent in each city to when Kimmi flew into Denver and out of California was based around the fact that Jack, Joe, Kimmi and I would meet in San Francisco on September 24th.</small>
+								<!-- <button type="button" data-scroll="#sacramento" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr_mkybp">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
