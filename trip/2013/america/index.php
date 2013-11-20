@@ -327,7 +327,7 @@
 								<small class="muted">Visited: 9/24/2013 (1 night)</small>
 								<small class="muted">Posted: 11/18/2013</small>
 								<small>Kimmi and I had a couple reasons to be excited to visit San Francisco; The forward-thinking mindset of the city was intriguing and we were staying in the famous Castro district known for it’s gay population with Kimmi’s co-worker Jack and his partner Joe. Jack and Joe visit San Francisco annually and the timing of the trip was primarily based around when they would be in the city. Everything from the date I left St. Pete to how many nights I spent in each city to when Kimmi flew into Denver and out of California was based around the fact that Jack, Joe, Kimmi and I would meet in San Francisco on September 24th.</small>
-								<!-- <button type="button" data-scroll="#sacramento" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#sacramento" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr_mkybp">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -343,7 +343,10 @@
 							<span class="frame pull-right">
 								<h2>Sacramento, California</h2>
 								<small class="muted">Visited: 9/25/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/20/2013</small>
+								<small>Sacramento was one of those cities where I had no set expectations of what the city would offer. I chose to visit because it was California&rsquo;s state capitol and honestly because it was a city I had heard of before. I found a really nice <a href="http://www.norcalhostels.org/sac" title="Sacramento Hostel">hostel</a> that is a Victorian mansion built in 1885 by a Gold Rush millionaire. The most interesting part to me about the hostel the amount of traveling the building has done itself.</small>
+								<!-- <button type="button" data-scroll="#san-francisco-2" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr_ypNCj">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
