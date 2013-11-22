@@ -345,7 +345,7 @@
 								<small class="muted">Visited: 9/25/2013 (1 night)</small>
 								<small class="muted">Posted: 11/20/2013</small>
 								<small>Sacramento was one of those cities where I had no set expectations of what the city would offer. I chose to visit because it was California&rsquo;s state capitol and honestly because it was a city I had heard of before. I found a really nice <a href="http://www.norcalhostels.org/sac" title="Sacramento Hostel">hostel</a> that is a Victorian mansion built in 1885 by a Gold Rush millionaire. The most interesting part to me about the hostel the amount of traveling the building has done itself.</small>
-								<!-- <button type="button" data-scroll="#san-francisco-2" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#san-francisco-2" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr_ypNCj">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -359,9 +359,12 @@
 								<div class="state"></div>
 							</div>
 							<span class="frame">
-								<h2>San Francisco, California (Round Duex)</h2>
+								<h2>San Francisco, California</h2>
 								<small class="muted">Visited: 9/26/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/22/2013</small>
+								<small>As much fun as I had in <a href="http://tmblr.co/ZVEIjr_ypNCj" title="Sacramento, California: Jack&rsquo;s Urban Eats, Old Tavern and Henry&rsquo;s Lounge">Sacramento</a>, I was excited to get back to San Francisco. I had such fun my first night there, I couldn&rsquo;t wait to get back. Especially since this time, I would be staying in a different part of the city at the <a href="http://www.greentortoise.com/san-francisco-hostel/index.php" title="Green Tortoise Hostel">Green Tortoise Hostel</a> near The Wharf and Chinatown.</small>
+								<!-- <button type="button" data-scroll="#gasquet" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr-7Ugv_">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
