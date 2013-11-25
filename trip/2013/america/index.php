@@ -363,7 +363,7 @@
 								<small class="muted">Visited: 9/26/2013 (1 night)</small>
 								<small class="muted">Posted: 11/22/2013</small>
 								<small>As much fun as I had in <a href="http://tmblr.co/ZVEIjr_ypNCj" title="Sacramento, California: Jack&rsquo;s Urban Eats, Old Tavern and Henry&rsquo;s Lounge">Sacramento</a>, I was excited to get back to San Francisco. I had such fun my first night there, I couldn&rsquo;t wait to get back. Especially since this time, I would be staying in a different part of the city at the <a href="http://www.greentortoise.com/san-francisco-hostel/index.php" title="Green Tortoise Hostel">Green Tortoise Hostel</a> near The Wharf and Chinatown.</small>
-								<!-- <button type="button" data-scroll="#gasquet" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#gasquet" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr-7Ugv_">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -379,7 +379,10 @@
 							<span class="frame pull-right">
 								<h2>Gasquet, California</h2>
 								<small class="muted">Visited: 9/27/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 11/25/2013</small>
+								<small>Even while planning the trip, I knew I wanted to stay somewhere in the <a href="http://www.nps.gov/redw/index.htm" title="The Redwood National Forest">Redwood Forest</a> for two reasons: The Redwood trees are something anyone traveling the west coast should see and I have a personal connection to the forest since a <a href="http://www.redwoodagile.com" title="Redwood Agile">company I helped start</a> about two years before my trip was inspired by the Redwood&rsquo;s. The only problem, I found it difficult to find a place to stay until the night before I planned to get there.</small>
+								<!-- <button type="button" data-scroll="#eugene" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr-QtWFS">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
