@@ -400,7 +400,7 @@
 								<small class="muted">Posted: 11/27/2013</small>
 								<small>Much like <a href="http://tmblr.co/ZVEIjr_ypNCj" title="Sacramento, California: Jack&rsquo;s Urban Eats, Old Tavern and Henry&rsquo;s Lounge">Sacramento</a>, Eugene was one of those cities where the only deciding factor for my visit was that I had heard the name before and after my time in Sac, I was excited to see what the unknown would bring. The fact that I&rsquo;d visit the college town on a Saturday just made it that much better, especially after my low-key, off-the-grid night in <a href="http://tmblr.co/ZVEIjr-QtWFS" title="Gasquet, California: A Cozy Off-Grid Village in the Mountains">Gasquet</a> the previous night. My first stop was to check into the hostel I would be staying at for the evening, <a href="http://eugenehostels.com/" title="The Eugene Whiteaker Hostel">The Eugene Whiteaker Hostel</a>.</small>
 								<!-- <button type="button" data-scroll="#portland" class="btn btn-large">Read More About My Trip &#8595;</button> -->
-								<a type="button" class="btn btn-large btn-primary" href="">Continue Reading This Article &#8594;</a>
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr-dUlY-">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
