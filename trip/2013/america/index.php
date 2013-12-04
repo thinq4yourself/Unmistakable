@@ -346,7 +346,7 @@
 								<small class="muted">Posted: 11/20/2013</small>
 								<small>Sacramento was one of those cities where I had no set expectations of what the city would offer. I chose to visit because it was California&rsquo;s state capitol and honestly because it was a city I had heard of before. I found a really nice <a href="http://www.norcalhostels.org/sac" title="Sacramento Hostel">hostel</a> that is a Victorian mansion built in 1885 by a Gold Rush millionaire. The most interesting part to me about the hostel the amount of traveling the building has done itself.</small>
 								<button type="button" data-scroll="#san-francisco-2" class="btn btn-large">Read More About My Trip &#8595;</button>
-								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr_ypNCj">Continue Reading This Article &#8594;</a>
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr_ypNCj" title="Tacoma, Washington: Part 1 - Blue Beer, Redneck Horseshoes and Stone Cold Steve Austin">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
@@ -417,7 +417,7 @@
 								<small class="muted">Visited: 9/29/2013 (2 nights)</small>
 								<small class="muted">Posted: 12/2/2013</small>
 								<small>If you&rsquo;ve ever seen an episode of <a href="http://www.ifc.com/shows/portlandia" title="Portlandia">Portlandia</a>, there&rsquo;s no way you wouldn&rsquo;t have been as excited as I was to visit Portland. On top of that, I was staying with <a href="http://uxken.com/" title="Ken Whaler - Experience Design, Information Architecture,">Ken</a>, a friend from Florida who moved to Portland a few months prior with his wife.</small>
-								<!-- <button type="button" data-scroll="#tacoma-1" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#tacoma-1" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr105BE4C">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -433,7 +433,10 @@
 							<span class="frame">
 								<h2>Tacoma, Washington</h2>
 								<small class="muted">Visited: 10/1/2013 (2 nights)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 12/4/2013</small>
+								<small>Alas, with over three weeks on the road, 70+ hours driven and 4700+ miles traveled, I reached the city I was looking forward to the most. Not because it boasts the best attractions, or has the best nightlife, or has worldwide fame, but because there lives a man I hadn&rsquo;t seen in more time than one best friend should go without seeing another. My brother, Justin.</small>
+								<!-- <button type="button" data-scroll="#seattle" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10HAw_W">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
