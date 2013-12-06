@@ -435,7 +435,7 @@
 								<small class="muted">Visited: 10/1/2013 (2 nights)</small>
 								<small class="muted">Posted: 12/4/2013</small>
 								<small>Alas, with over three weeks on the road, 70+ hours driven and 4700+ miles traveled, I reached the city I was looking forward to the most. Not because it boasts the best attractions, or has the best nightlife, or has worldwide fame, but because there lives a man I hadn&rsquo;t seen in more time than one best friend should go without seeing another. My brother, Justin.</small>
-								<!-- <button type="button" data-scroll="#seattle" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#seattle" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10HAw_W">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -451,7 +451,10 @@
 							<span class="frame pull-right">
 								<h2>Seattle, Washington</h2>
 								<small class="muted">Visited: 10/3/2013 (1 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 12/6/2013</small>
+								<small>Seattle was a town my brother and I were both unfamiliar with. Although he was more familiar than I was. Living roughly 50 minutes away, he had visited there a few times with his family, but not in the manner we planned to.</small>
+								<!-- <button type="button" data-scroll="#tacoma-2" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10S7VVf">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
