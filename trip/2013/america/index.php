@@ -453,7 +453,7 @@
 								<small class="muted">Visited: 10/3/2013 (1 night)</small>
 								<small class="muted">Posted: 12/6/2013</small>
 								<small>Seattle was a town my brother and I were both unfamiliar with. Although he was more familiar than I was. Living roughly 50 minutes away, he had visited there a few times with his family, but not in the manner we planned to.</small>
-								<!-- <button type="button" data-scroll="#tacoma-2" class="btn btn-large">Read More About My Trip &#8595;</button> -->
+								<button type="button" data-scroll="#tacoma-2" class="btn btn-large">Read More About My Trip &#8595;</button>
 								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10S7VVf">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
@@ -469,7 +469,9 @@
 							<span class="frame">
 								<h2>Tacoma, Washington</h2>
 								<small class="muted">Visited: 10/4/2013 (3 night)</small>
-								<small class="muted">Post Coming Soon</small>
+								<small class="muted">Posted: 12/9/2013</small>
+								<small>The drive back to Tacoma from Seattle was slightly bittersweet. On one hand, I was pulling into the final city of my trip meaning I had <a href="http://tmblr.co/ZVEIjrxQ07sk" title="A Beard Across America: My First Successful Dreamline">successfully completed my first dreamline</a>, plus I had a few more days to hang out with my brother. On the other hand, I was hungover from the <a href="http://tmblr.co/ZVEIjr10S7VVf" title="Seattle, Washington: Pike&rsquo;s Place, Belltown and &ldquo;The Smoke Room&rdquo;">night before</a> and my four week journey was almost to an end.</small>
+								<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10mLaFm">Continue Reading This Article &#8594;</a>
 							</span>
 						</div>
 					</div>
