@@ -1,0 +1,349 @@
+/*---------------------------- 2013 America Road Trip ----------------------------*/
+.roadtrip {
+	background: #f6f8f8;
+}
+
+.roadtrip .headline .info.loaded.less-padding {
+	padding: 3% 0 2% 0;
+	-webkit-transition: padding .5s;
+	-moz-transition: padding .5s;
+	-o-transition: padding .5s;
+	transition: padding .5s;
+}
+
+.roadtrip .overview {
+	text-align: center;
+	background: transparent;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 65px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.roadtrip .overview p {
+	padding-bottom: 25px;
+}
+
+.roadtrip .info .stats {
+	padding: 10px 0 0;
+}
+
+.roadtrip .info .stat > h2, .roadtrip .info .stat > small {
+	
+	font-weight: 300;
+}
+
+.roadtrip .info .stat > h2 {
+	font-size: 58px;
+}
+
+.map_container {
+	margin-bottom: 60px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.map {
+	height: 500px;
+}
+
+/*---------------------------- City Section(s) ----------------------------*/
+.city .row {
+	background: #f4f4f4;
+	display: block;
+	width:100%;
+	padding: 8% 0 7%;
+	margin-left: 0;
+	min-height: 380px;
+}
+
+.city .row:nth-child(2n+2) {
+	background: #f6f8f8;
+}
+
+.city .frame {
+	width: 574px;
+	display: inline-block;
+}
+
+.city .frame > h2 {
+	font-size:48px;
+	line-height:70px;
+	color:#34495e;
+	margin:0 0 10px;
+}
+
+.city .frame > small {
+	margin: 15px 0;
+	display: block;
+}
+
+.city .frame > small.muted {
+	margin: 0;
+}
+
+.location {
+	position: relative;
+	width: 450px;
+}
+
+.location .pointer, .location .state, .location .fui-radio-checked  {
+	overflow: hidden;
+	position: absolute;
+	-webkit-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-o-transition: opacity .2s;
+	transition: opacity .2s;
+}
+
+.location .pointer {
+	background-image: url('https://dl.dropboxusercontent.com/u/814783/fiddle/marker.png');
+	height: 60px;
+	width: 33px;
+	z-index: 1;
+	opacity: 0;
+	-webkit-transition: top 1s ease-in-out;
+	-moz-transition: top 1s ease-in-out;
+	-o-transition: top 1s ease-in-out;
+	transition: top 1s ease-in-out;
+}
+
+.location.loaded .pointer {
+	opacity: 1;
+}
+
+.location .state {
+	height: 379px;
+	width: 450px;
+	-webkit-transition: top .3s;
+	-moz-transition: top .3s;
+	-o-transition: top .3s;
+	transition: top .3s;
+}
+
+#tallahassee .location .pointer {
+	top: 1px;
+	left: 215px;
+}
+
+#tallahassee .location.loaded .pointer {
+	top: 51px;
+}
+
+#tallahassee .location .state {
+	top: 51px;
+	background-image: url('../images/trip/2013/america/florida.png');
+}
+
+#nola .location {
+	margin-top: 50px;
+}
+
+#nola .location .pointer {
+	top: 100px;
+	left: 322px;
+}
+
+#nola .location.loaded .pointer {
+	top: 235px;
+}
+
+#nola .location .state {
+	background-image: url('../images/trip/2013/america/louisiana.png');
+}
+
+#houston .location .pointer {
+	top: 130px;
+	left: 360px;
+}
+
+#houston .location.loaded .pointer {
+	top: 185px;
+}
+
+#austin .location .pointer {
+	top: 90px;
+	left: 280px;
+}
+
+#austin .location.loaded .pointer {
+	top: 140px;
+}
+
+#fort-worth .location .pointer {
+	top: 30px;
+	left: 295px;
+}
+
+#fort-worth .location.loaded .pointer {
+	top: 90px;
+}
+
+#houston .location .state, #austin .location .state, #fort-worth .location .state {
+	background-image: url('../images/trip/2013/america/texas.png');
+}
+
+#oklahoma .location .pointer {
+	top: 60px;
+	left: 295px;
+}
+
+#oklahoma .location.loaded .pointer {
+	top: 120px;
+}
+
+#oklahoma .location .state {
+	background-image: url('../images/trip/2013/america/oklahoma.png');
+}
+
+#kansas .location .pointer {
+	top: 100px;
+	left: 255px;
+}
+
+#kansas .location.loaded .pointer {
+	top: 190px;
+}
+
+#kansas .location .state {
+	background-image: url('../images/trip/2013/america/kansas.png');
+}
+
+#denver .location .pointer {
+	top: -5px;
+	left: 255px;
+}
+
+#denver .location.loaded .pointer {
+	top: 70px;
+}
+
+#denver .location .state {
+	background-image: url('../images/trip/2013/america/colorado.png');
+}
+
+#nevada .location .pointer {
+	top: 180px;
+	left: 237px;
+}
+
+#nevada .location.loaded .pointer {
+	top: 314px;
+}
+
+#nevada .location .state {
+	top: 40px;
+	background-image: url('../images/trip/2013/america/nevada.png');
+}
+
+#paso-robles .location .pointer {
+	top: 90px;
+	left: 150px;
+}
+
+#paso-robles .location.loaded .pointer {
+	top: 185px;
+}
+
+#napa .location .pointer {
+	top: 5px;
+	left: 106px;
+}
+
+#napa .location.loaded .pointer {
+	top: 92px;
+}
+
+#san-francisco-1 .location .pointer, #san-francisco-2 .location .pointer {
+	top: 20px;
+	left: 103px;
+}
+
+#san-francisco-1 .location.loaded .pointer, #san-francisco-2 .location.loaded .pointer {
+	top: 113px;
+}
+
+#sacramento .location .pointer {
+	top: 0px;
+	left: 121px;
+}
+
+#sacramento .location.loaded .pointer {
+	top: 86px;
+}
+
+#gasquet .location .pointer {
+	top: -80px;
+	left: 75px;
+}
+
+#gasquet .location.loaded .pointer {
+	top: -42px;
+}
+
+#paso-robles .location .state, #napa .location .state, #san-francisco-1 .location .state, #san-francisco-2 .location .state, #sacramento .location .state, #gasquet .location .state {
+	background-image: url('../images/trip/2013/america/california.png');
+}
+
+#eugene .location .pointer {
+	top: 30px;
+	left: 90px;
+}
+
+#eugene .location.loaded .pointer {
+	top: 104px;
+}
+
+#portland .location .pointer {
+	top: -20px;
+	left: 105px;
+}
+
+#portland .location.loaded .pointer {
+	top: 29px;
+}
+
+#eugene .location .state, #portland .location .state {
+	background-image: url('../images/trip/2013/america/oregon.png');
+}
+
+#tacoma-1 .location .pointer, #tacoma-2 .location .pointer {
+	top: 40px;
+	left: 120px;
+}
+
+#tacoma-1 .location.loaded .pointer, #tacoma-2 .location.loaded .pointer {
+	top: 125px;
+}
+
+#seattle .location .pointer {
+	top: 10px;
+	left: 124px;
+}
+
+#seattle .location.loaded .pointer {
+	top: 95px;
+}
+
+#tacoma-1 .location .state, #tacoma-2 .location .state, #seattle .location .state {
+	background-image: url('../images/trip/2013/america/washington.png');
+}
+
+@media screen and (max-width: 1200px) {
+	.location {
+		display: none;
+	}
+
+	.city .frame {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 980px) {	
+	.city .frame {
+		margin: 0;
+		padding: 50px 40px;
+		float: none;
+	}
+}
