@@ -11,9 +11,8 @@
 	transition: padding .5s;
 }
 
-.roadtrip .overview {
+.roadtrip .overview, .roadtrip .conclusion {
 	text-align: center;
-	background: transparent;
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 65px;
@@ -21,7 +20,12 @@
 	padding-right: 50px;
 }
 
-.roadtrip .overview p {
+.roadtrip .conclusion {
+	background: #f4f4f4;
+	padding-top: 7%;
+}
+
+.roadtrip .overview p, .roadtrip .conclusion p {
 	padding-bottom: 25px;
 }
 
