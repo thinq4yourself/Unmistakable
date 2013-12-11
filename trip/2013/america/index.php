@@ -481,11 +481,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="span12">
-							<h2>I Did It, Now It Is Your Turn</h2>
+							<h2>I Did It, Now It Is Your Turn: A Challenge to Travel</h2>
 							<small class="muted">Posted: 12/11/2013</small>
 							<p>I decided to write A Beard Across America to help inspire and motivate people to look at something &ldquo;impossible&rdquo; or that might be labeled as &ldquo;a once in a lifetime opportunity&rdquo; as something they can actually achieve.</p>
 							<p>Six months before I started to plan my trip, even before I knew about dreamlines, I would have never thought something like this was possible. After my journey, starting with drafting my dreamline and ending with a flight back from Washington state, I not only think it&rsquo;s possible but merely a stepping stone to bigger and better adventures.</p>
-							<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10xEQRu" title="I Did It, Now It Is Your Turn: A Challenge to Travel">Continue Reading This Article &#8594;</a>
+							<a type="button" class="btn btn-large btn-primary" href="http://tmblr.co/ZVEIjr10xEQRu" title="I Did It, Now It Is Your Turn: A Challenge to Travel">Continue to Find Your Challenge to Travel &#8594;</a>
 						</div>
 					</div>
 				</div>
