@@ -157,31 +157,43 @@
 	background-image: url('../images/trip/2013/america/louisiana.png');
 }
 
+#houston .location .state {
+	top: 30px;
+}
+
 #houston .location .pointer {
-	top: 130px;
+	top: 160px;
 	left: 360px;
 }
 
 #houston .location.loaded .pointer {
-	top: 185px;
+	top: 215px;
+}
+
+#austin .location .state {
+	top: 40px;
 }
 
 #austin .location .pointer {
-	top: 90px;
+	top: 130px;
 	left: 280px;
 }
 
 #austin .location.loaded .pointer {
-	top: 140px;
+	top: 180px;
+}
+
+#fort-worth .location .state {
+	top: 45px
 }
 
 #fort-worth .location .pointer {
-	top: 30px;
+	top: 75px;
 	left: 295px;
 }
 
 #fort-worth .location.loaded .pointer {
-	top: 90px;
+	top: 135px;
 }
 
 #houston .location .state, #austin .location .state, #fort-worth .location .state {
@@ -189,123 +201,167 @@
 }
 
 #oklahoma .location .pointer {
-	top: 60px;
+	top: 80px;
 	left: 295px;
 }
 
 #oklahoma .location.loaded .pointer {
-	top: 120px;
+	top: 140px;
 }
 
 #oklahoma .location .state {
+	top: 20px;
 	background-image: url('../images/trip/2013/america/oklahoma.png');
 }
 
 #kansas .location .pointer {
-	top: 100px;
+	top: 135px;
 	left: 255px;
 }
 
 #kansas .location.loaded .pointer {
-	top: 190px;
+	top: 225px;
 }
 
 #kansas .location .state {
+	top: 35px;
 	background-image: url('../images/trip/2013/america/kansas.png');
 }
 
 #denver .location .pointer {
-	top: -5px;
+	top: 5px;
 	left: 255px;
 }
 
 #denver .location.loaded .pointer {
-	top: 70px;
+	top: 80px;
 }
 
 #denver .location .state {
+	top: 10px;
 	background-image: url('../images/trip/2013/america/colorado.png');
 }
 
 #nevada .location .pointer {
-	top: 180px;
+	top: 195px;
 	left: 237px;
 }
 
 #nevada .location.loaded .pointer {
-	top: 314px;
+	top: 329px;
 }
 
 #nevada .location .state {
-	top: 40px;
+	top: 55px;
 	background-image: url('../images/trip/2013/america/nevada.png');
 }
 
+#paso-robles .location .state {
+	top: 35px;
+}
+
 #paso-robles .location .pointer {
-	top: 90px;
+	top: 125px;
 	left: 150px;
 }
 
 #paso-robles .location.loaded .pointer {
-	top: 185px;
+	top: 215px;
+}
+
+#napa .location .state {
+	top: 20px;
 }
 
 #napa .location .pointer {
-	top: 5px;
+	top: 25px;
 	left: 106px;
 }
 
 #napa .location.loaded .pointer {
-	top: 92px;
+	top: 112px;
 }
 
-#san-francisco-1 .location .pointer, #san-francisco-2 .location .pointer {
+#san-francisco-1 .location .state {
+	top: 30px;
+}
+
+#san-francisco-1 .location .pointer {
 	top: 20px;
 	left: 103px;
 }
 
-#san-francisco-1 .location.loaded .pointer, #san-francisco-2 .location.loaded .pointer {
+#san-francisco-1 .location.loaded .pointer {
 	top: 113px;
 }
 
+#san-francisco-2 .location .state {
+	top:-30px
+}
+
+#san-francisco-2 .location .pointer {
+	top: -10px;
+	left: 103px;
+}
+
+#san-francisco-2 .location.loaded .pointer {
+	top: 93px;
+}
+
+#sacramento .location .state {
+	top: 20px
+}
+
 #sacramento .location .pointer {
-	top: 0px;
+	top: 20px;
 	left: 121px;
 }
 
 #sacramento .location.loaded .pointer {
-	top: 86px;
+	top: 106px;
 }
 
 #gasquet .location .pointer {
-	top: -80px;
+	top: 30px;;
+}
+
+#gasquet .location .pointer {
+	top: -50px;
 	left: 75px;
 }
 
 #gasquet .location.loaded .pointer {
-	top: -42px;
+	top: -12px;
 }
 
 #paso-robles .location .state, #napa .location .state, #san-francisco-1 .location .state, #san-francisco-2 .location .state, #sacramento .location .state, #gasquet .location .state {
 	background-image: url('../images/trip/2013/america/california.png');
 }
 
-#eugene .location .pointer {
+#eugene .location .state {
 	top: 30px;
+}
+
+#eugene .location .pointer {
+	top: 60px;
 	left: 90px;
 }
 
 #eugene .location.loaded .pointer {
-	top: 104px;
+	top: 134px;
+}
+
+#portland .location .state {
+	top: -45px;
 }
 
 #portland .location .pointer {
-	top: -20px;
+	top: -60px;
 	left: 105px;
 }
 
 #portland .location.loaded .pointer {
-	top: 29px;
+	top: -16px;
 }
 
 #eugene .location .state, #portland .location .state {
@@ -321,13 +377,17 @@
 	top: 125px;
 }
 
+#seattle .location .state {
+	top: -25px;
+}
+
 #seattle .location .pointer {
-	top: 10px;
+	top: -15px;
 	left: 124px;
 }
 
 #seattle .location.loaded .pointer {
-	top: 95px;
+	top: 70px;
 }
 
 #tacoma-1 .location .state, #tacoma-2 .location .state, #seattle .location .state {
