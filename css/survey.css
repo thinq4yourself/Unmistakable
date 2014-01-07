@@ -105,6 +105,34 @@
 	margin: 10px 0;
 }
 
+/* Thank You Page */
+.abaa-cta {
+	margin-left: 272px;
+	position: relative;
+}
+
+.content img {
+	float: left;
+	margin-left: -272px;
+}
+
+.content .whats-inside {
+	padding-top: 35px;
+}
+
+.content .sign-up {
+	padding-top: 25px;
+}
+
+.abaa-cta .input-append input {
+	-webkit-border-top-right-radius: 0;
+	-moz-border-top-right-radius: 0;
+	border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
 @media screen and (max-width: 768px) {
 	.headline .info h1 {
 		font-size: 2em;

@@ -34,8 +34,8 @@
 			<div class="info container">
 				<div class="row">
 					<div class="span12">
-						<h1>A Beard Across America</h1>
-						<h3>Hi, I'm Tyler and I'm an entrepreneur and traveler. I'm trying to understand potential followers better, and if you've made it this far you might be exactly the person I'm looking for. Would you be willing to spend about five minutes answering two simple questions to help me get to know you?</h3>
+						<h1>Thank You!</h1>
+						<h3>Your stories and experiences are very important to me and helps me to better understand you as a follower. </h3>
 					</div>
 				</div>
 			</div>
@@ -45,9 +45,8 @@
 				<div class="row">
 					<div class="span6 offset3">
 						<div class="tab">
-							<h2>Great, Let's Get Started!</h2>
+							<h2>Meanwhile...</h2>
 						</div>
-						
 					</div>
 				</div>
 			</div>
@@ -56,14 +55,34 @@
 			<div class="container">
 				<div class="row-fluid">
 					<div class="questions-icon span4 visible-desktop">
-						<img src="/images/survey/pencil.png" alt="Welcome to Mail App">
-						<h2><strong>Your Answers</strong></h2>
-						<h2>Are Appreciated</h2>
+						<img src="/images/survey/love.png" alt="Welcome to Mail App">
+						<h2><strong>Stay Up To Date</strong></h2>
+						<h2>With A Beard Across America</h2>
 					</div>
 					<div class="login-form span8">
-						<script type="text/javascript">var submitted=false;</script>
-						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/survey/thank-you';}"></iframe>
-						<form action="https://docs.google.com/a/tylergoelz.com/forms/d/1qClWyEENNUe88TCWLJPp7Atk6IVxPbOeELvmVRi6-q4/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+						<div class="abaa-cta clearfix">	
+							<div class="content">
+								<img src="/images/survey/ebook.png" alt="A Beard Across America">
+								<div class="whats-inside">
+									<h3>What's Inside:</h3>
+									<p>I share with you how I was able to travel <strong>4900 miles over a 4 week span and visit 18 cities</strong> in 10 different states.</p>
+								</div>
+								<div class="sign-up">
+									<h3>Get your FREE copy</h3>
+									<div class="input-append">
+										<input type="text" class="span8" placeholder="Enter Your Email">
+										<button class="btn btn-primary" type="button">Submit</button>
+									</div>
+									<p class="muted"><small>This eBook isn't complete yet, but have no fear, sign-up for my mailing list now to be emailed a FREE copy when it's ready.</small></p>
+								</div>
+							</div>
+						</div>
+						<div class="divider"></div>
+						<div class="pop-blog">
+							<h4>Popular Blog Posts:</h4>
+						</div>
+						
+					<!-- <form action="https://docs.google.com/a/tylergoelz.com/forms/d/1qClWyEENNUe88TCWLJPp7Atk6IVxPbOeELvmVRi6-q4/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 							<div class="q1">
 								<label aria-hidden="true" for="entry_744344350">
 									<h4>Have you ever had an experience where you went on an extended vacation?</h4>
@@ -80,7 +99,12 @@
 
 							<div class="divider"></div>
 
-							
+							<div class="q3">
+								<label aria-hidden="true" for="entry_1073389721">
+									<h4>Get updates about my upcoming eBook: <a href="" target="_blank">A Beard Across America</a> <small>(optional)</small></h4>
+								</label>
+								<input tabindex="3" placeholder="Enter your email address" name="entry.1073389721" class="login-field span12" type="text" id="entry_1073389721" dir="auto" aria-label="Can you tell me about the last time you went on a vacation and what you did while traveling?" />
+							</div>
 
 							<div class="panButtonBar">
 								<h4 class="text-center">Awesome - that's it! Just click the button below to submit.</h4>
@@ -91,7 +115,7 @@
 							<input type="hidden" name="draftResponse" value="[,,&quot;-5674817338690952428&quot;]">
 							<input type="hidden" name="pageHistory" value="0">
 							<input type="hidden" name="fbzx" value="-5674817338690952428">
-						</form>
+						</form> -->
 					</div>
 				</div>
 			</div>
