@@ -684,48 +684,6 @@ footer p {
 	transition: padding .5s;
 }
 
-/*---------------------------- Survey Questions ----------------------------*/
-#questions {
-	background: #1abc9c;
-	padding: 6% 0;
-	position: relative;
-}
-
-#questions .questions-icon {
-	color: #fff;
-	text-align: center;
-}
-
-#questions .questions-icon img {
-	padding-bottom: 20px;
-}
-
-#questions .questions-icon h2 {
-	font-weight: 100;
-	margin: 0;
-}
-
-.login-form .login-field {
-	margin-bottom: 20px !important;	
-}
-
-.login-form .login-field:focus {
-	border-color: #1abc9c;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-}
-
-.login-form .divider {
-	border-top: 1px solid #bfc5ca;
-	padding-bottom: 10px;
-	margin-top: 10px;
-}
-
-#panButtonBar {
-	margin-top: 20px;
-}
-
 @media screen and (max-width: 1108px) { 
 	.headline-icons > .moleskin, .headline-icons > .moleskin.loaded {
 		width: 388px;

@@ -288,11 +288,11 @@
 
 #san-francisco-1 .location .pointer {
 	top: 20px;
-	left: 103px;
+	left: 107px;
 }
 
 #san-francisco-1 .location.loaded .pointer {
-	top: 113px;
+	top: 150px;
 }
 
 #san-francisco-2 .location .state {
@@ -301,11 +301,11 @@
 
 #san-francisco-2 .location .pointer {
 	top: -10px;
-	left: 103px;
+	left: 107px;
 }
 
 #san-francisco-2 .location.loaded .pointer {
-	top: 93px;
+	top: 90px;
 }
 
 #sacramento .location .state {
