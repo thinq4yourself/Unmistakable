@@ -121,7 +121,7 @@
 }
 
 .content .sign-up {
-	padding-top: 25px;
+	padding-top: 2	5px;
 }
 
 .abaa-cta .input-append input {
@@ -133,7 +133,7 @@
 	border-bottom-right-radius: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.headline .info h1 {
 		font-size: 2em;
 		line-height: 1.4em;
@@ -141,5 +141,9 @@
 
 	#questions {
 		padding: 3% 0;
+	}
+
+	.tab:before, .tab:after {
+		border: 0;
 	}
 }

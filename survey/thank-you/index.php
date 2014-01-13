@@ -25,6 +25,7 @@
 
 	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/head.html'); ?>
 	<link href="/css/survey.css" rel="stylesheet">
+	<link href="/css/animate.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,7 +46,7 @@
 				<div class="row">
 					<div class="span6 offset3">
 						<div class="tab">
-							<h2>Meanwhile...</h2>
+							<h2>Stay Up To Date</h2>
 						</div>
 					</div>
 				</div>
@@ -56,11 +57,11 @@
 				<div class="row-fluid">
 					<div class="questions-icon span4 visible-desktop">
 						<img src="/images/survey/love.png" alt="Welcome to Mail App">
-						<h2><strong>Stay Up To Date</strong></h2>
-						<h2>With A Beard Across America</h2>
+						<h2><strong>Get Your Copy Of</strong></h2>
+						<h2>A Beard Across America</h2>
 					</div>
 					<div class="login-form span8">
-						<div class="abaa-cta clearfix">	
+						<div id="abaa-cta" class="abaa-cta clearfix">	
 							<div class="content">
 								<img src="/images/survey/ebook.png" alt="A Beard Across America">
 								<div class="whats-inside">
@@ -69,10 +70,12 @@
 								</div>
 								<div class="sign-up">
 									<h3>Get your FREE copy</h3>
-									<div class="input-append">
-										<input type="text" class="span8" placeholder="Enter Your Email">
-										<button class="btn btn-primary" type="button">Submit</button>
-									</div>
+									<form action="" method="post">
+										<div class="input-append">
+											<input type="email" class="span8" name="email_to_add" required placeholder="Enter Your Email">
+											<input class="btn btn-primary" type="submit">Submit</button>
+										</div>
+									</form>
 									<p class="muted"><small>This eBook isn't complete yet, but have no fear, sign-up for my mailing list now to be emailed a FREE copy when it's ready.</small></p>
 								</div>
 							</div>
@@ -81,41 +84,6 @@
 						<div class="pop-blog">
 							<h4>Popular Blog Posts:</h4>
 						</div>
-						
-					<!-- <form action="https://docs.google.com/a/tylergoelz.com/forms/d/1qClWyEENNUe88TCWLJPp7Atk6IVxPbOeELvmVRi6-q4/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-							<div class="q1">
-								<label aria-hidden="true" for="entry_744344350">
-									<h4>Have you ever had an experience where you went on an extended vacation?</h4>
-								</label>
-								<textarea tabindex="1" name="entry.744344350" class="login-field span12" id="entry_744344350" dir="auto" aria-label="Have you ever had an experience where you went on an extended vacation?" aria-required="true" required=""></textarea>
-							</div>
-
-							<div class="q2">
-								<label aria-hidden="true" for="entry_2044879971">
-									<h4>Can you tell me about the last time you went on a vacation and what you did while traveling?</h4>
-								</label>
-								<textarea tabindex="2" name="entry.2044879971" class="login-field span12" id="entry_2044879971" dir="auto" aria-label="Can you tell me about the last time you went on a vacation and what you did while traveling?" aria-required="true" required=""></textarea>
-							</div>
-
-							<div class="divider"></div>
-
-							<div class="q3">
-								<label aria-hidden="true" for="entry_1073389721">
-									<h4>Get updates about my upcoming eBook: <a href="" target="_blank">A Beard Across America</a> <small>(optional)</small></h4>
-								</label>
-								<input tabindex="3" placeholder="Enter your email address" name="entry.1073389721" class="login-field span12" type="text" id="entry_1073389721" dir="auto" aria-label="Can you tell me about the last time you went on a vacation and what you did while traveling?" />
-							</div>
-
-							<div class="panButtonBar">
-								<h4 class="text-center">Awesome - that's it! Just click the button below to submit.</h4>
-								<input tabindex="4" type="submit" name="submit" value="Submit Answers" id="ss-submit" class="btn btn-primary btn-large btn-block">
-								<h4><small>Note: Your answers will not be shared with anybody. They will be seen by only my eyes and used as research to better understand what my potential followers want to see as far as content, posts, stories, etc.</small></h4>
-							</div>
-
-							<input type="hidden" name="draftResponse" value="[,,&quot;-5674817338690952428&quot;]">
-							<input type="hidden" name="pageHistory" value="0">
-							<input type="hidden" name="fbzx" value="-5674817338690952428">
-						</form> -->
 					</div>
 				</div>
 			</div>
@@ -131,9 +99,35 @@
 		</div>
 	</footer>
 	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/scripts.html'); ?>
-	<!-- Survey Monkey Code -->
-	<noscript>&lt;style type="text/css" media="all"&gt;form {display:none;} #jserror {text-align:center;margin-top:50px;}&lt;/style&gt;&lt;div id="jserror" class="qHeader"&gt;Javascript is required for this site to function, please enable.&lt;/div&gt;</noscript>	
-	<script type="text/javascript">	/* <![CDATA[ */ function nes(e){e=(e)?e:event;var c=(e.which)?e.which:e.keyCode;return(c!=13);}var is=document.getElementsByTagName("input");for(var i=0;i<is.length;i++){var _i=is[i];if(_i.type=="text")_i.onkeypress=function(e){ return nes(e); };}/* ]]> */</script>
-	<!-- Survey Monkey Code -->
+	<script type="text/javascript">
+
+	$('form').on("submit", (function(event) {
+		event.preventDefault();
+		
+		var post_URL = "/app/zapier/ebookemailsubmit.php";
+
+		$.ajax({
+			type : "post",
+			url : post_URL,
+			data : $(this).serialize(),
+			success : function(msg) {
+				
+			},
+			error : function(msg) {
+				var $email_alert = $('#add_email_alert');
+				if ($email_alert.length > 0) {
+					var animation = 'bounce animated';
+					$email_alert.removeClass(animation).addClass(animation).one('webkitAnimationEnd oAnimationEnd', function(){
+						$(this).removeClass(animation);
+					});
+				} else {
+					console.log('does not exists')
+					var new_alert = '<div id="add_email_alert" class="alert alert-danger"><button type="button" class="close" data-dismiss="alert">&times;</button><small>Uh-oh! An error occured while trying to submit your email. Please try again.</small></div>';
+					$('#abaa-cta').append(new_alert);
+				}
+			}
+		});
+	}));
+	</script>
 </body>
 </html>
