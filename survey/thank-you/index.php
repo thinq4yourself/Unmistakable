@@ -93,12 +93,12 @@
 								</div>
 							</div>
 							<div class="media">
-								<a class="pull-left" href="http://tmblr.co/ZVEIjrxQ07sk" title="My First Successful Dreamline">
+								<a class="pull-left" href="http://tmblr.co/ZVEIjr_rOwTW" title="Social Norms and Their Potential Pitfalls">
 									<img class="media-object" src="/images/survey/thank-you/b1.png">
 								</a>
 								<div class="media-body">
-									<h4 class="media-heading">My First Successful Dreamline</h4>
-									<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true... <a href="http://tmblr.co/ZVEIjrxQ07sk" title="My First Successful Dreamline">Read More</a></p>
+									<h4 class="media-heading">Social Norms and Their Potential Pitfalls</h4>
+									<p>In an effort to minimize my possessions and free myself up to live a Passion Driven Lifestyle, I set selling my car as one of the major objectives of my current dreamline... <a href="http://tmblr.co/ZVEIjr_rOwTW" title="Social Norms and Their Potential Pitfalls">Read More</a></p>
 								</div>
 							</div>
 							<div class="media">
@@ -137,10 +137,12 @@
 			type : "post",
 			url : post_URL,
 			data : $(this).serialize(),
-			success : function() {
+			success : function(msg) {
+				console.log('success', msg);
 				emailSubmitSuccess();
 			},
 			error : function(msg) {
+				console.log('error', msg);
 				emailSubmitError();
 			}
 		});
