@@ -56,27 +56,33 @@
 			<div class="container">
 				<div class="row-fluid">
 					<div class="questions-icon span4 visible-desktop">
-						<img src="/images/survey/love.png" alt="Welcome to Mail App">
+						<img src="/images/survey/ebook.png" alt="A Beard Across America">
 						<h2><strong>Get Your Copy Of</strong></h2>
 						<h2>A Beard Across America</h2>
 					</div>
 					<div class="login-form span8">
 						<div id="abaa-cta" class="abaa-cta clearfix">	
 							<div class="content">
-								<img src="/images/survey/ebook.png" alt="A Beard Across America">
-								<div class="whats-inside">
-									<h2>What's Inside:</h2>
-									<p>Inside A Beard Across America, you'll find out how I was able to travel <strong>4900 miles over 4 weeks and visit 18 cities</strong> in 10 different states. Along with stories from each city I visited, you'll also find the <strong>"Why's" & "How's" of the trip</strong> including how I prepared for the trip, where I stayed, which routes I took and how I was able to afford it.</p>
-								</div>
-								<div id="sign-up" class="sign-up">
-									<h3>Get your FREE copy</h3>
-									<form action="/app/zapier/ebookemailsubmit.php" method="post">
-										<div class="input-append">
-											<input type="email" required class="span8" name="email_to_add" placeholder="Enter Your Email">
-											<input class="btn btn-primary" type="submit">Submit</button>
+								<div class="media">
+									<div class="pull-left hidden-desktop">
+										<img src="/images/survey/ebook.png" alt="A Beard Across America">
+									</div>
+									<div class="media-body">
+										<h3 class="media-heading">What's Inside:</h3>
+										<div class="whats-inside">
+											<p>Inside A Beard Across America, you'll find out how I was able to travel <strong>4900 miles over 4 weeks and visit 18 cities</strong> in 10 different states. Along with stories from each city I visited, you'll also find the <strong>"Why's" & "How's" of the trip</strong> including how I prepared for the trip, where I stayed, which routes I took and how I was able to afford it.</p>
 										</div>
-									</form>
-									<p class="muted"><small>This eBook isn't complete yet, but have no fear, sign-up for my mailing list now to be emailed a FREE copy when it's ready.</small></p>
+										<div id="sign-up" class="sign-up">
+											<h3>Get your FREE copy</h3>
+											<form action="/app/zapier/ebookemailsubmit.php" method="post">
+												<div class="input-append">
+													<input type="email" required class="span8" name="email_to_add" placeholder="Enter Your Email">
+													<input class="btn btn-primary" type="submit">Submit</button>
+												</div>
+											</form>
+											<p class="muted"><small>This eBook isn't complete yet, but have no fear, sign-up for my mailing list now to be emailed a FREE copy when it's ready.</small></p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

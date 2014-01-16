@@ -120,20 +120,6 @@
 }
 
 /* Thank You Page */
-.abaa-cta {
-	margin-left: 272px;
-	position: relative;
-}
-
-.content img {
-	float: left;
-	margin-left: -272px;
-}
-
-.content .whats-inside {
-	padding-top: 35px;
-}
-
 .content .sign-up, .content .follow_abaa {
 	padding-top: 25px;
 }
