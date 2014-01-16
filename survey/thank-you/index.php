@@ -29,14 +29,14 @@
 </head>
 
 <body>
-	<article class="survey">
+	<div class="survey">
 		<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/follow-me-widget.html'); ?>
 		<section id="headline" class="headline">
 			<div class="info container">
 				<div class="row">
 					<div class="span12">
 						<h1>Thank You!</h1>
-						<h3>Your stories and experiences are very important to me and helps me to better understand you as a follower. </h3>
+						<h2>Your stories and experiences are very important to me and helps me to better understand you as a follower. </h2>
 					</div>
 				</div>
 			</div>
@@ -65,14 +65,14 @@
 							<div class="content">
 								<img src="/images/survey/ebook.png" alt="A Beard Across America">
 								<div class="whats-inside">
-									<h3>What's Inside:</h3>
-									<p>I share with you how I was able to travel <strong>4900 miles over a 4 week span and visit 18 cities</strong> in 10 different states.</p>
+									<h2>What's Inside:</h2>
+									<p>Inside A Beard Across America, you'll find out how I was able to travel <strong>4900 miles over 4 weeks and visit 18 cities</strong> in 10 different states. Along with stories from each city I visited, you'll also find the <strong>"Why's" & "How's" of the trip</strong> including how I prepared for the trip, where I stayed, which routes I took and how I was able to afford it.</p>
 								</div>
-								<div class="sign-up">
+								<div id="sign-up" class="sign-up">
 									<h3>Get your FREE copy</h3>
-									<form action="" method="post">
+									<form action="/app/zapier/ebookemailsubmit.php" method="post">
 										<div class="input-append">
-											<input type="email" class="span8" name="email_to_add" required placeholder="Enter Your Email">
+											<input type="email" required class="span8" name="email_to_add" placeholder="Enter Your Email">
 											<input class="btn btn-primary" type="submit">Submit</button>
 										</div>
 									</form>
@@ -83,12 +83,39 @@
 						<div class="divider"></div>
 						<div class="pop-blog">
 							<h4>Popular Blog Posts:</h4>
+							<div class="media">
+								<a class="pull-left" href="https://medium.com/a-beard-across-america/aa4bef024b74" title="Find Your Passion, Not Your Profession">
+									<img class="media-object" src="/images/survey/thank-you/b2.png">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Find Your Passion, Not Your Profession</h4>
+									<p>With so many people promoting “lifestyle design”, like AppSumo and the obvious Tim Ferris, I’m continuously shocked to see how many people are still settling for whatever job they happen to have... <a href="https://medium.com/a-beard-across-america/aa4bef024b74" title="Find Your Passion, Not Your Profession">Read More</a></p>
+								</div>
+							</div>
+							<div class="media">
+								<a class="pull-left" href="http://tmblr.co/ZVEIjrxQ07sk" title="My First Successful Dreamline">
+									<img class="media-object" src="/images/survey/thank-you/b1.png">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">My First Successful Dreamline</h4>
+									<p>Along the way, I heard a few different reactions to the cross country road trip I took from St. Petersburg, Florida to Tacoma, Washington ranging from “It must be nice to be rich” to “you must have saved up for a long time”, neither of which were true... <a href="http://tmblr.co/ZVEIjrxQ07sk" title="My First Successful Dreamline">Read More</a></p>
+								</div>
+							</div>
+							<div class="media">
+								<a class="pull-left" href="https://medium.com/a-beard-across-america/850610966496" title="Begin Your Passion Driven Lifestyle AND Keep Your Clients Happy">
+									<img class="media-object" src="/images/survey/thank-you/b3.png">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Begin Your Passion Driven Lifestyle AND Keep Your Clients Happy</h4>
+									<p>It can be intimidating to transition into a Passion Driven Lifestyle (PDL) even as a freelancer. Whether you’re coding the next snapchat or having a photo shoot to catch the next Kate Upton... <a href="https://medium.com/a-beard-across-america/850610966496" title="Begin Your Passion Driven Lifestyle AND Keep Your Clients Happy">Read More</a></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-	</article>
+	</div>
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -104,30 +131,44 @@
 	$('form').on("submit", (function(event) {
 		event.preventDefault();
 		
-		var post_URL = "/app/zapier/ebookemailsubmit.php";
+		var post_URL = this.action;
 
 		$.ajax({
 			type : "post",
 			url : post_URL,
 			data : $(this).serialize(),
-			success : function(msg) {
-				
+			success : function() {
+				emailSubmitSuccess();
 			},
 			error : function(msg) {
-				var $email_alert = $('#add_email_alert');
-				if ($email_alert.length > 0) {
-					var animation = 'bounce animated';
-					$email_alert.removeClass(animation).addClass(animation).one('webkitAnimationEnd oAnimationEnd', function(){
-						$(this).removeClass(animation);
-					});
-				} else {
-					console.log('does not exists')
-					var new_alert = '<div id="add_email_alert" class="alert alert-danger"><button type="button" class="close" data-dismiss="alert">&times;</button><small>Uh-oh! An error occured while trying to submit your email. Please try again.</small></div>';
-					$('#abaa-cta').append(new_alert);
-				}
+				emailSubmitError();
 			}
 		});
 	}));
+
+	emailSubmitSuccess = function() {
+		var $sign_up_form = $('#sign-up');
+		$sign_up_form.fadeOut(function() {
+			var $share_abaa = $('<div>').addClass("follow_abaa").load('/includes/share_abaa_from_survey.html');
+			$('#abaa-cta').find('.content').append($share_abaa.fadeIn());
+
+			$sign_up_form.remove();
+		});
+	}
+
+	emailSubmitError = function() {
+		var $email_alert = $('#add_email_alert');
+		if ($email_alert.length > 0) {
+			var animation = 'bounce animated';
+			$email_alert.removeClass(animation).addClass(animation).one('webkitAnimationEnd oAnimationEnd', function(){
+				$(this).removeClass(animation);
+			});
+		} else {
+			console.log('does not exists')
+			var new_alert = '<div id="add_email_alert" class="alert alert-danger"><button type="button" class="close" data-dismiss="alert">&times;</button><small>Uh-oh! An error occured while trying to submit your email. Please try again.</small></div>';
+			$('#abaa-cta').append(new_alert);
+		}
+	}
 	</script>
 </body>
 </html>
