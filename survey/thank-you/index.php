@@ -65,7 +65,7 @@
 							<div class="content">
 								<div class="media">
 									<div class="pull-left hidden-desktop">
-										<img src="/images/survey/ebook.png" alt="A Beard Across America">
+										<img src="/images/survey/eBook.png" alt="A Beard Across America">
 									</div>
 									<div class="media-body">
 										<h3 class="media-heading">What's Inside:</h3>
