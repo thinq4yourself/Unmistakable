@@ -3,10 +3,13 @@ Redirect 301 /resume/files/tylergoelz_resume.pdf /
 Redirect 301 /content/contact /
 Redirect 301 /about /
 Redirect 301 /home /
-Redirect 301 /trip/2013/america http://www.abeardacrossamerica.com
+#Redirect 301 /trip/2013/america http://www.abeardacrossamerica.com
 RedirectMatch 403 ^.*/bootstrap/$
 RedirectMatch 403 ^.*/css/$
 RedirectMatch 403 ^.*/fonts/$
 RedirectMatch 403 ^.*/images/$
 RedirectMatch 403 ^.*/includes/$
 RedirectMatch 403 ^.*/js/$
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^/tripm$
+RewriteRule ^(.*)$ http://www.abeardacrossamerica.com/$1 [R=301,QSA,L]
