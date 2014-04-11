@@ -1,3 +1,5 @@
+RewriteEngine On
+RewriteRule ^/trip/2013/america$ http://www.abeardacrossamerica.com [L]
 Redirect 301 /resume /
 Redirect 301 /resume/files/tylergoelz_resume.pdf /
 Redirect 301 /content/contact /
@@ -5,7 +7,6 @@ Redirect 301 /about /
 Redirect 301 /home /
 Redirect 301 /trip http://www.abeardacrossamerica.com
 Redirect 301 /trip/2013 http://www.abeardacrossamerica.com
-Redirect 301 /trip/2013/america http://www.abeardacrossamerica.com
 RedirectMatch 403 ^.*/bootstrap/$
 RedirectMatch 403 ^.*/css/$
 RedirectMatch 403 ^.*/fonts/$
