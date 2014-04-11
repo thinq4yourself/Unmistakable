@@ -1,5 +1,4 @@
-RewriteEngine On
-RewriteRule ^([a-z]{2,2})/([a-zA-Z0-9_-]+)$ index.php? [QSA]
+RewriteEngine On]
 Redirect 301 /resume /
 Redirect 301 /resume/files/tylergoelz_resume.pdf /
 Redirect 301 /content/contact /
