@@ -225,7 +225,7 @@
         </footer>
     </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="/resume/scripts/fittext.js"></script>
+    <script type="text/javascript" src="/resume/Scripts/fittext.js"></script>
     <script type="text/javascript">
     $("#name_header").fitText(.9, { maxFontSize: '58px' });
     $("#tagline_header").fitText(2.3, { maxFontSize: '24px' });
