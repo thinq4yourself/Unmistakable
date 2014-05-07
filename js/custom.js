@@ -10,7 +10,7 @@ function scrollToSection($page_location, duration) {
 
 	$('html, body').stop().animate({
 		scrollTop: $page_location_top
-	}, duration,'easeInOutQuart');
+	}, duration, 0);
 }
 
 $(document).ready(function() {
