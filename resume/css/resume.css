@@ -1,0 +1,465 @@
+﻿/* clearfix For modern browsers */
+.cf:before, .cf:after
+{
+	content: "";
+	display: table;
+}
+
+.cf:after
+{
+	clear: both;
+}
+
+/* clearfix For IE 6/7 (trigger hasLayout) */
+.cf
+{
+	*zoom:1;
+}
+
+
+/* Resume CSS
+============================================*/
+/* global */
+html
+{
+	background-color: #f4f4f4;
+}
+
+body
+{
+	font-family: Georgia;
+	color: #444444;
+	padding: 40px 0;
+	text-align: left;
+}
+
+#main
+{
+	width: 61%;
+	padding: 10px 80px;
+	margin: 0 auto;
+	background: #fefefe;
+	border-top: 6px solid #797979;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	box-shadow: 0 10px 20px #AAAAAA;
+}
+a
+{
+	color: #990003;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+a.pdf
+{
+	background-color: #999999;
+	color: #f4f4f4;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	display: block;
+	margin-bottom: 3px;
+}
+
+a.pdf:hover
+{
+	background-color: #990003;
+}
+
+p
+{
+	font-size: 100%;
+	line-height: 18px;
+	padding-right: 3em;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4
+{
+	color: #333333;
+}
+
+.first h2, .first h5
+{
+	font-style: italic;
+}
+
+.section_container h3, .section_container h4
+{
+	font-size: 1.22em;
+}
+
+/* header */
+#hd
+{
+	margin: 2.5em 0 2em 0;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
+}
+
+#hd h1
+{
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+#hd h2
+{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* section container */
+.section_container
+{
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+.section_container.last
+{
+	border: none;
+}
+
+.section_container h2
+{
+	color: #333333;
+	font-size: 1.5em;
+}
+
+.section_container p.enlarge
+{
+	font-size: 1.44em;
+	line-height: 24px;
+	padding-right: 3.5em;
+}
+
+.tech ul li
+{
+	float: left;
+	width: 33%;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 24px;
+}
+
+.tech ul li.last
+{
+	border: none;
+}
+
+.skills h2
+{
+	margin-bottom: 6px;
+}
+
+.career h3
+{
+	float: right;
+	margin-top: -45px;
+}
+
+.career .detail
+{
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.career p
+{
+	margin-top: .3em;
+}
+
+.job
+{
+	margin-bottom: 4em;
+}
+
+.job h2
+{
+	font-size: 1.75em;	
+}
+
+.job.last
+{
+	margin-bottom: 0;
+}
+
+.detail
+{
+	margin: 0.5em 0 2em;
+}
+
+.detail small
+{
+	font-size: .81em;
+}
+
+/* footer */
+#ft
+{
+	padding: 1em 0 5em 0;
+	font-size: 92%;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+#ft p
+{
+	margin-bottom: 0;
+	text-align: center;
+}
+/*==========================================*/
+
+
+/* @media Queries
+============================================*/
+
+/* @1-Col < 768px - iPad Landscape.
+============================================*/
+@media screen and (max-width: 1024px)
+{
+	body
+	{
+		padding: 5% 0;	
+	}
+	#hd
+	{
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+	
+	#hd h2
+	{
+		margin-bottom: 5px;
+	}
+	
+	.grid_3, .grid_9
+	{
+		float: none;
+		width: 100%;
+		margin: 0 0 2.5em;
+	}
+	
+	a.pdf
+	{
+		clear:both;
+	}
+	
+	.section_container p.enlarge
+	{
+		padding-right: 0;	
+	}
+}
+
+/* @1-Col < 640px - One column fluid.
+============================================*/
+@media screen and (max-width: 640px)
+{
+	html
+	{
+		-webkit-text-size-adjust: none;
+		-ms-text-size-adjust: none;
+	}
+	
+	p
+	{
+		padding: 0;	
+	}
+
+	#main
+	{
+		width: 92%;
+		padding: 0 7px;
+	}
+	
+	#hd
+	{
+		margin: 1.5em 0 2em 0;
+	}	
+	
+	.tech ul li
+	{
+		width: 50%;	
+	}
+}
+
+/* @iPhone < 480px - One column fluid.
+============================================*/
+@media screen and (max-width:480px)
+{
+	.section_container p.enlarge
+	{
+		font-size: 1em;	
+	}
+	.grid_2, .grid_10, .grid_5
+	{
+		float: none;
+		width: 100%;
+	}
+	.section_container
+	{
+		text-align: center;	
+	}
+	.career, .school
+	{
+		text-align: left;	
+	}
+	
+	.career h3
+	{
+		float: none;
+		margin: 0;	
+	}
+	
+	.section_container, #hd
+	{
+		margin-bottom: 1em;	
+	}
+	
+	.section_container h2
+	{
+		margin-bottom: 0.5em;
+	}
+	
+	.job
+	{
+		margin: 0 .5em 3em;	
+	}
+	
+	.school
+	{
+		margin: 0 .5em;	
+	}
+	
+	.skills
+	{
+		margin-bottom: 1em;	
+	}
+}
+
+/* @iPhone < 320px - One column fluid.
+============================================*/
+@media screen and (max-width:320px) 
+{
+	.tech ul li
+	{
+		width: 100%;
+	}
+}
+
+/* Print CSS
+============================================*/
+@media print
+{
+	html
+	{
+		background-color: #ffffff;
+	}
+	
+	body
+	{
+		color: #444444;
+		padding: 0;
+	}
+
+	#main
+	{
+		border: none;
+		padding: 0;
+		box-shadow: none;
+		width: 100%;
+	}
+	
+	a
+	{
+		color: #333333;
+		text-decoration: none;
+	}
+	
+	a.pdf
+	{
+		display: none;	
+	}
+	
+	.section_container p.enlarge
+	{
+		font-size: 100%;
+		line-height: normal;
+		padding-right: 3.5em;
+	}
+	
+	#hd
+	{
+		margin: 0;	
+		padding-bottom: 1em;
+	}
+	
+	.grid_2, .grid_10, .grid_5, .grid_3, .grid_9
+	{
+		float: none;
+		width: 100%;
+	}
+	
+	.career h3
+	{
+		float: none;
+		margin: 0;	
+	}
+	
+	.section_container, #hd
+	{
+		margin-bottom: 0.75em;	
+		padding-bottom: 0.75em;
+	}
+	
+	.skills h2
+	{
+		margin: 0;	
+	}
+	
+	.skills p
+	{
+		margin-bottom: 5px;	
+	}
+	
+	#ft
+	{
+		padding-top: 1em;	
+	}
+	
+	.section_container h2
+	{
+		margin-bottom: 0.25em;
+	}
+	
+	.contact_info h3
+	{
+		float: left;
+		margin-right: 15px;
+		margin-top: 5px;
+	}
+	
+	.job
+	{
+		margin: 0 .5em 1em;	
+	}
+	
+	.job h2, .school h2
+	{
+		font-size: 1.5em;	
+	}
+	
+	.career .detail
+	{
+		line-height: normal;	
+	}
+}

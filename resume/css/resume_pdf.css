@@ -1,0 +1,216 @@
+﻿/* clearfix For modern browsers */
+.cf:before, .cf:after
+{
+	content: "";
+	display: table;
+}
+
+.cf:after
+{
+	clear: both;
+}
+
+/* clearfix For IE 6/7 (trigger hasLayout) */
+.cf
+{
+	/**zoom:1;*/
+}
+
+
+/* Resume CSS
+============================================*/
+/* global */
+html
+{
+	background-color: #fefefe;
+}
+
+body
+{
+	font-family: Georgia;
+	color: #444444;
+	text-align: left;
+}
+
+#main
+{
+	background: #fefefe;
+	margin: 0 auto;
+	max-width: 61em;
+}
+
+a
+{
+	color: #990003;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+a.pdf
+{
+	display: none;
+}
+
+p
+{
+	font-size: 100%;
+	line-height: 18px;
+	padding-right: 3em;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4
+{
+	color: #333333;
+}
+
+.first h2, .first h5
+{
+	font-style: italic;
+}
+
+h3, h4
+{
+	font-size: 1.22em;
+}
+
+/* header */
+#hd
+{
+	margin: 2.5em 0 2em 0;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
+}
+
+#hd h1
+{
+	font-size: 66px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+#hd h2
+{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 32px;
+}
+
+.contact_info
+{
+	margin-top: 10px;
+}
+
+/* section container */
+.section_container
+{
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+.section_container.last
+{
+	border: none;
+}
+
+.section_container h2
+{
+	color: #333333;
+	font-size: 1.5em;
+}
+
+.section_container p.enlarge
+{
+	font-size: 1.44em;
+	line-height: 24px;
+	padding-right: 7.5em;
+	margin-top: -3px;
+}
+
+.tech ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tech ul li
+{
+	float: left;
+	width: 33%;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 24px;
+}
+
+.tech ul li.last
+{
+	border: none;
+}
+
+.skills h2
+{
+	margin-bottom: 6px;
+}
+
+.experience h3
+{
+	position: absolute;
+	right: 0;
+}
+
+.experience .detail
+{
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.experience p
+{
+	margin-top: .3em;
+}
+
+.job
+{
+	margin-bottom: 4em;
+}
+
+.job.last
+{
+	margin-bottom: 0;
+}
+
+.detail
+{
+	margin: 0.5em 0 2em;
+}
+
+.detail small
+{
+	font-size: .81em;
+}
+
+/* footer */
+#ft
+{
+	padding: 1em 0 5em 0;
+	font-size: 92%;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+#ft p
+{
+	margin-bottom: 0;
+	text-align: center;
+}
+/*==========================================*/
