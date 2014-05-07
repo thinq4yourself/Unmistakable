@@ -146,13 +146,13 @@
 				<img id="icon-face" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
 				<span class="frame">
 					<h2>About Me</h2>
-					<p>In September, I traveled 4900 miles over a 4 week span on a cross country road trip. I planned the trip for 6 months and made a dream a reality. It was <a href="/trip/2013/america/?city=overview" title="My First Successful Dreamline">my first successful dreamline</a>, but not my last.</p>
+					<p>Traveler, writer, and craft beer drinker. Author of <a href="www.abeardacrossamerica.com">A Beard Across America</a> and Co-Founder of <a href="https://twitter.com/sproutcamp">SproutCamp</a>. Helping world changers <a href="https://twitter.com/beunmistakable">#BeUnmistakable.</a></p>
 					<p>Along with writing, traveling and creating muses, I focus on helping companies succeed by putting their users first. I help them do that by making user-centered design & business decision to enhance the user's experience.</p>
 					<p>Follow me:
-						<a class="follow-link" href="http://blog.tylergoelz.com">Blog</a>
+						<a class="follow-link" href="http://www.abeardacrossamerica.com/">#ABAA</a>
+						<a class="follow-link" href="http://medium.com/@tylergoelz">Blog</a>
 						<a class="follow-link" href="http://www.twitter.com/tylergoelz">Twitter</a>
 						<a class="follow-link" href="http://www.facebook.com/ILikeTylerGoelz">Facebook</a>
-						<a class="follow-link" href="https://plus.google.com/117206861866317813355/about">Google+</a>
 					</p>
 				</span>
 			</div>  	
@@ -162,7 +162,7 @@
 				<div class="row">
 					<h1>Sharing is Caring!</h1>
 					<ul class="share-list">
-						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=yaboi&original_referer=http%3A%2F%2Fwww.tylergoelz.com%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com','',695,300)" class="twitter"><dt>Tweet</dt><span></span></a></li>
+						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=abaa&original_referer=http%3A%2F%2Fwww.tylergoelz.com%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com','',695,300)" class="twitter"><dt>Tweet</dt><span></span></a></li>
 						<li><a href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)" class="facebook"><dt>Share</dt><span></span></a></li>
 						<li><a href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Fwww.tylergoelz.com','',666,378)" class="google"><dt>Share</dt><span></span></a></li>
 						<li><a href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://tylergoelz.com/&media=http://tylergoelz.com/images/about/logo.png&description=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',630,360);" class="pin"><dt>Pin it</dt><span></span></a></li>
