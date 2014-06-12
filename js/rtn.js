@@ -1,4 +1,3 @@
-<script type="text/javascript">
 window._idl = {};
 _idl.variant = "modal";
 _idl.campaign = "reset-the-net";
@@ -9,4 +8,3 @@ _idl.campaign = "reset-the-net";
 	idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url= ' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
 	document.getElementsByTagName('body')[0].appendChild(idl);
 })();
-</script>
