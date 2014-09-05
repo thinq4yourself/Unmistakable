@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>Tyler Goelz - Helping people to find and live their passion while making the world a better place through technology.</title>
   <meta name="description" content="Helping people to find and live their passion while making the world a better place through technology."/>
 
@@ -29,7 +28,7 @@
             <li><a href="#">Lean Approach</a></li>
             <li><a href="#">Muses</a></li>
             <li><a href="#">About</a></li>
-            <li><button type="button" class="btn btn-default navbar-btn">#ABAA</button></li>
+            <li class="hidden-xs"><button type="button" class="btn btn-default navbar-btn">#ABAA</button></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -38,16 +37,9 @@
   <div class="jumbotron">
     <div class="container super-hero">
       <h1>Tyler Goelz
-        <small>Helping people to find and live their passion <br class="visible-lg" /> while making the world a better place through technology.</small>
+        <small>Inspiring people find and live their passion <br class="visible-lg" /> while making the world a better place through technology.</small>
       </h1>
     </div>
-  </div>
-
-  <div class="super-hero">
-    <h1 class="demo-logo">
-      Tyler Goelz
-      <small>Helping people to find and live their passion <br class="visible-lg" /> while making the world a better place through technology.</small>
-    </h1>
   </div>
 
   <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.php'); ?>
