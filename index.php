@@ -5,7 +5,7 @@
   <title>Tyler Goelz - Free Bootstrap Framework and Themes</title>
   <meta name="description" content=""/>
 
-  <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
+  <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/head.php'); ?>
 </head>
 <body>
   <div class="container">
@@ -733,6 +733,6 @@
         </div>
       </footer>
 
-      <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.html'); ?>
+      <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.php'); ?>
     </body>
     </html>
