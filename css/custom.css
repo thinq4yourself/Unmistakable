@@ -3,8 +3,26 @@
 @import url('flat-ui.css');
 @import url('demo.css');
 
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+	max-height: 100%;
+}
+
 .super-hero {
-  padding: 73px 0 110px;
-  text-align: center;
-  background-color: #f4f4f4;
+	padding: 73px 0 110px;
+	text-align: center;
+}
+
+.super-hero>h1 {
+	font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: -2px;
+	margin: 10px 0;
+}
+
+.super-hero>h1>small {
+	color: rgba(52, 73, 94, 0.30000000000000004);
+	display: block;
+	font-size: 30%;
+	font-weight: 700;
+	letter-spacing: 0;
+	padding-top: 5px;
 }
