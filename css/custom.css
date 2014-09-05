@@ -1,10 +1,28 @@
 @charset "UTF-8";
 @import url('/bootstrap/css/bootstrap.min.css');
 @import url('flat-ui.css');
-@import url('demo.css');
+/*@import url('demo.css');*/
 
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
 	max-height: 100%;
+}
+
+.navbar-btn {
+	margin-left: 20px;
+}
+
+.navbar-brand {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-brand .logo-header {
+	background: url(../images/logo-header.png) center 0 no-repeat;
+	background-size: 30px 40px;
+	height: 40px;
+	overflow: hidden;
+	text-indent: -9999em;
+	width: 30px;
 }
 
 .super-hero {
@@ -25,4 +43,19 @@
 	font-weight: 700;
 	letter-spacing: 0;
 	padding-top: 5px;
+}
+
+@media (min-width: 768px) { 
+	.navbar-btn {
+		margin-left: 0;
+	}
+	.navbar-brand .logo-header {
+		display: inline-block;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
+	.logo-header {
+		background-image: url(../images/logo-header-2x.png);
+	}
 }
