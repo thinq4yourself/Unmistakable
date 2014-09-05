@@ -11,7 +11,7 @@
   <div class="container">
     <div class="demo-headline">
       <h1 class="demo-logo">
-        Tyler Goelz
+        Tyler Goelz Test
         <small>Helping people to find and live their passion <br class="visible-lg" /> while making the world a better place through technology.</small>
       </h1>
     </div> <!-- /demo-headline -->
