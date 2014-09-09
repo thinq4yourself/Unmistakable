@@ -1,14 +1,92 @@
 @charset "UTF-8";
 @import url('/bootstrap/css/bootstrap.min.css');
 @import url('flat-ui.css');
-/*@import url('demo.css');*/
 
 body { padding-top: 100px;}
+section {padding: 5% 0;}
 
-.bg-lt-gray {
-	background-color: #f4f4f4;
+h1.headline {
+	font: 900 4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: -2px;
+	margin: 10px 0;
 }
 
+h1.headline>small {
+	color: rgba(52, 73, 94, 0.30000000000000004);
+	display: block;
+	font-size: 30%;
+	font-weight: 700;
+	letter-spacing: 0;
+	padding-top: 5px;
+}
+
+h3.headline {
+	font: 900 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: -2px;
+	color: #d5d8d8;
+	margin: 5px 0;
+}
+
+h3.headline>small {
+	font-size: 30%;
+	display: block;
+	font-weight: 700;
+	letter-spacing: 0;
+	padding-top: 5px;
+}
+/*---------------------------- Custom Background ----------------------------*/
+.bg-dk-gray {
+	background-color: #eeeeee;
+}
+
+.bg-md-gray {
+	background-color: #f8f8f8;
+}
+
+.bg-lt-gray {
+	background-color: #fafafa;
+}
+
+/*---------------------------- Custom Buttons ----------------------------*/
+.btn-orange {
+	color: #ffffff;
+	background-color: #E67E22;
+}
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+	color: #ffffff;
+	background-color: #efab6e;
+	border-color: #efab6e;
+}
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+	background: #D35400;
+	border-color: #D35400;
+}
+.btn-orange.disabled,
+.btn-orange[disabled],
+fieldset[disabled] .btn-orange,
+.btn-orange.disabled:hover,
+.btn-orange[disabled]:hover,
+fieldset[disabled] .btn-orange:hover,
+.btn-orange.disabled:focus,
+.btn-orange[disabled]:focus,
+fieldset[disabled] .btn-orange:focus,
+.btn-orange.disabled:active,
+.btn-orange[disabled]:active,
+fieldset[disabled] .btn-orange:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled].active,
+fieldset[disabled] .btn-orange.active {
+	background-color: #E67E22;
+	border-color: #E67E22;
+}
+
+/*---------------------------- Top Navigation ----------------------------*/
 .navbar {
 	margin-bottom: 0;
 	min-height: 100px;
@@ -47,23 +125,11 @@ body { padding-top: 100px;}
 }
 
 .super-hero {
-	padding: 73px 0 110px;
+	padding: 73px 0 140px;
+	margin-bottom: 0;
 }
 
-h1.headline {
-	font: 900 4em "Helvetica Neue", Helvetica, Arial, sans-serif;
-	letter-spacing: -2px;
-	margin: 10px 0;
-}
-
-h1.headline>small {
-	color: rgba(52, 73, 94, 0.30000000000000004);
-	display: block;
-	font-size: 30%;
-	font-weight: 700;
-	letter-spacing: 0;
-	padding-top: 5px;
-}
+/*---------------------------- Lean Approach ----------------------------*/
 
 .media>.pull-left {
 	margin-right: 30px;
@@ -140,45 +206,80 @@ h1.headline>small {
 	background: transparent;
 }
 
-/*---------------------------- Custom Buttons ----------------------------*/
-.btn-orange {
-  color: #ffffff;
-  background-color: #E67E22;
-}
-.btn-orange:hover,
-.btn-orange:focus,
-.btn-orange:active,
-.btn-orange.active,
-.open .dropdown-toggle.btn-orange {
-  color: #ffffff;
-  background-color: #efab6e;
-  border-color: #efab6e;
-}
-.btn-orange:active,
-.btn-orange.active,
-.open .dropdown-toggle.btn-orange {
-  background: #D35400;
-  border-color: #D35400;
-}
-.btn-orange.disabled,
-.btn-orange[disabled],
-fieldset[disabled] .btn-orange,
-.btn-orange.disabled:hover,
-.btn-orange[disabled]:hover,
-fieldset[disabled] .btn-orange:hover,
-.btn-orange.disabled:focus,
-.btn-orange[disabled]:focus,
-fieldset[disabled] .btn-orange:focus,
-.btn-orange.disabled:active,
-.btn-orange[disabled]:active,
-fieldset[disabled] .btn-orange:active,
-.btn-orange.disabled.active,
-.btn-orange[disabled].active,
-fieldset[disabled] .btn-orange.active {
-  background-color: #E67E22;
-  border-color: #E67E22;
+/*---------------------------- About ----------------------------*/
+#about {
+	text-align: center;
 }
 
+/*---------------------------- Share Section ----------------------------*/
+.share-item>a {
+	position:relative;
+	color:#fff;
+}
+
+.share-item>a:hover {
+	opacity: .8;
+}
+
+.share-item>a:before {
+	position: absolute;
+	content: '';
+	width: 16px;
+	left: 18px;
+	background: url('/images/share/sprite.png') no-repeat 0 0;
+}
+
+.share-item>a.twitter {
+	background: #00bdef;
+}
+
+.share-item>a.twitter:before {
+	background-position: 0 -329px;
+	height: 13px;
+	top: 17px;
+}
+
+.share-item>a.facebook {
+	background: #2f4b93;
+}
+
+.share-item>a.facebook:before {
+	background-position: 0 -350px;
+	height: 16px;
+	top: 15px;
+}
+
+.share-item>a.google {
+	background: #2d2d2d;
+}
+
+.share-item>a.google:before {
+	background-position: -27px -328px;
+	height: 14px;
+	top: 18px;
+}
+
+.share-item>a.pinterest {
+	background: #cb2028;
+}
+
+.share-item>a.pinterest:before {
+	background-position: -27px -350px;
+	height: 16px;
+	top: 16px;
+}
+
+.share-item>a.linkedin {
+	background: #0072b5;
+}
+
+.share-item>a.linkedin:before {
+	background-position: -53px -328px;
+	height: 16px;
+	top: 16px;
+}
+
+/*---------------------------- Media Queries ----------------------------*/
 @media (min-width: 768px) { 
 	.navbar-btn {
 		margin-left: 0;
@@ -187,7 +288,7 @@ fieldset[disabled] .btn-orange.active {
 		display: inline-block;
 	}
 
-	.muse .detail {
+	.muse .detail, #about .detail {
 		text-align: left;
 	}
 
