@@ -137,10 +137,10 @@
             <div class="container">
               <div class="row">
                 <div class="col-xs-12">
-                  <h2>A Beard & Fedora</h2>
+                  <h2>Beard & Fedora</h2>
                 </div>
                 <div class="col-xs-12 col-sm-6 detail">
-                  <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
+                  <p>Bacon ipsum dolor sit amet meatball filet mignon swine biltong jerky. Beef ribs bacon bresaola, t-bone leberkas beef doner tenderloin rump filet mignon turkey. Cow turducken chuck, leberkas pork loin swine ball tip tail meatball. Pork porchetta cow ham shank.</p>
                   <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-info btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
                 </div>
                 <div class="col-sm-6 hidden-xs media">
@@ -160,7 +160,7 @@
                   <h2>Lean Labs</h2>
                 </div>
                 <div class="col-xs-12 col-sm-6 detail">
-                  <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
+                  <p>Pork chop cow ribeye ham hock. Strip steak chicken pig frankfurter, venison ball tip short loin ham pork loin jowl porchetta filet mignon capicola. Sausage landjaeger short ribs pork loin swine, ham frankfurter t-bone porchetta.</p>
                   <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-orange btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
                 </div>
                 <div class="col-sm-6 hidden-xs media">
@@ -173,7 +173,6 @@
           </div>
         </div>
       </div>
-
       <a class="left carousel-control" href="#carousel-muses" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
       </a>
@@ -181,7 +180,16 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
     </div>
-  </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 
 <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.php'); ?>

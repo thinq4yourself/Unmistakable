@@ -1,1 +1,3 @@
-$("h1.headline").fitText();
+$(function() {
+	$("h1.headline").fitText();
+});
