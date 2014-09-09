@@ -10,11 +10,11 @@
 <!-- <script src="http://vjs.zencdn.net/4.3/video.js"></script> -->
 <!-- <script src="/js/application.js"></script> -->
 
-<script src="/js/jquery-1.11.1.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/custom.js"></script>
-<script src="/js/jquery.fittext.js"></script>
-<script src="/js/custom.fittext.js"></script>
-<script src="/js/custom.navheight.js"></script>
-<script src="/js/custom.scrollto.js"></script>
-<script src="/js/custom.sharrre.js"></script>
+<script src="/bearded-beta/js/jquery-1.11.1.min.js"></script>
+<script src="/bearded-beta/js/bootstrap.min.js"></script>
+<script src="/bearded-beta/js/custom.js"></script>
+<script src="/bearded-beta/js/jquery.fittext.js"></script>
+<script src="/bearded-beta/js/custom.fittext.js"></script>
+<script src="/bearded-beta/js/custom.navheight.js"></script>
+<script src="/bearded-beta/js/custom.scrollto.js"></script>
+<script src="/bearded-beta/js/custom.sharrre.js"></script>

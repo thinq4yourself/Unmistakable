@@ -1,232 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Tyler Goelz - Helping people to find and live their passion while making the world a better place through technology.</title>
-  <meta name="description" content="Helping people to find and live their passion while making the world a better place through technology."/>
+	<!-- if page is content page -->
+	<meta property="og:url" content="http://www.tylergoelz.com">
+	<meta property="og:title" content="Tyler Goelz - Applying a Holistic Approach to User Experience">
+	<meta property="og:description" content="Focusing on helping companies put their users first by making user-centered design & business decisions to enhace the user's experience. Yes, that sentence does say &quot;user&quot; three times.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://www.tylergoelz.com/images/logo_social.png">
 
-  <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/head.php'); ?>
+	<!-- if page is others -->
+
+	<!-- twitter cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@tylergoelz">
+	<meta name="twitter:title" content="Tyler Goelz - Applying a Holistic Approach to User Experience">
+	<meta name="twitter:description" content="Focusing on helping companies put their user's first by making user-centered design & business decisions to enhace the user's experience. Yes, sentence does say &quot;user&quot; three times.">
+	<meta name="twitter:creator" content="@tylergoelz">
+	<meta name="twitter:image:src" content="http://www.tylergoelz.com/images/logo_social.png">
+	<meta name="twitter:domain" content="http://www.tylergoelz.com">
+	<meta property="twitter:account_id" content="15271634" />
+
+	<meta name="description" content="Focusing on helping companies put their users first by making user-centered design & business decisions to enhace the user's experience. Yes, that sentence does say &quot;user&quot; three times."/>
+	<link rel="canonical" href="http://www.tylergoelz.com" />
+
+	<title>Tyler Goelz - Applying a Holistic Approach to User Experience</title>
+
+	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/head.html'); ?>
 </head>
-<body>
-  <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/nav.php'); ?>
-  <section id="super-hero" class="jumbotron super-hero bg-dk-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1 class="headline text-center">Tyler Goelz
-            <small>Inspiring people find and live their passion<br class="visible-lg" /> while making the world a better place through technology.</small>
-          </h1>
-          <div class="center-block text-center">
-            <p class="lede">Get To Know Me:</p>
-            <button type="button" data-scroll="#approach" class="btn btn-lg btn-primary">Check Out My Approach</button>
-            <button type="button" data-scroll="#muses" class="btn btn-lg btn-primary">Browse My Current Muses</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="approach" class="bg-md-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1 class="headline text-center">
-            A Lean Approach
-            <small>Bacon ipsum dolor sit amet strip steak tail sausage<br class="visible-lg" /> t-bone shankle rump swine tenderloin.</small>
-          </h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/images/icons/svg/lab.svg" alt="Product Design" onerror="this.onerror=null; this.src='/images/icons/png/lab.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Product Design</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/images/icons/svg/schematic.svg" alt="Heuristic Approach" onerror="this.onerror=null; this.src='/images/icons/png/schematic.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Heuristic Approach</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/images/icons/svg/man.svg" alt="Human-Computer Interaction" onerror="this.onerror=null; this.src='/images/icons/png/man.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Human-Computer Interaction</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/images/icons/svg/retina.svg" alt="Customer Validation" onerror="this.onerror=null; this.src='/images/icons/png/retina.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Customer Validation</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/images/icons/svg/chart.svg" alt="Scalability" onerror="this.onerror=null; this.src='/images/icons/png/Scalability.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Scalability</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/images/icons/svg/map.svg" alt="Lifestyle Design" onerror="this.onerror=null; this.src='/images/icons/png/map.map'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Lifestyle Design <small class="text-success">Bonus!</small></h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="muses">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="container hero">
-            <h1 class="headline text-center">Current Muses
-              <small>*Muse /myooz/ (noun): A low-maintenance business that generates significant income.</small>
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="carousel-muses" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="muse abaa">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <h2>A Beard Across America</h2>
-                </div>
-                <div class="col-xs-12 col-sm-6 detail">
-                  <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
-                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-lg" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
-                </div>
-                <div class="col-sm-6 hidden-xs media">
-                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
-                    <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="muse beard-and-fedora">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <h2>Beard & Fedora</h2>
-                </div>
-                <div class="col-xs-12 col-sm-6 detail">
-                  <p>Bacon ipsum dolor sit amet meatball filet mignon swine biltong jerky. Beef ribs bacon bresaola, t-bone leberkas beef doner tenderloin rump filet mignon turkey. Cow turducken chuck, leberkas pork loin swine ball tip tail meatball. Pork porchetta cow ham shank.</p>
-                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-info btn-lg" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
-                </div>
-                <div class="col-sm-6 hidden-xs media">
-                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
-                    <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="muse lean-labs">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <h2>Lean Labs</h2>
-                </div>
-                <div class="col-xs-12 col-sm-6 detail">
-                  <p>Pork chop cow ribeye ham hock. Strip steak chicken pig frankfurter, venison ball tip short loin ham pork loin jowl porchetta filet mignon capicola. Sausage landjaeger short ribs pork loin swine, ham frankfurter t-bone porchetta.</p>
-                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-orange btn-lg" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
-                </div>
-                <div class="col-sm-6 hidden-xs media">
-                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
-                    <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#carousel-muses" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-muses" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-    </div>
-  </section>
-  <section id="about" class="bg-lt-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12" class="detail">
-          <h2>Get To Know Me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae fugiat optio aperiam molestiae facilis suscipit tenetur itaque aut voluptas quasi.</p>
-          <p>Harum modi est delectus sequi saepe iusto deleniti, aut enim rem, nemo accusamus tempore provident inventore nisi itaque magnam quod?</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="social" class="sharing text-center">
-    <div class="container">
-      <div class="row">
-        <div class="class-xs-12">
-          <h3 class="headline">Thank you for <span id="counts">0</span> shares!</h3>
-        </div>
-        <div class="col-xs-6 share-item">
-          <a class="twitter btn btn-lg btn-block" href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=abaa&original_referer=http%3A%2F%2Fwww.tylergoelz.com%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com','',695,300)">
-            Tweet
-          </a>
-        </div>
-        <div class="col-xs-6 share-item">
-          <a class="facebook btn btn-lg btn-block" href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)">
-            Share
-          </a>
-        </div>
-        <div class="col-xs-4 share-item">
-          <a class="google btn btn-lg btn-block" href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Fwww.tylergoelz.com','',666,378)">
-            Share
-          </a>
-        </div>
-        <div class="col-xs-4 share-item">
-          <a class="pinterest btn btn-lg btn-block" href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://tylergoelz.com/&media=http://tylergoelz.com/images/about/logo.png&description=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',630,360);">
-            Pin it
-          </a>
-        </div>
-        <div class="col-xs-4 share-item">
-          <a class="linkedin btn btn-lg btn-block" href="javascript:oiw('http://www.linkedin.com/shareArticle?mini=true&url=http://tylergoelz.com&title=Tyler%20Goelz&summary=Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',520,385)">
-            Share
-          </a>
-        </div>
-      </div>
-    </div>      
-  </section>
-  <span class="share-section-cont"> </span>
-</div>
+<body id="homepage" class="homepage">
+	<article>
+		<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/follow-me-widget.html'); ?>
+		<section id="headline" class="headline">
+			<div id="headline-icons" class="headline-icons">
+				<div class="moleskin"><img src="/images/headline/moleskin.png" alt="moleskin" /></div>
+				<div class="coffee"><img src="/images/headline/coffee.png" alt="coffee" /></div>
+				<div class="sticky"><img src="/images/headline/sticky.png" alt="sticky" /></div>
+				<div class="s3"><img src="/images/headline/s3.png" alt="s3" /></div>
+				<div class="keyboard"><img src="/images/headline/keyboard.png" alt="keyboard" /></div>
+			</div>
+			<div class="info">
+				<h1>Tyler Goelz</h1>
+				<small>Applying a Holistic Approach to User Experience</small>
+				<button type="button" data-scroll="#approach" class="btn btn-large btn-primary">Check Out How</button>
+			</div>
+		</section>
+		
+		<section id="approach" class="approach-section">
+			<div class="container">
+				<div class="row">
+					<h1>My Approach</h1>
+					<div class="span6 topic">
+						<div class="topic-image">
+							<img src="images/icons/Clipboard@2x.png" alt="Clipboard">
+						</div>
+						<div class="frame">
+							<h3>Customer Validation</h3>
+							<p>Envision the customer, conduct quality interviews and learn from customer development.</p>
+						</div>
+					</div>
+					<div class="span6 topic">
+						<div class="topic-image">
+							<img src="images/icons/Bullseye@2x.png" alt="Clipboard">
+						</div>
+						<div class="frame">
+							<h3>Product Market Fit</h3>
+							<p>Use a process of design, distribution and data collection to find messaging, pricing & audience.</p>
+						</div>
+					</div>
+					<div class="span6 topic">
+						<div class="topic-image">
+							<img src="images/icons/Tools@2x.png" alt="Clipboard">
+						</div>
+						<div class="frame">
+							<h3>Product Design</h3>
+							<p>Deliver products through Lean UX - a combo of <a href="http://en.wikipedia.org/wiki/Lean_Startup#Description?ref=tylergoelz" target="_blank">Lean Startup</a> and User Experience.</p>
+						</div>		    			
+					</div>
+					<div class="span6 topic">
+						<div class="topic-image">
+							<img src="images/icons/Touch@2x.png" alt="Clipboard">
+						</div>
+						<div class="frame">
+							<h3>User Testing</h3>
+							<p>Discover opportunities that could serve user’s needs and inform the rest of the design process.</p>
+						</div>		    			
+					</div>
+					<div class="span6 topic">
+						<div class="topic-image">
+							<img src="images/icons/Chart@2x.png" alt="Clipboard">
+						</div>
+						<div class="frame">
+							<h3>Scalability</h3>
+							<p>Start, design, optimize and scale products and business models.</p>
+						</div>		    			
+					</div>
+					<div class="span6 topic">
+						<div class="topic-image">
+							<img src="images/icons/Baggage@2x.png" alt="Clipboard">
+						</div>
+						<div class="frame">
+							<h3>Lifestyle Design</h3>
+							<p>“Life doesn’t have to be so damn hard. It really doesn’t.” - <a href="http://www.fourhourworkweek.com/blog/?ref=tylergoelz" target="_blank">Tim Ferriss</a></p>
+						</div>		    			
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="muse" class="muse-section">
+			<div class="muse">
+				<span class="details">
+					<span class="frame">
+						<h2>Redwood Agile</h2>
+						<p>Redwood Agile is my current Muse*. We apply everything mentioned above to help entrepreneurs start, design, optimize and scale their products and business models.</p>
+					</span>
+				</span>
+				<span class="definition">
+					<span class="frame">
+						<p><small>*Muse /myooz/ (noun)</small></p>
+						<p><small>A low-maintenance business that generates significant income.</small></p>
+					</span>
+				</span>
+				<div class="web">
+					<a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web-block">
+						<img src="/images/muse/eye-icon.png" class="icon">
+						<span class="web-element1">
+							<img src="/images/muse/redwood/page-element-1.png" alt="element">
+						</span>
+						<span class="web-element3">
+							<img src="/images/muse/redwood/page-element-3.png" alt="element">
+						</span>
+						<span class="web-element2">
+							<img src="/images/muse/redwood/page-element-2.png" alt="element">
+						</span>
+					</a>
+				</div>
 
-<?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.php'); ?>
+				<div class="buttonholder">
+					<a href="http://www.redwoodagile.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span>&nbsp;View Redwood Agile</a>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="about-me-section">
+			<div class="about">
+				<img id="icon-face" src="/images/about/logo.png" width="398" alt="The Face of Tyler Goelz">
+				<span class="frame">
+					<h2>About Me</h2>
+					<p>Traveler, writer, and craft beer drinker. Author of <a href="www.abeardacrossamerica.com">A Beard Across America</a> and Co-Founder of <a href="https://twitter.com/sproutcamp">SproutCamp</a>. Helping world changers <a href="https://twitter.com/beunmistakable">#BeUnmistakable.</a></p>
+					<p>Along with writing, traveling and creating muses, I focus on helping companies succeed by putting their users first. I help them do that by making user-centered design & business decision to enhance the user's experience.</p>
+					<p>Follow me:
+						<a class="follow-link" href="http://www.abeardacrossamerica.com/">#ABAA</a>
+						<a class="follow-link" href="http://medium.com/@tylergoelz">Blog</a>
+						<a class="follow-link" href="http://www.twitter.com/tylergoelz">Twitter</a>
+						<a class="follow-link" href="http://www.facebook.com/ILikeTylerGoelz">Facebook</a>
+					</p>
+				</span>
+			</div>  	
+		</section>
+		<section id="social" class="share-section">
+			<div class="container">
+				<div class="row">
+					<h1>Sharing is Caring!</h1>
+					<ul class="share-list">
+						<li><a href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=abaa&original_referer=http%3A%2F%2Fwww.tylergoelz.com%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com','',695,300)" class="twitter"><dt>Tweet</dt><span></span></a></li>
+						<li><a href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)" class="facebook"><dt>Share</dt><span></span></a></li>
+						<li><a href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Fwww.tylergoelz.com','',666,378)" class="google"><dt>Share</dt><span></span></a></li>
+						<li><a href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://tylergoelz.com/&media=http://tylergoelz.com/images/about/logo.png&description=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',630,360);" class="pin"><dt>Pin it</dt><span></span></a></li>
+						<li><a href="javascript:oiw('http://www.linkedin.com/shareArticle?mini=true&url=http://tylergoelz.com&title=Tyler%20Goelz&summary=Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',520,385)" class="linkedin"><dt>Share</dt><span></span></a></li>
+					</ul>
+				</div>
+			</div>			
+		</section>
+		<span class="share-section-cont"> </span>
+	</article>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="references">
+					<p>This site was crafted using the <a href="http://designmodo.com/flat-free/?ref=tylergoelz" target="_blank">Flat UI</a> framework, mocked up in <a href="http://www.adobe.com/products/photoshop.html?ref=tylergoelz" target="_blank">Photoshop</a> & <a href="http://www.adobe.com/products/illustrator.html?ref=tylergoelz" target="_blank">Illustrator</a> CS6, build in <a href="http://www.sublimetext.com/2?ref=tylergoelz" target="_blank">Submlime Text 2</a>, using <a href="http://en.wikipedia.org/wiki/HTML5?ref=tylergoelz" target="_blank">HTML5</a>, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3?ref=tylergoelz" target="_blank">CS3</a> & <a href="http://jquery.com/?ref=tylergoelz" target="_blank">jQuery</a>. It's stashed using <a href="https://devcenter.heroku.com/articles/git/?ref=tylergoelz" target="_blank">git</a> and hosted on <a href="https://www.heroku.com/?ref=tylergoelz" target="_blank">Heroku</a>.</p>
+					<p>Thank you all for your community support and general badassness!</p>
+					<small>&copy; 2013 The Face of Tyler Goelz, Inc.</small>
+				</div>
+			</div>
+		</div>
+	</footer>   
+	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/scripts.html'); ?>
 </body>
 </html>
