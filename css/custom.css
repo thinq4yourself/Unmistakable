@@ -90,7 +90,7 @@ h1.headline>small {
 	color: rgba(255,255,255,0.95);
 }
 
-#muses .muse.abaa .detail>a.btn {
+#muses .muse.abaa .detail>a.btn, #muses .muse.beard-and-fedora .detail>a.btn, #muses .muse.lean-labs .detail>a.btn {
 	border: 2px solid transparent;
 }
 
@@ -101,6 +101,82 @@ h1.headline>small {
 #muses .muse.abaa:hover .detail>a.btn:hover {
 	color: rgb(26,188,156);
 	background-color: rgba(255,255,255,0.95);
+}
+
+#muses .muse.beard-and-fedora:hover {
+	background-color: rgb(52,152,219);
+	color: rgba(255,255,255,0.95);
+}
+
+#muses .muse.beard-and-fedora:hover .detail>a.btn {
+	border-color: #fff;
+}
+
+#muses .muse.beard-and-fedora:hover .detail>a.btn:hover {
+	color: rgb(52,152,219);
+	background-color: rgba(255,255,255,0.95);
+}
+
+#muses .muse.lean-labs:hover {
+	background-color: rgb(230,126,34);
+	color: rgba(255,255,255,0.95);
+}
+
+#muses .muse.lean-labs:hover .detail>a.btn {
+	border-color: #fff;
+}
+
+#muses .muse.lean-labs:hover .detail>a.btn:hover {
+	color: rgb(230,126,34);
+	background-color: rgba(255,255,255,0.95);
+}
+
+#muses .carousel-control {
+	font-size: 2em;
+	color: rgba(52,73,94, .8);
+}
+
+#muses .carousel-control.left, #muses .carousel-control.right {
+	background: transparent;
+}
+
+/*---------------------------- Custom Buttons ----------------------------*/
+.btn-orange {
+  color: #ffffff;
+  background-color: #E67E22;
+}
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+  color: #ffffff;
+  background-color: #efab6e;
+  border-color: #efab6e;
+}
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+  background: #D35400;
+  border-color: #D35400;
+}
+.btn-orange.disabled,
+.btn-orange[disabled],
+fieldset[disabled] .btn-orange,
+.btn-orange.disabled:hover,
+.btn-orange[disabled]:hover,
+fieldset[disabled] .btn-orange:hover,
+.btn-orange.disabled:focus,
+.btn-orange[disabled]:focus,
+fieldset[disabled] .btn-orange:focus,
+.btn-orange.disabled:active,
+.btn-orange[disabled]:active,
+fieldset[disabled] .btn-orange:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled].active,
+fieldset[disabled] .btn-orange.active {
+  background-color: #E67E22;
+  border-color: #E67E22;
 }
 
 @media (min-width: 768px) { 

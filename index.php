@@ -109,24 +109,77 @@
           </div>
         </div>
       </div>
-    </div>    
-    <div class="muse abaa">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h2>A Beard Across America</h2>
+    </div>
+    <div id="carousel-muses" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="muse abaa">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h2>A Beard Across America</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 detail">
+                  <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
+                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
+                </div>
+                <div class="col-sm-6 hidden-xs media">
+                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
+                    <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-xs-12 col-sm-6 detail">
-            <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
-            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
+        </div>
+        <div class="item">
+          <div class="muse beard-and-fedora">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h2>A Beard & Fedora</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 detail">
+                  <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
+                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-info btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
+                </div>
+                <div class="col-sm-6 hidden-xs media">
+                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
+                    <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-6 hidden-xs media">
-            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
-              <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
-            </a>
+        </div>
+        <div class="item">
+          <div class="muse lean-labs">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h2>Lean Labs</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 detail">
+                  <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
+                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-orange btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
+                </div>
+                <div class="col-sm-6 hidden-xs media">
+                  <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
+                    <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <a class="left carousel-control" href="#carousel-muses" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-muses" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
     </div>
   </div>
 </div>
