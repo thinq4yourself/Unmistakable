@@ -76,116 +76,31 @@ h1.headline>small {
 
 /*---------------------------- Muse ----------------------------*/
 #muses .muse {
-	display:block;
 	-webkit-transition:0.25s ease-in-out;
 	-moz-transition:0.25s ease-in-out;
 	-ms-transition:0.25s ease-in-out;
 	-o-transition:0.25s ease-in-out;
 	transition:0.25s ease-in-out;
 	text-align: center;
-	margin:0 auto;
 	padding:4% 0;
-	display:block;
-	position: relative;
 }
 
-.muse h2 {
-	font-size: 3em;
-	line-height: 1.2em;
-	margin:0 0 41px;
-}
-
-.muse .details {
-	width:100%;
-	display:block;
-}
-
-.muse .frame {
-	float:left;
-	display:block;
-}
-
-.web {
-	position:relative;
-	float:right;
-	width:553px;
-	height:408px;
-	top:-217px;
-	-webkit-transition:0.25s ease-in-out;
-	-moz-transition:0.25s ease-in-out;
-	-ms-transition:0.25s ease-in-out;
-	-o-transition:0.25s ease-in-out;
-	transition:0.25s ease-in-out;
-}
-
-.web:hover {
-	top:-223px;
-	cursor: pointer;
-}
-
-.web .web-block {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-
-.web .web-block > span {
-	position: absolute;
-	opacity: 0;
-}
-
-.web-block span.web-element1 {
-	top: 0;
-	left:0;
-}
-.web-block span.web-element2 {
-	top: 33px;
-	left:0;
-}
-.web-block span.web-element3 {
-	top: 291px;
-	left:0;
-}
-
-.web-block span img {
-	position: absolute;
-}
-
-.web-block img.icon {
-	top:180px;
-	left:230px;
-	opacity:0;
-	position:absolute;
-	-webkit-transition:0.25s ease-in-out;
-	-moz-transition:0.25s ease-in-out;
-	-ms-transition:0.25s ease-in-out;
-	-o-transition:0.25s ease-in-out;
-	transition:0.25s ease-in-out;
-	z-index: 1;
-	position: relative;
-	width: 90px;
-	height:60px;
-}
-
-#muses:hover .muse .web-block img.icon {
-	top:190px;
-	left:230px;
-	width: 90px;
-	height: 60px;
-	opacity: 1 !important;
-}
-
-#muses:hover .muse .web-block img {
-	opacity:0.5 !important;
-}
-
-.buttonholder {
-	display: none;
-}
-
-#muses .muse:hover  {
-	background:#1abc9c;
+#muses .muse.abaa:hover {
+	background-color: rgb(26,188,156);
 	color: rgba(255,255,255,0.95);
+}
+
+#muses .muse.abaa .detail>a.btn {
+	border: 2px solid transparent;
+}
+
+#muses .muse.abaa:hover .detail>a.btn {
+	border-color: #fff;
+}
+
+#muses .muse.abaa:hover .detail>a.btn:hover {
+	color: rgb(26,188,156);
+	background-color: rgba(255,255,255,0.95);
 }
 
 @media (min-width: 768px) { 
@@ -195,8 +110,42 @@ h1.headline>small {
 	.navbar-brand .logo-header {
 		display: inline-block;
 	}
-	.super-hero>h1 {
-		font: 900 5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	.muse .detail {
+		text-align: left;
+	}
+
+	.muse:hover>.media>a>img {
+		top:-15px;
+		cursor: pointer;
+	}
+
+	.muse:hover>.media>a>img.icon {
+		top:190px;
+		left:230px;
+		width: 90px;
+		height: 60px;
+		opacity: 1 !important;
+	}
+
+	.muse:hover>.media>a>img {
+		opacity:0.5;
+	}
+
+	.muse>.media>a>img.icon {
+		top:180px;
+		left:230px;
+		opacity:0;
+		position:absolute;
+		-webkit-transition:0.25s ease-in-out;
+		-moz-transition:0.25s ease-in-out;
+		-ms-transition:0.25s ease-in-out;
+		-o-transition:0.25s ease-in-out;
+		transition:0.25s ease-in-out;
+		z-index: 1;
+		position: relative;
+		width: 90px;
+		height:60px;
 	}
 }
 

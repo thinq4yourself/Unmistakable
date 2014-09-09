@@ -102,7 +102,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="container super-hero">
+          <div class="container hero">
             <h1 class="headline text-center">Current Muses
               <small>*Muse /myooz/ (noun): A low-maintenance business that generates significant income.</small>
             </h1>
@@ -110,39 +110,27 @@
         </div>
       </div>
     </div>    
-    <div class="muse">
+    <div class="muse abaa">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <span class="details">
-              <span class="frame">
-                <h2>Redwood Agile</h2>
-                <p>Redwood Agile is my current Muse*. We apply everything mentioned above to help entrepreneurs start, design, optimize and scale their products and business models.</p>
-              </span>
-            </span>
-            <div class="web">
-              <a href="http://www.redwoodagile.com/?ref=tylergoelz" target="_blank" class="web-block">
-                <img src="/images/muses/eye-icon.png" class="icon">
-                <span class="web-element1">
-                  <img src="/images/muses/redwood/page-element-1.png" alt="element">
-                </span>
-                <span class="web-element3">
-                  <img src="/images/muses/redwood/page-element-3.png" alt="element">
-                </span>
-                <span class="web-element2">
-                  <img src="/images/muses/redwood/page-element-2.png" alt="element">
-                </span>
-              </a>
-            </div>
-            <div class="buttonholder">
-              <a href="http://www.redwoodagile.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span>&nbsp;View Redwood Agile</a>
-            </div>
+            <h2>A Beard Across America</h2>
+          </div>
+          <div class="col-xs-12 col-sm-6 detail">
+            <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
+            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span> Be The First To Read #ABAA</a>
+          </div>
+          <div class="col-sm-6 hidden-xs media">
+            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" target="_blank">
+              <img src="/images/muses/abaa/abaa-ebook.png" alt="A Beard Across America" class="img-responsive center-block" />
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.php'); ?>
+<?php include( $_SERVER['DOCUMENT_ROOT'].'/includes/scripts.php'); ?>
 </body>
 </html>

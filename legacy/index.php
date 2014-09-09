@@ -138,7 +138,6 @@
 				<div class="buttonholder">
 					<a href="http://www.redwoodagile.com/?ref=tylergoelz" class="btn btn-primary btn-large" target="_blank"><span class="fui-eye"></span>&nbsp;View Redwood Agile</a>
 				</div>
-
 			</div>
 		</section>
 		<section id="about" class="about-me-section">
