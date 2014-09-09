@@ -143,7 +143,7 @@ function loadSharrre() {
 		},
 		template: " ",
 		url:"http://www.tylergoelz.com",
-		urlCurl: 'http://dribbbleboard.com/js/sharrre.php',
+		urlCurl: '/includes/sharrre.php',
 		enableHover: false,
 		className: '',
 		render: function(api, options){
