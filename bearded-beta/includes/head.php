@@ -11,3 +11,5 @@
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.min.js"></script>
 <![endif]-->
+
+<script type="text/javascript" src="//s3.amazonaws.com/scripts.hellobar.com/1e0d20aecaeaef256254bf8999f86f2053c82486.js"></script>
