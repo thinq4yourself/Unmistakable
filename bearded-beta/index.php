@@ -231,7 +231,7 @@
         <div class="col-xs-12 bg-turquoise">
           <div class="sign-up">
             <h3 class="headline">Get In Touch <small>Whether you want to talk shop, share a funny meme, or tell me about your cray aunt, I'd love to hear from you.</small></h3>
-            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-inverted btn-lg" target="_blank"><span class="fui-eye"></span> Shoot me an email</a>
+            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-outline btn-lg" target="_blank"><span class="fui-eye"></span> Shoot me an email</a>
           </div>
         </div>
       </div>
