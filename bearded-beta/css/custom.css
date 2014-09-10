@@ -210,8 +210,8 @@ fieldset[disabled] .btn-outline.active {
 .navbar-brand {
 	font-size: 40px;
 	height: auto;
-	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .navbar-brand .logo-header {
@@ -227,17 +227,22 @@ fieldset[disabled] .btn-outline.active {
 }
 
 .navbar-toggle {
-	padding-top: 3%;
+	padding-top: 25px;
 	height: auto;
 }
 
+.navbar-nav > li > a {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+/*---------------------------- Super Hero ----------------------------*/
 .super-hero {
 	padding: 73px 0 140px;
 	margin-bottom: 0;
 }
 
 /*---------------------------- Lean Approach ----------------------------*/
-
 .media>.pull-left {
 	margin-right: 30px;
 }
