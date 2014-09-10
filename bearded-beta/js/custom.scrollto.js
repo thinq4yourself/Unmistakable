@@ -1,7 +1,13 @@
 $(function() {
 	$('[data-scroll]').bind('click', function(e) {
 		e.preventDefault();
-		var $page_location = $(this).attr('data-scroll');
+		
+		var $navbar = $('.navbar-collapse');
+		if ($navbar.hasClass('in')) $navbar.collapse('hide');
+
+		var $btnClicked = $(this),
+		$page_location = $btnClicked.attr('data-scroll');
+		
 		scrollToSection($page_location, 1000);
 	});
 });
