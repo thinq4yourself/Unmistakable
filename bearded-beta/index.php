@@ -125,7 +125,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-xs-12">
-                  <h2>A Beard Across America</h2>
+                  <h3 class="headline">A Beard Across America</h3>
                 </div>
                 <div class="col-xs-12 col-sm-6 detail">
                   <p>#ABAA is filled with inspiring and motivating stories that capture my road-trip across America. Compiled of stories written to help readers look at something “impossible” and redefine it as not only achievable, but achievable a lot quicker than expected.</p>
@@ -193,7 +193,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12" class="detail">
-          <h2>Get To Know Me</h2>
+          <h2 class="headline">Get To Know Me</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae fugiat optio aperiam molestiae facilis suscipit tenetur itaque aut voluptas quasi.</p>
           <p>Harum modi est delectus sequi saepe iusto deleniti, aut enim rem, nemo accusamus tempore provident inventore nisi itaque magnam quod?</p>
         </div>

@@ -30,11 +30,10 @@ h1.headline>small {
 
 h2.headline {
 	font-size: 4em;
-	font-weight: 900;
+	font-weight: 400;
 }
 
 h2.headline>small {
-	font-weight: 700;
 	font-size: 40%;
 }
 
@@ -245,7 +244,6 @@ fieldset[disabled] .btn-outline.active {
 /*---------------------------- Lean Approach ----------------------------*/
 ul.approach-list {
 	margin-top: 30px;
-	margin-bottom: 60px;
 }
 
 ul.approach-list>li {
@@ -262,6 +260,14 @@ ul.approach-list>li {
 }
 
 /*---------------------------- Muse ----------------------------*/
+section#muses {
+	padding-bottom: 0;
+}
+
+#muses .carousel {
+	margin-top: 30px;
+}
+
 #muses .muse {
 	-webkit-transition:0.25s ease-in-out;
 	-moz-transition:0.25s ease-in-out;
@@ -269,7 +275,7 @@ ul.approach-list>li {
 	-o-transition:0.25s ease-in-out;
 	transition:0.25s ease-in-out;
 	text-align: center;
-	padding:4% 0;
+	padding:5% 0;
 }
 
 #muses .muse.abaa:hover {
