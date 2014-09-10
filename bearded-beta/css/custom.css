@@ -5,35 +5,59 @@
 body { padding-top: 100px;}
 section {padding: 5% 0;}
 
-h1.headline {
-	font: 900 4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+.headline {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: -2px;
 	margin: 10px 0;
 }
 
-h1.headline>small {
+.headline>small {
 	color: rgba(52, 73, 94, 0.30000000000000004);
 	display: block;
-	font-size: 30%;
-	font-weight: 700;
 	letter-spacing: 0;
 	padding-top: 5px;
+}
+
+h1.headline {
+	font-weight: 900;
+	font-size: 5em;
+}
+
+h1.headline>small {
+	font-weight: 700;
+	font-size: 30%;
+}
+
+h2.headline {
+	font-size: 4em;
+	font-weight: 900;
+}
+
+h2.headline>small {
+	font-weight: 700;
+	font-size: 40%;
 }
 
 h3.headline {
-	font: 900 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
-	letter-spacing: -2px;
-	color: #d5d8d8;
-	margin: 5px 0;
+	font-size: 3em;
+	font-weight: 900;
 }
 
 h3.headline>small {
-	font-size: 30%;
-	display: block;
 	font-weight: 700;
-	letter-spacing: 0;
-	padding-top: 5px;
+	font-size: 50%;
 }
+
+h4.headline {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+h4.headline>small {
+	font-weight: 500;
+	font-size: 60%;
+}
+
 /*---------------------------- Custom Background ----------------------------*/
 .bg-dk-gray {
 	background-color: #eeeeee;
@@ -45,6 +69,20 @@ h3.headline>small {
 
 .bg-lt-gray {
 	background-color: #fafafa;
+}
+
+.bg-dk-blue {
+	background-color: #2C3E50;
+	color: #fff;
+}
+
+.bg-turquoise {
+	background-color: #1ABC9C;
+	color: #fff;
+}
+
+.bg-dk-blue .headline>small, .bg-turquoise .headline>small {
+	color: rgba(255, 255, 255, .8);
 }
 
 /*---------------------------- Custom Buttons ----------------------------*/
@@ -84,6 +122,52 @@ fieldset[disabled] .btn-orange:active,
 fieldset[disabled] .btn-orange.active {
 	background-color: #E67E22;
 	border-color: #E67E22;
+}
+
+.btn-inverted {
+	color: #ffffff;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+}
+.btn-inverted:hover,
+.btn-inverted:focus,
+.btn-inverted:active,
+.btn-inverted.active,
+.open .dropdown-toggle.btn-inverted {
+	background-color: #fff;
+	border: 2px solid #ffffff;
+}
+
+.btn-primary.btn-inverted:hover,
+.btn-primary.btn-inverted:focus,
+.btn-primary.btn-inverted:active,
+.btn-primary.btn-inverted.active,
+.open .dropdown-toggle.btn-primary.btn-inverted {
+	color: #1ABC9C;
+}
+
+.btn-inverted:active,
+.btn-inverted.active,
+.open .dropdown-toggle.btn-inverted {
+	background: #ffffff;
+}
+.btn-inverted.disabled,
+.btn-inverted[disabled],
+fieldset[disabled] .btn-inverted,
+.btn-inverted.disabled:hover,
+.btn-inverted[disabled]:hover,
+fieldset[disabled] .btn-inverted:hover,
+.btn-inverted.disabled:focus,
+.btn-inverted[disabled]:focus,
+fieldset[disabled] .btn-inverted:focus,
+.btn-inverted.disabled:active,
+.btn-inverted[disabled]:active,
+fieldset[disabled] .btn-inverted:active,
+.btn-inverted.disabled.active,
+.btn-inverted[disabled].active,
+fieldset[disabled] .btn-inverted.active {
+	background-color: rbga(255, 255, 255, .2);
+	border-color: #fff;
 }
 
 /*---------------------------- Top Navigation ----------------------------*/
@@ -226,7 +310,7 @@ fieldset[disabled] .btn-orange.active {
 	content: '';
 	width: 16px;
 	left: 18px;
-	background: url('/images/share/sprite.png') no-repeat 0 0;
+	background: url('/bearded-beta/images/share/sprite.png') no-repeat 0 0;
 }
 
 .share-item>a.twitter {
@@ -277,6 +361,15 @@ fieldset[disabled] .btn-orange.active {
 	background-position: -53px -328px;
 	height: 16px;
 	top: 16px;
+}
+
+/*---------------------------- Footer ----------------------------*/
+footer {
+	text-align: center;
+}
+
+footer .sign-up, footer .shout-out {
+	opacity: .8;
 }
 
 /*---------------------------- Media Queries ----------------------------*/

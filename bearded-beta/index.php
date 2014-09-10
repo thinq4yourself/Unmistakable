@@ -225,6 +225,37 @@
     </div>      
   </section>
   <span class="share-section-cont"> </span>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 bg-turquoise">
+          <div class="sign-up">
+            <h3 class="headline">Get In Touch <small>Whether you want to talk shop, share a funny meme, or tell me about your cray aunt, I'd love to hear from you.</small></h3>
+            <a href="http://www.abeardacrossamerica.com/?ref=tylergoelz" class="btn btn-primary btn-inverted btn-lg" target="_blank"><span class="fui-eye"></span> Shoot me an email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 bg-dk-blue">
+          <div class="shout-out">
+            <p class="lead"><span class="hidden-sx">Last, but not least,</span> I want to send a special thanks to our open source community and their badassness!</p>
+            <p><a href="http://designmodo.com/flat-free/?ref=tylergoelz" target="_blank">Flat UI</a>
+            , <a href="http://www.adobe.com/products/photoshop.html?ref=tylergoelz" target="_blank">Photoshop CC</a> 
+            , <a href="http://www.adobe.com/products/illustrator.html?ref=tylergoelz" target="_blank">Illustrator CC</a>
+            , <a href="http://www.sublimetext.com/2?ref=tylergoelz" target="_blank">Submlime Text 2</a>
+            , <a href="http://en.wikipedia.org/wiki/HTML5?ref=tylergoelz" target="_blank">HTML5</a>
+            , <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3?ref=tylergoelz" target="_blank">CS3</a>
+            , <a href="http://jquery.com/?ref=tylergoelz" target="_blank">jQuery</a>
+            , <a href="https://devcenter.heroku.com/articles/git/?ref=tylergoelz" target="_blank">git</a>
+            , <a href="https://github.com/?ref=tylergoelz" target="_blank">github</a>
+            , <a href="https://www.heroku.com/?ref=tylergoelz" target="_blank">Heroku</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
 
 <?php include( $_SERVER['DOCUMENT_ROOT'].'/bearded-beta/includes/scripts.php'); ?>
