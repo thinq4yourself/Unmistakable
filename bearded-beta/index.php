@@ -35,64 +35,74 @@
         </div>
       </div>
       <div class="row">
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/bearded-beta/images/icons/svg/lab.svg" alt="Product Design" onerror="this.onerror=null; this.src='/images/icons/png/lab.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Product Design</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/bearded-beta/images/icons/svg/schematic.svg" alt="Heuristic Approach" onerror="this.onerror=null; this.src='/images/icons/png/schematic.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Heuristic Approach</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/bearded-beta/images/icons/svg/man.svg" alt="Human-Computer Interaction" onerror="this.onerror=null; this.src='/images/icons/png/man.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Human-Computer Interaction</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/bearded-beta/images/icons/svg/retina.svg" alt="Customer Validation" onerror="this.onerror=null; this.src='/images/icons/png/retina.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Customer Validation</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/bearded-beta/images/icons/svg/chart.svg" alt="Scalability" onerror="this.onerror=null; this.src='/images/icons/png/Scalability.png'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Scalability</h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
-        <div class="media col-sm-12">
-          <div class="pull-left">
-            <img class="media-object" src="/bearded-beta/images/icons/svg/map.svg" alt="Lifestyle Design" onerror="this.onerror=null; this.src='/images/icons/png/map.map'">
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Lifestyle Design <small class="text-success">Bonus!</small></h4>
-            <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
-          </div>
-        </div>
+        <ul class="approach-list">
+          <li class="xs-col-12">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object" src="/bearded-beta/images/icons/svg/lab.svg" alt="Product Design" onerror="this.onerror=null; this.src='/images/icons/png/lab.png'">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Product Design</h4>
+                <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
+              </div>
+            </div>
+          </li>
+          <li class="xs-col-12">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object" src="/bearded-beta/images/icons/svg/schematic.svg" alt="Heuristic Approach" onerror="this.onerror=null; this.src='/images/icons/png/schematic.png'">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Heuristic Approach</h4>
+                <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
+              </div>
+            </div>
+          </li>
+          <li class="xs-col-12">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object" src="/bearded-beta/images/icons/svg/man.svg" alt="Human-Computer Interaction" onerror="this.onerror=null; this.src='/images/icons/png/man.png'">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Human-Computer Interaction</h4>
+                <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
+              </div>
+            </div>
+          </li>
+          <li class="xs-col-12">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object" src="/bearded-beta/images/icons/svg/retina.svg" alt="Customer Validation" onerror="this.onerror=null; this.src='/images/icons/png/retina.png'">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Customer Validation</h4>
+                <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
+              </div>
+            </div>
+          </li>
+          <li class="xs-col-12">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object" src="/bearded-beta/images/icons/svg/chart.svg" alt="Scalability" onerror="this.onerror=null; this.src='/images/icons/png/Scalability.png'">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Scalability</h4>
+                <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
+              </div>
+            </div>
+          </li>
+          <li class="xs-col-12">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object" src="/bearded-beta/images/icons/svg/map.svg" alt="Lifestyle Design" onerror="this.onerror=null; this.src='/images/icons/png/map.map'">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lifestyle Design <small class="text-success">Bonus!</small></h4>
+                <p>Bacon ipsum dolor sit amet strip steak tail sausage t-bone shankle rump swine tenderloin.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
@@ -242,22 +252,22 @@
           <div class="shout-out">
             <p class="lead"><span class="hidden-sx">Last, but not least,</span> I want to send a special thanks to our open source community and their badassness!</p>
             <p><a href="http://designmodo.com/flat-free/?ref=tylergoelz" target="_blank">Flat UI</a>
-            , <a href="http://www.adobe.com/products/photoshop.html?ref=tylergoelz" target="_blank">Photoshop CC</a> 
-            , <a href="http://www.adobe.com/products/illustrator.html?ref=tylergoelz" target="_blank">Illustrator CC</a>
-            , <a href="http://www.sublimetext.com/2?ref=tylergoelz" target="_blank">Submlime Text 2</a>
-            , <a href="http://en.wikipedia.org/wiki/HTML5?ref=tylergoelz" target="_blank">HTML5</a>
-            , <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3?ref=tylergoelz" target="_blank">CS3</a>
-            , <a href="http://jquery.com/?ref=tylergoelz" target="_blank">jQuery</a>
-            , <a href="https://devcenter.heroku.com/articles/git/?ref=tylergoelz" target="_blank">git</a>
-            , <a href="https://github.com/?ref=tylergoelz" target="_blank">github</a>
-            , <a href="https://www.heroku.com/?ref=tylergoelz" target="_blank">Heroku</a></p>
+              , <a href="http://www.adobe.com/products/photoshop.html?ref=tylergoelz" target="_blank">Photoshop CC</a> 
+              , <a href="http://www.adobe.com/products/illustrator.html?ref=tylergoelz" target="_blank">Illustrator CC</a>
+              , <a href="http://www.sublimetext.com/2?ref=tylergoelz" target="_blank">Submlime Text 2</a>
+              , <a href="http://en.wikipedia.org/wiki/HTML5?ref=tylergoelz" target="_blank">HTML5</a>
+              , <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3?ref=tylergoelz" target="_blank">CS3</a>
+              , <a href="http://jquery.com/?ref=tylergoelz" target="_blank">jQuery</a>
+              , <a href="https://devcenter.heroku.com/articles/git/?ref=tylergoelz" target="_blank">git</a>
+              , <a href="https://github.com/?ref=tylergoelz" target="_blank">github</a>
+              , <a href="https://www.heroku.com/?ref=tylergoelz" target="_blank">Heroku</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
-</div>
+    </footer>
+  </div>
 
-<?php include( $_SERVER['DOCUMENT_ROOT'].'/bearded-beta/includes/scripts.php'); ?>
+  <?php include( $_SERVER['DOCUMENT_ROOT'].'/bearded-beta/includes/scripts.php'); ?>
 </body>
 </html>
