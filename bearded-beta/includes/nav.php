@@ -11,10 +11,10 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#approach">Lean Approach</a></li>
-        <li><a href="#muses">Muses</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#"  data-scroll="#home">Home</a></li>
+        <li><a href="#" data-scroll="#approach">Lean Approach</a></li>
+        <li><a href="#" data-scroll="#muses">Muses</a></li>
+        <li><a href="#" data-scroll="#about">About</a></li>
         <li class="hidden-xs"><button type="button" class="btn btn-default navbar-btn">#ABAA</button></li>
       </ul>
     </div>

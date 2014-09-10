@@ -6,7 +6,7 @@
 
   <?php include( $_SERVER['DOCUMENT_ROOT'].'/bearded-beta/includes/head.php'); ?>
 </head>
-<body>
+<body id="home">
   <?php include( $_SERVER['DOCUMENT_ROOT'].'/bearded-beta/includes/nav.php'); ?>
   <section id="super-hero" class="jumbotron super-hero bg-dk-gray">
     <div class="container">
@@ -17,8 +17,8 @@
           </h1>
           <div class="center-block text-center">
             <p class="lede">Get To Know Me:</p>
-            <button type="button" data-scroll="#approach" class="btn btn-lg btn-primary">Check Out My Approach</button>
-            <button type="button" data-scroll="#muses" class="btn btn-lg btn-primary">Browse My Current Muses</button>
+            <button type="button" data-scroll="#approach" class="btn btn-lg btn-primary">View Approach</button>
+            <button type="button" data-scroll="#muses" class="btn btn-lg btn-primary hidden-xs">Broswe Current Muses</button>
           </div>
         </div>
       </div>

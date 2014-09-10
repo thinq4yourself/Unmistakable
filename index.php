@@ -182,7 +182,7 @@
 				</div>
 			</div>
 		</div>
-	</footer>   
+	</footer>
 	<?php include_once($_SERVER["DOCUMENT_ROOT"] . '/includes/scripts.html'); ?>
 </body>
 </html>

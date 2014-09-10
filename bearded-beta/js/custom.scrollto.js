@@ -1,7 +1,8 @@
 $(function() {
-	$('button[data-scroll]').bind('click', function() {
+	$('[data-scroll]').bind('click', function(e) {
+		e.preventDefault();
 		$page_location = $(this).attr('data-scroll');
-		scrollToSection($page_location, 1500);
+		scrollToSection($page_location, 1000);
 	});
 });
 
