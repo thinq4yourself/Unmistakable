@@ -209,19 +209,19 @@
       </div>
       <div class="row">
         <ul class="list-unstyled options">
-          <li class="col-xs-6 share-item">
+          <li class="col-xs-12 share-item">
             <a class="twitter btn btn-lg btn-block" href="javascript:oiw('https://twitter.com/intent/tweet?hashtags=abaa&original_referer=http%3A%2F%2Fwww.tylergoelz.com%2F&text=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience&tw_p=tweetbutton&url=http%3A%2F%2Fwww.tylergoelz.com','',695,300)">Tweet</a>
           </li>
-          <li class="col-xs-6 share-item">
+          <li class="col-xs-12 share-item">
             <a class="facebook btn btn-lg btn-block" href="javascript:oiw('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftylergoelz.com','',661,338)">Share</a>
           </li>
-          <li class="col-xs-4 share-item">
+          <li class="col-xs-12 share-item">
             <a class="google btn btn-lg btn-block" href="javascript:oiw('https://plus.google.com/share?url=http%3A%2F%2Fwww.tylergoelz.com','',666,378)">Share</a>
           </li>
-          <li class="col-xs-4 share-item">
+          <li class="col-xs-12 share-item">
             <a class="pinterest btn btn-lg btn-block" href="javascript:oiw('http://pinterest.com/pin/create/button/?url=http://tylergoelz.com/&media=http://tylergoelz.com/images/about/logo.png&description=Tyler%20Goelz%20-%20Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',630,360);">Pin it</a>
           </li>
-          <li class="col-xs-4 share-item">
+          <li class="col-xs-12 share-item">
             <a class="linkedin btn btn-lg btn-block" href="javascript:oiw('http://www.linkedin.com/shareArticle?mini=true&url=http://tylergoelz.com&title=Tyler%20Goelz&summary=Applying%20a%20Holistic%20Approach%20to%20User%20Experience','',520,385)">Share</a>
           </li>
         </ul>

@@ -15,11 +15,11 @@ $(function() {
 		enableHover: false,
 		className: '',
 		render: function(api, options){
-			options.count.googlePlus > 0 ? $('.sharing .google').text(options.count.googlePlus + " Shares") : null;
-			options.count.twitter > 0 ? $('.sharing .twitter').text(options.count.twitter + " Tweets") : null;
-			options.count.facebook > 0 ? $('.sharing .facebook').text(options.count.googlePlus + " Shares") : null;
-			options.count.linkedin > 0 ? $('.sharing .linkedin').text(options.count.googlePlus + " Shares") : null;
-			options.count.pinterest > 0 ? $('.sharing .pinterest').text(options.count.googlePlus + " Pins") : null;
+			$('.sharing .google').text(options.count.googlePlus > 0 ? options.count.googlePlus + " Shares" : "Be The First To Share!");
+			$('.sharing .linkedin').text(options.count.linkedin > 0 ? options.count.linkedin + " Shares" : "Be The First To Share!");
+			$('.sharing .twitter').text(options.count.twitter > 0 ? options.count.twitter + " Tweets" : "Be The First To Tweet!");
+			$('.sharing .facebook').text(options.count.facebook > 0 ? options.count.facebook + " Shares" : "Be The First To Share!");
+			$('.sharing .pinterest').text(options.count.pinterest > 0 ? options.count.pinterest + " Pins" : "Be The First To Pin!");
 
 			window.newNumber = options.count.googlePlus + options.count.twitter + options.count.facebook + options.count.linkedin + options.count.pinterest;
 			$("#counts").animateNumber(window.newNumber,{duration:1000,floatStepDecimals:0});
