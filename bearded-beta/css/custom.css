@@ -339,6 +339,11 @@ section#muses {
 }
 
 /*---------------------------- Share Section ----------------------------*/
+.share-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .share-item>a {
 	position:relative;
 	color:#fff;

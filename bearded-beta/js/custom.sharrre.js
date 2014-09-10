@@ -15,12 +15,11 @@ $(function() {
 		enableHover: false,
 		className: '',
 		render: function(api, options){
-			if (options.count.pinterest == 0){ options.count.pinterest = 546; }
-			$('.sharing .google').append(options.count.googlePlus); 
-			$('.sharing .twitter').append(options.count.twitter);
-			$('.sharing .facebook').append(options.count.facebook);
-			$('.sharing .linkedin').append(options.count.linkedin);
-			$('.sharing .pinterest').append(options.count.pinterest);
+			options.count.googlePlus > 0 ? $('.sharing .google').text(options.count.googlePlus + " Shares") : null;
+			options.count.twitter > 0 ? $('.sharing .twitter').text(options.count.twitter + " Tweets") : null;
+			options.count.facebook > 0 ? $('.sharing .facebook').text(options.count.googlePlus + " Shares") : null;
+			options.count.linkedin > 0 ? $('.sharing .linkedin').text(options.count.googlePlus + " Shares") : null;
+			options.count.pinterest > 0 ? $('.sharing .pinterest').text(options.count.googlePlus + " Pins") : null;
 
 			window.newNumber = options.count.googlePlus + options.count.twitter + options.count.facebook + options.count.linkedin + options.count.pinterest;
 			$("#counts").animateNumber(window.newNumber,{duration:1000,floatStepDecimals:0});
