@@ -6,9 +6,9 @@
             </a>
         </div>
         <div class="hidden-xs">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" ng-controller="NavController">
                 <li>
-                    <a href="signin" class="btn btn-inverse btn-default navbar-btn" title="Login">Login</a>
+                    <button class="btn btn-inverse btn-default navbar-btn" title="Login" data-ng-click="NavController.go('/signin/')">Login</button>
                 </li>
             </ul>
         </div>

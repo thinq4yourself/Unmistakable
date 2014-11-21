@@ -13,3 +13,11 @@ angular.module('angularApp').controller('MainCtrl', function($scope, $location) 
     
     $scope.awesomeThings = ['HTML5 Boilerplate', 'AngularJS', 'Karma'];
 });
+angular.module('angularApp').controller(
+  'NavController',
+  function ($scope, $location) {
+    $scope.go = function (url) {
+      $location.path(url);
+    }
+  }
+);
