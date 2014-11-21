@@ -15,7 +15,6 @@ angular.module('angularApp', [
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    
     'ui.bootstrap',
     'mailchimp'
 
@@ -32,6 +31,8 @@ angular.module('angularApp', [
         templateUrl: 'views/design/moodboard.html'
     }).when('/404/', {
         templateUrl: 'views/404.html'
+    }).when('/signin/', {
+        redirectTo: 'http://beta.writeon.io/signin'
     }).otherwise({
         redirectTo: '404'
     });
