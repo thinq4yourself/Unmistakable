@@ -77,7 +77,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
                 
                 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
                     @include opacity(1);
-                    @include border-left-radius(0);
+                    //@include border-left-radius(0);
                 }
             }
         }

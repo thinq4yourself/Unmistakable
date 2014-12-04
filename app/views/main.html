@@ -5,16 +5,24 @@
             <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" ng-controller="MailchimpSubscriptionCtrl">
                 <p>Request access to the private beta.</p>
                 <div class="well">
-                    <form name="MailchimpSubscriptionForm">
-                        <div class="input-group input-group-lg" ng-hide="mailchimp.result === 'success'">
+                    <form name="MailchimpSubscriptionForm" role="form">
+                        <div ng-hide="mailchimp.result === 'success'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.username" ng-init="mailchimp.username='writeon'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.dc" ng-init="mailchimp.dc='us9'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='1d10f79fce4bc733309cc414e'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='394a92541e'">
-                            <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
-                            <span class="input-group-btn">
-                                <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary" type="button">Get Started</button>
-                            </span>
+                            <div class="visible-xs-block">
+                                <div class="form-group">
+                                    <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
+                                </div>
+                                <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary btn-block" type="button">Get Started</button>
+                            </div>
+                            <div class="input-group input-group-lg hidden-xs">
+                                <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
+                                <span class="input-group-btn">
+                                    <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary" type="button">Get Started</button>
+                                </span>
+                            </div>
                         </div>
 
                         <!-- Show error message if MailChimp unsuccessfully added the email to the list. -->
