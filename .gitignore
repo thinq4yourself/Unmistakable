@@ -1,4 +1,11 @@
-newrelic.js
+#heroku ignore
+app
+test
+
+#github ignore
+#newrelic.js
+#dist
+
 .tmp
 .sass-cache
 
