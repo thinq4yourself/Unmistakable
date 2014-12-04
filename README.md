@@ -1,4 +1,4 @@
 writeon.io
 ==========
 
-A marketing site without distraction. See less distraction at http://writeon.io
+The world's finest writing app. Start writing at http://writeon.io
