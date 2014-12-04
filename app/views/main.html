@@ -1,20 +1,20 @@
 <div class="main" ng-controller="MainCtrl">
     <section class="jumbotron">
         <div class="container">
-            <h1>Write without distraction.<br />Publish without effort.</h1> 
+            <h1>The World's Finest Writting App</h1> 
             <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" ng-controller="MailchimpSubscriptionCtrl">
                 <p>Request access to the private beta.</p>
                 <div class="well">
                     <form name="MailchimpSubscriptionForm">
                         <div class="input-group input-group-lg" ng-hide="mailchimp.result === 'success'">
-                            <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
                             <input class="hidden" type="hidden" ng-model="mailchimp.username" ng-init="mailchimp.username='writeon'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.dc" ng-init="mailchimp.dc='us9'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='1d10f79fce4bc733309cc414e'">
                             <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='394a92541e'">
+                            <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
                             <span class="input-group-btn">
-                                    <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary" type="button">Get Started</button>
-                                </span>
+                                <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary" type="button">Get Started</button>
+                            </span>
                         </div>
 
                         <!-- Show error message if MailChimp unsuccessfully added the email to the list. -->
@@ -31,7 +31,7 @@
             </div>
         </div>
     </section>
-<div class="minimal">
+    <div class="minimal">
 
         <section>
             <div class="container">
@@ -43,9 +43,8 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-8 col-md-offset-2">
                         <div class="feature bigger">
-                                <p>Jack Kerouac typed On the Road on a single roll of paper so he would not be interrupted. Ernest Hemingway wrote 
-                                    standing up, and J.R.R. Tolkien liked to write from his attic and even stated in his forward to Lord of the Rings 
-                                    that <i>“the cost of professional typing by the ten-fingered was beyond my means.”</i></p>
+                            <p>Jack Kerouac typed On the Road on a single roll of paper so he would not be interrupted. Ernest Hemingway wrote standing up, and J.R.R. Tolkien liked to write from his attic and even stated in his forward to Lord of the Rings that <i>“the cost of professional typing by the ten-fingered was beyond my means.”</i>
+                            </p>
                         </div>
 
                         <div class="feature">
@@ -59,8 +58,8 @@
 
 
     </div>
-    
-    
+
+
     <div ng-if="full">
 
         <section>
