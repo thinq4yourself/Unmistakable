@@ -1,10 +1,10 @@
-#Push to heroku
-#app
-#test
+#Uncomment to push to heroku
+app
+test
 
-#Push to github
-newrelic.js
-dist
+#Uncomment to push to github
+#newrelic.js
+#dist
 
 .tmp
 .sass-cache
