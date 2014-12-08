@@ -1,0 +1,130 @@
+<div class="main" ng-controller="MainCtrl">
+    <section class="jumbotron">
+        <div class="container">
+            <h1>The World's Finest Writing App</h1> 
+            <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" ng-controller="MailchimpSubscriptionCtrl">
+                <p>Request access to the private beta.</p>
+                <div class="well">
+                    <form name="MailchimpSubscriptionForm" role="form">
+                        <div ng-hide="mailchimp.result === 'success'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.username" ng-init="mailchimp.username='writeon'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.dc" ng-init="mailchimp.dc='us9'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='1d10f79fce4bc733309cc414e'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='394a92541e'">
+                            <div class="visible-xs-block">
+                                <div class="form-group">
+                                    <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
+                                </div>
+                                <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary btn-block" type="button">Get Started</button>
+                            </div>
+                            <div class="input-group input-group-lg hidden-xs">
+                                <input type="email" name="email" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" required>
+                                <span class="input-group-btn">
+                                    <button ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" class="btn btn-primary" type="button">Get Started</button>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Show error message if MailChimp unsuccessfully added the email to the list. -->
+                        <div ng-show="mailchimp.result === 'error'" ng-cloak>
+                            <span ng-bind-html="mailchimp.errorMessage"></span>
+                        </div>
+
+                        <!-- Show success message if MailChimp returned successfully. -->
+                        <div ng-show="mailchimp.result === 'success'" ng-cloak>
+                            <span ng-bind-html="mailchimp.successMessage"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+                    <h1 class="text-capitalize">WriteOn is built for authors.</h1> 
+                    <p class="lead">
+                        Jack Kerouac typed <em>On the Road</em> on a single roll of paper so he would not be interrupted. Ernest Hemingway wrote standing up. J.R.R. Tolkien liked to write from his attic and even stated in his forward to <em>Lord of the Rings</em> that “the cost of professional typing by the ten-fingered was beyond [his] means.”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section ng-if="full">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center text-capitalize">Features that help you write.</h1> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <div class="feature">
+                        <h2 class="text-capitalize">A rich, yet minimal writing experience.</h2>
+                        <p>WriteOn is an digital machine made for writing. The refined text editor and writing style of WriteOn helps the author focus on the writing, while visualizing the shape and tone in real-time.</p>
+                        <img class="img-responsive center-block" src="/images/main/syntax-highlighting.gif" />
+                        <p>WriteOn provides a set of hand crafted formatting buttons and shortcuts in a what-you-see-is-what-you-get (WYSIWYG) style editor.</p>
+                        <div class="sub">
+                            <h3 class="text-capitalize">Live preview with scroll sync.</h3>
+                            <p>WriteOn's unique live scroll writing approach gives you the option to to keep your work in close view. This is a time saving feature for authors who like to edit their own work and are responsible for doing so.</p>
+                            <img class="img-responsive center-block" src="/images/main/live-preview.png" />
+                            <p>Jack Kerouac typed On the Road on a single roll of paper so he would not be interrupted. Ernest Hemingway wrote standing up, and J.R.R. Tolkien liked to write from his attic and even stated in his forward to Lord of the Rings that “the cost of professional typing by the ten-fingered was beyond my means.” WriteOn was built for writers like these.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <h2 class="text-capitalize">Publish anywhere, instantly.</h2>
+                        <p>One key part of writing is editing & Without them, no one would ever read what is written.</p>
+                        <img class="img-responsive center-block" src="/images/main/publish.png" />
+                        <p>WriteOn easily uploads stories to Google Drive or Dropbox, and it will publish to popular online platforms like Ghost, Blogger, GitHub, Tumblr, WordPress and more. You can choose whether to upload in markdown format, HTML, or to format the output using the WriteOn template engine.</p>
+                        <div class="sub">
+                            <h3 class="text-capitalize">All the tools a writer needs built right in.</h3>
+                            <p>Documents in WriteOn can be synchronized and shared natively, or through Google Drive and Dropbox. When two collaborators are working on the same document at the same time, WriteOn takes care of merging the modifications.</p>
+                            <img class="img-responsive center-block" src="/images/main/comments.png" />
+                            <p>WriteOn allows you to insert inline comments and embed editorial or collaborator discussions directly in your stories. This is a proven method to edit and publish more quickly and efficiently. When writers, assistants, and editors are all collaborating with WriteOn, your dashboard tells you how much time you save. Simple, elegant, non-obtrusive.</p>
+                        </div>
+                        <div class="sub">
+                            <h3 class="text-capitalize">Write offline.</h3>
+                            <p>When you travel or are on location, WriteOn is still accessible and lets you write offline just like any other desktop application. WriteOn works in your browser and on your Operating System, and was built for distraction free, offline writing. Simple options let you choose whether to enforce or subtly suggest a noise free writing environment, while letting you publish anytime you are connected to the internet. Great for Mobile Devices, Apple Air and Google Chromebooks.</p>
+                        </div>
+                        <div class="sub">
+                            <h3 class="text-capitalize">Secure publishing.</h3>
+                            <p>WriteOn Citizen and Collective are add-on services that provides anonymous, secure, and privacy-enhanced publishing options for citizen journalists and larger news and media collectives, respectively. Safely and securely publish stories and documents directly to 3rd party servers and services or as newsletters and websites - all while circumventing censorship or information theft. This invite-only service is the new form of secure citizen journalism and meets all of the requirements of today's demanding independent media outfit or journalism collective.</p>
+                        </div>
+                        <div class="sub">
+                            <h3 class="text-capitalize">Secure publishing.</h3>
+                            <p>WriteOn uses your browser’s built-in spell-checker to perform efficient, multi-language spell-checking and correction suggestions.</p>
+                        </div>
+                        <div class="sub">
+                            <h3 class="text-capitalize">Fully Customizable.</h3>
+                            <p>WriteOn offers author-enhanced features to provide you the right combination of options and extensions to be truly personalized - crafted by the community.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <h2 class="text-capitalize">Open source and open culture.</h2>
+                        <p>All of WriteOn's source code is available for independent review, audit and enhancement on Github. We work with a fantastic group of open source software developers and specialists to deliver the best product possible, and invite you to sign up for our developer program. We are committed to our passion for sharing and helping others to achieve great things and a culture of transparency. Check out our unmistakable manifesto and team blog for more insight on our culture.</p>
+                        <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/gobBQwtFeyk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section ng-if="full">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <h1>Sign Up Today!</h1>
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">Get Started!</button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

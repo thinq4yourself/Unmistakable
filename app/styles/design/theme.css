@@ -1,0 +1,25 @@
+/*
+    Document   : app/styles/docs/theme．scss
+    Created on : 2014-11-06 06:57 PM
+    Author     : yaboi
+    Description: Purpose of the stylesheet follows.
+    Version    : 1.0.0
+*/
+
+mark, .mark {
+	background-color: #f9f9b0;
+}
+.theme-showcase {
+	> p > .btn {
+		margin: 5px 0;
+	}
+	.navbar .container {
+		width: auto;
+	}
+}
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+.bigger {font-size: 1.4em;}
