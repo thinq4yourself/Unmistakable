@@ -1,10 +1,10 @@
-#heroku ignore
-#app
-#test
+#Push to heroku
+app
+test
 
-#github ignore
-newrelic.js
-dist
+#Push to github
+#newrelic.js
+#dist
 
 .tmp
 .sass-cache
