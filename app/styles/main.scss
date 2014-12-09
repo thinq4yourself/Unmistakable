@@ -1,0 +1,13 @@
+
+$icon-font-path: "../bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/";
+
+@import "main/variables";
+@import "main/mixins";
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "flat-ui-sass/vendor/assets/stylesheets/flat-ui";
+
+@import "main/custom";
