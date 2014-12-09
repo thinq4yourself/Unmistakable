@@ -1,39 +1,34 @@
 'use strict';
 /**
  * @ngdoc overview
- * @name angularApp
+ * @name passionDrivenPortfolio
  * @description
- * # angularApp
+ * # passionDrivenPortfolio
  *
  * Main module of the application.
  */
-angular.module('angularApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngMessages',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch',
-    'ui.bootstrap',
-    'mailchimp'
-
-]).config(function($routeProvider) {
-    $routeProvider.when('/', {
-        templateUrl: 'views/main.html'
-    }).when('/fG7tNpKU', {
-        templateUrl: 'views/main.html'
-    }).when('/privacy/', {
-        templateUrl: 'views/privacy.html'
-    }).when('/design/theme/', {
-        templateUrl: 'views/design/theme.html'
-    }).when('/design/moodboard', {
-        templateUrl: 'views/design/moodboard.html'
-    }).when('/404/', {
-        templateUrl: 'views/404.html'
-    }).when('/signin/', {
-        redirectTo: 'http://beta.writeon.io/signin'
-    }).otherwise({
-        redirectTo: '404'
-    });
-});
+angular.module('passionDrivenPortfolio', ['ngAnimate', 'ngCookies', 'ngResource', 'ngRoute', 'ngSanitize', 'ngTouch', 'app.controllers']).config(['$routeProvider',
+    function($routeProvider) {
+        var routes, setRoutes;
+        routes = ['404', 'main'];
+        setRoutes = function(route) {
+            var config, url;
+            url = '/' + route;
+            config = {
+                templateUrl: 'views/' + route + '.html'
+            };
+            $routeProvider.when(url, config);
+            return $routeProvider;
+        };
+        routes.forEach(function(route) {
+            return setRoutes(route);
+        });
+        return $routeProvider.when('/', {
+            redirectTo: '/main'
+        }).when('/404', {
+            templateUrl: 'views/404.html'
+        }).otherwise({
+            redirectTo: '/404'
+        });
+    }
+]);
