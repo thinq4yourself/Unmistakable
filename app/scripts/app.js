@@ -15,6 +15,8 @@ angular.module('passionDrivenPortfolio', [
     'ngSanitize',
     'ngTouch',
     
+    'ngFitText',
+    
     'app.controllers'
 
 ]).config(function($routeProvider, $locationProvider) {
