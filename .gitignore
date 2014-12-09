@@ -1,6 +1,6 @@
 #Uncomment to push to github
-newrelic.js
-dist
+#newrelic.js
+#dist
 
 .tmp
 .sass-cache
