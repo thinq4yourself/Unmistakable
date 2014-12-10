@@ -2,7 +2,7 @@
     Document   : app/styles/main/_custom．scss
     Created on : 2014-12-08 11:12 PM
     Author     : yaboi
-    Description: Custom styles for Passion Driven Portfolio
+    Description: Custom Global styles for Passion Driven Portfolio
     Version    : 1.0.0
 */
 
@@ -24,9 +24,25 @@
     cursor: pointer; 
 }
 
-//== Custom Styling
+//== Bootstrap Overwrite Styling
 //
 //##
+.btn {
+    border: 1px solid transparent;    
+}
+
+//== Custom Global Styling
+//
+//##
+
+//== Custom Navigation Styling
+//
+//##
+
+//== Custom Footer Styling
+//
+//##
+
 
 /* Small devices */
 @media (min-width: $screen-sm-min) {
