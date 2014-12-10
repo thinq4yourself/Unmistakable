@@ -1,4 +1,7 @@
-dist
+app
+test
+
+#dist
 
 .tmp
 .sass-cache
