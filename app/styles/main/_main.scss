@@ -9,7 +9,12 @@
 //== Custom Main.html Styling
 //
 //##
-
+.content {
+    section {
+        @extend .text-center;
+        @extend .padding-vertical-lg;
+    }
+}
 
 /* Small devices */
 @media (min-width: $screen-sm-min) {

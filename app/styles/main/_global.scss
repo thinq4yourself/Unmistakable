@@ -27,6 +27,10 @@
 //== Bootstrap Overwrite Styling
 //
 //##
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0;
+}
+
 .btn {
     border: 1px solid transparent;    
 }
@@ -34,15 +38,6 @@
 //== Custom Global Styling
 //
 //##
-
-//== Custom Navigation Styling
-//
-//##
-
-//== Custom Footer Styling
-//
-//##
-
 
 /* Small devices */
 @media (min-width: $screen-sm-min) {
