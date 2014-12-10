@@ -1,0 +1,57 @@
+<div ng-data-controller="MainCtrl">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-xs-12">
+                    <h1 data-fittext=".9" data-fittext-max="72px">Hello, I'm Tyler Goelz</h1>
+                    <!--<img src="images/main/*.svg" class="img-responsive center-block" onerror="this.onerror=null; this.src='/images/main/*.png'" />-->
+                    <p>
+                        I'm a <a ng-href="/traveler">full-time traveler</a> and <a ng-href="/developer">front-end developer</a>. I live a <a ng-href="https://medium.com/@tylergoelz/begin-your-passion-driven-lifestyle-and-keep-your-clients-happy-850610966496" target="_blank">passion driven lifestyle</a> and strive to create technology to better the world.
+                    </p>
+                    <br />
+                    <p>
+                        <small class="text-muted">
+                            Want to get to know me?
+                        </small>
+                    </p>
+                    <div data-ng-controller="SmoothScrollCtrl">
+                        <p>
+                            <button ng-click="gotoAnchor('traveler')" class="btn btn-primary btn-lg" type="button">
+                                Learn About Travels
+                            </button>
+                            <button ng-click="gotoAnchor('developer')" class="btn btn-primary btn-lg" type="button">
+                                Learn About Front-End Dev
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="traveler" class="bg bg-blue-light">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-xs-12">
+                    <h2 class="h3">I'm a Full-Time Traveler</h2>
+                    <p>Bacon ipsum dolor amet flank shankle salami, fatback corned beef pig doner brisket pork loin picanha tail jerky kevin. Picanha shoulder ham hock pancetta.</p>
+                    <button ng-href="/traveler" class="btn btn-alt">
+                        Get More About Travel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="developer" class="bg bg-blue-darker">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-xs-12">
+                    <h2 class="h3">I'm a Front-End Developer</h2>
+                    <p>Bacon ipsum dolor amet flank shankle salami, fatback corned beef pig doner brisket pork loin picanha tail jerky kevin. Picanha shoulder ham hock pancetta.</p>
+                    <button ng-href="/developer" class="btn btn-alt">
+                        Get More About Developer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

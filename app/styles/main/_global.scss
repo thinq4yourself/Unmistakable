@@ -1,0 +1,60 @@
+/*
+    Document   : app/styles/main/_custom．scss
+    Created on : 2014-12-08 11:12 PM
+    Author     : yaboi
+    Description: Custom Global styles for Passion Driven Portfolio
+    Version    : 1.0.0
+*/
+
+//== Browser Happy
+//
+//##
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+//== Angular for Bootstrap
+//
+//##
+.nav, .pagination, .carousel, .panel-title a { 
+    cursor: pointer; 
+}
+
+//== Bootstrap Overwrite Styling
+//
+//##
+.btn {
+    border: 1px solid transparent;    
+}
+
+//== Custom Global Styling
+//
+//##
+
+//== Custom Navigation Styling
+//
+//##
+
+//== Custom Footer Styling
+//
+//##
+
+
+/* Small devices */
+@media (min-width: $screen-sm-min) {
+    
+}
+
+/* Medium devices */
+@media (min-width: $screen-md-min) { 
+    
+}
+
+/* Large devices */
+@media (min-width: $screen-lg-min) { 
+
+}
