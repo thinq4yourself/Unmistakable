@@ -280,7 +280,8 @@ $navbar-input-line-height:   1.4 !default; // ~21px
 $navbar-margin-bottom:       $line-height-computed !default;
 $navbar-border-radius:       $border-radius-large !default;
 
-$navbar-default-bg:          saturate(adjust-hue(tint($brand-primary, 91%), -18), 2%) !default;
+$navbar-default-bg:                #fff !default;
+$navbar-default-border:            $gray-lighter !default;
 
 // Navbar links
 $navbar-default-link-color:           $brand-primary !default;

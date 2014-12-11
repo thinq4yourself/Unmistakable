@@ -35,6 +35,19 @@ h1, .h1, h2, .h2, h3, .h3 {
     border: 1px solid transparent;    
 }
 
+.navbar {
+    border-radius: 0;
+    
+    .navbar-nav {
+         >li {
+             > a {
+                text-align: center;
+                font-size: 24px;
+             }    
+         }
+    }
+}
+
 //== Custom Global Styling
 //
 //##
