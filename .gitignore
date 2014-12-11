@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 app
 test
 
 #dist
+=======
+#app
+#test
+
+dist
+>>>>>>> bearded-beta
 
 .tmp
 .sass-cache
