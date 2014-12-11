@@ -14,7 +14,7 @@ _site
 # Numerous always-ignore extensions
 *.diff
 *.err
-*.log
+*.loggit 
 *.orig
 *.rej
 *.swo
