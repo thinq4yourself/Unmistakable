@@ -66,7 +66,7 @@ angular.module('app.controllers', []).controller(
             return y;
         }
         var startY = currentYPosition(),
-            stopY = elmYPosition(elm.offsetTop) - 101,
+            stopY = elmYPosition(elm.offsetTop),
             distance = stopY > startY ? stopY - startY : startY - stopY;
         if(distance < 100) {
             scrollTo(0, stopY);
