@@ -1,0 +1,28 @@
+//
+// Backgrounds
+// --------------------------------------------------
+
+// Base styles
+// --------------------------------------------------
+.bg {
+    color: #fff;
+    background-color: $clouds;
+}
+
+// Alternate backgrounds
+// --------------------------------------------------
+.bg-blue-light {
+    @include background-variant($belize-hole);
+}
+    
+.bg-blue-lighter {
+    @include background-variant($peter-river);
+}
+    
+.bg-blue-dark {
+    @include background-variant($wet-asphalt);
+}
+    
+.bg-blue-darker {
+    @include background-variant($midnight-blue);
+}
