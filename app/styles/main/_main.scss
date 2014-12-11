@@ -11,8 +11,29 @@
 //##
 .content {
     section {
-        @extend .text-center;
         @extend .padding-vertical-lg;
+        text-align: center;
+        
+        .text {
+            img {
+                @include size(150px, 150px);
+                padding-bottom: 25px;
+            }
+        }
+        
+        .visuals {
+            img {
+                position: absolute;
+                width: 250px;
+                
+                &.left {
+                    left: 0;
+                }
+                &.right {
+                    right: 0;
+                }
+            }
+        }
     }
 }
 
@@ -23,7 +44,22 @@
 
 /* Medium devices */
 @media (min-width: $screen-md-min) { 
-    
+    .content {
+        section {
+            text-align: left;
+            
+            
+            .visuals {
+                img {
+                    position: relative;
+
+                    &.left {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* Large devices */
