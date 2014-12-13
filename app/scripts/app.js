@@ -29,8 +29,6 @@ angular.module('passionDrivenPortfolio', [
         templateUrl: 'views/developer.html'
     }).when('/404/', {
         templateUrl: 'views/404.html'
-    }).when('/signin/', {
-        redirectTo: 'http://beta.writeon.io/signin'
     }).otherwise({
         redirectTo: '404'
     });

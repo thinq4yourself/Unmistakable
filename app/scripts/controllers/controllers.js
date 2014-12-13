@@ -14,7 +14,6 @@ angular.module('app.controllers', []).controller(
         $scope.isActive = function(viewLocation) {
             return viewLocation === $location.path();
         };
-        
         $scope.isCollapsed = true;
     }
 ]).controller(
