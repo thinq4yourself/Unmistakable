@@ -1,7 +1,8 @@
-#app
-#test
+app
+test
 
-dist
+#dist
+#newrelic.js
 
 .tmp
 .sass-cache
