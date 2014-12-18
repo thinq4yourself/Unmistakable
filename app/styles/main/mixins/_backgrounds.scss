@@ -1,0 +1,13 @@
+// Background variants
+//
+// Easily pump out default styles, as well as alt buttons
+// for all background options
+
+@mixin background-variant($color, $border-color: $color) { 
+    background-color: $color;
+    border-top: 5px solid $border-color;
+    
+    .btn-alt {
+        @include button-inverse-variant($color);
+    }
+}
