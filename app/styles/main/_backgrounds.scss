@@ -11,42 +11,82 @@
 
 // Alternate backgrounds
 // --------------------------------------------------
-.bg-blue-light {
-    @include background-variant($belize-hole);
-}
-    
-.bg-blue-lighter {
-    @include background-variant($peter-river);
-}
-    
-.bg-blue-dark {
-    @include background-variant($wet-asphalt);
-}
-    
-.bg-blue-darker {
-    @include background-variant($midnight-blue);
-}
-
-.bg-green-lighter {
+.bg-turquoise {
     @include background-variant($turquoise);
 }
 
-.bg-green-light {
+.bg-green-sea {
     @include background-variant($green-sea);
 }
 
-.bg-green-dark {
+.bg-emerald {
     @include background-variant($emerald);
 }
 
-.bg-green-darker {
+.bg-nephritis {
     @include background-variant($nephritis);
 }
 
-.bg-purple-light {
+.bg-peter-river {
+    @include background-variant($peter-river);
+}
+
+.bg-belize-hole {
+    @include background-variant($belize-hole);
+}
+
+.bg-amethyst {
     @include background-variant($amethyst);
 }
 
-.bg-purple-dark {
+.bg-wisteria {
     @include background-variant($wisteria);
+}
+
+.bg-wet-asphalt {
+    @include background-variant($wet-asphalt);
+}
+
+.bg-midnight-blue {
+    @include background-variant($midnight-blue);
+}
+
+.bg-sun-flower {
+    @include background-variant($sun-flower);
+}
+
+.bg-orange {
+    @include background-variant($orange);
+}
+
+.bg-carrot {
+    @include background-variant($carrot);
+}
+
+.bg-pumpkin {
+    @include background-variant($pumpkin);
+}
+
+.bg-alizarin {
+    @include background-variant($alizarin);
+}
+
+.bg-pomegranate {
+    @include background-variant($pomegranate);
+}
+
+.bg-clouds {
+    @include background-variant($clouds);
+}
+
+.bg-silver {
+    @include background-variant($silver);
+}
+
+.bg-concrete {
+    @include background-variant($concrete);
+}
+
+.bg-asbestos {
+    @include background-variant($asbestos);
 }

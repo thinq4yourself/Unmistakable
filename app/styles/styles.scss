@@ -8,14 +8,15 @@ $icon-font-path: "../bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/"
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Flat UI
+@import "flat-ui-sass/vendor/assets/stylesheets/flat-ui";
+
 // Components
 @import "main/backgrounds";
 @import "main/buttons-inverse";
+@import "main/buttons-variants";
 @import "main/padding";
 @import "main/footer";
-
-// Flat UI
-@import "flat-ui-sass/vendor/assets/stylesheets/flat-ui";
 
 // Custom CSS
 @import "main/global";
