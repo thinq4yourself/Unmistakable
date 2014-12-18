@@ -5,6 +5,7 @@
 
 @mixin background-variant($color, $border-color: $color) { 
     background-color: $color;
+    border-top: 5px solid $border-color;
     
     .btn-alt {
         @include button-inverse-variant($color);
