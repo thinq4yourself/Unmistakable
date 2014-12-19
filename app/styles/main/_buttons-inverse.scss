@@ -1,0 +1,25 @@
+//
+// Buttons Inverse
+// --------------------------------------------------
+
+.btn-default-inverse {
+  @include button-inverse-variant($btn-default-bg);
+}
+.btn-primary-inverse {
+  @include button-inverse-variant($brand-secondary);
+}
+.btn-info-inverse    {
+  @include button-inverse-variant($brand-info);
+}
+.btn-danger-inverse  {
+  @include button-inverse-variant($brand-danger);
+}
+.btn-success-inverse {
+  @include button-inverse-variant($brand-success);
+}
+.btn-warning-inverse {
+  @include button-inverse-variant($brand-warning);
+}
+.btn-inverse-inverse {
+  @include button-inverse-variant($brand-primary);
+}

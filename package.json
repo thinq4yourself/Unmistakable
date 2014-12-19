@@ -1,6 +1,6 @@
 {
-    "name": "Writeon.io",
-    "version": "0.4.2",
+    "name": "Tyler Goelz",
+    "version": "2.0.0",
     "dependencies": {
         "morgan": "~1.5.0",
         "gzippo": "~0.2.0",
