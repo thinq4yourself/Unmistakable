@@ -10,7 +10,7 @@
 //
 //##
 .content {
-    #traveler, #developer {
+    .traveler, .developer {
         @extend .padding-vertical-lg;
         text-align: center;
         
