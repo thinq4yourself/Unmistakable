@@ -25,11 +25,13 @@ angular.module('app.controllers', [
     $scope.isCollapsed = true;
 }).controller('MainController', function($scope) {
     $scope.pageBackgroundColor = '';
+
 }).controller('TravelerController', function($scope) {
     $scope.pageBackgroundColor = 'bg bg-peter-river';
-    console.log('traveler', $scope.pageBackgroundColor);
+
 }).controller('DeveloperController', function($scope) {
     $scope.pageBackgroundColor = 'bg bg-wisteria';
+
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function(anchor) {
         var elm = document.getElementById(anchor);

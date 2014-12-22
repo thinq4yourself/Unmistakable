@@ -337,7 +337,7 @@ $zindex-navbar-fixed:        1030 !default;
 $navbar-height-base:         53px !default;
 $navbar-height-large:        76px !default;
 $navbar-input-line-height:   1.4 !default; // ~21px
-$navbar-margin-bottom:       $line-height-computed !default;
+$navbar-margin-bottom:       0 !default;
 $navbar-border-radius:       $border-radius-large !default;
 
 $navbar-default-bg:                #fff !default;
