@@ -8,14 +8,14 @@
  */
 angular.module('app.controllers', [
     
-]).controller('PassionDrivenController', function($scope) {
+]).controller('PassionDrivenController', function($scope, $location) {
     $scope.brand = 'Tyler Goelz';
     
-    var linkPrefix = '#/';
+    $scope.linkPrefix = '#';
     $scope.pageLinks = {
-        'base': linkPrefix + 'main',
-        'traveler': linkPrefix + 'traveler',
-        'developer': linkPrefix + 'developer'
+        'base': '/main',
+        'traveler': '/traveler',
+        'developer': '/developer'
     };
     
 }).controller('HeaderController', function($scope, $location) {
@@ -23,13 +23,13 @@ angular.module('app.controllers', [
         return viewLocation === $location.path();
     };
     $scope.isCollapsed = true;
-}).controller('MainController', function() {
-    //Put code here for traveler/developer
-    //sections on main.html
-}).controller('TravelerController', function() {
-    //Put code here for traveler.html
-}).controller('DeveloperController', function() {
-    //Put code here for developer.html
+}).controller('MainController', function($scope) {
+    $scope.pageBackgroundColor = '';
+}).controller('TravelerController', function($scope) {
+    $scope.pageBackgroundColor = 'bg bg-peter-river';
+    console.log('traveler', $scope.pageBackgroundColor);
+}).controller('DeveloperController', function($scope) {
+    $scope.pageBackgroundColor = 'bg bg-wisteria';
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function(anchor) {
         var elm = document.getElementById(anchor);

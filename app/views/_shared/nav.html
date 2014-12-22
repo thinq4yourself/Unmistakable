@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-lg" ng-controller="HeaderController">
+<div class="navbar navbar-lg navbar-default" data-ng-class="pageBackgroundColor" ng-controller="HeaderController">
     <div class="container">
         <div class="row-fluid">
             <div class="navbar-header">
@@ -14,11 +14,11 @@
             </div>
             <div class="navbar-collapse" collapse="isCollapsed">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ng-class="{ active: isActive('/main')}"><a data-ng-href="{{pageLinks.base}}">Home</a>
+                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.base}}">Home</a>
                     </li>
-                    <li ng-class="{active: isActive('/traveler')}"><a data-ng-href="{{pageLinks.traveler}}">Traveler</a>
+                    <li ng-class="{active: isActive('{{pageLinks.traveler}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.traveler}}">Traveler</a>
                     </li>
-                    <li ng-class="{active: isActive('/developer')}"><a data-ng-href="{{pageLinks.developer}}">Developer</a>
+                    <li ng-class="{active: isActive('{{pageLinks.developer}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.developer}}">Developer</a>
                     </li>
                 </ul>
             </div>
