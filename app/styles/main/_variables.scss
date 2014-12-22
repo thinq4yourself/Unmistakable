@@ -379,7 +379,7 @@ $navbar-inverse-divider:              darken($brand-primary, 3%) !default;
 // Reset inverted navbar basics
 $navbar-inverse-color:                $inverse !default;
 $navbar-inverse-bg:                   $brand-primary !default;
-$navbar-inverse-border:               darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-border:               $inverse !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:           $inverse !default;

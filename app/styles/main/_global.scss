@@ -49,6 +49,13 @@ h1, .h1, h2, .h2, h3, .h3 {
     }
 }
 
+.navbar-inverse {
+    .navbar-collapse,
+    .navbar-form {
+        border-color: $navbar-inverse-border;
+    }
+}
+
 //== Custom Global Styling
 //
 //##
