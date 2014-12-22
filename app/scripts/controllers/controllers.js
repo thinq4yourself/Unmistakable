@@ -18,19 +18,36 @@ angular.module('app.controllers', [
         'developer': '/developer'
     };
     
+    $scope.$on('$locationChangeStart', function() {
+        
+        switch ($location.path()) {
+            case $scope.pageLinks.traveler:
+                $scope.pageBackgroundColor = 'bg bg-peter-river';
+                break;
+            case $scope.pageLinks.developer:
+                $scope.pageBackgroundColor = 'bg bg-wisteria';
+                break;
+            default:
+                $scope.pageBackgroundColor = '';
+                break;
+        }
+            
+    });
+    
 }).controller('HeaderController', function($scope, $location) {
     $scope.isActive = function(viewLocation) {
         return viewLocation === $location.path();
     };
     $scope.isCollapsed = true;
 }).controller('MainController', function($scope) {
-    $scope.pageBackgroundColor = '';
+    $scope.message = 'test';
 
 }).controller('TravelerController', function($scope) {
-    $scope.pageBackgroundColor = 'bg bg-peter-river';
+    $scope.message = 'test';
 
 }).controller('DeveloperController', function($scope) {
-    $scope.pageBackgroundColor = 'bg bg-wisteria';
+    $scope.message = 'test';
+    
 
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function(anchor) {
