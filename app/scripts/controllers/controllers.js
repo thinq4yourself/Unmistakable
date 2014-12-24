@@ -22,13 +22,16 @@ angular.module('app.controllers', [
         
         switch ($location.path()) {
             case $scope.pageLinks.traveler:
-                $scope.pageBackgroundColor = 'navbar-inverse bg bg-peter-river';
+                $scope.navigationBackgroundColor = 'navbar-peter-river';
+                $scope.jumbotronBackgroundColor = 'bg bg-peter-river';
                 break;
             case $scope.pageLinks.developer:
-                $scope.pageBackgroundColor = 'navbar-wisteria bg bg-wisteria';
+                $scope.navigationBackgroundColor = 'navbar-wisteria';
+                $scope.jumbotronBackgroundColor = 'bg bg-wisteria';
                 break;
             default:
-                $scope.pageBackgroundColor = 'navbar-default';
+                $scope.navigationBackgroundColor = 'navbar-default';
+                $scope.jumbotronBackgroundColor = '';
                 break;
         }
             

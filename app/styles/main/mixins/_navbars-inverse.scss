@@ -14,21 +14,21 @@
     $navbar-inverse-border:               $inverse;
     
     // Inverted navbar links
-    $navbar-inverse-link-color:           $inverse;
-    $navbar-inverse-link-hover-color:     $brand-secondary;
+    $navbar-inverse-link-color:           darken($bg-color, 15%);
+    $navbar-inverse-link-hover-color:     darken($bg-color, 25%);
     $navbar-inverse-link-hover-bg:        transparent;
-    $navbar-inverse-link-active-color:    $navbar-inverse-link-color;
-    $navbar-inverse-link-active-bg:       $brand-secondary;
+    $navbar-inverse-link-active-color:    $inverse;
+    $navbar-inverse-link-active-bg:       transparent;
     $navbar-inverse-link-disabled-color:  #444;
     $navbar-inverse-link-disabled-bg:     transparent;
     
     // Navbar nav carets
-    $navbar-inverse-caret-color:          lighten(desaturate($brand-primary, 7%), 9%);
+    $navbar-inverse-caret-color:          lighten(desaturate($bg-color, 7%), 9%);
     $navbar-inverse-caret-hover-color:    $navbar-inverse-link-hover-color;
     $navbar-inverse-caret-active-color:   $navbar-inverse-link-active-color;
     
     // Inverted navbar brand label
-    $navbar-inverse-brand-color:          $navbar-inverse-link-color;
+    $navbar-inverse-brand-color:          $inverse;
     $navbar-inverse-brand-hover-color:    $navbar-inverse-link-hover-color;
     $navbar-inverse-brand-hover-bg:       transparent;
     
@@ -37,9 +37,9 @@
     $navbar-inverse-toggle-hover-color:   $navbar-inverse-link-hover-color;
     
     // Navbar form
-    $navbar-inverse-form-bg:              darken($brand-primary, 6%);
-    $navbar-inverse-form-placeholder:     desaturate(lighten($brand-primary, 13%), 7%);
-    $navbar-inverse-form-icon:            desaturate(lighten($brand-primary, 13%), 6%);
+    $navbar-inverse-form-bg:              darken($bg-color, 6%);
+    $navbar-inverse-form-placeholder:     desaturate(lighten($bg-color, 13%), 7%);
+    $navbar-inverse-form-icon:            desaturate(lighten($bg-color, 13%), 6%);
     $navbar-inverse-form-border:          $navbar-inverse-divider;
     
     // Dropdown menu
@@ -47,7 +47,7 @@
     $navbar-inverse-dropdown-bg:                $navbar-inverse-bg;
     $navbar-inverse-dropdown-link-color:        mix($navbar-inverse-bg, $navbar-inverse-color, 15%);
     $navbar-inverse-dropdown-link-hover-color:  $inverse;
-    $navbar-inverse-dropdown-link-hover-bg:     $brand-secondary;    
+    $navbar-inverse-dropdown-link-hover-bg:     darken($bg-color, 15%);    
     
     background-color: $navbar-inverse-bg;
     
