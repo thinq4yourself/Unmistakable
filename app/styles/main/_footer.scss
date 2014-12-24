@@ -1,0 +1,15 @@
+/*
+    Document   : app/styles/main/_footer．scss
+    Created on : 2014-12-10 09:55 PM
+    Author     : yaboi
+    Description: Footer magic.
+    Version    : 1.0.0
+*/
+
+footer {
+    @extend .text-center;
+    
+    .container {
+        @extend .padding-vertical-sm;
+    }
+}
