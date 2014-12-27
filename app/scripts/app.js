@@ -26,7 +26,8 @@ angular.module('passionDrivenPortfolio', [
     function($routeProvider) {
         var routes, setRoutes;
         routes = [
-            'main', 'traveler', 'developer', '404'
+            'main', 'traveler', 'developer', '404',
+            'main_legacy'
         ];
     
         setRoutes = function(route) {
@@ -54,23 +55,3 @@ angular.module('passionDrivenPortfolio', [
         });
     }
 ]);
-
-    
-// ]).config(function($routeProvider, $locationProvider) {
-//     $routeProvider.when('/', {
-//         templateUrl: 'views/main.html',
-//         controller: 'MainController'
-//     }).when('/traveler', {
-//         templateUrl: 'views/traveler.html',
-//         controller: 'TravelerController'
-//     }).when('/developer', {
-//         templateUrl: 'views/developer.html',
-//         controller: 'DeveloperController'
-//     }).when('/404', {
-//         templateUrl: 'views/404.html'
-//     }).otherwise({
-//         redirectTo: '/404'
-//     });
-    
-//     $locationProvider.html5Mode(true);
-// });
