@@ -1,0 +1,18 @@
+/*
+    Document   : app/styles/main/_developer．scss
+    Created on : 2014-12-31 04:39 PM
+    Author     : yaboi
+    Description: Custom styles for Passion Driven Portfolio:Developer.html
+    Version    : 1.0.0
+*/
+
+//== Custom Developer.html Styling
+//
+//##
+    
+/* Small devices */    
+@media (min-width: $screen-sm-min) {
+    .project {
+        text-align: left;
+    }
+}
