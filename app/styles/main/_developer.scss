@@ -15,6 +15,14 @@
         @extend .visible-sm-inline-block;
     }
     
+    .content {
+        a[role="button"] {
+            @extend .btn;
+            @extend .btn-wide;
+            @extend .btn-wisteria;
+        }
+    }
+    
     .image {
         @extend .hidden-xs;
         @extend .hidden-sm;
@@ -26,6 +34,14 @@
 .project-recent {    
     .thumbnail {
         @extend .text-center;
+        
+        .caption {
+            a[role="button"] {
+                @extend .btn;
+                @extend .btn-sm;
+                @extend .btn-wisteria-inverse
+            }
+        }
     }
 }
 
