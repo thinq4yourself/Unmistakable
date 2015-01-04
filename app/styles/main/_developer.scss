@@ -9,10 +9,34 @@
 //== Custom Developer.html Styling
 //
 //##
+.project {
+    .thumbnail {
+        @extend .visible-xs-inline-block;
+        @extend .visible-sm-inline-block;
+    }
     
+    .image {
+        @extend .hidden-xs;
+        @extend .hidden-sm;
+    }
+    
+    @extend .text-center;
+}
+
+.project-recent {    
+    .thumbnail {
+        @extend .text-center;
+    }
+}
+
 /* Small devices */    
 @media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices */
+@media (min-width: $screen-md-min) { 
     .project {
         text-align: left;
-    }
+    }    
 }
