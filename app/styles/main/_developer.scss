@@ -9,50 +9,73 @@
 //== Custom Developer.html Styling
 //
 //##
-.project {
-    .thumbnail {
-        @extend .visible-xs-inline-block;
-        @extend .visible-sm-inline-block;
-    }
+
+/* Wheelhouse */
+.wheelhouse {
+    @extend .padding-vertical-lg;
     
-    .content {
-        a[role="button"] {
-            @extend .btn;
-            @extend .btn-wide;
-            @extend .btn-wisteria;
-        }
+    .media {
+        margin-top: 25px;    
     }
-    
-    .image {
-        @extend .hidden-xs;
-        @extend .hidden-sm;
-    }
-    
-    @extend .text-center;
 }
 
-.project-recent {    
-    .thumbnail {
+/* Project */
+.projects {
+    @extend .padding-vertical-lg;
+
+    .project {
         @extend .text-center;
+        @extend .clearfix;
         
-        .caption {
+        .thumbnail {
+            @extend .visible-xs-inline-block;
+            @extend .visible-sm-inline-block;
+        }
+        
+        .content {
             a[role="button"] {
                 @extend .btn;
-                @extend .btn-sm;
-                @extend .btn-wisteria-inverse
+                @extend .btn-wide;
+                @extend .btn-wisteria;
+            }
+        }
+        
+        .image {
+            @extend .hidden-xs;
+            @extend .hidden-sm;
+        }
+        
+        /* Medium devices */
+        @media (min-width: $screen-md-min) {
+            text-align: left;
+        }
+    }
+}
+
+/* Project Recent */
+.projects-recent {
+    @extend .text-center;
+    
+    .project {
+        @extend .col-xs-6;
+        @extend .col-md-3;
+        
+        .thumbnail {
+            
+            .caption {
+                a[role="button"] {
+                    @extend .btn;
+                    @extend .btn-sm;
+                    @extend .btn-wisteria-inverse
+                }
             }
         }
     }
+    
 }
 
-/* Small devices */    
-@media (min-width: $screen-sm-min) {
-
-}
-
-/* Medium devices */
-@media (min-width: $screen-md-min) { 
-    .project {
-        text-align: left;
-    }    
+/* Open Source Everything!!! */
+.open-source {
+    @extend .padding-vertical-lg;
+    @extend .text-center;
 }
