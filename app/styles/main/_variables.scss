@@ -176,70 +176,70 @@ $btn-success-active-bg:      mix($brand-success, black, 85%) !default;
 $btn-danger-hover-bg:        mix($brand-danger, white, 80%) !default;
 $btn-danger-active-bg:       mix($brand-danger, black, 85%) !default;
 
-$btn-warning-hover-bg:       overlay($brand-warning, darken(white, 37.5%)) !default;
+$btn-warning-hover-bg:       mix($brand-warning, white, 80%) !default;
 $btn-warning-active-bg:      mix($brand-warning, black, 85%) !default;
 
-$btn-inverse-hover-bg:       overlay($brand-primary, darken(white, 37.5%)) !default;
+$btn-inverse-hover-bg:       mix($brand-primary, white, 80%) !default;
 $btn-inverse-active-bg:      mix($brand-primary, black, 85%) !default;
 
-$btn-turquoise-hover-bg:     overlay($turquoise, darken(white, 37.5%)) !default;
+$btn-turquoise-hover-bg:     mix($turquoise, white, 80%) !default;
 $btn-turquoise-active-bg:    mix($turquoise, black, 85%) !default;
 
-$btn-green-sea-hover-bg:     overlay($green-sea, darken(white, 37.5%)) !default;
+$btn-green-sea-hover-bg:     mix($green-sea, white, 80%) !default;
 $btn-green-sea-active-bg:    mix($green-sea, black, 85%) !default;
 
-$btn-emerald-hover-bg:       overlay($emerald, darken(white, 37.5%)) !default;
+$btn-emerald-hover-bg:       mix($emerald, white, 80%) !default;
 $btn-emerald-active-bg:      mix($emerald, black, 85%) !default;
 
-$btn-nephritis-hover-bg:     overlay($nephritis, darken(white, 37.5%)) !default;
+$btn-nephritis-hover-bg:     mix($nephritis, white, 80%) !default;
 $btn-nephritis-active-bg:    mix($nephritis, black, 85%) !default;
     
-$btn-peter-river-hover-bg:     overlay($peter-river, darken(white, 37.5%)) !default;
+$btn-peter-river-hover-bg:     mix($peter-river, white, 80%) !default;
 $btn-peter-river-active-bg:    mix($peter-river, black, 85%) !default;
     
-$btn-belize-hole-hover-bg:     overlay($belize-hole, darken(white, 37.5%)) !default;
+$btn-belize-hole-hover-bg:     mix($belize-hole, white, 80%) !default;
 $btn-belize-hole-active-bg:    mix($belize-hole, black, 85%) !default;
 
-$btn-amethyst-hover-bg:     overlay($amethyst, darken(white, 37.5%)) !default;
+$btn-amethyst-hover-bg:     mix($amethyst, white, 80%) !default;
 $btn-amethyst-active-bg:    mix($amethyst, black, 85%) !default;
 
-$btn-wisteria-hover-bg:     overlay($wisteria, darken(white, 37.5%)) !default;
+$btn-wisteria-hover-bg:     mix($wisteria, white, 80%) !default;
 $btn-wisteria-active-bg:    mix($wisteria, black, 85%) !default;
 
-$btn-wet-asphalt-hover-bg:     overlay($wet-asphalt, darken(white, 37.5%)) !default;
+$btn-wet-asphalt-hover-bg:     mix($wet-asphalt, white, 80%) !default;
 $btn-wet-asphalt-active-bg:    mix($wet-asphalt, black, 85%) !default;
 
-$btn-midnight-blue-hover-bg:     overlay($midnight-blue, darken(white, 37.5%)) !default;
+$btn-midnight-blue-hover-bg:     mix($midnight-blue, white, 80%) !default;
 $btn-midnight-blue-active-bg:    mix($midnight-blue, black, 85%) !default;
 
-$btn-sun-flower-hover-bg:     overlay($sun-flower, darken(white, 37.5%)) !default;
+$btn-sun-flower-hover-bg:     mix($sun-flower, white, 80%) !default;
 $btn-sun-flower-active-bg:    mix($sun-flower, black, 85%) !default;
 
-$btn-orange-hover-bg:     overlay($orange, darken(white, 37.5%)) !default;
+$btn-orange-hover-bg:     mix($orange, white, 80%) !default;
 $btn-orange-active-bg:    mix($orange, black, 85%) !default;
 
-$btn-carrot-hover-bg:     overlay($carrot, darken(white, 37.5%)) !default;
+$btn-carrot-hover-bg:     mix($carrot, white, 80%) !default;
 $btn-carrot-active-bg:    mix($carrot, black, 85%) !default;
 
-$btn-pumpkin-hover-bg:     overlay($pumpkin, darken(white, 37.5%)) !default;
+$btn-pumpkin-hover-bg:     mix($pumpkin, white, 80%) !default;
 $btn-pumpkin-active-bg:    mix($pumpkin, black, 85%) !default;
 
-$btn-alizarin-hover-bg:     overlay($alizarin, darken(white, 37.5%)) !default;
+$btn-alizarin-hover-bg:     mix($alizarin, white, 80%) !default;
 $btn-alizarin-active-bg:    mix($alizarin, black, 85%) !default;
 
-$btn-pomegranate-hover-bg:     overlay($pomegranate, darken(white, 37.5%)) !default;
+$btn-pomegranate-hover-bg:     mix($pomegranate, white, 80%) !default;
 $btn-pomegranate-active-bg:    mix($pomegranate, black, 85%) !default;
     
-$btn-clouds-hover-bg:     overlay($clouds, darken(white, 37.5%)) !default;
+$btn-clouds-hover-bg:     mix($clouds, white, 80%) !default;
 $btn-clouds-active-bg:    mix($clouds, black, 85%) !default;
 
-$btn-silver-hover-bg:     overlay($silver, darken(white, 37.5%)) !default;
+$btn-silver-hover-bg:     mix($silver, white, 80%) !default;
 $btn-silver-active-bg:    mix($silver, black, 85%) !default;
     
-$btn-concrete-hover-bg:     overlay($concrete, darken(white, 37.5%)) !default;
+$btn-concrete-hover-bg:     mix($concrete, white, 80%) !default;
 $btn-concrete-active-bg:    mix($concrete, black, 85%) !default;
 
-$btn-asbestos-hover-bg:     overlay($asbestos, darken(white, 37.5%)) !default;
+$btn-asbestos-hover-bg:     mix($asbestos, white, 80%) !default;
 $btn-asbestos-active-bg:    mix($asbestos, black, 85%) !default;
     
 $btn-link-disabled-color:    $gray-light !default;

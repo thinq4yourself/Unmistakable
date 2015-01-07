@@ -24,12 +24,21 @@
     @extend .padding-vertical-lg;
 
     .project {
+        @extend .padding-vertical-md;
         @extend .text-center;
         @extend .clearfix;
         
-        .thumbnail {
+        border-bottom: 1px solid lighten($wisteria, 30);
+        
+        a.thumbnail {
             @extend .visible-xs-inline-block;
             @extend .visible-sm-inline-block;
+            
+            border: 1px solid $gray-lighter;
+            
+            &:hover, &:focus, &.active {
+                border-color: $gray;
+            }
         }
         
         .content {
@@ -43,6 +52,11 @@
         .image {
             @extend .hidden-xs;
             @extend .hidden-sm;
+            
+            img {
+                @extend .img-responsive;
+                @extend .center-block;
+            }
         }
         
         /* Medium devices */
