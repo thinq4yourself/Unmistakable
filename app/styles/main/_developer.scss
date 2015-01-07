@@ -24,11 +24,12 @@
     @extend .padding-vertical-lg;
 
     .project {
-        @extend .padding-vertical-md;
         @extend .text-center;
-        @extend .clearfix;
+        @extend .clearfix;        
+        @extend .padding-vertical-md;
         
-        border-bottom: 1px solid lighten($wisteria, 30);
+        overflow: hidden;
+        border-bottom: 1px solid $gray-lighter;
         
         a.thumbnail {
             @extend .visible-xs-inline-block;
@@ -37,7 +38,7 @@
             border: 1px solid $gray-lighter;
             
             &:hover, &:focus, &.active {
-                border-color: $gray;
+                border-color: $gray-light;
             }
         }
         
@@ -56,12 +57,28 @@
             img {
                 @extend .img-responsive;
                 @extend .center-block;
+                
+                //Fix so that the image doesn't affect
+                //the height of the container.
+                margin-bottom: -35px;
             }
         }
         
         /* Medium devices */
         @media (min-width: $screen-md-min) {
             text-align: left;
+            padding-top: 100px;
+            padding-bottom: 0px;
+        }
+        
+        &:hover {
+            @extend .bg-wisteria;
+            
+            .image {
+                img {
+
+                }
+            }
         }
     }
 }
