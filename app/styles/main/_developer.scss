@@ -24,22 +24,17 @@
     @extend .padding-vertical-lg;
 
     .project {
-        @extend .text-center;
-        @extend .clearfix;        
         @extend .padding-vertical-md;
+        @extend .bg-white;
+        @extend .text-center;
+        @extend .clearfix;
         
         overflow: hidden;
         border-bottom: 1px solid $gray-lighter;
         
-        a.thumbnail {
+        .thumbnail {
             @extend .visible-xs-inline-block;
             @extend .visible-sm-inline-block;
-            
-            border: 1px solid $gray-lighter;
-            
-            &:hover, &:focus, &.active {
-                border-color: $gray-light;
-            }
         }
         
         .content {

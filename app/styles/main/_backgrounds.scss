@@ -10,6 +10,7 @@
 @include bg-variant('.bg-gray-light', $gray-light, $text-color);
 @include bg-variant('.bg-gray-lighter', $gray-lighter, $text-color);
 @include bg-variant('.bg-gray-lightest', $gray-lightest, $text-color);
+@include bg-variant('.bg-white', #fff, $text-color);
 
 // Alternate backgrounds
 // --------------------------------------------------
