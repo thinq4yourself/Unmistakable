@@ -29,15 +29,19 @@
         @extend .text-center;
         @extend .clearfix;
         
-        @include transition(background 0.4s ease-in-out);
+        @include transition(0.4s ease-in-out);
         
-        height: 500px;
+        min-height: 500px;
         overflow: hidden;
         border-bottom: 1px solid $gray-lighter;
         
-        .thumbnail {
+        a.thumbnail {
             @extend .visible-xs-inline-block;
             @extend .visible-sm-inline-block;
+            
+            &.active, &:focus, &:hover {
+                border-color: $wisteria;
+            }
         }
         
         .content {
