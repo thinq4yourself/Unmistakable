@@ -29,6 +29,9 @@
         @extend .text-center;
         @extend .clearfix;
         
+        @include transition(background 0.4s ease-in-out);
+        
+        height: 500px;
         overflow: hidden;
         border-bottom: 1px solid $gray-lighter;
         
@@ -38,10 +41,11 @@
         }
         
         .content {
-            a[role="button"] {
-                @extend .btn;
-                @extend .btn-wide;
-                @extend .btn-wisteria;
+            a {
+                &.btn {
+                    @extend .btn-wide;
+                    @extend .btn-wisteria;  
+                }  
             }
         }
         
@@ -53,9 +57,10 @@
                 @extend .img-responsive;
                 @extend .center-block;
                 
-                //Fix so that the image doesn't affect
-                //the height of the container.
-                margin-bottom: -35px;
+                @include transition(0.4s ease-in-out);
+                
+                position: absolute;
+                top: 30px;
             }
         }
         
@@ -71,7 +76,15 @@
             
             .image {
                 img {
-
+                    top: 20px;
+                }
+            }
+            
+            .content {
+                a {
+                    &.btn {
+                        @extend .btn-wisteria-inverse;
+                    }  
                 }
             }
         }

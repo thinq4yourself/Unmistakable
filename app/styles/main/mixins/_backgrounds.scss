@@ -13,7 +13,7 @@
             border-top: 5px solid darken($bg-color, 10%);
         }
         
-        .btn-alt {
+        a.btn {
             @include button-inverse-variant($bg-color);
         }
         
