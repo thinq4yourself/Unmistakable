@@ -69,6 +69,85 @@ h1, .h1, h2, .h2, h3, .h3 {
 //
 //##
 
+/* Hero */
+.hero {
+    @extend .padding-vertical-md;
+    @extend .bg-white;
+    @extend .text-center;
+    @extend .clearfix;
+    
+    @include transition(0.4s ease-in-out);
+    
+    min-height: 500px;
+    overflow: hidden;
+    border-bottom: 1px solid $gray-lighter;
+    
+    a.thumbnail {
+        @extend .visible-xs-inline-block;
+        @extend .visible-sm-inline-block;
+    }
+    
+    .content {
+        a {
+            &.btn {
+                @extend .btn-wide;
+            }  
+        }
+    }
+    
+    .image {
+        @extend .hidden-xs;
+        @extend .hidden-sm;
+        
+        img {
+            @extend .img-responsive;
+            @extend .center-block;
+            
+            @include transition(0.4s ease-in-out);
+            
+            position: absolute;
+            top: 30px;
+        }
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    
+    &:hover {
+        .image {
+            img {
+                top: 20px;
+            }
+        }
+    }
+}
+
+/* Highlights */
+.projects-recent {
+    @extend .text-center;
+    
+    .project {
+        @extend .col-xs-6;
+        @extend .col-md-3;
+        
+        .thumbnail {
+            
+            .caption {
+                a[role="button"] {
+                    @extend .btn;
+                    @extend .btn-sm;
+                    @extend .btn-wisteria-inverse
+                }
+            }
+        }
+    }
+    
+}
+
 /* Small devices */
 @media (min-width: $screen-sm-min) {
     

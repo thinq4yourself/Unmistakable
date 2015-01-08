@@ -22,16 +22,19 @@ angular.module('app.controllers', [
         
         switch ($location.path()) {
             case $scope.pageLinks.traveler:
-                $scope.navigationBackgroundColor = 'navbar-peter-river';
-                $scope.jumbotronBackgroundColor = 'bg-peter-river';
+                $scope.navigationBackgroundColor = 'navbar-traveler';
+                $scope.jumbotronBackgroundColor = 'bg-traveler';
+                $scope.currentPage = 'traveler';
                 break;
             case $scope.pageLinks.developer:
-                $scope.navigationBackgroundColor = 'navbar-wisteria';
-                $scope.jumbotronBackgroundColor = 'bg-wisteria';
+                $scope.navigationBackgroundColor = 'navbar-developer';
+                $scope.jumbotronBackgroundColor = 'bg-developer';
+                $scope.currentPage = 'developer';
                 break;
             default:
                 $scope.navigationBackgroundColor = 'navbar-default';
                 $scope.jumbotronBackgroundColor = '';
+                $scope.currentPage = 'main';
                 break;
         }
             
