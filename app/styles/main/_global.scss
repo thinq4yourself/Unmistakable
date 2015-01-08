@@ -1,0 +1,164 @@
+/*
+    Document   : app/styles/main/_custom．scss
+    Created on : 2014-12-08 11:12 PM
+    Author     : yaboi
+    Description: Custom Global styles for Passion Driven Portfolio
+    Version    : 1.0.0
+*/
+
+//== Browser Happy
+//
+//##
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+//== Angular for Bootstrap
+//
+//##
+.nav, .pagination, .carousel, .panel-title a { 
+    cursor: pointer; 
+}
+
+//== Bootstrap Overwrite Styling
+//
+//##
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0;
+}
+
+.btn {
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    border-radius: 0;
+    
+    .navbar-nav {
+         >li {
+             > a {
+                text-align: center;
+                font-size: 24px;
+             }    
+         }
+    }
+}
+
+.navbar-inverse {
+    .navbar-collapse,
+    .navbar-form {
+        border-color: $navbar-inverse-border;
+    }
+}
+
+.jumbotron { 
+    margin-bottom: 0;
+}
+
+.media-left, .media > .pull-left {
+    margin-right: 15px;
+}
+
+//== Custom Global Styling
+//
+//##
+
+/* Hero */
+.hero {
+    @extend .padding-vertical-md;
+    @extend .bg-white;
+    @extend .text-center;
+    @extend .clearfix;
+    
+    @include transition(0.4s ease-in-out);
+    
+    min-height: 500px;
+    overflow: hidden;
+    border-bottom: 1px solid $gray-lighter;
+    
+    a.thumbnail {
+        @extend .visible-xs-inline-block;
+        @extend .visible-sm-inline-block;
+    }
+    
+    .content {
+        a {
+            &.btn {
+                @extend .btn-wide;
+            }  
+        }
+    }
+    
+    .image {
+        @extend .hidden-xs;
+        @extend .hidden-sm;
+        
+        img {
+            @extend .img-responsive;
+            @extend .center-block;
+            
+            @include transition(0.4s ease-in-out);
+            
+            position: absolute;
+            top: 30px;
+        }
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    
+    &:hover {
+        .image {
+            img {
+                top: 20px;
+            }
+        }
+    }
+}
+
+/* Highlights */
+.projects-recent {
+    @extend .text-center;
+    
+    .project {
+        @extend .col-xs-6;
+        @extend .col-md-3;
+        
+        .thumbnail {
+            
+            .caption {
+                a[role="button"] {
+                    @extend .btn;
+                    @extend .btn-sm;
+                    @extend .btn-wisteria-inverse
+                }
+            }
+        }
+    }
+    
+}
+
+/* Small devices */
+@media (min-width: $screen-sm-min) {
+    
+}
+
+/* Medium devices */
+@media (min-width: $screen-md-min) { 
+    
+}
+
+/* Large devices */
+@media (min-width: $screen-lg-min) { 
+
+}

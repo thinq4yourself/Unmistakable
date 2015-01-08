@@ -1,0 +1,60 @@
+/*
+    Document   : app/styles/main/_traveler．scss
+    Created on : 2015-01-08 10:50 PM
+    Author     : yaboi
+    Description: Custom styles for Passion Driven Portfolio:Traveler.html
+*/
+
+//== Custom traveler.html Styling
+//
+//##
+.navbar-traveler {
+    @include navbars-inverse($brand-traveler);
+}
+
+@include bg-variant('.bg-traveler', $brand-traveler);
+
+.traveler {
+    .hero {
+        a.thumbnail {
+            &.active, &:focus, &:hover {
+               border-color: $brand-traveler;
+            }
+        }
+     
+        .content {
+            a {
+                &.btn {
+                    @extend .btn-peter-river;  
+                }  
+            }
+        }
+        
+        &:hover {
+            @extend .bg-traveler;
+        
+            .content {
+                a {
+                    &.btn {
+                        @extend .btn-peter-river-inverse;
+                    }  
+                }
+            }
+        }
+    }
+}
+
+/* Small devices */
+@media (min-width: $screen-sm-min) {
+    
+}
+
+/* Medium devices */
+@media (min-width: $screen-md-min) { 
+    
+}
+
+/* Large devices */
+@media (min-width: $screen-lg-min) { 
+
+}
