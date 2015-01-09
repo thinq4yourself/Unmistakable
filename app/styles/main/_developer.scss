@@ -1,0 +1,62 @@
+/*
+    Document   : app/styles/main/_developer．scss
+    Created on : 2014-12-31 04:39 PM
+    Author     : yaboi
+    Description: Custom styles for Passion Driven Portfolio:Developer.html
+    Version    : 1.0.0
+*/
+
+//== Custom Developer.html Styling
+//
+//##
+.navbar-developer {
+    @include navbars-inverse($brand-developer);
+}
+
+@include bg-variant('.bg-developer', $brand-developer);
+
+.developer {
+    /* Wheelhouse */
+    .wheelhouse {
+        @extend .padding-vertical-lg;
+    
+        .media {
+            margin-top: 25px;    
+        }
+    }
+
+    /* Projects */
+    .hero {
+        a.thumbnail {
+            &.active, &:focus, &:hover {
+               border-color: $brand-developer;
+            }
+        }
+     
+        .content {
+            a {
+                &.btn {
+                    @extend .btn-wisteria;  
+                }  
+            }
+        }
+        
+        &:hover {
+            @extend .bg-developer;
+        
+            .content {
+                a {
+                    &.btn {
+                        @extend .btn-wisteria-inverse;
+                    }  
+                }
+            }
+        }
+    }
+    
+    /* Open Source Everything!!! */
+    .open-source {
+        @extend .padding-vertical-lg;
+        @extend .text-center;
+    }   
+}
