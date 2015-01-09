@@ -8,11 +8,11 @@ exports.config = {
     /**
      * Array of application names.
      */
-    app_name: ['Tylergoelz Staging'],
+    app_name: ['Passion Driven Portfolio'],
     /**
      * Your New Relic license key.
      */
-    license_key: 'a64d7b9cf679af265ccf561a9950fbed22c8d15e',
+    license_key: '42b58b5111890af4a4a0aea354560c4604087c7b',
     logging: {
         /**
          * Level at which to log. 'trace' is most useful to New Relic when diagnosing
