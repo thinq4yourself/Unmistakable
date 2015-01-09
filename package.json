@@ -1,6 +1,6 @@
 {
     "name": "passion-driven-portfolio",
-    "version": "0.0.3",
+    "version": "0.1.5",
     "dependencies": {
         "morgan": "~1.5.0",
         "gzippo": "~0.2.0",
