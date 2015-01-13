@@ -32,29 +32,21 @@
         
         &:hover {
             @extend .bg-traveler;
-        
-            .content {
-                a {
-                    &.btn {
-                        @extend .btn-peter-river-inverse;
-                    }  
-                }
-            }
         }
     }
-}
-
-/* Small devices */
-@media (min-width: $screen-sm-min) {
     
-}
-
-/* Medium devices */
-@media (min-width: $screen-md-min) { 
+    /* Small devices */
+    @media (min-width: $screen-sm-min) {
+        
+    }
     
-}
-
-/* Large devices */
-@media (min-width: $screen-lg-min) { 
-
+    /* Medium devices */
+    @media (min-width: $screen-md-min) { 
+        
+    }
+    
+    /* Large devices */
+    @media (min-width: $screen-lg-min) { 
+    
+    }
 }

@@ -43,14 +43,6 @@
         
         &:hover {
             @extend .bg-developer;
-        
-            .content {
-                a {
-                    &.btn {
-                        @extend .btn-wisteria-inverse;
-                    }  
-                }
-            }
         }
     }
     
@@ -58,5 +50,20 @@
     .open-source {
         @extend .padding-vertical-lg;
         @extend .text-center;
-    }   
+    }
+    
+    /* Small devices */
+    @media (min-width: $screen-sm-min) {
+        
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) { 
+        
+    }
+    
+    /* Large devices */
+    @media (min-width: $screen-lg-min) { 
+    
+    }
 }

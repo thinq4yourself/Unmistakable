@@ -6,87 +6,51 @@
 @mixin button-inverse-variant($color, $bg-color: transparent, $parent: null) {
     @if $parent != null {
         #{$parent} { 
-            color: $color;
-            background-color: $bg-color;
-            border-color: $color;
-    
-            &:hover,
-            &:focus,
-            &.focus,
-            &:active,
-            &.active,
-            .open > &.dropdown-toggle {
-                color: #fff;
-                background-color: $color;
-                border-color: $bg-color;
-            }
-            
-            &:active,
-            &.active,
-            .open > &.dropdown-toggle {
-                background-image: none;
-            }
-            
-            &.disabled,
-            &[disabled],
-            fieldset[disabled] & {
-                &,
-                &:hover,
-                &:focus,
-                &.focus,
-                &:active,
-                &.active {
-                    background-color: $color;
-                    border-color: $bg-color;
-                }
-            }
-    
-            .badge {
-                color: #fff;
-                background-color: $color;
-            }
+            @include button-inverse($color, $bg-color); 
         }
-    }
-    @else {
-        color: $color;
-            background-color: $bg-color;
-            border-color: $color;
-    
-            &:hover,
-            &:focus,
-            &.focus,
-            &:active,
-            &.active,
-            .open > &.dropdown-toggle {
-                color: #fff;
-                background-color: $color;
-                border-color: $bg-color;
-            }
-            
-            &:active,
-            &.active,
-            .open > &.dropdown-toggle {
-                background-image: none;
-            }
-            
-            &.disabled,
-            &[disabled],
-            fieldset[disabled] & {
-                &,
-                &:hover,
-                &:focus,
-                &.focus,
-                &:active,
-                &.active {
-                    background-color: $color;
-                    border-color: $bg-color;
-                }
-            }
-    
-            .badge {
-                color: #fff;
-                background-color: $color;
-            }
+    } @else {
+        @include button-inverse($color, $bg-color);
     }
 }
     
+@mixin button-inverse($color, $bg-color) {
+    color: $color;
+    background-color: $bg-color;
+    border-color: $color;
+    
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: $color;
+        border-color: $bg-color;
+    }
+    
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        background-image: none;
+    }
+    
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &.focus,
+        &:active,
+        &.active {
+            background-color: $color;
+            border-color: $bg-color;
+        }
+    }
+    
+    .badge {
+        color: #fff;
+        background-color: $color;
+    }
+}
