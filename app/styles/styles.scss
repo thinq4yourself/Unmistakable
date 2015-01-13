@@ -1,4 +1,4 @@
-// Core variables and mixins
+// Core variables
 @import "main/variables";
 
 // Bootstrap
@@ -10,6 +10,7 @@ $icon-font-path: "../bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/"
 // Flat UI
 @import "flat-ui-sass/vendor/assets/stylesheets/flat-ui";
 
+// Core Mixins
 @import "main/mixins";
 
 // Components
