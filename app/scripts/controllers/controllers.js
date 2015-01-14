@@ -8,7 +8,7 @@
  */
 angular.module('app.controllers', [
     
-]).controller('PassionDrivenController', function($scope, $location) {
+]).controller('PassionDrivenController', function($scope, $location, anchorSmoothScroll) {
     $scope.brand = 'Tyler Goelz';
     
     $scope.linkPrefix = '#';
@@ -37,7 +37,9 @@ angular.module('app.controllers', [
                 $scope.currentPage = 'main';
                 break;
         }
-            
+        
+        var elm = document.getElementById('body');
+        if (elm !== null){ anchorSmoothScroll.scrollTo(elm); }
     });
     
 }).controller('HeaderController', function($scope, $location) {
@@ -58,11 +60,7 @@ angular.module('app.controllers', [
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function(anchor) {
         var elm = document.getElementById(anchor);
-        if(elm !== null) {
-            anchorSmoothScroll.scrollTo(elm);
-        } else {
-            return false;
-        }
+        if(elm !== null) { anchorSmoothScroll.scrollTo(elm); }
     };
 }).service('anchorSmoothScroll', function() {
     this.scrollTo = function(elm) {
