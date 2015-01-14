@@ -1,83 +1,23 @@
 //
 // Navbars
 // --------------------------------------------------
-
-.navbar-turquoise {
-    @include navbars-inverse($turquoise);
-}
-
-.navbar-green-sea {
-    @include navbars-inverse($green-sea);
-}
-
-.navbar-emerald {
-    @include navbars-inverse($emerald);
-}
-
-.navbar-nephritis {
-    @include navbars-inverse($nephritis);
-}
-
-.navbar-peter-river {
-    @include navbars-inverse($peter-river);
-}
-
-.navbar-belize-hole {
-    @include navbars-inverse($belize-hole);
-}
-
-.navbar-amethyst {
-    @include navbars-inverse($amethyst);
-}
-
-.navbar-wisteria {
-    @include navbars-inverse($wisteria);
-}
-
-.navbar-wet-asphalt {
-    @include navbars-inverse($wet-asphalt);
-}
-
-.navbar-midnight-blue {
-    @include navbars-inverse($midnight-blue);
-}
-
-.navbar-sun-flower {
-    @include navbars-inverse($sun-flower);
-}
-
-.navbar-orange {
-    @include navbars-inverse($orange);
-}
-
-.navbar-carrot {
-    @include navbars-inverse($carrot);
-}
-
-.navbar-pumpkin {
-    @include navbars-inverse($pumpkin);
-}
-
-.navbar-alizarin {
-    @include navbars-inverse($alizarin);
-}
-
-.navbar-pomegranate {
-    @include navbars-inverse($pomegranate);
-}
-
-.navbar-clouds {
-    @include navbars-inverse($clouds);
-}
-
-.navbar-silver {
-    @include navbars-inverse($silver);
-}
-
-.navbar-concrete {
-    @include navbars-inverse($concrete);
-}
-
-.navbar-asbestos {
-    @include navbars-inverse($asbestos);
-}
+@include navbars-inverse('.navbar-turquoise', $turquoise);
+@include navbars-inverse('.navbar-green-sea', $green-sea);
+@include navbars-inverse('.navbar-emerald', $emerald);
+@include navbars-inverse('.navbar-nephritis', $nephritis);
+@include navbars-inverse('.navbar-peter-river', $peter-river);
+@include navbars-inverse('.navbar-wisteria', $wisteria);
+@include navbars-inverse('.navbar-belize-hole', $belize-hole);
+@include navbars-inverse('.navbar-amethyst', $amethyst);
+@include navbars-inverse('.navbar-wet-asphalt', $wet-asphalt);
+@include navbars-inverse('.navbar-midnight-blue', $midnight-blue);
+@include navbars-inverse('.navbar-sun-flower', $sun-flower);
+@include navbars-inverse('.navbar-orange', $orange);
+@include navbars-inverse('.navbar-carrot', $carrot);
+@include navbars-inverse('.navbar-pumpkin', $pumpkin);
+@include navbars-inverse('.navbar-alizarin', $alizarin);
+@include navbars-inverse('.navbar-pomegranate', $pomegranate);
+@include navbars-inverse('.navbar-clouds', $clouds);
+@include navbars-inverse('.navbar-silver', $silver);
+@include navbars-inverse('.navbar-concrete', $concrete);
+@include navbars-inverse('.navbar-asbestos', $asbestos);

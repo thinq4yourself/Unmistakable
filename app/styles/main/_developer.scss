@@ -9,10 +9,7 @@
 //== Custom Developer.html Styling
 //
 //##
-.navbar-developer {
-    @include navbars-inverse($brand-developer);
-}
-
+@include navbars-inverse('.navbar-developer', $brand-developer);
 @include bg-variant('.bg-developer', $brand-developer);
 
 .developer {

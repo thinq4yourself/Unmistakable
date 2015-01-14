@@ -8,10 +8,7 @@
 //== Custom traveler.html Styling
 //
 //##
-.navbar-traveler {
-    @include navbars-inverse($brand-traveler);
-}
-
+@include navbars-inverse('.navbar-traveler', $brand-traveler);
 @include bg-variant('.bg-traveler', $brand-traveler);
 
 .traveler {
