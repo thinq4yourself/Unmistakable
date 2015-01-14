@@ -542,3 +542,14 @@ FileETag None
 #    Header set Connection Keep-Alive
 # </IfModule>
 
+# ------------------------------------------------------------------------------
+# | Permanent URL Redirect                                                     |
+# ------------------------------------------------------------------------------
+
+Redirect 301 /resume http://www.tylergoelz.com
+Redirect 301 /fiver http://www.tylergoelz.com
+Redirect 301 /feedback http://www.tylergoelz.com
+Redirect 301 /survey http://www.tylergoelz.com
+Redirect 301 /trip http://www.tylergoelz.com
+Redirect 301 /blog http://blog.tylergoelz.com
+
