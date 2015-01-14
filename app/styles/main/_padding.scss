@@ -2,18 +2,24 @@
 // Padding
 // --------------------------------------------------
 
-.padding-vertical-xs {
-    @include padding-vertical(20px);
-}
 
-.padding-vertical-sm {
-    @include padding-vertical(35px);
-}
+// Vertical
+// --------------------------------------------------
+@include padding-vertical('.padding-vertical-xs', 20px);
+@include padding-vertical('.padding-vertical-sm', 35px);
+@include padding-vertical('.padding-vertical-md', 50px);
+@include padding-vertical('.padding-vertical-lg', 75px);
 
-.padding-vertical-md {
-    @include padding-vertical(50px);
-}
+// Top
+// --------------------------------------------------
+@include padding-vertical('.padding-top-xs', 20px, 0);
+@include padding-vertical('.padding-top-sm', 35px, 0);
+@include padding-vertical('.padding-top-md', 50px, 0);
+@include padding-vertical('.padding-top-lg', 75px, 0);
 
-.padding-vertical-lg {
-    @include padding-vertical(75px);
-}
+// Bottom
+// --------------------------------------------------
+@include padding-vertical('.padding-bottom-xs', 0, 20px);
+@include padding-vertical('.padding-bottom-sm', 0, 35px);
+@include padding-vertical('.padding-bottom-md', 0, 50px);
+@include padding-vertical('.padding-bottom-lg', 0, 75px);

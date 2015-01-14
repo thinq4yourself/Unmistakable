@@ -3,7 +3,9 @@
 // Easily pump out default styles, as well as alt buttons
 // for all background options
 
-@mixin padding-vertical($padding-top, $padding-bottom: $padding-top) { 
-    padding-top: $padding-top;
-    padding-bottom: $padding-bottom;
+@mixin padding-vertical($parent, $padding-top, $padding-bottom: $padding-top) { 
+    #{$parent} {
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;   
+    }
 }
