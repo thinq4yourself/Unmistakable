@@ -12,6 +12,21 @@ module.exports = function(grunt) {
         app: require('./bower.json').appPath || 'app',
         dist: 'dist'
     };
+    //this is a new html5 rewrite rule so we can use normalized URLs, instead hashmaps (ie - /main instead of /#/main)
+    var _sendIndex = function(req, res) {
+        var fs = require('fs');
+        fs.readFile('./app/index.html', function(error, info) {
+            res.setHeader('Content-Type', 'text/html');
+            res.end(info);
+        });
+    };
+    // set some fallback for rewrite issues
+    var _on404 = [];
+    _on404.push(['/main', _sendIndex]);
+    _on404.push(['/developer', _sendIndex]);
+    _on404.push(['/traveler', _sendIndex]);
+    _on404.push(['/resume', _sendIndex]);
+    //_on404.push(['/xyz/', _sendIndex]); // trailing slash will map to an id
     // Define the configuration for all the tasks
     grunt.initConfig({
         // Project settings
@@ -46,11 +61,7 @@ module.exports = function(grunt) {
                 options: {
                     livereload: '<%= connect.options.livereload %>'
                 },
-                files: [
-                    '<%= yeoman.app %>/{,*/}*.html',
-                    '.tmp/styles/{,*/}*.css',
-                    '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-                ]
+                files: ['<%= yeoman.app %>/{,*/}*.html', '.tmp/styles/{,*/}*.css', '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}']
             }
         },
         // The actual grunt server settings
@@ -59,13 +70,20 @@ module.exports = function(grunt) {
                 port: 3000,
                 // Change this to '0.0.0.0' to access the server from outside.
                 hostname: '0.0.0.0',
-                livereload: 4000
+                livereload: 4000,
+                // Modrewrite rule, connect.static(path) for each path in target's base
+                middleware: function(connect, options) {
+                    var optBase = (typeof options.base === 'string') ? [options.base] : options.base;
+                    return [require('connect-modrewrite')(['!(\\..+)$ / [L]'])].concat(optBase.map(function(path) {
+                        return connect.static(path);
+                    }));
+                }
             },
             livereload: {
                 options: {
                     open: true,
                     middleware: function(connect) {
-                        return [connect.static('.tmp'), connect().use('/bower_components', connect.static('./bower_components')), connect.static(appConfig.app)];
+                        return [require('connect-modrewrite')(['!(\\..+)$ / [L]']), connect.static('.tmp'), connect().use('/bower_components', connect.static('./bower_components')), connect().use('/fonts', connect.static('./bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui')), connect.static(appConfig.app)];
                     }
                 }
             },
@@ -150,7 +168,8 @@ module.exports = function(grunt) {
                 httpFontsPath: '/styles/fonts',
                 relativeAssets: false,
                 assetCacheBuster: false,
-                raw: 'Sass::Script::Number.precision = 10\n'
+                raw: 'Sass::Script::Number.precision = 10\n',
+                sourcemap: true
             },
             dist: {
                 options: {
@@ -166,11 +185,7 @@ module.exports = function(grunt) {
         // Renames files for browser caching purposes
         filerev: {
             dist: {
-                src: ['<%= yeoman.dist %>/scripts/{,*/}*.js',
-                      '<%= yeoman.dist %>/{,*/}*.js',
-                      '<%= yeoman.dist %>/styles/{,*/}*.css',
-                      '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
-                      '<%= yeoman.dist %>/styles/fonts/*']
+                src: ['<%= yeoman.dist %>/scripts/{,*/}*.js', '<%= yeoman.dist %>/{,*/}*.js', '<%= yeoman.dist %>/styles/{,*/}*.css', '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}', '<%= yeoman.dist %>/styles/fonts/*']
             }
         },
         // Reads HTML for usemin blocks to enable smart builds that automatically

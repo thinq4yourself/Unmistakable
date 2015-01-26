@@ -7,7 +7,7 @@ newrelic.js
 .tmp
 .sass-cache
 
-# Ignore docs files
+# Ignore docs
 _gh_pages
 _site
 .ruby-version
@@ -23,6 +23,7 @@ _site
 *.vi
 *.zip
 *~
+*.log
 
 # OS or Editor folders
 ._*
@@ -41,6 +42,7 @@ Thumbs.db
 # Komodo
 .komodotools
 *.komodoproject
+test
 
 # grunt-html-validation
 validation-report.json

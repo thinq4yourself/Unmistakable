@@ -12,6 +12,10 @@
 @include navbars-inverse('.navbar-developer', $brand-developer);
 @include bg-variant('.bg-developer', $brand-developer);
 
+.btn-developer {
+    @extend .btn-wisteria;
+}
+
 .developer {
     /* Wheelhouse */
     .wheelhouse {
@@ -33,7 +37,7 @@
         .content {
             a {
                 &.btn {
-                    @extend .btn-wisteria;  
+                    @extend .btn-developer;
                 }  
             }
         }

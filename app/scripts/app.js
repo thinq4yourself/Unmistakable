@@ -22,12 +22,14 @@ angular.module('passionDrivenPortfolio', [
 
 ]).config([
     '$routeProvider',
+    '$locationProvider',
     
-    function($routeProvider) {
+    function($routeProvider, $locationProvider) {
         var routes, setRoutes;
+        $locationProvider.html5Mode(true);
         routes = [
-            'main', 'traveler', 'developer', '404',
-            'main_legacy'
+            'main', 'traveler', 'developer',
+            '404', 'main_legacy',
         ];
     
         setRoutes = function(route) {
@@ -48,8 +50,6 @@ angular.module('passionDrivenPortfolio', [
         return $routeProvider
         .when('/', {
             redirectTo: '/main'
-        }).when('/404', {
-            templateUrl: '404.html'
         }).otherwise({
             redirectTo: '/404'
         });
