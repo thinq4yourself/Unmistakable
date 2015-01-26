@@ -56,13 +56,13 @@ angular.module('app.controllers', [
 }).controller('DeveloperController', function($scope) {
     $scope.message = 'test';
     
-    $scope.project = {
-        'title': 'WriteOn',
-        'description': '<a href="http://writeon.io/" target="_blank">WriteOn</a> is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.',
-        'image': 'images/developer/projects/writeon/large.gif',
-        'thumbnail': 'images/developer/projects/writeon/logo.png',
-        'link': 'http://writeon.io/'
-    };{}
+//     $scope.project = {
+//         'title': 'WriteOn',
+//         'description': '<a href="http://writeon.io/" target="_blank">WriteOn</a> is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.',
+//         'image': 'images/developer/projects/writeon/large.gif',
+//         'thumbnail': 'images/developer/projects/writeon/logo.png',
+//         'link': 'http://writeon.io/'
+//     };{}
     
 
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
