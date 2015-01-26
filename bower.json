@@ -14,8 +14,8 @@
     "angular-route": "^1.3.0",
     "angular-sanitize": "^1.3.0",
     "angular-touch": "^1.3.0",
-    "angular-mailchimp": "*",
-    "ngFitText": "~3.1.0",
+    "angular-mailchimp": "https://github.com/BeardandFedora/angular-mailchimp.git",
+    "ngFitText": "https://github.com/BeardandFedora/ng-FitText.js.git#^3.1.2",
     "flat-ui-sass": "~2.1.3"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
   },
   "appPath": "app",
   "resolutions": {
-    "angular": "1.3.6",
+    "angular": "1.3.10",
     "angular-resource": "^1.3.0",
     "angular-sanitize": "^1.3.0"
   }

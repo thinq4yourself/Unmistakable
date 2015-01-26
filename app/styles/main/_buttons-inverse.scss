@@ -4,106 +4,34 @@
 
 // Default Buttons Inverse
 // --------------------------------------------------
-.btn-default-inverse {
-  @include button-inverse-variant($btn-default-bg);
-}
-.btn-primary-inverse {
-  @include button-inverse-variant($brand-secondary);
-}
-.btn-info-inverse    {
-  @include button-inverse-variant($brand-info);
-}
-.btn-danger-inverse  {
-  @include button-inverse-variant($brand-danger);
-}
-.btn-success-inverse {
-  @include button-inverse-variant($brand-success);
-}
-.btn-warning-inverse {
-  @include button-inverse-variant($brand-warning);
-}
-.btn-inverse-inverse {
-  @include button-inverse-variant($brand-primary);
-}
+@include button-inverse-variant($btn-default-bg, transparent, '.btn-default-inverse');
+@include button-inverse-variant($brand-primary, transparent, '.btn-primary-inverse');
+@include button-inverse-variant($brand-info, transparent, '.btn-info-inverse');
+@include button-inverse-variant($brand-danger, transparent, '.btn-danger-inverse');
+@include button-inverse-variant($brand-success, transparent, '.btn-success-inverse');
+@include button-inverse-variant($brand-warning, transparent, '.btn-warning-inverse');
+@include button-inverse-variant($inverse, transparent, '.btn-inverse-inverse');
+
 
 // Alternate Buttons Inverse
 // --------------------------------------------------
-.btn-turquoise-inverse {
-    @include button-inverse-variant($turquoise);
-}
-
-.btn-green-sea-inverse {
-    @include button-inverse-variant($green-sea);
-}
-
-.btn-emerald-inverse {
-    @include button-inverse-variant($emerald);
-}
-
-.btn-nephritis-inverse {
-    @include button-inverse-variant($nephritis);
-}
-
-.btn-peter-river-inverse {
-    @include button-inverse-variant($peter-river);
-}
-
-.btn-belize-hole-inverse {
-    @include button-inverse-variant($belize-hole);
-}
-
-.btn-amethyst-inverse {
-    @include button-inverse-variant($amethyst);
-}
-
-.btn-wisteria-inverse {
-    @include button-inverse-variant($wisteria);
-}
-
-.btn-wet-asphalt-inverse {
-    @include button-inverse-variant($wet-asphalt);
-}
-
-.btn-midnight-blue-inverse {
-    @include button-inverse-variant($midnight-blue);
-}
-
-.btn-sun-flower-inverse {
-    @include button-inverse-variant($sun-flower);
-}
-
-.btn-orange-inverse {
-    @include button-inverse-variant($orange);
-}
-
-.btn-carrot-inverse {
-    @include button-inverse-variant($carrot);
-}
-
-.btn-pumpkin-inverse {
-    @include button-inverse-variant($pumpkin);
-}
-
-.btn-alizarin-inverse {
-    @include button-inverse-variant($alizarin);
-}
-
-.btn-pomegranate-inverse {
-    @include button-inverse-variant($pomegranate);
-}
-
-.btn-clouds-inverse {
-    @include button-inverse-variant($clouds);
-}
-
-.btn-silver-inverse {
-    @include button-inverse-variant($silver);
-}
-
-.btn-concrete-inverse {
-    @include button-inverse-variant($concrete);
-}
-
-.btn-asbestos-inverse {
-    @include button-inverse-variant($asbestos);
-}
+@include button-inverse-variant($turquoise, transparent, '.btn-turquoise-inverse');
+@include button-inverse-variant($green-sea, transparent, '.btn-green-sea-inverse');
+@include button-inverse-variant($emerald, transparent, '.btn-emerald-inverse');
+@include button-inverse-variant($nephritis, transparent, '.btn-nephritis-inverse');
+@include button-inverse-variant($peter-river, transparent, '.btn-peter-river-inverse');
+@include button-inverse-variant($belize-hole, transparent, '.btn-belize-hole-inverse');
+@include button-inverse-variant($amethyst, transparent, '.btn-amethyst-inverse');
+@include button-inverse-variant($wisteria, transparent, '.btn-wisteria-inverse');
+@include button-inverse-variant($wet-asphalt, transparent, '.btn-wet-asphalt-inverse');
+@include button-inverse-variant($midnight-blue, transparent, '.btn-midnight-blue-inverse');
+@include button-inverse-variant($sun-flower, transparent, '.btn-sun-flower-inverse');
+@include button-inverse-variant($orange, transparent, '.btn-orange-inverse');
+@include button-inverse-variant($carrot, transparent, '.btn-carrot-inverse');
+@include button-inverse-variant($pumpkin, transparent, '.btn-pumpkin-inverse');
+@include button-inverse-variant($alizarin, transparent, '.btn-alizarin-inverse');
+@include button-inverse-variant($pomegranate, transparent, '.btn-pomegranate-inverse');
+@include button-inverse-variant($clouds, transparent, '.btn-clouds-inverse');
+@include button-inverse-variant($silver, transparent, '.btn-silver-inverse');
+@include button-inverse-variant($concrete, transparent, '.btn-concrete-inverse');
+@include button-inverse-variant($asbestos, transparent, '.btn-asbestos-inverse');

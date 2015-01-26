@@ -9,11 +9,12 @@
 //== Custom Developer.html Styling
 //
 //##
-.navbar-developer {
-    @include navbars-inverse($brand-developer);
-}
-
+@include navbars-inverse('.navbar-developer', $brand-developer);
 @include bg-variant('.bg-developer', $brand-developer);
+
+.btn-developer {
+    @extend .btn-wisteria;
+}
 
 .developer {
     /* Wheelhouse */
@@ -36,21 +37,13 @@
         .content {
             a {
                 &.btn {
-                    @extend .btn-wisteria;  
+                    @extend .btn-developer;
                 }  
             }
         }
         
         &:hover {
             @extend .bg-developer;
-        
-            .content {
-                a {
-                    &.btn {
-                        @extend .btn-wisteria-inverse;
-                    }  
-                }
-            }
         }
     }
     
@@ -58,5 +51,20 @@
     .open-source {
         @extend .padding-vertical-lg;
         @extend .text-center;
-    }   
+    }
+    
+    /* Small devices */
+    @media (min-width: $screen-sm-min) {
+        
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) { 
+        
+    }
+    
+    /* Large devices */
+    @media (min-width: $screen-lg-min) { 
+    
+    }
 }
