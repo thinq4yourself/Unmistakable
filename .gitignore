@@ -1,8 +1,8 @@
-#app
-#test
+app
+test
 
-dist
-newrelic.js
+#dist
+#newrelic.js
 
 .tmp
 .sass-cache
@@ -55,4 +55,4 @@ node_modules
 # Codio
 .codio
 .settings
-.editorconfig
+.editorconfigonfig

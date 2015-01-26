@@ -1,6 +1,6 @@
 {
   "name": "passion-driven-portfolio",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "dependencies": {
     "angular": "^1.3.0",
     "angular-bootstrap": "~0.11.2",
