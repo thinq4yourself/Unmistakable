@@ -83,7 +83,7 @@ module.exports = function(grunt) {
                 options: {
                     open: true,
                     middleware: function(connect) {
-                        return [require('connect-modrewrite')(['!(\\..+)$ / [L]']), connect.static('.tmp'), connect().use('/bower_components', connect.static('./bower_components')), connect().use('/fonts', connect.static('./bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui')), connect.static(appConfig.app)];
+                        return [require('connect-modrewrite')(['!(\\..+)$ / [L]']), connect.static('.tmp'), connect().use('/bower_components', connect.static('./bower_components')), connect().use('/fonts', connect.static('./bower_components/bootstrap-material-design/fonts'), connect.static('./bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui')), connect.static(appConfig.app)];
                     }
                 }
             },
@@ -312,6 +312,11 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: '.',
                     src: 'bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/*',
+                    dest: '<%= yeoman.dist %>'
+                }, {
+                    expand: true,
+                    cwd: '.',
+                    src: 'bower_components/bootstrap-material-design/fonts/*',
                     dest: '<%= yeoman.dist %>'
                 }]
             },

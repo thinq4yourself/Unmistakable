@@ -32,8 +32,6 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .btn {
-    border-width: 1px;
-    border-style: solid;
     margin-bottom: 10px;
 }
 
@@ -69,12 +67,20 @@ h1, .h1, h2, .h2, h3, .h3 {
     margin-right: 15px;
 }
 
+.serif {
+    font-family: $font-family-serif;
+}
+
 //== Flat UI Overwrite Styling
 //
 //##
 
 footer a {
     font-weight: normal;
+}
+
+.jumbotron p {
+font-size: 28px;
 }
 
 //== Custom Global Styling

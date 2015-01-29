@@ -1,0 +1,54 @@
+/*
+    Document   : app/styles/main/_write．scss
+    Created on : 2015-01-08 10:50 PM
+    Author     : fedora
+    Description: Custom styles for Passion Driven Portfolio:write.html
+*/
+
+//== Custom write.html Styling
+//
+//##
+
+@include navbars-inverse('.navbar-write', $brand-write);
+@include bg-variant('.bg-write', $brand-write);
+
+.btn-write {
+    @extend .btn-emerald;
+}
+
+.write {
+    .hero {
+        a.thumbnail {
+            &.active, &:focus, &:hover {
+               border-color: $brand-write;
+            }
+        }
+     
+        .content {
+            a {
+                &.btn {
+                    @extend .btn-write;
+                }  
+            }
+        }
+        
+        &:hover {
+            @extend .bg-write;
+        }
+    }
+    
+    /* Small devices */
+    @media (min-width: $screen-sm-min) {
+        
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) { 
+        
+    }
+    
+    /* Large devices */
+    @media (min-width: $screen-lg-min) { 
+    
+    }
+}

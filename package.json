@@ -1,15 +1,15 @@
 {
-  "name": "passion-driven-portfolio",
+  "name": "instigator-website",
   "version": "0.2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yaboi/Passion-Driven-Portfolio.git"
+    "url": "git@github.com:thinq4yourself/Instigator-Website.git"
   },
   "authors": {
-    "name": "Tyler Goelz",
-    "web": "http://tylergoelz.com"
+    "name": "Joel Serino",
+    "web": "http://thinq4yourself.com"
   },
-  "description": "A portfolio influenced by a Passion Driven Lifestyle and built in Codio.",
+  "description": "In every instigator's life, there is a thorn. Managing web presence is one of mine. ",
   "keywords": [
     "angular",
     "angularjs",
@@ -25,14 +25,15 @@
     "dist",
     "newrelic.js"
   ],
-  "homepage": "http://tylergoelz.com",
+  "homepage": "http://thinq4yourself.com",
   "dependencies": {
     "morgan": "~1.5.1",
     "gzippo": "~0.2.0",
     "express": "~4.10.8",
     "newrelic": "~1.13.4",
     "nodetime": "~0.8.15",
-    "serve-static": "~1.8.1"
+    "serve-static": "~1.8.1",
+    "grunt-cli": "~0.1.13"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
@@ -40,7 +41,7 @@
     "grunt-autoprefixer": "^0.7.3",
     "grunt-concurrent": "^0.5.0",
     "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-compass": "^0.7.2",
+    "grunt-contrib-compass": "~1.0.1",
     "grunt-contrib-concat": "^0.4.0",
     "grunt-contrib-connect": "^0.7.1",
     "grunt-contrib-copy": "^0.5.0",

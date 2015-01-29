@@ -8,31 +8,31 @@
 //== Custom traveler.html Styling
 //
 //##
-@include navbars-inverse('.navbar-traveler', $brand-traveler);
-@include bg-variant('.bg-traveler', $brand-traveler);
+@include navbars-inverse('.navbar-travel', $brand-travel);
+@include bg-variant('.bg-travel', $brand-travel);
 
-.btn-traveler {
-    @extend .btn-peter-river;
+.btn-travel {
+    @extend .btn-pomegranate;
 }
 
 .traveler {
     .hero {
         a.thumbnail {
             &.active, &:focus, &:hover {
-               border-color: $brand-traveler;
+               border-color: $brand-travel;
             }
         }
      
         .content {
             a {
                 &.btn {
-                    @extend .btn-traveler;
+                    @extend .btn-travel;
                 }  
             }
         }
         
         &:hover {
-            @extend .bg-traveler;
+            @extend .bg-travel;
         }
     }
     

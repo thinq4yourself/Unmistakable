@@ -1,22 +1,22 @@
 /*
-    Document   : app/styles/main/_developer．scss
+    Document   : app/styles/main/_hack．scss
     Created on : 2014-12-31 04:39 PM
     Author     : yaboi
-    Description: Custom styles for Passion Driven Portfolio:Developer.html
+    Description: Custom styles for Passion Driven Portfolio:hack.html
     Version    : 1.0.0
 */
 
-//== Custom Developer.html Styling
+//== Custom hack.html Styling
 //
 //##
-@include navbars-inverse('.navbar-developer', $brand-developer);
-@include bg-variant('.bg-developer', $brand-developer);
+@include navbars-inverse('.navbar-hack', $brand-hack);
+@include bg-variant('.bg-hack', $brand-hack);
 
-.btn-developer {
+.btn-hack {
     @extend .btn-wisteria;
 }
 
-.developer {
+.hack {
     /* Wheelhouse */
     .wheelhouse {
         @extend .padding-vertical-lg;
@@ -30,20 +30,20 @@
     .hero {
         a.thumbnail {
             &.active, &:focus, &:hover {
-               border-color: $brand-developer;
+               border-color: $brand-hack;
             }
         }
      
         .content {
             a {
                 &.btn {
-                    @extend .btn-developer;
+                    @extend .btn-hack;
                 }  
             }
         }
         
         &:hover {
-            @extend .bg-developer;
+            @extend .bg-hack;
         }
     }
     

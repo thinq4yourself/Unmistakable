@@ -53,6 +53,7 @@ validation-status.json
 node_modules
 
 # Codio
+.box
 .codio
 .settings
 .editorconfigonfig

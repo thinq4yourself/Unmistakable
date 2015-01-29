@@ -14,10 +14,8 @@ angular.module('passionDrivenPortfolio', [
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    
     'ui.bootstrap',
     'ngFitText',
-
     'app.controllers'
 
 ]).config([
@@ -28,7 +26,7 @@ angular.module('passionDrivenPortfolio', [
         var routes, setRoutes;
         $locationProvider.html5Mode(true);
         routes = [
-            'main', 'traveler', 'developer',
+            'main', 'travel', 'write', 'hack', 'fedora', 'unmistakable',
             '404', 'main_legacy',
         ];
     

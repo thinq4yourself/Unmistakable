@@ -1,10 +1,11 @@
-#A Passion Driven Portfolio
+#Instigator Website
 
-The Passion Driven Portfolio showcases what a portfolio site for a **passion driven** professional might look like.
+In every instigator's life, there is a thorn. Managing web presence is one of mine. So I'm tryig a new approach, having my own website not built in a CMS,
+to showcase some of my creative work. Some consider me a technologist, some a growth hacker. I am neither.
 
 ## Overview
 
-I'm a full-time traveler & front-end developer that believes the key to living a passion driven lifestyle is a balance in work-life happiness. Want to know more? [Check out my portfolio](http://www.tylergoelz.com).
+I am currently a human on an exploration of a lifetime. I’m a dad, a writer, backpacker & climber, an activist, a hacker, speaker, instigator, entrepreneur and the [Fedora](http://beardandfedora.com). Want to know more? [Check out my website](http://www.thinq4yourself.com).
 
 ## Under The Hood (Core Features)
 In order for you to follow your passion, you have to **G**et **Y**our **SHI**t **DO**ne. To [GYSHIDO](http://gyshido.com) with code, you need to work smarter.
@@ -13,8 +14,10 @@ To work smarter and so you can follow your passion, A Passion Driven Portfolio u
 * [Angular](https://angularjs.org/) - Because, well, Angular is freakin' sweet.
 * [Yeoman](http://yeoman.io) - Set up the badass scaffolding for this project. Yeoman generators use best practices and tools for modern front-end apps.
 * [Grunt](http://gruntjs.com/) - Used in this project to Sass to CSS, check for JS errors, live reloading, concatenating and minifying files, versioning assets, and generating lean Modernizr builds
+* [Compass](http://compass-style.org/) - Used as the CSS Authoring Framework
 * [Bower](http://bower.io/) - Keeps all of our packages in order
-* [Bootstrap](http://getbootstrap.com/) 
+* [Bootstrap](http://getbootstrap.com/) - Current UI framework
+* [Material](https://github.com/FezVrasta/bootstrap-material-design) - Implements [Material Design guidelines by Google](http://www.google.com/design/spec/material-design/introduction.html)
 * [Angular directives for bootstrap](https://angular-ui.github.io/bootstrap/)
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
     * [jQuery](http://jquery.com/) via Google CDN, with a local fallback
@@ -39,12 +42,14 @@ To work smarter and so you can follow your passion, A Passion Driven Portfolio u
 
 ##Support
 
-Homepage: http://www.tylergoelz.com  
-Documentation: https://github.com/yaboi/Passion-Driven-Portfolio  
-Twitter: [@tylergoelz](https://twitter.com/tylergoelz)  
+Homepage: http://www.thinq4yourself.com  
+Documentation: https://github.com/thinq4yourself/Instigator-Website.git  
+Twitter: [@thinq4yourself](https://twitter.com/thinq4yourself)  
 
 ##Application References
 
+Inspiration: [HopStack](https://github.com/BeardandFedora/HopStack)  
+Forked From: [Passion-Driven-Portfolio](https://github.com/yaboi/Passion-Driven-Website)  
 UI Core: http://designmodo.com/flat/  
 UI Base: https://angular-ui.github.io/bootstrap/  
 UI Mixins (SASS): http://sass-lang.com/  
@@ -53,4 +58,4 @@ JS Dev Server: http://www.nodejs.org
 JS Dev Task Runner: http://gruntjs.com  
 Test Runner: https://karma-runner.github.io  
 
-> CopyLeft [@tylergoelz](http://www.twitter.com/tylergoelz) 2015 | Licensed under an [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+> CopyLeft [@thinq4yourself](http://www.twitter.com/thinq4yourself) 2015 | Licensed under an [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)

@@ -9,6 +9,9 @@
 //== Custom Main.html Styling
 //
 //##
+@include navbars-inverse('.navbar-main', $brand-main);
+@include bg-variant('.bg-main', $brand-main);
+
 .content {
     .overview {
         @extend .padding-vertical-lg;

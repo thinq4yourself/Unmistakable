@@ -7,8 +7,11 @@ $icon-font-path: "../bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/"
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Material UI
+@import "material";
+ 
 // Flat UI
-@import "flat-ui-sass/vendor/assets/stylesheets/flat-ui";
+@import "../bower_components/flat-ui-sass/vendor/assets/stylesheets/flat-ui";
 
 // Core Mixins
 @import "main/mixins";
@@ -24,5 +27,6 @@ $icon-font-path: "../bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/"
 // Custom CSS
 @import "main/global";
 @import "main/main";
-@import "main/developer";
-@import "main/traveler";
+@import "main/hack";
+@import "main/travel";
+@import "main/write";

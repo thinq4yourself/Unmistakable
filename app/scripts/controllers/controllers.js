@@ -9,31 +9,54 @@
 angular.module('app.controllers', [
     
 ]).controller('PassionDrivenController', function($scope, $location, anchorSmoothScroll) {
-    $scope.brand = 'Tyler Goelz';
+    $scope.brand = 'Unmistakable.';
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
         'base': '/main',
-        'traveler': '/traveler',
-        'developer': '/developer'
+        'travel': '/travel',
+        'write': '/write',
+        'hack': '/hack',
+        'fedora': '/fedora',
+        'unmistakable': '/unmistakable'
     };
     
     $scope.$on('$locationChangeStart', function() {
         
         switch ($location.path()) {
-            case $scope.pageLinks.traveler:
-                $scope.navigationBackgroundColor = 'navbar-traveler';
-                $scope.jumbotronBackgroundColor = 'bg-traveler';
-                $scope.currentPage = 'traveler';
+            case $scope.pageLinks.travel:
+                $scope.navigationBackgroundColor = 'navbar-travel';
+                $scope.jumbotronBackgroundColor = 'bg-travel';
+                $scope.currentPage = 'travel';
                 break;
-            case $scope.pageLinks.developer:
-                $scope.navigationBackgroundColor = 'navbar-developer';
-                $scope.jumbotronBackgroundColor = 'bg-developer';
-                $scope.currentPage = 'developer';
+            case $scope.pageLinks.hack:
+                $scope.navigationBackgroundColor = 'navbar-hack';
+                $scope.jumbotronBackgroundColor = 'bg-hack';
+                $scope.currentPage = 'hack';
+                break;
+            case $scope.pageLinks.write:
+                $scope.navigationBackgroundColor = 'navbar-write';
+                $scope.jumbotronBackgroundColor = 'bg-write';
+                $scope.currentPage = 'write';
+                break;
+            case $scope.pageLinks.fedora:
+                $scope.navigationBackgroundColor = 'navbar-fedora';
+                $scope.jumbotronBackgroundColor = 'bg-fedora';
+                $scope.currentPage = 'fedora';
+                break;
+            case $scope.pageLinks.emma:
+                $scope.navigationBackgroundColor = 'navbar-emma';
+                $scope.jumbotronBackgroundColor = 'bg-emma';
+                $scope.currentPage = 'emma';
+                break;
+            case $scope.pageLinks.village:
+                $scope.navigationBackgroundColor = 'navbar-village';
+                $scope.jumbotronBackgroundColor = 'bg-village';
+                $scope.currentPage = 'village';
                 break;
             default:
-                $scope.navigationBackgroundColor = 'navbar-default';
-                $scope.jumbotronBackgroundColor = '';
+                $scope.navigationBackgroundColor = 'navbar-inverse';
+                $scope.jumbotronBackgroundColor = 'bg-main';
                 $scope.currentPage = 'main';
                 break;
         }
@@ -48,13 +71,19 @@ angular.module('app.controllers', [
     };
     $scope.isCollapsed = true;
 }).controller('MainController', function($scope) {
-    $scope.message = 'test';
+    $scope.message = 'main oh man';
 
-}).controller('TravelerController', function($scope) {
-    $scope.message = 'test';
+}).controller('TravelController', function($scope) {
+    $scope.message = 'travel ahoy!';
+    
+}).controller('WriteController', function($scope) {
+    $scope.message = 'writeon!';
 
-}).controller('DeveloperController', function($scope) {
-    $scope.message = 'test';
+}).controller('HackController', function($scope) {
+    $scope.message = 'hack on this!';
+    
+}).controller('FedoraController', function($scope) {
+    $scope.message = 'i am the fedora in the machine';
     
 //     $scope.project = {
 //         'title': 'WriteOn',
