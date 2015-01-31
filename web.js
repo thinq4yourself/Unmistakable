@@ -1,4 +1,9 @@
-require('nodetime');
+if(process.env.NODETIME_ACCOUNT_KEY) {
+  require('nodetime').profile({
+    accountKey: process.env.NODETIME_ACCOUNT_KEY,
+    appName: 'Unmistakable Website'
+  });
+}
 require('newrelic');
 var gzippo = require('gzippo');
 var express = require('express');

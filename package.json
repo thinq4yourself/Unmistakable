@@ -1,15 +1,15 @@
 {
-  "name": "instigator-website",
+  "name": "unmistakable-website",
   "version": "0.2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:thinq4yourself/Instigator-Website.git"
+    "url": "git@github.com:thinq4yourself/Unmistakable-Website.git"
   },
   "authors": {
     "name": "Joel Serino",
     "web": "http://thinq4yourself.com"
   },
-  "description": "In every instigator's life, there is a thorn. Managing web presence is one of mine. ",
+  "description": "In every traveling family's life, there is a thorn. Managing web presence is one of ours. ",
   "keywords": [
     "angular",
     "angularjs",
@@ -25,7 +25,7 @@
     "dist",
     "newrelic.js"
   ],
-  "homepage": "http://thinq4yourself.com",
+  "homepage": "http://unmistakable.us",
   "dependencies": {
     "morgan": "~1.5.1",
     "gzippo": "~0.2.0",
