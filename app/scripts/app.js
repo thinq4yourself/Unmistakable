@@ -27,7 +27,7 @@ angular.module('passionDrivenPortfolio', [
         var routes, setRoutes;
         $locationProvider.html5Mode(true);
         routes = [
-            'main', 'travel', 'write', 'hack', 'fedora', 'unmistakable', 'thinq4yourself', 
+            'main', 'travel', 'write', 'hack', 'educate', 'fedora', 'unmistakable', 'thinq4yourself', 
             'mom', 'dad', 'daughter', 
             '404', 'main_legacy',
         ];
@@ -50,6 +50,12 @@ angular.module('passionDrivenPortfolio', [
         return $routeProvider
         .when('/', {
             redirectTo: '/main'
+        }).when('/mom', {
+            redirectTo: '/educate'
+        }).when('/dad', {
+            redirectTo: '/hack'
+        }).when('/daughter', {
+            redirectTo: '/educate'
         }).otherwise({
             redirectTo: '/404'
         });

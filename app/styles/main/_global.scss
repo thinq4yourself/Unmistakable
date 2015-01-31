@@ -103,6 +103,12 @@ font-size: 28px;
     a.thumbnail {
         @extend .visible-xs-inline-block;
         @extend .visible-sm-inline-block;
+        background-color: transparent;
+        border: none;
+        border-radius: inherit;
+            &img {
+                width: 150px;
+            }
     }
     
     .content {

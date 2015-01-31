@@ -14,11 +14,12 @@ angular.module('app.controllers', [
     $scope.linkPrefix = '';
     $scope.pageLinks = {
         'base': '/main',
+        'family': '/family',
         'travel': '/travel',
+        'educate': '/educate',
         'write': '/write',
         'hack': '/hack',
-        'fedora': '/fedora',
-        'unmistakable': '/unmistakable'
+        'thinq4yourself': '/thinq4yourself'
     };
     
     $scope.$on('$locationChangeStart', function() {
@@ -29,31 +30,31 @@ angular.module('app.controllers', [
                 $scope.jumbotronBackgroundColor = 'bg-travel';
                 $scope.currentPage = 'travel';
                 break;
-            case $scope.pageLinks.hack:
-                $scope.navigationBackgroundColor = 'navbar-hack';
-                $scope.jumbotronBackgroundColor = 'bg-hack';
-                $scope.currentPage = 'hack';
-                $scope.livitDocVideo = 'Ss5yPN4s8lY';
+            case $scope.pageLinks.educate:
+                $scope.navigationBackgroundColor = 'navbar-educate';
+                $scope.jumbotronBackgroundColor = 'bg-educate';
+                $scope.currentPage = 'educate';
                 break;
             case $scope.pageLinks.write:
                 $scope.navigationBackgroundColor = 'navbar-write';
                 $scope.jumbotronBackgroundColor = 'bg-write';
                 $scope.currentPage = 'write';
                 break;
-            case $scope.pageLinks.fedora:
-                $scope.navigationBackgroundColor = 'navbar-fedora';
-                $scope.jumbotronBackgroundColor = 'bg-fedora';
-                $scope.currentPage = 'fedora';
+            case $scope.pageLinks.hack:
+                $scope.navigationBackgroundColor = 'navbar-hack';
+                $scope.jumbotronBackgroundColor = 'bg-hack';
+                $scope.currentPage = 'hack';
+                $scope.livitDocVideo = 'Ss5yPN4s8lY';
                 break;
-            case $scope.pageLinks.emma:
-                $scope.navigationBackgroundColor = 'navbar-emma';
-                $scope.jumbotronBackgroundColor = 'bg-emma';
-                $scope.currentPage = 'emma';
+            case $scope.pageLinks.family:
+                $scope.navigationBackgroundColor = 'navbar-family';
+                $scope.jumbotronBackgroundColor = 'bg-family';
+                $scope.currentPage = 'family';
                 break;
-            case $scope.pageLinks.village:
-                $scope.navigationBackgroundColor = 'navbar-village';
-                $scope.jumbotronBackgroundColor = 'bg-village';
-                $scope.currentPage = 'village';
+            case $scope.pageLinks.thinq4yourself:
+                $scope.navigationBackgroundColor = 'navbar-thinq4yourself';
+                $scope.jumbotronBackgroundColor = 'bg-thinq4yourself';
+                $scope.currentPage = 'thinq4yourself';
                 break;
             default:
                 $scope.navigationBackgroundColor = 'navbar-inverse';
@@ -72,7 +73,7 @@ angular.module('app.controllers', [
     };
     $scope.isCollapsed = true;
 }).controller('MainController', function($scope) {
-    $scope.message = 'main oh man';
+    $scope.message = 'main oh main';
 
 }).controller('TravelController', function($scope) {
     $scope.message = 'travel ahoy!';
@@ -81,10 +82,10 @@ angular.module('app.controllers', [
     $scope.message = 'writeon!';
 
 }).controller('HackController', function($scope) {
-    $scope.message = 'hack on this!';
+    $scope.message = 'hacking the planet!';
     
-}).controller('FedoraController', function($scope) {
-    $scope.message = 'i am the fedora in the machine';
+}).controller('EducateController', function($scope) {
+    $scope.message = 'educating those little minds!';
     
 //     $scope.project = {
 //         'title': 'WriteOn',

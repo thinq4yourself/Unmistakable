@@ -1,38 +1,38 @@
 /*
-    Document   : app/styles/main/_travel．scss
+    Document   : app/styles/main/_educate．scss
     Created on : 2015-01-08 10:50 PM
     Author     : yaboi
-    Description: Custom styles for Passion Driven Portfolio:Travel.html
+    Description: Custom styles for Passion Driven Portfolio:educate.html
 */
 
-//== Custom travel.html Styling
+//== Custom educate.html Styling
 //
 //##
-@include navbars-inverse('.navbar-travel', $brand-travel);
-@include bg-variant('.bg-travel', $brand-travel);
+@include navbars-inverse('.navbar-educate', $brand-educate);
+@include bg-variant('.bg-educate', $brand-educate);
 
-.btn-travel {
-    @extend .btn-pomegranate;
+.btn-educate {
+    @extend .btn-wisteria;
 }
 
-.travel {
+.educate {
     .hero {
         a.thumbnail {
             &.active, &:focus, &:hover {
-               border-color: $brand-travel;
+               border-color: $brand-educate;
             }
         }
      
         .content {
             a {
                 &.btn {
-                    @extend .btn-travel;
+                    @extend .btn-educate;
                 }  
             }
         }
         
         &:hover {
-            @extend .navbar-travel;
+            @extend .navbar-educate;
         }
     }
     
