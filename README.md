@@ -1,7 +1,7 @@
-#Instigator Website
+#Unmistakable Website
 
-In every instigator's life, there is a thorn. Managing web presence is one of mine. So I'm tryig a new approach, having my own website not built in a CMS,
-to showcase some of my creative work. Some consider me a technologist, some a growth hacker. I am neither.
+In every traveling family's life, there is a thorn. Managing web presence is one of ours. So we're trying a new approach, having our own website not built in a CMS,
+to showcase some of our creative work and story telling. Some consider me a technologist, some a growth hacker. I am neither.
 
 ## Overview
 

@@ -13,7 +13,7 @@
 @include bg-variant('.bg-write', $brand-write);
 
 .btn-write {
-    @extend .btn-emerald;
+    @extend .btn-nephritis;
 }
 
 .write {
@@ -33,7 +33,7 @@
         }
         
         &:hover {
-            @extend .bg-write;
+            @extend .navbar-write;
         }
     }
     

@@ -16,6 +16,7 @@ angular.module('passionDrivenPortfolio', [
     'ngTouch',
     'ui.bootstrap',
     'ngFitText',
+    'youtube-embed',
     'app.controllers'
 
 ]).config([
@@ -26,7 +27,8 @@ angular.module('passionDrivenPortfolio', [
         var routes, setRoutes;
         $locationProvider.html5Mode(true);
         routes = [
-            'main', 'travel', 'write', 'hack', 'fedora', 'unmistakable',
+            'main', 'travel', 'write', 'hack', 'fedora', 'unmistakable', 'thinq4yourself', 
+            'mom', 'dad', 'daughter', 
             '404', 'main_legacy',
         ];
     

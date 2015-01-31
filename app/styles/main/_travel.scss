@@ -15,7 +15,7 @@
     @extend .btn-pomegranate;
 }
 
-.traveler {
+.travel {
     .hero {
         a.thumbnail {
             &.active, &:focus, &:hover {
@@ -32,7 +32,7 @@
         }
         
         &:hover {
-            @extend .bg-travel;
+            @extend .navbar-travel;
         }
     }
     

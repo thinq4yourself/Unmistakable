@@ -33,6 +33,7 @@ angular.module('app.controllers', [
                 $scope.navigationBackgroundColor = 'navbar-hack';
                 $scope.jumbotronBackgroundColor = 'bg-hack';
                 $scope.currentPage = 'hack';
+                $scope.livitDocVideo = 'Ss5yPN4s8lY';
                 break;
             case $scope.pageLinks.write:
                 $scope.navigationBackgroundColor = 'navbar-write';
