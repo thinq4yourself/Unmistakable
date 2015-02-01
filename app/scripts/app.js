@@ -58,6 +58,10 @@ angular.module('passionDrivenPortfolio', [
             redirectTo: '/hack'
         }).when('/daughter', {
             redirectTo: '/educate'
+        }).when('/fedora', {
+            redirectTo: '/hack'
+        }).when('/thinq4yourself', {
+            redirectTo: '/write'
         }).otherwise({
             redirectTo: '/404'
         });
