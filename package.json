@@ -6,7 +6,7 @@
     "url": "git@github.com:thinq4yourself/Unmistakable-Website.git"
   },
   "authors": {
-    "name": "Joel Serino",
+    "name": "Unmistakable",
     "web": "http://thinq4yourself.com"
   },
   "description": "In every traveling family's life, there is a thorn. Managing web presence is one of ours. ",
@@ -65,7 +65,9 @@
     "karma-phantomjs-launcher": "~0.1.4",
     "karma": "~0.12.25",
     "karma-jasmine": "~0.2.3",
-    "connect-modrewrite": "~0.7.9"
+    "connect-modrewrite": "~0.7.9",
+    "cluster": "~0.7.7",
+    "grunt-bump": "~0.1.0"
   },
   "engines": {
     "node": ">=0.10.0"

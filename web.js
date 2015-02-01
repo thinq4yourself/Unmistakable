@@ -5,11 +5,14 @@ if(process.env.NODETIME_ACCOUNT_KEY) {
   });
 }
 require('newrelic');
+var cluster = require('cluster');
 var gzippo = require('gzippo');
 var express = require('express');
 var morgan = require('morgan');
 var serveStatic = require('serve-static');
+var compression = require('compression');
 var app = express();
+
 
 /* this is used to force SSL - required for security */
 // app.use(function(req, res, next) {
@@ -20,6 +23,10 @@ var app = express();
 //         return next();
 //     }
 // });
+// 
+
+// Use gzip compression
+app.use(compression());
 
 /* a badass express based router middleware (rewrites) for html5Mode angular apps - fedora style */
 app.use(serveStatic(__dirname + '/dist'));

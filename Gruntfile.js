@@ -332,7 +332,7 @@ module.exports = function(grunt) {
             server: ['compass:server'],
             test: ['compass'],
             dist: ['compass:dist', 'imagemin', 'svgmin']
-        }
+        },
         //Comment out Karma until it's actually in use.
         // Test settings
         //     karma: {
@@ -341,6 +341,24 @@ module.exports = function(grunt) {
         //         singleRun: true
         //       }
         //     }
+
+        bump: {
+            options: {
+                files: ['package.json', 'bower.json'],
+                updateConfigs: [],
+                commit: true,
+                commitMessage: 'Release v%VERSION%',
+                commitFiles: ['-a'],
+                createTag: true,
+                tagName: 'v%VERSION%',
+                tagMessage: 'Version %VERSION%',
+                push: true,
+                pushTo: 'upstream',
+                gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
+                globalReplace: false
+            }
+        }
+
     });
     grunt.registerTask('serve', 'Compile then start a connect web server', function(target) {
         if(target === 'dist') {
@@ -351,4 +369,5 @@ module.exports = function(grunt) {
     grunt.registerTask('test', ['clean:server', 'concurrent:test', 'autoprefixer', 'connect:test', 'karma']);
     grunt.registerTask('build', ['clean:dist', 'wiredep', 'useminPrepare', 'concurrent:dist', 'autoprefixer', 'concat', 'ngAnnotate', 'copy:dist', 'cdnify', 'cssmin', 'uglify', 'filerev', 'usemin', 'htmlmin']);
     grunt.registerTask('default', ['newer:jshint', 'test', 'build']);
+    grunt.loadNpmTasks('grunt-bump');
 };
