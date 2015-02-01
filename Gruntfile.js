@@ -22,10 +22,10 @@ module.exports = function(grunt) {
     };
     // set some fallback for rewrite issues
     var _on404 = [];
-    _on404.push(['/main', _sendIndex]);
-    _on404.push(['/developer', _sendIndex]);
-    _on404.push(['/traveler', _sendIndex]);
-    _on404.push(['/resume', _sendIndex]);
+    _on404.push(['/home', _sendIndex]);
+    _on404.push(['/travel', _sendIndex]);
+    _on404.push(['/educate', _sendIndex]);
+    _on404.push(['/hack', _sendIndex]);
     //_on404.push(['/xyz/', _sendIndex]); // trailing slash will map to an id
     // Define the configuration for all the tasks
     grunt.initConfig({
