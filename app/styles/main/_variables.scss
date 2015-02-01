@@ -42,6 +42,7 @@ $concrete:                  #95a5a6 !default;
 $asbestos:                  #7f8c8d !default;
 
 // Grays
+$black:                     #000 !default;
 $gray-base:                 #000 !default;
 $gray-darker:               lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:                 lighten($gray-base, 20%) !default;   // #333
@@ -63,9 +64,9 @@ $brand-danger:              $alizarin !default;
 $brand-info:                $peter-river !default;
 $brand-travel:              $alizarin !default;
 $brand-hack:                $peter-river !default;
-$brand-write:               $emerald !default;
+$brand-write:               $orange !default;
 $brand-educate:             $amethyst !default;
-$brand-main:                $midnight-blue !default;
+$brand-home:                $midnight-blue !default;
 
 //== Scaffolding
 //

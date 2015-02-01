@@ -1,16 +1,16 @@
 /*
-    Document   : app/styles/main/_main．scss
+    Document   : app/styles/main/_home．scss
     Created on : 2014-12-08 11:12 PM
     Author     : yaboi
-    Description: Custom styles for Passion Driven Portfolio:Main.html
+    Description: Custom styles for Passion Driven Portfolio:home.html
     Version    : 1.0.0
 */
 
-//== Custom Main.html Styling
+//== Custom home.html Styling
 //
 //##
-@include navbars-inverse('.navbar-main', $brand-main);
-@include bg-variant('.bg-main', $brand-main);
+@include navbars-inverse('.navbar-home', $brand-home);
+@include bg-variant('.bg-home', $brand-home);
 
 .content {
     .overview {

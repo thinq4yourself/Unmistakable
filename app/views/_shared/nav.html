@@ -13,16 +13,16 @@
                 </a>
             </div>
             <div class="navbar-collapse" collapse="isCollapsed">
-                <ul class="nav navbar-nav navbar-right">
-                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.base}}" ng-click="isCollapsed = !isCollapsed">Home</a>
+                <ul ng-if="!inverse" class="nav navbar-nav navbar-right">
+                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.base}}">Home</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.travel}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.travel}}" ng-click="isCollapsed = !isCollapsed">Travel</a>
+                    <li ng-class="{active: isActive('{{pageLinks.travel}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.travel}}">Travel</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.educate}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.educate}}" ng-click="isCollapsed = !isCollapsed">Educate</a>
+                    <li ng-class="{active: isActive('{{pageLinks.educate}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.educate}}">Educate</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.write}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.write}}" ng-click="isCollapsed = !isCollapsed">Write</a>
+                    <li ng-class="{active: isActive('{{pageLinks.write}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.write}}">Write</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.hack}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.hack}}" ng-click="isCollapsed = !isCollapsed">Hack</a>
+                    <li ng-class="{active: isActive('{{pageLinks.hack}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.hack}}">Hack</a>
                     </li>
                 </ul>
             </div>

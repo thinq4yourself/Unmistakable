@@ -13,7 +13,7 @@ angular.module('app.controllers', [
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
-        'base': '/main',
+        'base': '/home',
         'family': '/family',
         'travel': '/travel',
         'educate': '/educate',
@@ -58,13 +58,14 @@ angular.module('app.controllers', [
                 break;
             default:
                 $scope.navigationBackgroundColor = 'navbar-inverse';
-                $scope.jumbotronBackgroundColor = 'bg-main';
-                $scope.currentPage = 'main';
+                $scope.jumbotronBackgroundColor = 'bg-home';
+                $scope.currentPage = 'home';
                 break;
         }
         
         var elm = document.getElementById('body');
         if (elm !== null){ anchorSmoothScroll.scrollTo(elm); }
+        $scope.isCollapsed = true;
     });
     
 }).controller('HeaderController', function($scope, $location) {
@@ -72,8 +73,8 @@ angular.module('app.controllers', [
         return viewLocation === $location.path();
     };
     $scope.isCollapsed = true;
-}).controller('MainController', function($scope) {
-    $scope.message = 'main oh main';
+}).controller('HomeController', function($scope) {
+    $scope.message = 'home sweet home';
 
 }).controller('TravelController', function($scope) {
     $scope.message = 'travel ahoy!';

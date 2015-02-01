@@ -32,10 +32,11 @@
         }
         
         &:hover {
-            @extend .navbar-educate;
+            @extend .navbar-silver;
         }
+        
     }
-    
+
     /* Small devices */
     @media (min-width: $screen-sm-min) {
         
