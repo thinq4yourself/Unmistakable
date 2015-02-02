@@ -17,6 +17,9 @@ angular.module('passionDrivenPortfolio', [
     'ui.bootstrap',
     'ngFitText',
     'youtube-embed',
+    'angulartics', 
+    'angulartics.google.analytics',
+    'angulartics.google.tagmanager',
     'app.controllers'
 
 ]).config([
