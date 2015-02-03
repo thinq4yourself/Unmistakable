@@ -9,11 +9,11 @@
 //
 //##
 
-@include navbars-inverse('.navbar-write', $brand-write);
+@include navbars-inverse('.navbar-write', $nephritis);
 @include bg-variant('.bg-write', $brand-write);
 
 .btn-write {
-    @extend .btn-sun-flower;
+    @extend .btn-nephritis;
 }
 
 .write {
@@ -33,7 +33,7 @@
         }
         
         &:hover {
-            @extend .navbar-write;
+            @extend .bg-write;
         }
     }
     

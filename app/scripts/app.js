@@ -17,9 +17,6 @@ angular.module('passionDrivenPortfolio', [
     'ui.bootstrap',
     'ngFitText',
     'youtube-embed',
-    'angulartics', 
-    'angulartics.google.analytics',
-    'angulartics.google.tagmanager',
     'app.controllers'
 
 ]).config([
@@ -30,7 +27,7 @@ angular.module('passionDrivenPortfolio', [
         var routes, setRoutes;
         $locationProvider.html5Mode(true);
         routes = [
-            'main', 'home', 'travel', 'write', 'hack', 'educate', 'fedora', 'unmistakable', 'thinq4yourself', 
+            'main', 'home', 'travel', 'write', 'create', 'hack', 'educate', 'fedora', 'unmistakable', 'thinq4yourself', 
             'mom', 'dad', 'daughter', 
             '404', 'main_legacy',
         ];
@@ -65,6 +62,8 @@ angular.module('passionDrivenPortfolio', [
             redirectTo: '/hack'
         }).when('/thinq4yourself', {
             redirectTo: '/write'
+        }).when('/create', {
+            redirectTo: '/hack'
         }).otherwise({
             redirectTo: '/404'
         });

@@ -58,6 +58,9 @@ h1, .h1, h2, .h2, h3, .h3 {
         border-color: $navbar-inverse-border;
     }
 }
+.nav-icon {
+    max-width: 50px;
+}
 
 .jumbotron { 
     margin-bottom: 0;

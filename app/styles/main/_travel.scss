@@ -8,7 +8,7 @@
 //== Custom travel.html Styling
 //
 //##
-@include navbars-inverse('.navbar-travel', $brand-travel);
+@include navbars-inverse('.navbar-travel', $pomegranate);
 @include bg-variant('.bg-travel', $brand-travel);
 
 .btn-travel {
@@ -32,7 +32,7 @@
         }
         
         &:hover {
-            @extend .navbar-travel;
+            @extend .bg-travel;
         }
     }
     

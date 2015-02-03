@@ -22,6 +22,14 @@ angular.module('app.controllers', [
         'hack': '/hack',
         'thinq4yourself': '/thinq4yourself'
     };
+    $scope.blogLinks = {
+        'travel': 'https://medium.com/an-unmistakable-journey',
+        'educate': 'https://medium.com/a-global-village',
+        'write': 'https://medium.com/think-for-yourself',
+        'mom': 'http://emmaserino.tumblr.com/',
+        'dad': 'https://medium.com/@thinq4yourself',
+        'family': 'https://medium.com/@Unmistakable'
+    };
     
     $scope.$on('$locationChangeStart', function() {
         
@@ -30,21 +38,25 @@ angular.module('app.controllers', [
                 $scope.navigationBackgroundColor = 'navbar-travel';
                 $scope.jumbotronBackgroundColor = 'bg-travel';
                 $scope.currentPage = 'travel';
+                $scope.blogLink = 'https://medium.com/an-unmistakable-journey'
                 break;
             case $scope.pageLinks.educate:
                 $scope.navigationBackgroundColor = 'navbar-educate';
                 $scope.jumbotronBackgroundColor = 'bg-educate';
                 $scope.currentPage = 'educate';
+                $scope.blogLink = 'https://medium.com/a-global-village';
                 break;
             case $scope.pageLinks.write:
                 $scope.navigationBackgroundColor = 'navbar-write';
                 $scope.jumbotronBackgroundColor = 'bg-write';
                 $scope.currentPage = 'write';
+                $scope.blogLink = 'https://medium.com/think-for-yourself';
                 break;
             case $scope.pageLinks.hack:
                 $scope.navigationBackgroundColor = 'navbar-hack';
                 $scope.jumbotronBackgroundColor = 'bg-hack';
                 $scope.currentPage = 'hack';
+                $scope.blogLink = 'https://medium.com/@thinq4yourself';
                 $scope.livitDocVideo = 'Ss5yPN4s8lY';
                 break;
             case $scope.pageLinks.family:

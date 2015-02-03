@@ -8,7 +8,7 @@
 //== Custom educate.html Styling
 //
 //##
-@include navbars-inverse('.navbar-educate', $brand-educate);
+@include navbars-inverse('.navbar-educate', $wisteria);
 @include bg-variant('.bg-educate', $brand-educate);
 
 .btn-educate {
