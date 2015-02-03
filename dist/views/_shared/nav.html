@@ -22,7 +22,19 @@
                     </li>
                     <li ng-class="{active: isActive('{{pageLinks.write}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.write}}" value="TopNav Write" analytics-on>Write</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.hack}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.hack}}" value="TopNav Hack" analytics-on>Hack</a>
+                    <li ng-class="{active: isActive('{{pageLinks.hack}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.hack}}" value="TopNav Hack" analytics-on>Create</a>
+                    </li>
+                    <li class="dropdown">
+                      <a data-ng-href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a data-ng-href="{{linkPrefix}}{{blogLinks.travel}}" target="_blank" value="TopNav Blog: An Unmistakable Journey" analytics-on><img class="nav-icon" src="images/icons/svg/map.117ce8be.svg"> Travel Blog</a></li>
+                        <li><a data-ng-href="{{linkPrefix}}{{blogLinks.educate}}" target="_blank" value="TopNav Blog: A Global Village" analytics-on><img class="nav-icon" src="images/icons/svg/flask.9d458562.svg"> Educate Blog</a></li>
+                        <li><a data-ng-href="{{linkPrefix}}{{blogLinks.write}}" target="_blank" value="TopNav Blog: Think For Yourself" analytics-on><img class="nav-icon" src="images/icons/svg/pencil.cf92509f.svg"> Story Blog</a></li>
+                        <li class="divider"></li>
+                        <li><a data-ng-href="{{linkPrefix}}{{blogLinks.mom}}" target="_blank" value="TopNav Blog: Mom's Blog" analytics-on><img class="nav-icon" src="images/icons/svg/tent.7e77db78.svg"> Mom's Blog</a></li>
+                        <li><a data-ng-href="{{linkPrefix}}{{blogLinks.dad}}" target="_blank" value="TopNav Blog: Dad's Blog" analytics-on><img class="nav-icon" src="images/icons/svg/submarine.5f48cdb1.svg"> Dad's Blog</a></li>
+                        <li><a data-ng-href="{{linkPrefix}}{{blogLinks.family}}" target="_blank" value="TopNav Blog: Unmistakable Travels" analytics-on><img class="nav-icon" src="images/icons/svg/infinity-loop.7a69ffad.svg"> Family Blog</a></li>
+                      </ul>
                     </li>
                 </ul>
             </div>
