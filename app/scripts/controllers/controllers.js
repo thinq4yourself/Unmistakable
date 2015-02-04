@@ -10,7 +10,7 @@ angular.module('app.controllers', [
     
 ]).controller('PassionDrivenController', function($scope, $location, anchorSmoothScroll) {
     $scope.brand = 'Unmistakable.';
-    $scope.version = '0.2.9';
+    $scope.version = '1.2.12';
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
