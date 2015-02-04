@@ -25,6 +25,9 @@ var app = express();
 // });
 // 
 
+/* a badass prerender engine for Angular apps - prerender.io style */
+app.use(require('prerender-node').set('prerenderToken', 'process.env.PRERENDER_TOKEN'));
+
 // Use gzip compression
 app.use(compression());
 
