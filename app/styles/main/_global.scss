@@ -90,6 +90,27 @@ font-size: 28px;
 //
 //##
 
+/* Navbar */
+.navbar-logo {
+  border-radius: 100%;
+  background-color: rgba(0,0,0,.4);
+  width: 66px;
+  height: 66px;
+  padding: 2px 9px;
+  margin-top: 2px;
+}
+
+.navbar-logo .nav-icon {
+  margin: 5px auto;
+  display: block;
+}
+
+
+.navbar-lg .navbar-brand {
+  padding-top: 3px;
+}
+
+
 /* Hero */
 .hero {
     @extend .padding-vertical-md;
@@ -177,15 +198,25 @@ font-size: 28px;
 
 /* Small devices */
 @media (min-width: $screen-sm-min) {
-    
+    /* Navbar */
+    .navbar-logo {
+    margin-top: 2px;
+    }    
 }
 
 /* Medium devices */
 @media (min-width: $screen-md-min) { 
-    
+    /* Navbar */
+    .navbar-logo {
+        margin-top: 6px;
+    }    
 }
 
 /* Large devices */
 @media (min-width: $screen-lg-min) { 
+    /* Navbar */
+    .navbar-logo {
+        margin-top: 8px;
+    }    
 
 }
