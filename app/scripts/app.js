@@ -29,7 +29,7 @@ angular.module('passionDrivenPortfolio', [
         routes = [
             'main', 'home', 'travel', 'write', 'create', 'hack', 'educate', 'fedora', 'unmistakable', 'thinq4yourself', 
             'mom', 'dad', 'daughter', 
-            '404', 'main_legacy',
+            '404', 'main_legacy', 'uncopyright'
         ];
     
         setRoutes = function(route) {

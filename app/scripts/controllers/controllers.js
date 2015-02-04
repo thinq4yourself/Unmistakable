@@ -20,15 +20,16 @@ angular.module('app.controllers', [
         'educate': '/educate',
         'write': '/write',
         'hack': '/hack',
-        'thinq4yourself': '/thinq4yourself'
+        'thinq4yourself': '/thinq4yourself',
+        'uncopyright': '/uncopyright'
     };
     $scope.blogLinks = {
-        'travel': 'https://medium.com/an-unmistakable-journey',
+        'travel': 'https://maptia.com/unmistakable',
         'educate': 'https://medium.com/a-global-village',
         'write': 'https://medium.com/think-for-yourself',
         'mom': 'http://emmaserino.tumblr.com/',
         'dad': 'https://medium.com/@thinq4yourself',
-        'family': 'https://medium.com/@Unmistakable'
+        'family': 'https://medium.com/an-unmistakable-journey'
     };
     
     $scope.$on('$locationChangeStart', function() {
@@ -69,6 +70,11 @@ angular.module('app.controllers', [
                 $scope.jumbotronBackgroundColor = 'bg-thinq4yourself';
                 $scope.currentPage = 'thinq4yourself';
                 break;
+            case $scope.pageLinks.uncopyright:
+                $scope.navigationBackgroundColor = 'navbar-green-sea';
+                $scope.jumbotronBackgroundColor = 'bg-turquoise';
+                $scope.currentPage = 'uncopyright';
+                break;
             default:
                 $scope.navigationBackgroundColor = 'navbar-inverse';
                 $scope.jumbotronBackgroundColor = 'bg-home';
@@ -100,7 +106,10 @@ angular.module('app.controllers', [
     
 }).controller('EducateController', function($scope) {
     $scope.message = 'educating those little minds!';
-    
+
+    }).controller('LegalController', function($scope) {
+    $scope.message = 'blah blah blah legal schmegal - we are open culture!';
+
 //     $scope.project = {
 //         'title': 'WriteOn',
 //         'description': '<a href="http://writeon.io/" target="_blank">WriteOn</a> is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.',
