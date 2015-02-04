@@ -1,6 +1,6 @@
 {
   "name": "unmistakable-website",
-  "version": "1.2.12",
+  "version": "1.2.13",
   "dependencies": {
     "angular": "^1.3.0",
     "angular-bootstrap": "~0.11.2",
