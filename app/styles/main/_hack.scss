@@ -46,6 +46,9 @@
             @extend .bg-hack;
         }
     }
+.jumbotron {
+    .underline {border-color: #2677ac;}
+}
     
     /* Open Source Everything!!! */
     .open-source {

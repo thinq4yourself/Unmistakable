@@ -10,7 +10,9 @@ angular.module('app.controllers', [
     
 ]).controller('PassionDrivenController', function($scope, $location, anchorSmoothScroll) {
     $scope.brand = 'Unmistakable.';
-    $scope.version = '1.2.13';
+    $scope.fullbrand = 'Unmistakable Travels';
+    $scope.tagline = 'Exploring, writing, traveling, backpacking, educating, creating — as a family.';
+    $scope.version = '1.2.14';
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
@@ -40,6 +42,7 @@ angular.module('app.controllers', [
                 $scope.jumbotronBackgroundColor = 'bg-travel';
                 $scope.currentPage = 'travel';
                 $scope.blogLink = 'https://medium.com/an-unmistakable-journey'
+                $scope.travel = true;
                 break;
             case $scope.pageLinks.educate:
                 $scope.navigationBackgroundColor = 'navbar-educate';
@@ -52,6 +55,7 @@ angular.module('app.controllers', [
                 $scope.jumbotronBackgroundColor = 'bg-write';
                 $scope.currentPage = 'write';
                 $scope.blogLink = 'https://medium.com/think-for-yourself';
+                $scope.write = true;
                 break;
             case $scope.pageLinks.hack:
                 $scope.navigationBackgroundColor = 'navbar-hack';
