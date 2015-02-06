@@ -31,7 +31,8 @@ angular.module('app.controllers', [
         'write': 'https://medium.com/think-for-yourself',
         'mom': 'http://emmaserino.tumblr.com/',
         'dad': 'https://medium.com/@thinq4yourself',
-        'family': 'https://medium.com/an-unmistakable-journey'
+        'family': 'https://medium.com/an-unmistakable-journey',
+        'twitter': 'https://twitter.com/BeUnmistakable'
     };
     
     $scope.$on('$locationChangeStart', function() {
