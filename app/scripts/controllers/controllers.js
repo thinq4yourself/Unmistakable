@@ -23,7 +23,8 @@ angular.module('app.controllers', [
         'write': '/write',
         'hack': '/hack',
         'thinq4yourself': '/thinq4yourself',
-        'uncopyright': '/uncopyright'
+        'uncopyright': '/uncopyright',
+        'crystals': '/crystals'
     };
     $scope.blogLinks = {
         'travel': 'https://maptia.com/unmistakable',
@@ -75,6 +76,11 @@ angular.module('app.controllers', [
                 $scope.jumbotronBackgroundColor = 'bg-thinq4yourself';
                 $scope.currentPage = 'thinq4yourself';
                 break;
+            case $scope.pageLinks.crystals:
+                $scope.navigationBackgroundColor = 'navbar-crystals';
+                $scope.jumbotronBackgroundColor = 'bg-crystals';
+                $scope.currentPage = 'crystals';
+                break;
             case $scope.pageLinks.uncopyright:
                 $scope.navigationBackgroundColor = 'navbar-green-sea';
                 $scope.jumbotronBackgroundColor = 'bg-turquoise';
@@ -98,22 +104,25 @@ angular.module('app.controllers', [
     };
     $scope.isCollapsed = true;
 }).controller('HomeController', function($scope) {
-    $scope.message = 'home sweet home';
+    $scope.message = 'Home sweet home';
 
 }).controller('TravelController', function($scope) {
-    $scope.message = 'travel ahoy!';
+    $scope.message = 'Travel ahoy!';
     
 }).controller('WriteController', function($scope) {
-    $scope.message = 'writeon!';
+    $scope.message = 'WriteOn!';
 
 }).controller('HackController', function($scope) {
-    $scope.message = 'hacking the planet!';
+    $scope.message = 'Hacking the planet!';
     
 }).controller('EducateController', function($scope) {
-    $scope.message = 'educating those little minds!';
+    $scope.message = 'Educating those brilliant little minds!';
 
-    }).controller('LegalController', function($scope) {
-    $scope.message = 'blah blah blah legal schmegal - we are open culture!';
+}).controller('CrystalController', function($scope) {
+    $scope.message = 'We are the children of the Indigo and the Crystal! All your mayhem are belong to us.';
+
+}).controller('LegalController', function($scope) {
+    $scope.message = 'Blah blah blah legal schmegal - we are open culture!';
 
 //     $scope.project = {
 //         'title': 'WriteOn',

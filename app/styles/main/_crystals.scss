@@ -1,0 +1,74 @@
+/*
+    Document   : app/styles/main/_crystals．scss
+    Created on : 2014-2-11 04:39 PM
+    Author     : yaboi
+    Description: Custom styles for Passion Driven Portfolio:crystals.html
+    Version    : 1.0.0
+*/
+
+//== Custom crystals.html Styling
+//
+//##
+@include navbars-inverse('.navbar-crystals', $orange);
+@include bg-variant('.bg-crystals', $brand-crystals);
+
+.btn-crystals {
+    @extend .btn-orange;
+}
+
+.crystals {    
+    /* Wheelhouse */
+    .wheelhouse {
+        @extend .padding-vertical-lg;
+    
+        .media {
+            margin-top: 25px;    
+        }
+    }
+
+    /* Projects */
+    .hero {
+        a.thumbnail {
+            &.active, &:focus, &:hover {
+               border-color: $brand-crystals;
+            }
+        }
+     
+        .content {
+            a {
+                &.btn {
+                    @extend .btn-crystals;
+                }  
+            }
+        }
+        
+        &:hover {
+            @extend .bg-crystals;
+              color: #000;
+        }
+    }
+.jumbotron {
+    .underline {border-color: $orange;}
+}
+    
+    /* Open Source Everything!!! */
+    .open-source {
+        @extend .padding-vertical-lg;
+        @extend .text-center;
+    }
+    
+    /* Small devices */
+    @media (min-width: $screen-sm-min) {
+        
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) { 
+        
+    }
+    
+    /* Large devices */
+    @media (min-width: $screen-lg-min) { 
+    
+    }
+}
