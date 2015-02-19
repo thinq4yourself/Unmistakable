@@ -17,11 +17,13 @@ angular.module('app.controllers', [
     $scope.linkPrefix = '';
     $scope.pageLinks = {
         'base': '/home',
+        'home': '/home',
         'family': '/family',
         'travel': '/travel',
         'educate': '/educate',
         'write': '/write',
         'hack': '/hack',
+        'create': '/create',
         'thinq4yourself': '/thinq4yourself',
         'uncopyright': '/uncopyright',
         'crystals': '/crystals'
