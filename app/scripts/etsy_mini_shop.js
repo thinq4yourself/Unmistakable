@@ -1,5 +1,6 @@
 /* jshint ignore:start */
 
+var Etsy;
 Etsy = typeof(Etsy)=="undefined" ? {} : Etsy;
 
 Etsy.Mini = function(shop_id, image_type, columns, rows, is_featured, base_url) {

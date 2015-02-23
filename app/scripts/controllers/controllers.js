@@ -47,7 +47,7 @@ angular.module('app.controllers', [
                 $scope.navigationBackgroundColor = 'navbar-travel';
                 $scope.jumbotronBackgroundColor = 'bg-travel';
                 $scope.currentPage = 'travel';
-                $scope.blogLink = 'https://medium.com/an-unmistakable-journey'
+                $scope.blogLink = 'https://medium.com/an-unmistakable-journey';
                 $scope.travel = true;
                 break;
             case $scope.pageLinks.educate:
