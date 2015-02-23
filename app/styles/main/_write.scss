@@ -9,11 +9,11 @@
 //
 //##
 
-@include navbars-inverse('.navbar-write', $nephritis);
+@include navbars-inverse('.navbar-write', $pumpkin);
 @include bg-variant('.bg-write', $brand-write);
 
 .btn-write {
-    @extend .btn-nephritis;
+    @extend .btn-pumpkin;
 }
 
 .write {

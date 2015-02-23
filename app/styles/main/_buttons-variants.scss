@@ -14,6 +14,10 @@
     @include button-variant($btn-default-color, $emerald, $btn-emerald-hover-bg, $btn-emerald-active-bg);
 }
 
+.btn-leaves {
+    @include button-variant($btn-default-color, $leaves, $btn-leaves-hover-bg, $btn-leaves-active-bg);
+}
+
 .btn-nephritis {
     @include button-variant($btn-default-color, $nephritis, $btn-nephritis-hover-bg, $btn-nephritis-active-bg);
 }

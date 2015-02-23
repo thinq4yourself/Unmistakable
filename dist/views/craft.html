@@ -22,15 +22,21 @@
         </div>
     </section>
     <section>
-        <div class="hero">
-            <div class="container">
+        <div class="container padding-vertical-lg">
                 <div class="row">
-                    <div class="col-md-12 content">
-                        <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script><script type='text/javascript'>new Etsy.Mini(9613982,'gallery',5,5,1,'https://www.etsy.com');</script>
+                    <div class="col-md-12 content" id="etsy-mini">
+                        <script type='text/javascript'>new Etsy.Mini(9613982,'gallery',5,5,1,'https://www.etsy.com');</script>
                     </div> 
                 </div>
-            </div>
         </div>
     </section>
-
+    <section class="text-center" data-ng-class="jumbotronBackgroundColor">
+        <div class="jumbotron">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a data-ng-href="{{linkPrefix}}{{blogLinks.craft}}" target="_blank" class="btn btn-wide btn-raised btn-lg" style="padding: 20px 99px; font-size: 22px;" analytics-on>Visit Store on Etsy</a>
+                    </div>
+                </div>
+        </div>
+    </section>
 </div>

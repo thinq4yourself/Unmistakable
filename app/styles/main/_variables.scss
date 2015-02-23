@@ -68,7 +68,7 @@ $brand-info:                $peter-river !default;
 $brand-travel:              $alizarin !default;
 $brand-hack:                $peter-river !default;
 $brand-craft:               $forest !default;
-$brand-write:               $emerald !default;
+$brand-write:               $carrot !default;
 $brand-educate:             $amethyst !default;
 $brand-home:                $midnight-blue !default;
 $brand-crystals:            $sun-flower !default;
@@ -205,6 +205,9 @@ $btn-green-sea-active-bg:    mix($green-sea, black, 85%) !default;
 
 $btn-emerald-hover-bg:       mix($emerald, white, 80%) !default;
 $btn-emerald-active-bg:      mix($emerald, black, 85%) !default;
+
+$btn-leaves-hover-bg:       mix($leaves, white, 80%) !default;
+$btn-leaves-active-bg:      mix($leaves, black, 85%) !default;
 
 $btn-nephritis-hover-bg:     mix($nephritis, white, 80%) !default;
 $btn-nephritis-active-bg:    mix($nephritis, black, 85%) !default;

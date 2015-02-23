@@ -12,7 +12,7 @@ angular.module('app.controllers', [
     $scope.brand = 'Unmistakable.';
     $scope.fullbrand = 'Unmistakable Travels';
     $scope.tagline = 'Exploring, writing, traveling, backpacking, educating, creating — as a family.';
-    $scope.version = '1.2.14';
+    $scope.version = '1.2.16';
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
@@ -128,6 +128,9 @@ angular.module('app.controllers', [
     
 }).controller('EducateController', function($scope) {
     $scope.message = 'Educating those brilliant little minds!';
+
+}).controller('CraftController', function($scope) {
+    $scope.message = 'Artisan Crafts Inspired By Nature.';
 
 }).controller('CrystalController', function($scope) {
     $scope.message = 'We are the children of the Indigo and the Crystal! All your mayhem are belong to us.';

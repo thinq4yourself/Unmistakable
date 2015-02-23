@@ -4,7 +4,9 @@ if(process.env.NODETIME_ACCOUNT_KEY) {
     appName: 'Unmistakable Website'
   });
 }
-require('newrelic');
+if(process.env.NEW_RELIC_LICENSE_KEY) {
+  require('newrelic');
+}
 var cluster = require('cluster');
 var gzippo = require('gzippo');
 var express = require('express');
