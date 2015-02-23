@@ -1,0 +1,54 @@
+/*
+    Document   : app/styles/main/_craft．scss
+    Created on : 2015-01-08 10:50 PM
+    Author     : fedora
+    Description: Custom styles for Passion Driven Portfolio:craft.html
+*/
+
+//== Custom craft.html Styling
+//
+//##
+
+@include navbars-inverse('.navbar-craft', $leaves);
+@include bg-variant('.bg-craft', $brand-craft);
+
+.btn-craft {
+    @extend .btn-leaves;
+}
+
+.craft {
+    .hero {
+        a.thumbnail {
+            &.active, &:focus, &:hover {
+               border-color: $brand-craft;
+            }
+        }
+     
+        .content {
+            a {
+                &.btn {
+                    @extend .btn-craft;
+                }  
+            }
+        }
+        
+        &:hover {
+            @extend .bg-craft;
+        }
+    }
+    
+    /* Small devices */
+    @media (min-width: $screen-sm-min) {
+        
+    }
+    
+    /* Medium devices */
+    @media (min-width: $screen-md-min) { 
+        
+    }
+    
+    /* Large devices */
+    @media (min-width: $screen-lg-min) { 
+    
+    }
+}

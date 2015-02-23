@@ -42,6 +42,9 @@ $silver:                    #bdc3c7 !default;
 $concrete:                  #95a5a6 !default;
 $asbestos:                  #7f8c8d !default;
 
+$forest:                    #7B8816 !default;
+$leaves:                    #8A9A2D !default;
+
 // Grays
 $black:                     #000 !default;
 $gray-base:                 #000 !default;
@@ -53,10 +56,9 @@ $gray-lighter:              lighten($gray-base, 93.5%) !default; // #eee
 $gray-lightest:             lighten($gray-base, 97%) !default; // #f7f7f7
 $inverse:                   white !default;
 
+
 // Brand colors
-
 $primary:                   $wet-asphalt !default;
-
 $brand-primary:             $wet-asphalt !default;
 $brand-secondary:           $turquoise !default;
 $brand-success:             $emerald !default;
@@ -65,6 +67,7 @@ $brand-danger:              $alizarin !default;
 $brand-info:                $peter-river !default;
 $brand-travel:              $alizarin !default;
 $brand-hack:                $peter-river !default;
+$brand-craft:               $forest !default;
 $brand-write:               $emerald !default;
 $brand-educate:             $amethyst !default;
 $brand-home:                $midnight-blue !default;

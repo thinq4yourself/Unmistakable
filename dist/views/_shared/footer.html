@@ -1,7 +1,12 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <ol class="breadcrumb"> <li><a data-ng-href="/" title="Home">Home</a></li> <li><a data-ng-href="/travel" title="Travel">Travel</a></li> <li><a data-ng-href="/educate" title="Educate">Educate</a></li> <li><a data-ng-href="/create" title="Create">Create</a></li> <li><a data-ng-href="/write" title="Write">Write</a></li></ol>
+            <ol class="breadcrumb"> 
+                <li><a data-ng-href="{{linkPrefix}}{{pageLinks.home}}" title="Home" value="TopNav Home" analytics-on>Home</a></li> 
+                <li><a data-ng-href="{{linkPrefix}}{{pageLinks.travel}}" title="We Travel" value="BottomNav Travel" analytics-on>Travel</a></li> 
+                <li><a data-ng-href="{{linkPrefix}}{{pageLinks.educate}}" title="We Educate" value="BottomNav Educate" analytics-on>Educate</a></li> 
+                <li><a data-ng-href="{{linkPrefix}}{{pageLinks.create}}" title="We Create" value="BottomNav Create" analytics-on>Create</a></li> 
+                <li><a data-ng-href="{{linkPrefix}}{{pageLinks.write}}" title="We Write" value="BottomNav Write" analytics-on>Write</a></li></ol>
         </div>
     </div>
     <div class="row">

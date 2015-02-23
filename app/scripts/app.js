@@ -28,7 +28,7 @@ angular.module('passionDrivenPortfolio', [
         var routes, setRoutes;
         $locationProvider.html5Mode(true);
         routes = [
-            'main', 'home', 'travel', 'write', 'create', 'hack', 'educate', 'fedora', 'unmistakable', 'thinq4yourself', 
+            'main', 'home', 'travel', 'write', 'craft', 'create', 'hack', 'educate', 'fedora', 'unmistakable', 'thinq4yourself', 
             'mom', 'dad', 'daughter', 
             '404', 'main_legacy', 'uncopyright', 'crystals'
         ];

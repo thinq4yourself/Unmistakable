@@ -21,6 +21,7 @@ angular.module('app.controllers', [
         'family': '/family',
         'travel': '/travel',
         'educate': '/educate',
+        'craft': '/craft',
         'write': '/write',
         'hack': '/hack',
         'create': '/create',
@@ -31,6 +32,7 @@ angular.module('app.controllers', [
     $scope.blogLinks = {
         'travel': 'https://maptia.com/unmistakable',
         'educate': 'https://medium.com/a-global-village',
+        'craft': 'https://www.etsy.com/shop/EmmaStoneCreations?ref=em',
         'write': 'https://medium.com/think-for-yourself',
         'mom': 'http://emmaserino.tumblr.com/',
         'dad': 'https://medium.com/@thinq4yourself',
@@ -53,6 +55,13 @@ angular.module('app.controllers', [
                 $scope.jumbotronBackgroundColor = 'bg-educate';
                 $scope.currentPage = 'educate';
                 $scope.blogLink = 'https://medium.com/a-global-village';
+                break;
+            case $scope.pageLinks.craft:
+                $scope.navigationBackgroundColor = 'navbar-craft';
+                $scope.jumbotronBackgroundColor = 'bg-craft';
+                $scope.currentPage = 'craft';
+                $scope.blogLink = 'https://www.etsy.com/shop/EmmaStoneCreations?ref=em';
+                $scope.craft = true;
                 break;
             case $scope.pageLinks.write:
                 $scope.navigationBackgroundColor = 'navbar-write';
