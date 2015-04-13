@@ -185,7 +185,7 @@ module.exports = function(grunt) {
         // Renames files for browser caching purposes
         filerev: {
             dist: {
-                src: ['<%= yeoman.dist %>/scripts/{,*/}*.js', '<%= yeoman.dist %>/{,*/}*.js', '<%= yeoman.dist %>/styles/{,*/}*.css', '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}', '<%= yeoman.dist %>/videos/**/*.{mp4,webm,ogv}', '<%= yeoman.dist %>/styles/fonts/*']
+                src: ['<%= yeoman.dist %>/scripts/{,*/}*.js', '<%= yeoman.dist %>/{,*/}*.js', '<%= yeoman.dist %>/styles/{,*/}*.css', '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}', '<%= yeoman.dist %>/styles/fonts/*']
             }
         },
         // Reads HTML for usemin blocks to enable smart builds that automatically
@@ -312,7 +312,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: '<%= yeoman.app %>',
                     dest: '<%= yeoman.dist %>/videos',
-                    src: ['videos/*']
+                    src: ['<%= yeoman.dist %>']
                 }, {
                     expand: true,
                     cwd: '.',
