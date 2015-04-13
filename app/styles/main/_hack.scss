@@ -31,6 +31,7 @@
         a.thumbnail {
             &.active, &:focus, &:hover {
                border-color: $brand-hack;
+				min-width: 150px;
             }
         }
      

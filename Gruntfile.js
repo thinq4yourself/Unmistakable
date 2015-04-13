@@ -61,7 +61,7 @@ module.exports = function(grunt) {
                 options: {
                     livereload: '<%= connect.options.livereload %>'
                 },
-                files: ['<%= yeoman.app %>/{,*/}*.html', '.tmp/styles/{,*/}*.css', '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}']
+                files: ['<%= yeoman.app %>/{,*/}*.html', '.tmp/styles/{,*/}*.css', '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}', '<%= yeoman.app %>/videos/{,*/}*.{mp4,webm,ogv}']
             }
         },
         // The actual grunt server settings
@@ -185,7 +185,7 @@ module.exports = function(grunt) {
         // Renames files for browser caching purposes
         filerev: {
             dist: {
-                src: ['<%= yeoman.dist %>/scripts/{,*/}*.js', '<%= yeoman.dist %>/{,*/}*.js', '<%= yeoman.dist %>/styles/{,*/}*.css', '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}', '<%= yeoman.dist %>/styles/fonts/*']
+                src: ['<%= yeoman.dist %>/scripts/{,*/}*.js', '<%= yeoman.dist %>/{,*/}*.js', '<%= yeoman.dist %>/styles/{,*/}*.css', '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}', '<%= yeoman.dist %>/videos/**/*.{mp4,webm,ogv}', '<%= yeoman.dist %>/styles/fonts/*']
             }
         },
         // Reads HTML for usemin blocks to enable smart builds that automatically
@@ -211,7 +211,7 @@ module.exports = function(grunt) {
             html: ['<%= yeoman.dist %>/**/*.html', '<%= yeoman.dist %>/views/{,*/}*.html'],
             css: ['<%= yeoman.dist %>/styles/**/*.css'],
             options: {
-                assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/images/']
+                assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/images/', '<%= yeoman.dist %>/videos/']
             }
         },
         // The following *-min tasks will produce minified files in the dist folder
@@ -310,6 +310,11 @@ module.exports = function(grunt) {
                     src: ['generated/*']
                 }, {
                     expand: true,
+                    cwd: '<%= yeoman.app %>',
+                    dest: '<%= yeoman.dist %>/videos',
+                    src: ['videos/*']
+                }, {
+                    expand: true,
                     cwd: '.',
                     src: 'bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/*',
                     dest: '<%= yeoman.dist %>'
@@ -331,7 +336,7 @@ module.exports = function(grunt) {
         concurrent: {
             server: ['compass:server'],
             test: ['compass'],
-            dist: ['compass:dist', 'imagemin', 'svgmin']
+            dist: ['compass:dist', 'imagemin','svgmin']
         },
         //Comment out Karma until it's actually in use.
         // Test settings

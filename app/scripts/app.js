@@ -17,6 +17,7 @@ angular.module('passionDrivenPortfolio', [
     'ui.bootstrap',
     'ngFitText',
     'youtube-embed',
+	'ngVidBg',
     'mailchimp',
     'angulartics', 
     'angulartics.google.analytics',

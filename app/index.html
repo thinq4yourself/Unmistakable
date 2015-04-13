@@ -12,7 +12,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes"/>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png" 
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="image_src" href="/images/favicon.png" />
     <link rel="icon" href="/images/favicon.png" /> 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon.png">
@@ -37,6 +37,7 @@
     <link rel="canonical" href="/">
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet"  href="bower_components/angular-video-background/dist/vidBg.min.css">
     <!-- endbuild -->
     <!-- Google Analytics -->
     <script>
@@ -55,7 +56,9 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KT7ZFL');</script>
-    <!-- End Google Tag Manager -->   
+    <!-- End Google Tag Manager --> 
+	<!-- Sumome yo -->
+	<script src="//load.sumome.com/" data-sumo-site-id="0b5ba0b4e8c05609859fb458245aa8a05f6f8f5b65b25b7278bdf2a0ab30b735" async="async"></script>
 </head>
 <body id="body" data-ng-controller="PassionDrivenController">
     <!--[if lt IE 7]>
@@ -90,6 +93,8 @@
     <script src="bower_components/angulartics/dist/angulartics-ga.min.js"></script>
     <script src="bower_components/angulartics/dist/angulartics-gtm.min.js"></script>
     <script src="bower_components/angular-mailchimp/angular-mailchimp.js"></script>
+    <script src="bower_components/lodash/lodash.min.js"></script>
+    <script src="bower_components/angular-video-background/dist/vidBg.min.js"></script>
     <!-- endbuild -->
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>

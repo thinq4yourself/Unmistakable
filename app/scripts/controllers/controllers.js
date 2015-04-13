@@ -37,7 +37,8 @@ angular.module('app.controllers', [
         'mom': 'http://emmaserino.tumblr.com/',
         'dad': 'https://medium.com/@thinq4yourself',
         'family': 'https://medium.com/an-unmistakable-journey',
-        'twitter': 'https://twitter.com/BeUnmistakable'
+        'twitter': 'https://twitter.com/BeUnmistakable',
+        'facebook': 'https://facebook.com/BeUnmistakable'
     };
     
     $scope.$on('$locationChangeStart', function() {
@@ -101,6 +102,16 @@ angular.module('app.controllers', [
                 $scope.navigationBackgroundColor = 'navbar-inverse';
                 $scope.jumbotronBackgroundColor = 'bg-home';
                 $scope.currentPage = 'home';
+				$scope.resources = [
+            		'videos/usa-trip-random-1.webm',
+            		'videos/usa-trip-random-1.mp4',
+            		'videos/usa-trip-random-1.ogv',
+            		'*.swf'
+        		];
+				$scope.poster = '';
+        		$scope.fullScreen = true;
+        		$scope.muted = true;
+        		$scope.zIndex = '22';
                 break;
         }
         

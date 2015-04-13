@@ -23,11 +23,17 @@
                 padding-bottom: 25px;
             }
         }
+		.visuals {
+			img {
+				width:100%;
+			}
+		}
         
         @media (min-width: $screen-sm-min) { 
             .visuals {
                 img {
-                    position: absolute;
+                    display:none;
+					position: absolute;
                     width: 250px;
                     top:-235px;
                     
@@ -55,6 +61,7 @@
                     &.right {
                         right: 0;
                         top: 0;
+						display: block;
                     }
                 }
             }

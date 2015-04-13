@@ -24,6 +24,8 @@ _site
 *.zip
 *~
 *.log
+*.mp4
+*.webm
 
 # OS or Editor folders
 ._*
@@ -51,6 +53,7 @@ validation-status.json
 # Folders to ignore
 /bower_components
 node_modules
+app/videos
 
 # Codio
 .box
