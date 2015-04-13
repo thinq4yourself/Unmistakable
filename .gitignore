@@ -1,7 +1,7 @@
 #app
 #test
 
-dist
+#dist
 #newrelic.js
 
 .tmp
