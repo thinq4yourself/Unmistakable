@@ -12,7 +12,7 @@ angular.module('app.controllers', [
     $scope.brand = 'Unmistakable.';
     $scope.fullbrand = 'Unmistakable Travels';
     $scope.tagline = 'Exploring, writing, traveling, backpacking, educating, creating — as a family.';
-    $scope.version = '1.2.16';
+    $scope.version = '1.2.17';
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
