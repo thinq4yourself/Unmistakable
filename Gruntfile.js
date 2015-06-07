@@ -308,6 +308,11 @@ module.exports = function(grunt) {
                     cwd: '.tmp/images',
                     dest: '<%= yeoman.dist %>/images',
                     src: ['generated/*']
+                },{
+                    expand: true,
+                    cwd: '<%= yeoman.app %>/images/logo',
+                    dest: '<%= yeoman.dist %>/images/logo',
+                    src: ['*.{ico,png,jpg,svg}']
                 }, {
                     expand: true,
                     cwd: '<%= yeoman.app %>',
