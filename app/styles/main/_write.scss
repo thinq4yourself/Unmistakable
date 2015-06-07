@@ -9,11 +9,11 @@
 //
 //##
 
-@include navbars-inverse('.navbar-write', $pumpkin);
+@include navbars-inverse('.navbar-write', $brand-write);
 @include bg-variant('.bg-write', $brand-write);
 
 .btn-write {
-    @extend .btn-pumpkin;
+    @extend .btn-midnight-blue;
 }
 
 .write {

@@ -14,11 +14,13 @@
             </div>
             <div class="navbar-collapse" collapse="isCollapsed">
                 <ul ng-if="!inverse" class="nav navbar-nav navbar-right">
-                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.home}}" title="Home" value="TopNav Home" analytics-on>Home</a>
+                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}" class="hidden-sm"><a data-ng-href="{{linkPrefix}}{{pageLinks.home}}" title="Home" value="TopNav Home" analytics-on>Home</a>
                     </li>
                     <li ng-class="{active: isActive('{{pageLinks.travel}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.travel}}" title="We Travel" value="TopNav Travel" analytics-on>Travel</a>
                     </li>
                     <li ng-class="{active: isActive('{{pageLinks.educate}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.educate}}" title="We Educate" value="TopNav Educate" analytics-on>Educate</a>
+                    </li>
+					<li ng-class="{active: isActive('{{pageLinks.craft}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.craft}}" title="We Craft" value="TopNav Craft" analytics-on>Craft</a>
                     </li>
                     <li ng-class="{active: isActive('{{pageLinks.hack}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.create}}" title="We Create" value="TopNav Hack" analytics-on>Create</a>
                     </li>

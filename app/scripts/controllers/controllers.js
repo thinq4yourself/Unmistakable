@@ -68,7 +68,8 @@ angular.module('app.controllers', [
                 $scope.craft = true;
                 break;
             case $scope.pageLinks.write:
-                $scope.navigationBackgroundColor = 'navbar-write';
+                $scope.logo = '/images/logo/unmistakable-travels-logo.png';
+				$scope.navigationBackgroundColor = 'navbar-default';
                 $scope.jumbotronBackgroundColor = 'bg-write';
                 $scope.currentPage = 'write';
                 $scope.blogLink = 'https://medium.com/think-for-yourself';
