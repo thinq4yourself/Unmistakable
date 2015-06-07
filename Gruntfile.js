@@ -308,11 +308,6 @@ module.exports = function(grunt) {
                     cwd: '.tmp/images',
                     dest: '<%= yeoman.dist %>/images',
                     src: ['generated/*']
-                },{
-                    expand: true,
-                    cwd: '<%= yeoman.app %>/images/logo',
-                    dest: '<%= yeoman.dist %>/images/logo',
-                    src: ['*.{ico,png,jpg,svg}']
                 }, {
                     expand: true,
                     cwd: '<%= yeoman.app %>',
@@ -335,6 +330,12 @@ module.exports = function(grunt) {
                 cwd: '<%= yeoman.app %>/styles',
                 dest: '.tmp/styles/',
                 src: '{,*/}*.css'
+            },
+            logo: {
+                expand: true,
+                cwd: '<%= yeoman.app %>/images/logo',
+                dest: '<%= yeoman.dist %>/images/logo',
+                src: ['*.{ico,png,jpg,svg}']
             }
         },
         // Run some tasks in parallel to speed up the build process
@@ -377,7 +378,7 @@ module.exports = function(grunt) {
         grunt.task.run(['clean:server', 'wiredep', 'concurrent:server', 'autoprefixer', 'connect:livereload', 'watch']);
     });
     grunt.registerTask('test', ['clean:server', 'concurrent:test', 'autoprefixer', 'connect:test', 'karma']);
-    grunt.registerTask('build', ['clean:dist', 'wiredep', 'useminPrepare', 'concurrent:dist', 'autoprefixer', 'concat', 'ngAnnotate', 'copy:dist', 'cdnify', 'cssmin', 'uglify', 'filerev', 'usemin', 'htmlmin']);
+    grunt.registerTask('build', ['clean:dist', 'wiredep', 'useminPrepare', 'concurrent:dist', 'autoprefixer', 'concat', 'ngAnnotate', 'copy:dist', 'copy:logo', 'cdnify', 'cssmin', 'uglify', 'filerev', 'usemin', 'htmlmin']);
     grunt.registerTask('default', ['newer:jshint', 'test', 'build']);
     grunt.loadNpmTasks('grunt-bump', ['build']);
 };
