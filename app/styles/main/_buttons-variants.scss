@@ -46,6 +46,10 @@
     @include button-variant($btn-default-color, $midnight-blue, $btn-midnight-blue-hover-bg, $btn-midnight-blue-active-bg);
 }
 
+.btn-indigo {
+    @include button-variant($btn-default-color, $indigo, $btn-indigo-hover-bg, $btn-indigo-active-bg);
+}
+
 .btn-sun-flower {
     @include button-variant($btn-default-color, $sun-flower, $btn-sun-flower-hover-bg, $btn-sun-flower-active-bg);
 }

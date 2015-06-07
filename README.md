@@ -32,7 +32,8 @@ To work smarter and so you can follow your passion, A Passion Driven Portfolio u
 
 * [JSHint](http://jshint.com/) - Makes sure the code we write is clean 
 * [LiveReload](http://livereload.com/) - Nobody likes having to hit `cmd+r` every time they make a change 
-* [Autoprefixer](https://github.com/postcss/autoprefixer) - Cross browser capabilities is the name of the game  
+* [Autoprefixer](https://github.com/postcss/autoprefixer) - Cross browser capabilities is the name of the game
+* [Prerender](https://prerender.io/) - SEO Rocket Science for Javascript SEO - This magic ensures our ExpressJS/AngularJS website can be crawled perfectly by search engines
 * Organized file and template structure
 * ARIA roles and microformats
 * Cleaner HTML output

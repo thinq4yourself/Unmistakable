@@ -33,6 +33,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 .btn {
     margin-bottom: 10px;
+	padding: 15px;
 }
 
 .navbar-lg {
@@ -46,8 +47,8 @@ h1, .h1, h2, .h2, h3, .h3 {
          >li {
              > a {
                 text-align: center;
-                font-size: 24px;
-				 padding-left: $navbar-width-base;
+                font-size: 1.2em;
+				padding: $navbar-item-height-base $navbar-width-base;
              }    
          }
     }
@@ -58,9 +59,6 @@ h1, .h1, h2, .h2, h3, .h3 {
     .navbar-form {
         border-color: $navbar-inverse-border;
     }
-}
-.nav-icon {
-    max-width: 50px !important;
 }
 
 .jumbotron { 
@@ -94,12 +92,11 @@ font-size: 28px;
 
 /* Navbar */
 .navbar-logo {
-  border-radius: 100%;
-  background-color: rgba(0,0,0,.4);
-  width: 66px;
-  height: 66px;
-  padding: 2px 9px;
-  margin-top: 2px;
+  margin-top: 10px !important;
+	img {
+		max-height: 50px;
+		@include transition(0.6s ease-in-out);
+	}
 }
 
 .navbar-logo .nav-icon {
@@ -200,28 +197,47 @@ font-size: 28px;
 
 .underline {border-bottom: 2px dashed;}
 
-
+.nav-icon {
+ 	max-width: 32px !important;
+}
+/* XS Small devices */
+@media (max-width: $screen-sm-min) {
+    /* Navbar */
+    .navbar-logo img {
+    	margin-top: 11px;
+    	margin-left: 50px;
+    }    
+}
 /* Small devices */
 @media (min-width: $screen-sm-min) {
     /* Navbar */
-    .navbar-logo {
-    margin-top: 2px;
+    .navbar-logo img {
+    	margin-top: 11px;
     }    
+	.nav-icon {
+    	max-width: 18px !important;
+	}
 }
 
 /* Medium devices */
 @media (min-width: $screen-md-min) { 
     /* Navbar */
-    .navbar-logo {
+    .navbar-logo img {
         margin-top: 6px;
     }    
+	.nav-icon {
+    	max-width: 24px !important;
+	}
 }
 
 /* Large devices */
 @media (min-width: $screen-lg-min) { 
     /* Navbar */
-    .navbar-logo {
-        margin-top: 8px;
+    .navbar-logo img {
+        margin-top: 15px;
     }    
+	.nav-icon {
+    	max-width: 32px !important;
+	}
 
 }

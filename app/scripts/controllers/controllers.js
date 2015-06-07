@@ -13,6 +13,7 @@ angular.module('app.controllers', [
     $scope.fullbrand = 'Unmistakable Travels';
     $scope.tagline = 'Exploring, writing, traveling, backpacking, educating, creating — as a family.';
     $scope.version = '1.2.17';
+	$scope.logo = '/images/logo/unmistakable-travels-logo-alt.png';
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
@@ -30,7 +31,8 @@ angular.module('app.controllers', [
         'crystals': '/crystals'
     };
     $scope.blogLinks = {
-        'travel': 'https://maptia.com/unmistakable',
+        'travel': 'http://blog.unmistakable.us',
+		'maptia': 'https://maptia.com/unmistakable',
         'educate': 'https://medium.com/a-global-village',
         'craft': 'https://www.etsy.com/shop/EmmaStoneCreations?ref=em',
         'write': 'https://medium.com/think-for-yourself',
@@ -43,7 +45,8 @@ angular.module('app.controllers', [
     
     $scope.$on('$locationChangeStart', function() {
         
-        switch ($location.path()) {
+        $scope.logo = '/images/logo/unmistakable-travels-logo-alt.png';
+		switch ($location.path()) {
             case $scope.pageLinks.travel:
                 $scope.navigationBackgroundColor = 'navbar-travel';
                 $scope.jumbotronBackgroundColor = 'bg-travel';
@@ -99,7 +102,8 @@ angular.module('app.controllers', [
                 $scope.currentPage = 'uncopyright';
                 break;
             default:
-                $scope.navigationBackgroundColor = 'navbar-inverse';
+                $scope.logo = '/images/logo/unmistakable-travels-logo.png';
+				$scope.navigationBackgroundColor = 'navbar-default';
                 $scope.jumbotronBackgroundColor = 'bg-home';
                 $scope.currentPage = 'home';
 				$scope.resources = [
