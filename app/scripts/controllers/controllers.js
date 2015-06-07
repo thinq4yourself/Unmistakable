@@ -12,7 +12,7 @@ angular.module('app.controllers', [
     $scope.brand = 'Unmistakable.';
     $scope.fullbrand = 'Unmistakable Travels';
     $scope.tagline = 'Exploring, writing, traveling, backpacking, educating, creating — as a family.';
-    $scope.version = '1.2.18';
+    $scope.version = '1.2.19';
 	$scope.logo = '/images/logo/unmistakable-travels-logo-alt.png';
     
     $scope.linkPrefix = '';
