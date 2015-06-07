@@ -7,7 +7,7 @@
  *
  * Main module of the application.
  */
-angular.module('passionDrivenPortfolio', [
+angular.module('unmistakable', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

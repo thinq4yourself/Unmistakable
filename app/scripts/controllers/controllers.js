@@ -8,7 +8,7 @@
  */
 angular.module('app.controllers', [
     
-]).controller('PassionDrivenController', function($scope, $location, anchorSmoothScroll) {
+]).controller('AppController', function($scope, $location, anchorSmoothScroll) {
     $scope.brand = 'Unmistakable.';
     $scope.fullbrand = 'Unmistakable Travels';
     $scope.tagline = 'Exploring, writing, traveling, backpacking, educating, creating — as a family.';
