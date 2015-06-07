@@ -54,7 +54,7 @@ angular.module('passionDrivenPortfolio', [
     
         return $routeProvider
         .when('/', {
-            redirectTo: '/home'
+			templateUrl: 'views/home.html'
         }).when('/main', {
             redirectTo: '/home'
         }).when('/mom', {
