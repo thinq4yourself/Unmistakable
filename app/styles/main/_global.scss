@@ -199,6 +199,9 @@ font-size: 28px;
 
 .nav-icon {
  	max-width: 32px !important;
+	
+iframe {border: none;}	
+	
 }
 /* XS Small devices */
 @media (max-width: $screen-sm-min) {
