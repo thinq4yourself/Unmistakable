@@ -17,8 +17,8 @@ angular.module('app.controllers', [
     
     $scope.linkPrefix = '';
     $scope.pageLinks = {
-        'base': '/home',
-        'home': '/home',
+        'base': '/',
+        'home': '/',
         'family': '/family',
         'travel': '/travel',
         'educate': '/educate',
@@ -164,9 +164,12 @@ angular.module('app.controllers', [
     
 
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
-    $scope.gotoAnchor = function(anchor) {
+    $scope.gotoAnchor = function(anchor, focus) {
         var elm = document.getElementById(anchor);
         if(elm !== null) { anchorSmoothScroll.scrollTo(elm); }
+		var ohm = document.getElementById(focus);
+		if(ohm !== null) { angular.element(ohm).focus(); angular.element(ohm).addClass('bg-peter-river'); angular.element('.email-addon').addClass('bg-peter-river'); }
+		
     };
 }).service('anchorSmoothScroll', function() {
     this.scrollTo = function(elm) {

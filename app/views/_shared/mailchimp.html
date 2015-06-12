@@ -12,8 +12,8 @@
                 <button ng-click="addSubscription(mailchimp)" class="btn btn-primary btn-block" style="font-size: 22px;height:55px" type="button">Keep In Touch</button>
             </div>
             <div class="input-group input-group-lg hidden-xs">
-                <span class="input-group-addon" id="basic-addon1" style="font-size: 2em;height:55px">@</span>
-                <input type="email" name="EMAIL" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" style="font-size: 2em;height:75px" required>
+                <span class="input-group-addon email-addon" id="basic-addon1" style="font-size: 2em;height:55px">@</span>
+                <input id="email" type="email" name="EMAIL" ng-model="mailchimp.email" class="form-control" placeholder="email@example.com" style="font-size: 2em;height:75px" required>
                 <span class="input-group-btn" style="vertical-align: top;">
                     <button ng-click="addSubscription(mailchimp)" class="btn btn-primary" style="font-size: 22px;height:75px;margin: 0;" type="button">Keep In Touch</button>
                 </span>

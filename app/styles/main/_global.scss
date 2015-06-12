@@ -109,6 +109,8 @@ font-size: 28px;
   padding-top: 3px;
 }
 
+.navbar-default .navbar-nav > .dropdown > a .caret {margin-left: 1px;}
+
 
 /* Hero */
 .hero {
@@ -198,11 +200,13 @@ font-size: 28px;
 .underline {border-bottom: 2px dashed;}
 
 .nav-icon {
- 	max-width: 32px !important;
-	
-iframe {border: none;}	
-	
+ 	max-width: 32px !important;	
 }
+
+iframe {border: none !important;}
+
+
+
 /* XS Small devices */
 @media (max-width: $screen-sm-min) {
     /* Navbar */
